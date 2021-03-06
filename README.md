@@ -1,13 +1,14 @@
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/manni8436/MS1-Project)
 
-# MS1-Project
-
-(Project Name)
+# MS1-Project - Legend Of The Greek Gods
 
 One or two paragraphs providing an overview of your project.
 
-
-
+This project is about the of the Greek Gods and explaining 
+the history and what happened over the years from day one and a brief
+explaination of each god which will help people understand who they were 
+and how they came to be one of the most favourite mythologies around to 
+even the present time and this is also my favourite mythology 
 
 
 (UX- User Experience)
@@ -26,7 +27,10 @@ what will be the end result for them.
 also in this section add any links to wireframes, mockups, diagrams or anything that 
 was used in the design process of the website.
 
+(wireframes)
 
+After careful planning and a lot of adding, editing, removing i finally made a
+wireframe that I was happy with and was my final work for the website
 
 
 
@@ -36,9 +40,6 @@ was used in the design process of the website.
 In this section go over different sections of the project and describe the features and what it does.
 
 you may also discuss plans for additional features to be added in the future.
-
-
-
 
 
 
@@ -91,6 +92,15 @@ and also, just incase it isnt obvious then describe how to run the
 code locally.
 
 (Credit)
+
+I had a few issues choosing a dropdown menu but in the end I chose one that best suited the layout 
+and structure of my website and I got it from the website below and designed it to the best to 
+complete the navbar of the page for mobile first
+
+(https://getbootstrap.com/docs/4.6/components/dropdowns/) 
+
+
+
 
 In here you thank all the people that have helped you in the course
 and also all the places that you used icons, links etc.. from.

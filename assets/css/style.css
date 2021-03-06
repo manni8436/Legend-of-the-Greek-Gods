@@ -1,1 +1,40 @@
-/*--------------------------------------------(name of section*/
+/*------font-family: 'Akaya Telivigala', cursive; font-family: 'Roboto', sans-serif, 'Balsamiq Sans', cursive;-------*/
+
+/*--------------------------------------------header*/
+
+.header {
+    background-color: #202020;
+    color: #ffbe5b;
+    height: 50px;
+    padding-left: 15px;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+}
+
+/*--------------------------------------------dropdown menu*/
+
+.btn {
+    background-color: #202020;
+    border-color: #ffbe5b;
+    height: 35px;
+    position: relative;
+    left: 280px;
+    bottom: 43px;
+    border-color: #ffbe5b;
+}
+
+.menubutton {
+    color: #ffbe5b;
+}
+
+#menu {
+    background-color: #202020;
+    color: #ffbe5b;
+    height: 50px;
+}
+
+/*--------------------------------------------images*/
+ 
+
+
+
