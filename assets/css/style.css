@@ -1,8 +1,14 @@
 /*------font-family: 'Akaya Telivigala', cursive; font-family: 'Roboto', sans-serif, 'Balsamiq Sans', cursive;-------*/
 
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
 /*--------------------------------------------body*/
 body {
-    background-color: #202020;
+        background-color: #202020;
+
 }
 
 /*--------------------------------------------headings*/
@@ -13,6 +19,7 @@ body {
     height: 30px;
     padding-left: 15px;
     padding-bottom: 25px;
+    text-align: left;
     text-transform: uppercase;
 }
 
@@ -78,5 +85,4 @@ body {
     opacity: 0.4;
 }
 
-
-
+/*--------------------------------------------paragraph*/
