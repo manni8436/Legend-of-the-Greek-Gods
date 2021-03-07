@@ -56,9 +56,12 @@ write here all other technologies that was used while making the website.
 
 
 (Bugs)
-
-Use this section to write about major issues you found along the way 
-and how you resolved it
+    My first bug was during when I was doing the dropdown menu because 
+    was white border around the outside of my menu items and I tried loads 
+    of different ways to resolve it with no luck until I inspected the pages 
+    and found out that there was padding in the dropdown-menu section that 
+    shouldnt have been there and I selected the class tag in CSS3 and 
+    added padding attribute with the value of 0 which resolved the issue
 
 
 
@@ -93,9 +96,10 @@ code locally.
 
 (Credit)
 
-I had a few issues choosing a dropdown menu but in the end I chose one that best suited the layout 
-and structure of my website and I got it from the website below and designed it to the best to 
-complete the navbar of the page for mobile first
+I chose one that best suited the layout and structure of my website and 
+I got it from the website below and designed it to the best to complete 
+the navbar of the page for mobile first which now has been put in place 
+and works well in each sections of the menu
 
 (https://getbootstrap.com/docs/4.6/components/dropdowns/) 
 
@@ -115,6 +119,7 @@ and also all the places that you used icons, links etc.. from.
 In here you put in all the link from the websites that you have 
 used pictures from and any external things used for the project.
 
+https://wallpaperaccess.com/zeus (zeus gold)
 
 
 

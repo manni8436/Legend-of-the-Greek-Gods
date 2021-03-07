@@ -1,14 +1,24 @@
 /*------font-family: 'Akaya Telivigala', cursive; font-family: 'Roboto', sans-serif, 'Balsamiq Sans', cursive;-------*/
 
-/*--------------------------------------------header*/
+/*--------------------------------------------body*/
+body {
+    background-color: #202020;
+}
+
+/*--------------------------------------------headings*/
 
 .header {
     background-color: #202020;
     color: #ffbe5b;
-    height: 50px;
+    height: 30px;
     padding-left: 15px;
     padding-bottom: 25px;
     text-transform: uppercase;
+}
+
+.pageheader {
+    color: #ffbe5b;
+    padding-top: 5px;
 }
 
 /*--------------------------------------------dropdown menu*/
@@ -16,25 +26,57 @@
 .btn {
     background-color: #202020;
     border-color: #ffbe5b;
-    height: 35px;
+    color: #ffbe5b;
     position: relative;
+    margin-bottom: 20px;
+    height: 35px;
+    
     left: 280px;
-    bottom: 43px;
+    bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#dropdownMenuButton {
+    background-color: #202020;
+    color:#ffbe5b;
     border-color: #ffbe5b;
 }
 
-.menubutton {
-    color: #ffbe5b;
+.dropdown-menu {
+    margin-top: 9px;
+    padding: 0;
 }
 
-#menu {
+.dropdown-item {
     background-color: #202020;
     color: #ffbe5b;
+    text-transform: uppercase;
     height: 50px;
+    font-size: large;
+}
+
+/*--------------------------------------------hover*/
+
+#dropdownMenuButton:hover {
+    background-color: #ffbe5b;
+    color: #202020;
+}
+
+.dropdown-item:hover {
+    background-color: #ffbe5b;
+    color: #202020;
 }
 
 /*--------------------------------------------images*/
  
+.backgroundimage {
+    position: relative;
+    bottom: 30px;
+    height: 685px;
+    width: 360px;
+    opacity: 0.4;
+}
 
 
 
