@@ -7,8 +7,7 @@ html, body {
 
 /*--------------------------------------------body*/
 body {
-        background-color: #202020;
-
+    background-color: #202020;
 }
 
 /*--------------------------------------------headings*/
@@ -16,6 +15,8 @@ body {
 .header {
     background-color: #202020;
     color: #ffbe5b;
+    font-size: xx-large;
+    font-weight: 700;
     height: 30px;
     padding-left: 15px;
     padding-bottom: 25px;
@@ -24,8 +25,9 @@ body {
 }
 
 .pageheader {
-    color: #ffbe5b;
-    padding-top: 5px;
+    padding-left: 1px;
+    padding-top: 45px;
+    font-size: large;
 }
 
 /*--------------------------------------------dropdown menu*/
@@ -63,6 +65,82 @@ body {
     font-size: large;
 }
 
+/*--------------------------------------------images*/
+ 
+.backgroundimage {
+    position: relative;
+    bottom: 30px;
+    height: 740px;
+    width: 360px;
+    opacity: 0.4;
+}
+
+/*--------------------------------------------paragraph*/
+.paragraph {
+    color: #ffbe5b;
+    position: absolute;
+    top: 100px;   
+    text-transform: capitalize;
+}
+
+/*-------------------------------------------footer*/
+
+.footer {
+    background-color: #202020;
+    color: #ffbe5b;
+    position: absolute;
+    top: 700px;
+    height: 60px;
+    width: 100%;
+    padding-left: 15px;
+    padding-bottom: 25px;
+    font-size: small;
+    text-align: left;
+ }
+
+
+#facebook {
+    color: #ffbe5b;
+    position: relative;
+    bottom: 10px;
+    padding-top: 5px;
+    font-size: xx-large; 
+}
+
+#instagram {
+    color: #ffbe5b;
+    position: relative;
+    bottom: 10px;
+    padding-left: 10px;
+    font-size: xx-large;
+}
+
+#linkedin {
+    color: #ffbe5b;
+    position: relative;
+    bottom: 10px;
+    padding-left: 15px;
+    font-size: xx-large;
+}
+
+#copyright {
+    color: #ffbe5b;
+    position: relative;
+    bottom: 10px;
+    padding-left: 10px;
+    padding-top: 15px;
+    font-size: xx-large;
+}
+
+h4 {
+    color: #ffbe5b;
+    position: relative;
+    bottom: 45px;
+    padding-left: 170px;
+    font-size: xx-large;
+    text-transform: uppercase;
+}
+
 /*--------------------------------------------hover*/
 
 #dropdownMenuButton:hover {
@@ -74,15 +152,3 @@ body {
     background-color: #ffbe5b;
     color: #202020;
 }
-
-/*--------------------------------------------images*/
- 
-.backgroundimage {
-    position: relative;
-    bottom: 30px;
-    height: 685px;
-    width: 360px;
-    opacity: 0.4;
-}
-
-/*--------------------------------------------paragraph*/
