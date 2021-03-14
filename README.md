@@ -29,7 +29,7 @@ was used in the design process of the website.
 
 (wireframes)
 
-After careful planning and a lot of adding, editing, removing i finally made a
+After carefully planning and a lot of adding, removing and editing I finally made a
 wireframe that I was happy with and was my final work for the website
 
 
@@ -103,6 +103,12 @@ and works well in each sections of the menu
 
 (https://getbootstrap.com/docs/4.6/components/dropdowns/) 
 
+I done some research online as what content to us in my project,
+
+I used the link below to use a small section to find out when
+the mythology of the Greek Gods started
+
+https://www.history.com/.amp/topics/ancient-history/greek-mythology
 
 
 
@@ -125,6 +131,9 @@ https://wallpaperaccess.com/zeus (zeus gold)
 
 
 (Acknowledgements)
+
+Most of the designs and layout for my project was created on my own 
+
 
 In this section write about where you got the inspiratioin from 
 to make design your website.

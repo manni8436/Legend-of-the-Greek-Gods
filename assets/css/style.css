@@ -26,7 +26,7 @@ body {
 
 .pageheader {
     padding-left: 1px;
-    padding-top: 45px;
+    padding-top: 60px;
     font-size: large;
 }
 
@@ -79,10 +79,23 @@ body {
 .paragraph {
     color: #ffbe5b;
     position: absolute;
-    top: 100px;   
-    text-transform: capitalize;
+    top: 110px;   
+    padding-left: 20px;
 }
 
+.paragraph2 {
+    color: #ffbe5b;
+    position: absolute;
+    top: 190px;   
+    padding-left: 20px;
+}   
+
+.paragraph3 {
+    color: #ffbe5b;
+    position: absolute;
+    top: 350px;   
+    padding-left: 20px;
+}   
 /*-------------------------------------------footer*/
 
 .footer {
@@ -151,4 +164,8 @@ h4 {
 .dropdown-item:hover {
     background-color: #ffbe5b;
     color: #202020;
+}
+
+#facebook:hover {
+
 }
