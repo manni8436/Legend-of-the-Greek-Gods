@@ -76,25 +76,40 @@ body {
 }
 
 /*--------------------------------------------paragraph*/
-.paragraph {
+.paragraph1 {
     color: #ffbe5b;
     position: absolute;
     top: 110px;   
+    right: 15px;
     padding-left: 20px;
+    text-align: justify;
 }
 
 .paragraph2 {
     color: #ffbe5b;
     position: absolute;
-    top: 190px;   
+    top: 205px;
+    right: 15px;   
     padding-left: 20px;
+    text-align: justify;
 }   
 
 .paragraph3 {
     color: #ffbe5b;
     position: absolute;
-    top: 350px;   
+    top: 335px;   
+    right: 15px;
     padding-left: 20px;
+    text-align: justify;
+}
+
+.paragraph4 {
+    color: #ffbe5b;
+    position: absolute;
+    top: 540px;   
+    right: 15px;
+    padding-left: 20px;
+    text-align: justify;
 }   
 /*-------------------------------------------footer*/
 
@@ -142,6 +157,7 @@ body {
     bottom: 10px;
     padding-left: 10px;
     padding-top: 15px;
+    text-decoration: none;
     font-size: xx-large;
 }
 
@@ -164,8 +180,4 @@ h4 {
 .dropdown-item:hover {
     background-color: #ffbe5b;
     color: #202020;
-}
-
-#facebook:hover {
-
 }
