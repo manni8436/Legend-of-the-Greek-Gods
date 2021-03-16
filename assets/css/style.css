@@ -38,8 +38,7 @@ body {
     color: #ffbe5b;
     position: relative;
     margin-bottom: 20px;
-    height: 35px;
-    
+    height: 35px;   
     left: 280px;
     bottom: 20px;
     text-align: center;
@@ -74,6 +73,7 @@ body {
     width: 360px;
     opacity: 0.4;
 }
+
 
 /*--------------------------------------------paragraph*/
 .paragraph1 {
@@ -181,3 +181,15 @@ h4 {
     background-color: #ffbe5b;
     color: #202020;
 }
+
+/*--------------------------------------------media queries*/
+
+@media (max-width: 1900px) {
+
+
+
+}
+
+
+
+

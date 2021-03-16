@@ -96,12 +96,24 @@ code locally.
 
 (Credit)
 
-I chose one that best suited the layout and structure of my website and 
-I got it from the website below and designed it to the best to complete 
-the navbar of the page for mobile first which now has been put in place 
-and works well in each sections of the menu
+I chose one this layout which best suited the structure of my website and I used
+bootstrap to aid me in making the dropdown menu at the same time I had to change 
+colours and the way it looks so that it would match my website and have it the way 
+I wanted which was used as a mobile first approach 
+
+which has now been put in place and works well in each sections of the menu
+
+I have attached the link below that I used to make the dropdown menu 
 
 (https://getbootstrap.com/docs/4.6/components/dropdowns/) 
+
+I used a few icons from the Font Awesome website in this project for the links 
+in my footer nav and I have attached below the links to each icon I used
+
+https://fontawesome.com/icons/facebook-square?style=brands
+https://fontawesome.com/icons/instagram?style=brands
+https://fontawesome.com/icons/linkedin-in?style=brands
+https://fontawesome.com/icons/copyright?style=regular
 
 I done some research online as what content to us in my project,
 
@@ -122,10 +134,17 @@ and also all the places that you used icons, links etc.. from.
 
 (Media)
 
+This is the image I have used for the background image on my home pages
+and I have attached the website link that I got my picture from below  
+
+https://wallpaperaccess.com/zeus (zeus image)
+https://omniversal-battlefield.fandom.com/wiki/Poseidon_(Greek_Mythology)?file=Poseidon.jpg (poseidon image)
+
+
+
 In here you put in all the link from the websites that you have 
 used pictures from and any external things used for the project.
 
-https://wallpaperaccess.com/zeus (zeus gold)
 
 
 
@@ -133,6 +152,10 @@ https://wallpaperaccess.com/zeus (zeus gold)
 (Acknowledgements)
 
 Most of the designs and layout for my project was created on my own 
+using wireframes but I used bootstrap to aid me in building a few section
+sections of my website
+
+I also used Font Awesome for the icons on my website
 
 
 In this section write about where you got the inspiratioin from 
