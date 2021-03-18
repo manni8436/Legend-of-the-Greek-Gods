@@ -4,11 +4,14 @@
 
 One or two paragraphs providing an overview of your project.
 
-This project is about the of the Greek Gods and explaining 
-the history and what happened over the years from day one and a brief
+This project is about the Greek Gods
+
+explaining the history and what happened over the years from day one and a brief
 explaination of each god which will help people understand who they were 
 and how they came to be one of the most favourite mythologies around to 
-even the present time and this is also my favourite mythology 
+even the present time and this is also my favourite mythology with a brief
+talk about the connection between the Greek and the Roman gods and how they 
+connected
 
 
 (UX- User Experience)
@@ -37,20 +40,20 @@ wireframe that I was happy with and was my final work for the website
 
 (Features)
 
-In this section go over different sections of the project and describe the features and what it does.
-
-you may also discuss plans for additional features to be added in the future.
+In this section go over different sections of the project and describe the features and what it does
+you may also discuss plans for additional features to be added in the future
 
 
 
 (Technologies Used)
 
-In this project I have used HTML5 to design the way the content looks 
-and I also used CSS3 to design the style for the website and make it look pleasing to the eye 
-for the users.
+In this project I have used the following technologies below
 
+HTML5
+CSS3 
+Bootstrap 
 
-write here all other technologies that was used while making the website.
+write here all other technologies that was used while making the website
 
 
 
@@ -63,6 +66,12 @@ write here all other technologies that was used while making the website.
     shouldnt have been there and I selected the class tag in CSS3 and 
     added padding attribute with the value of 0 which resolved the issue
 
+    I also have noticed that my dropdown menu seems to be abit to far to the 
+    right on where it should be and i have tried to fix it before but with no 
+    luck yet but i will fix it at a later date
+
+    I have noticed that for some reason the image doesnt load up in the 
+    deployed site on GitHub Pages which I will try to fix at a later date
 
 
 (testing)
@@ -134,12 +143,11 @@ and also all the places that you used icons, links etc.. from.
 
 (Media)
 
-This is the image I have used for the background image on my home pages
-and I have attached the website link that I got my picture from below  
+I have attacted the links below for all the images that I used on my throughtout my website
 
 https://wallpaperaccess.com/zeus (zeus image)
 https://omniversal-battlefield.fandom.com/wiki/Poseidon_(Greek_Mythology)?file=Poseidon.jpg (poseidon image)
-
+https://www.pinterest.com/pin/178384835225577581/
 
 
 In here you put in all the link from the websites that you have 
@@ -152,7 +160,7 @@ used pictures from and any external things used for the project.
 (Acknowledgements)
 
 Most of the designs and layout for my project was created on my own 
-using wireframes but I used bootstrap to aid me in building a few section
+using wireframes but I also used bootstrap to aid me in building a few section
 sections of my website
 
 I also used Font Awesome for the icons on my website
