@@ -114,6 +114,7 @@ body {
     left: 275px;
     height: 140px;
     width: 80px;
+    border: #ffbe5b 3px solid;
 }
 
 .poseidonimage {
@@ -122,6 +123,7 @@ body {
     left: 15px;
     height: 160px;
     width: 90px;
+    border: #ffbe5b 3px solid;
 }
 
 .hadesimage {
@@ -130,6 +132,7 @@ body {
     left: 275px;
     height: 160px;
     width: 80px;
+    border: #ffbe5b 3px solid;
 }
 
 /*--------------------------------------------paragraph*/

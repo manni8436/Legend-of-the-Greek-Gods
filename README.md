@@ -88,7 +88,8 @@ write here all other technologies that was used while making the website
 
     * I have a hover affect on a image to make it bigger when you hover over it 
     so the user can see the image bigger but I want to move the position of the 
-    image abit to the left so I need to find a way to do that
+    image abit to the left so I need to find a way to do that as you cant see 
+    them properly on a mobile device
 
 
 (testing)
