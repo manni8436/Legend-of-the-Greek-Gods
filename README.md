@@ -174,9 +174,11 @@ https://www.artstation.com/artwork/1YzOK (hades image)
 https://www.pinterest.com/pin/178384835225577581/ (athena image)
 https://www.ancient-origins.net/myths-legends-europe/hermes-0011776 (hermes image)
 https://en.wikipedia.org/wiki/Zeus (zeus statue image for index1)
-https://en.wikipedia.org/wiki/Zeus (statue image of zeus for the big three in index1)
-https://en.wikipedia.org/wiki/Poseidon (statue image of poseidon for the big three in index1)
-https://en.wikipedia.org/wiki/Hades (statue image of hades for the big three in index1)
+https://en.wikipedia.org/wiki/Zeus (statue image of zeus for the big three in index1.html)
+https://en.wikipedia.org/wiki/Poseidon (statue image of poseidon for the big three in index1.html)
+https://en.wikipedia.org/wiki/Hades (statue image of hades for the big three in index1.html)
+https://en.wikipedia.org/wiki/Atlas_(mythology) (statue of atlas in index2.html)
+https://en.wikipedia.org/wiki/Heracles (statue of atlas in index2.html)
 
 In here you put in all the link from the websites that you have 
 used pictures from and any external things used for the project.

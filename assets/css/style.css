@@ -8,54 +8,12 @@ html, body {
 /*--------------------------------------------body*/
 body {
     background-color: #202020;
+    
+    /*border: #ffbe5b 3px solid;
+    box-sizing: border-box;
+    width: 360px;
+    height: 742px;*/
 }
-
-/*--------------------------------------------headings*/
-
-.header {
-    background-color: #202020;
-    color: #ffbe5b;
-    font-size: xx-large;
-    font-weight: 700;
-    height: 30px;
-    padding-left: 15px;
-    padding-bottom: 25px;
-    text-align: left;
-    text-transform: uppercase;
-}
-
-.pageheader {
-    padding-left: 1px;
-    padding-top: 60px;
-    font-size: large;
-}
-
-.pageheader1 {
-    padding-left: 50px;
-    padding-top: 60px;
-    font-size: xx-large;
-}
-
-.lessknown {
-    padding-left: 70px;
-    padding-top: 60px;
-    font-size: xx-large;
-}
-
-.history {
-    padding-left: 100px;
-    padding-top: 60px;
-    font-size: xx-large;
-}
-
-.contactus {
-    padding-left: 80px;
-    padding-top: 60px;
-    font-size: xx-large;
-}
-
-
-
 /*--------------------------------------------dropdown menu*/
 
 .btn {
@@ -88,54 +46,43 @@ body {
     text-transform: uppercase;
     height: 50px;
     font-size: large;
+    font-weight: bold;
 }
 
-/*--------------------------------------------background images*/
- 
-.backgroundimage {
-    position: relative;
-    bottom: 30px;
-    height: 740px;
-    width: 360px;
-    opacity: 0.4;
+/*--------------------------------------------headings*/
+
+.header {
+    background-color: #202020;
+    color: #ffbe5b;
+    font-size: xx-large;
+    font-weight: 700;
+    height: 30px;
+    padding-left: 15px;
+    padding-bottom: 25px;
+    text-align: left;
+    text-transform: uppercase;
 }
 
-/*--------------------------------------------images for big three*/
-
-.goddescription {
-    position: relative;
-    top: 0;
-    left: 0;
+.pageheader {
+    padding-left: 1px;
+    padding-top: 60px;
+    font-size: large;
 }
 
-.zeusimage {
-    position: absolute;
-    bottom: 510px;
-    left: 275px;
-    height: 140px;
-    width: 80px;
-    border: #ffbe5b 3px solid;
+.history {
+    padding-left: 100px;
+    padding-top: 60px;
+    font-size: xx-large;
 }
 
-.poseidonimage {
-    position: absolute;
-    bottom: 345px;
-    left: 15px;
-    height: 160px;
-    width: 90px;
-    border: #ffbe5b 3px solid;
-}
-
-.hadesimage {
-    position: absolute;
-    bottom: 160px;
-    left: 275px;
-    height: 160px;
-    width: 80px;
-    border: #ffbe5b 3px solid;
+.contactus {
+    padding-left: 80px;
+    padding-top: 60px;
+    font-size: xx-large;
 }
 
 /*--------------------------------------------paragraph*/
+
 .paragraph1 /*index.html*/{
     color: #ffbe5b;
     position: absolute;
@@ -175,9 +122,10 @@ body {
 .paragraph5 /*index1.html*/{
     color: #ffbe5b;
     position: absolute;
-    top: 110px;
-    left: 20px;
+    top: 60px;
+    left: 15px;
     font-size: large;
+    text-transform: capitalize;
     text-align: justify; 
         
 }
@@ -185,28 +133,150 @@ body {
 .paragraph6 /*index1.html*/{
     color: #ffbe5b;
     position: absolute;
-    top: 175px;
+    top: 140px;
     left: 20px;
-    font-size: large;
-    text-align: justify; 
+    font-size: medium;
+    text-align: justify;
+    font-weight: bold; 
 }
 
 .paragraph7 /*index1.html*/{
     color: #ffbe5b;
     position: absolute;
-    top: 325px;
+    top: 310px;
     left: 115px;
-    font-size: large;
+    font-size: medium;
     text-align: justify; 
+    font-weight: bold;
 }
 
 .paragraph8 /*index1.html*/{
     color: #ffbe5b;
     position: absolute;
-    top: 495px;
+    top: 480px;
     left: 10px;
-    font-size: large;
+    font-size: medium;
     text-align: justify; 
+    font-weight: bold;
+}
+
+.paragraph9 /*index2.html*/{
+    color: #ffbe5b;
+    position: absolute;
+    top: 55px;
+    left: 10px;
+    font-size: medium;
+    text-align: justify; 
+    text-transform: capitalize;
+}
+
+/*--------------------------------------------background images*/
+ 
+.backgroundimage {
+    position: relative;
+    bottom: 30px;
+    height: 740px;
+    width: 360px;
+    opacity: 0.4;
+}
+
+/*--------------------------------------------images for big three*/
+
+.goddescription {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.zeusimage {
+    position: absolute;
+    bottom: 525px;
+    left: 275px;
+    height: 150px;
+    width: 80px;
+    border: #ffbe5b 3px solid;
+}
+
+.poseidonimage {
+    position: absolute;
+    bottom: 375px;
+    left: 15px;
+    height: 150px;
+    width: 90px;
+    border: #ffbe5b 3px solid;
+}
+
+.hadesimage {
+    position: absolute;
+    bottom: 163px;
+    left: 275px;
+    height: 180px;
+    width: 80px;
+    border: #ffbe5b 3px solid;
+}
+
+/*--------------------------------------------image cards*/
+
+.atlascard {
+    position: absolute;
+    top: 115px;
+    left: 20px;
+}
+
+
+.atlascard-img-top {
+    height: 135px;
+    width: 135px;
+    border: #ffbe5b 3px solid;
+}
+
+.atlascard-text {
+    color: #ffbe5b;
+}
+
+.herculescard {
+    position: absolute;
+    top: 115px;
+    left: 200px;
+}
+
+
+.herculescard-img-top {
+    height: 135px;
+    width: 135px;
+    border: #ffbe5b 3px solid;
+}
+
+.herculescard-text {
+    color: #ffbe5b;
+}
+
+/*--------------------------------------------hover*/
+
+#dropdownMenuButton:hover {
+    background-color: #ffbe5b;
+    color: #202020;
+}
+
+.dropdown-item:hover {
+    background-color: #ffbe5b;
+    color: #202020;
+}
+
+.zeusimage:hover {
+    
+    transform: scale(3);
+    z-index: 1;
+}
+
+.poseidonimage:hover {
+    transform: scale(3);
+    z-index: 1;
+}
+
+.hadesimage:hover {
+    transform: scale(3);
+    z-index: 1;
 }
 
 /*-------------------------------------------footer*/
@@ -276,32 +346,6 @@ h4 {
     text-transform: uppercase;
 }
 
-/*--------------------------------------------hover*/
-
-#dropdownMenuButton:hover {
-    background-color: #ffbe5b;
-    color: #202020;
-}
-
-.dropdown-item:hover {
-    background-color: #ffbe5b;
-    color: #202020;
-}
-
-.zeusimage:hover {
-    transform: scale(3);
-    z-index: 1;
-}
-
-.poseidonimage:hover {
-    transform: scale(3);
-    z-index: 1;
-}
-
-.hadesimage:hover {
-    transform: scale(3);
-    z-index: 1;
-}
 /*--------------------------------------------media queries*/
 
 @media (max-width: 1900px) {
