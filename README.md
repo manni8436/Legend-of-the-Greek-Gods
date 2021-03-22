@@ -6,12 +6,14 @@ One or two paragraphs providing an overview of your project.
 
 This project is about the Greek Gods
 
-explaining the history and what happened over the years from day one and a brief
-explaination of each god which will help people understand who they were 
+explaining the history and what happened over the years from day one to the
+present time
+
+also a brief explaination of each god which will help people understand who they were 
 and how they came to be one of the most favourite mythologies around to 
-even the present time and this is also my favourite mythology with a brief
-talk about the connection between the Greek and the Roman gods and how they 
-connected
+even the present time also speaking about the less famoues gods that nobody has heard
+off and also a brief talk about the connection between the Greek and the Roman gods 
+and how they connected and why the same gods have different names
 
 
 (UX- User Experience)
@@ -22,7 +24,9 @@ behind the website and what is the idea/purpose behind the website,
 also what age range this website is for and what they will be using it for and 
 what will be the end result for them.
 
-
+The age range for this webiste is between the ages of 7yrs old school children
+through to secondary school children and to anyone who is in higher education 
+and finally to 70yrs old + that are highly interesting  in Greek Mythology
 
 
 (User Stories/ use this as part of the UX)
@@ -59,6 +63,8 @@ write here all other technologies that was used while making the website
 
 
 (Bugs)
+* = needs to be resolved 
+
     My first bug was during when I was doing the dropdown menu because 
     was white border around the outside of my menu items and I tried loads 
     of different ways to resolve it with no luck until I inspected the pages 
@@ -66,12 +72,23 @@ write here all other technologies that was used while making the website
     shouldnt have been there and I selected the class tag in CSS3 and 
     added padding attribute with the value of 0 which resolved the issue
 
-    I also have noticed that my dropdown menu seems to be abit to far to the 
+    
+    * I also have noticed that my dropdown menu seems to be abit to far to the 
     right on where it should be and i have tried to fix it before but with no 
     luck yet but i will fix it at a later date
 
-    I have noticed that for some reason the image doesnt load up in the 
+        
+   * I have noticed that for some reason the image doesnt load up in the 
     deployed site on GitHub Pages which I will try to fix at a later date
+
+
+    * I now have seen that my social links have stopped working when I click on 
+    them which I need to link into still
+
+
+    * I have a hover affect on a image to make it bigger when you hover over it 
+    so the user can see the image bigger but I want to move the position of the 
+    image abit to the left so I need to find a way to do that
 
 
 (testing)
@@ -139,6 +156,11 @@ and also all the places that you used icons, links etc.. from.
 
 (Content)
 
+    I used wikipedia to get some information on Zeus for my project and 
+    the link is attached below
+
+    https://en.wikipedia.org/wiki/Zeus
+    https://en.wikipedia.org/wiki/Poseidon
 
 
 (Media)
@@ -147,8 +169,13 @@ I have attacted the links below for all the images that I used on my throughtout
 
 https://wallpaperaccess.com/zeus (zeus image)
 https://omniversal-battlefield.fandom.com/wiki/Poseidon_(Greek_Mythology)?file=Poseidon.jpg (poseidon image)
-https://www.pinterest.com/pin/178384835225577581/
-
+https://www.artstation.com/artwork/1YzOK (hades image)
+https://www.pinterest.com/pin/178384835225577581/ (athena image)
+https://www.ancient-origins.net/myths-legends-europe/hermes-0011776 (hermes image)
+https://en.wikipedia.org/wiki/Zeus (zeus statue image for index1)
+https://en.wikipedia.org/wiki/Zeus (statue image of zeus for the big three in index1)
+https://en.wikipedia.org/wiki/Poseidon (statue image of poseidon for the big three in index1)
+https://en.wikipedia.org/wiki/Hades (statue image of hades for the big three in index1)
 
 In here you put in all the link from the websites that you have 
 used pictures from and any external things used for the project.
@@ -158,6 +185,11 @@ used pictures from and any external things used for the project.
 
 
 (Acknowledgements)
+
+My inspiration is my passion for Greek Mythology which I have enjoyed 
+and loved reading about it for a long time and I even have Greek Mythology
+memobrilia from my trip to Greece and Rome
+
 
 Most of the designs and layout for my project was created on my own 
 using wireframes but I also used bootstrap to aid me in building a few section

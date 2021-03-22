@@ -27,7 +27,7 @@ body {
 .pageheader {
     padding-left: 1px;
     padding-top: 60px;
-    font-size: x-large;
+    font-size: large;
 }
 
 .pageheader1 {
@@ -90,7 +90,7 @@ body {
     font-size: large;
 }
 
-/*--------------------------------------------images*/
+/*--------------------------------------------background images*/
  
 .backgroundimage {
     position: relative;
@@ -100,50 +100,119 @@ body {
     opacity: 0.4;
 }
 
+/*--------------------------------------------images for big three*/
+
+.goddescription {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.zeusimage {
+    position: absolute;
+    bottom: 510px;
+    left: 275px;
+    height: 140px;
+    width: 80px;
+}
+
+.poseidonimage {
+    position: absolute;
+    bottom: 345px;
+    left: 15px;
+    height: 160px;
+    width: 90px;
+}
+
+.hadesimage {
+    position: absolute;
+    bottom: 160px;
+    left: 275px;
+    height: 160px;
+    width: 80px;
+}
 
 /*--------------------------------------------paragraph*/
 .paragraph1 /*index.html*/{
     color: #ffbe5b;
     position: absolute;
-    top: 140px;   
+    top: 110px;   
+    left: 20px;
     font-size: large;
-    padding-left: 20px;
     text-align: justify;
 }
 
 .paragraph2 /*index.html*/{
     color: #ffbe5b;
     position: absolute;
-    top: 225px;
+    top: 190px;
+    left: 20px;
     font-size: large;
-    padding-left: 20px;
     text-align: justify;
 }   
 
 .paragraph3 /*index.html*/{
     color: #ffbe5b;
     position: absolute;
-    top: 365px;   
+    top: 325px;   
+    left: 20px;
     font-size: large;
-    padding-left: 20px;
     text-align: justify;
 }
 
 .paragraph4 /*index.html*/{
     color: #ffbe5b;
     position: absolute;
-    top: 570px;   
+    top: 515px;   
+    left: 20px;
     font-size: large;
-    padding-left: 20px;
     text-align: justify;
-}   
+}
+
+.paragraph5 /*index1.html*/{
+    color: #ffbe5b;
+    position: absolute;
+    top: 110px;
+    left: 20px;
+    font-size: large;
+    text-align: justify; 
+        
+}
+
+.paragraph6 /*index1.html*/{
+    color: #ffbe5b;
+    position: absolute;
+    top: 175px;
+    left: 20px;
+    font-size: large;
+    text-align: justify; 
+}
+
+.paragraph7 /*index1.html*/{
+    color: #ffbe5b;
+    position: absolute;
+    top: 325px;
+    left: 115px;
+    font-size: large;
+    text-align: justify; 
+}
+
+.paragraph8 /*index1.html*/{
+    color: #ffbe5b;
+    position: absolute;
+    top: 495px;
+    left: 10px;
+    font-size: large;
+    text-align: justify; 
+}
+
 /*-------------------------------------------footer*/
 
 .footer {
     background-color: #202020;
     color: #ffbe5b;
     position: absolute;
-    top: 745px;
+    top: 691px;
     height: 50px;
     width: 100%;
     padding-left: 8px;
@@ -152,7 +221,7 @@ body {
     text-align: left;
  }
 
-#footer {
+#footerborder {
     border: #ffbe5b 1px solid;
     border-width: 2px;
     box-sizing: border-box;
@@ -216,6 +285,20 @@ h4 {
     color: #202020;
 }
 
+.zeusimage:hover {
+    transform: scale(3);
+    z-index: 1;
+}
+
+.poseidonimage:hover {
+    transform: scale(3);
+    z-index: 1;
+}
+
+.hadesimage:hover {
+    transform: scale(3);
+    z-index: 1;
+}
 /*--------------------------------------------media queries*/
 
 @media (max-width: 1900px) {
