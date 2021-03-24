@@ -72,15 +72,15 @@ write here all other technologies that was used while making the website
     shouldnt have been there and I selected the class tag in CSS3 and 
     added padding attribute with the value of 0 which resolved the issue
 
-    
-    * I also have noticed that my dropdown menu seems to be abit to far to the 
-    right on where it should be and i have tried to fix it before but with no 
-    luck yet but i will fix it at a later date
+    * I noticed that my dropdown menu seems to be abit to far to the right 
+      on where it should be and i have tried to fix it before but with no 
+      luck yet but i will fix it at a later date
 
-        
-   * I have noticed that for some reason the image doesnt load up in the 
-    deployed site on GitHub Pages which I will try to fix at a later date
-
+    I have noticed that for the image wasnt loading on my deployed site with GitHub Pages 
+    but I have managed to fix the issue by changing the file path from the one I had there 
+    orignally that I copied from the image location on image to the correct file path that 
+    is from assets/css/images/ and finally to the image jpg path that was needed to correct 
+    the issue
 
     * I now have seen that my social links have stopped working when I click on 
     them which I need to link into still
@@ -142,14 +142,6 @@ https://fontawesome.com/icons/instagram?style=brands
 https://fontawesome.com/icons/linkedin-in?style=brands
 https://fontawesome.com/icons/copyright?style=regular
 
-I done some research online as what content to us in my project,
-
-I used the link below to use a small section to find out when
-the mythology of the Greek Gods started
-
-https://www.history.com/.amp/topics/ancient-history/greek-mythology
-
-
 
 In here you thank all the people that have helped you in the course
 and also all the places that you used icons, links etc.. from.
@@ -157,12 +149,26 @@ and also all the places that you used icons, links etc.. from.
 
 (Content)
 
-    I used wikipedia to get some information on Zeus for my project and 
-    the link is attached below
+    I done some research online as what content to use in my project and 
+    I used the link below to include a small section in my project to find 
+    out when Greek Mythology first started
+
+    https://www.history.com/.amp/topics/ancient-history/greek-mythology
+
+   
+    I used wikipedia to get partial information on the Greek Gods for 
+    my project and I have attached the links below
 
     https://en.wikipedia.org/wiki/Zeus
     https://en.wikipedia.org/wiki/Poseidon
-
+    https://en.wikipedia.org/wiki/Poseidon 
+    https://en.wikipedia.org/wiki/Hades
+    https://en.wikipedia.org/wiki/Atlas_(mythology)
+    https://en.wikipedia.org/wiki/Hercules#Mythology
+    https://en.wikipedia.org/wiki/Amphitrite#Mythology
+    https://en.wikipedia.org/wiki/Asclepius
+    https://www.pinterest.co.uk/pin/410109109794860381/
+    https://www.pinterest.co.uk/pin/410109109794860381/
 
 (Media)
 
@@ -179,6 +185,10 @@ https://en.wikipedia.org/wiki/Poseidon (statue image of poseidon for the big thr
 https://en.wikipedia.org/wiki/Hades (statue image of hades for the big three in index1.html)
 https://en.wikipedia.org/wiki/Atlas_(mythology) (statue of atlas in index2.html)
 https://en.wikipedia.org/wiki/Heracles (statue of atlas in index2.html)
+https://www.pinterest.com/pin/423831014921428350/ (statue of amphitrite in index2.html)
+https://en.wikipedia.org/wiki/Asclepius (statue of asclepius in index2.html)
+https://www.pinterest.co.uk/pin/410109109794860381/ (statue of pan in index2.html)
+https://www.pinterest.co.uk/pin/111182684540958323/ (statue of nike in index2.html)
 
 In here you put in all the link from the websites that you have 
 used pictures from and any external things used for the project.
@@ -193,13 +203,14 @@ My inspiration is my passion for Greek Mythology which I have enjoyed
 and loved reading about it for a long time and I even have Greek Mythology
 memobrilia from my trip to Greece and Rome
 
-
 Most of the designs and layout for my project was created on my own 
-using wireframes but I also used bootstrap to aid me in building a few section
-sections of my website
+using wireframes but I also used bootstrap to aid me in building my navigation
+menu and also the image cards
 
-I also used Font Awesome for the icons on my website
+I also want to thank the following websites for helping me with my first project 
 
+thank you hover.css, fontawesome, ColorSpace, Google Fonts as all of them helped me 
+design my website
 
 In this section write about where you got the inspiratioin from 
 to make design your website.

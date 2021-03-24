@@ -64,9 +64,12 @@ body {
 }
 
 .pageheader {
+    /* filter: brightness(150%) saturate(150%); */
+    color: #00cefc;
     padding-left: 1px;
     padding-top: 60px;
     font-size: large;
+    font-weight: 400;
 }
 
 .history {
@@ -83,8 +86,8 @@ body {
 
 /*--------------------------------------------paragraph*/
 
-.paragraph1 /*index.html*/{
-    color: #ffbe5b;
+.paragraph1 /*index.html #ffeccb*/{
+    color: #00cefc;
     position: absolute;
     top: 110px;   
     left: 20px;
@@ -92,8 +95,8 @@ body {
     text-align: justify;
 }
 
-.paragraph2 /*index.html*/{
-    color: #ffbe5b;
+.paragraph2 /*index.html #c3fcf2*/{
+    color: #00cefc;
     position: absolute;
     top: 190px;
     left: 20px;
@@ -101,8 +104,8 @@ body {
     text-align: justify;
 }   
 
-.paragraph3 /*index.html*/{
-    color: #ffbe5b;
+.paragraph3 /*index.html #00cefc*/{
+    color: #00cefc;
     position: absolute;
     top: 325px;   
     left: 20px;
@@ -110,8 +113,8 @@ body {
     text-align: justify;
 }
 
-.paragraph4 /*index.html*/{
-    color: #ffbe5b;
+.paragraph4 /*index.html #ff72c3*/{ 
+    color: #00cefc;
     position: absolute;
     top: 515px;   
     left: 20px;
@@ -177,7 +180,7 @@ body {
     bottom: 30px;
     height: 740px;
     width: 360px;
-    opacity: 0.4;
+    opacity: 0.5;
 }
 
 /*--------------------------------------------images for big three*/
@@ -219,14 +222,14 @@ body {
 
 .atlascard {
     position: absolute;
-    top: 115px;
+    top: 85px;
     left: 20px;
 }
 
 
 .atlascard-img-top {
-    height: 135px;
-    width: 135px;
+    height: 120px;
+    width: 155px;
     border: #ffbe5b 3px solid;
 }
 
@@ -236,20 +239,96 @@ body {
 
 .herculescard {
     position: absolute;
-    top: 115px;
-    left: 200px;
+    top: 85px;
+    left: 195px;
 }
 
-
 .herculescard-img-top {
-    height: 135px;
-    width: 135px;
+    height: 120px;
+    width: 155px;
     border: #ffbe5b 3px solid;
 }
 
 .herculescard-text {
     color: #ffbe5b;
+    position: relative;
+    right: 6px;
 }
+
+.amphitritecard {
+    position: absolute;
+    top: 285px;
+    left: 20px;
+}
+
+.amphitritecard-img-top {
+    height: 120px;
+    width: 155px;
+    border: #ffbe5b 3px solid;
+}
+
+.amphitritecard-text {
+    color: #ffbe5b;
+    position: relative;
+    right: 6px;
+}
+
+.asclepiuscard {
+    position: absolute;
+    top: 285px;
+    left: 195px;
+}
+
+.asclepiuscard-img-top {
+    height: 120px;
+    width: 155px;
+    border: #ffbe5b 3px solid;
+}
+
+.asclepiuscard-text {
+    color: #ffbe5b;
+    position: relative;
+    right: 6px;
+}
+
+.pancard {
+    position: absolute;
+    top: 490px;
+    left: 20px;
+}
+
+.pancard-img-top {
+    height: 120px;
+    width: 155px;
+    border: #ffbe5b 3px solid;
+}
+
+.pancard-text {
+    color: #ffbe5b;
+    position: relative;
+    right: 6px;
+}
+
+.nikecard {
+    position: absolute;
+    top: 490px;
+    left: 195px;
+}
+
+.nikecard-img-top {
+    height: 120px;
+    width: 155px;
+    border: #ffbe5b 3px solid;
+}
+
+.nikecard-text {
+    color: #ffbe5b;
+    position: relative;
+    right: 6px;
+}
+
+
+
 
 /*--------------------------------------------hover*/
 
