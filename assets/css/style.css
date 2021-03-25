@@ -8,11 +8,6 @@ html, body {
 /*--------------------------------------------body*/
 body {
     background-color: #202020;
-    
-    /*border: #ffbe5b 3px solid;
-    box-sizing: border-box;
-    width: 360px;
-    height: 742px;*/
 }
 /*--------------------------------------------dropdown menu*/
 
@@ -327,9 +322,6 @@ body {
     right: 6px;
 }
 
-
-
-
 /*--------------------------------------------hover*/
 
 #dropdownMenuButton:hover {
@@ -342,8 +334,7 @@ body {
     color: #202020;
 }
 
-.zeusimage:hover {
-    
+.zeusimage:hover {    
     transform: scale(3);
     z-index: 1;
 }
@@ -358,6 +349,70 @@ body {
     z-index: 1;
 }
 
+/*-------------------------------------------sign up/feedback form*/
+.contact {
+    color: #ffbe5b;
+    text-transform: uppercase;
+}
+
+.username {
+    position: absolute;
+    top: 250px;
+    left: 10px;
+    font-size: x-large;
+}
+
+#username {
+    border: #ffbe5b 4px solid;
+    position: absolute;
+    top: 250px;
+    left: 140px;
+}
+
+.email {
+    position: absolute;
+    top: 350px;
+    left: 10px;
+    font-size: x-large;
+}
+
+#email {
+    border: #ffbe5b 4px solid;
+    position: absolute;
+    top: 350px;
+    left: 140px;
+}
+
+.password {
+    position: absolute;
+    top: 450px;
+    left: 10px;
+    font-size: x-large;
+}
+
+#password {
+    border: #ffbe5b 4px solid;
+    position: absolute;
+    top: 500px;
+    left: 140px;
+}
+
+.submit {
+    background-color: #202020;
+    border: #ffbe5b 2px solid;
+    color: #ffbe5b;
+    position: absolute;
+    margin-bottom: 20px;
+    height: 40px;  
+    width: 100px; 
+    left: 130px;
+    bottom: 280px;
+    font-size: large;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 10%;
+}
+
 /*-------------------------------------------footer*/
 
 .footer {
@@ -368,7 +423,6 @@ body {
     height: 50px;
     width: 100%;
     padding-left: 8px;
-
     font-size: xx-large;
     text-align: left;
  }
