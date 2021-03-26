@@ -16,7 +16,6 @@
 
     <header class="header">
         <h1>Greek Gods</h1>
-        <h4 class="contactus"><b>contact us</b></h4>
     </header>
 
     <div class="dropdown">
@@ -38,24 +37,33 @@
     <!--background image-->
     <img src="assets/css/images/hermes.jpg" class="backgroundimage" alt="picture of hermes">
 
-    <form class="contact">
-        <label for="username" class="username">Username</label>      
-        <input type="text" id="username" name="username" placeholder="Username" required>
-
-        <label for="email" class="email">Email</label>      
-        <input type="email" id="email" name="email" placeholder="Email Address" required>
-
-        <label for="password" class="password">Password</label>      
-        <input type="password" id="password" name="password" placeholder="Password" required>
-
-        <input type="submit" class="submit" value="Submit">
-    </form>
-
-
-
-
-
+            
+    <fieldset class="contactus">
+        <legend class="contactus-border" id="contactus">Your Details</legend>
+    
+        <div>
+            <label for="username" class="username">Username:</label>
+            <input type="text" class="usernamebox" name="username" required>
+        </div>
         
+        <div>
+            <label for="email" class="email">Email Address:</label>
+            <input type="email" class="emailbox" name="email" required>
+        </div>
+
+        <div>
+            <label for="password" class="password">Password:</label>
+            <input type="password" class="passwordbox" name="password" required>
+        </div>
+        
+        <div>
+            <input type="submit" class="signupbutton" value="Submit" required>
+        </div>
+    </fieldset>
+
+    
+
+
     <footer class="footer" id="footerborder">
         <a href="https://en-gb.facebook.com/" target="_blank"><i class="fa fa-facebook-square" id="facebook"></i></a>
         <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" id="instagram"></i></a>

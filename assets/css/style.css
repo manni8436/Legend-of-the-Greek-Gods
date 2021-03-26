@@ -73,16 +73,10 @@ body {
     font-size: xx-large;
 }
 
-.contactus {
-    padding-left: 80px;
-    padding-top: 60px;
-    font-size: xx-large;
-}
-
 /*--------------------------------------------paragraph*/
 
 .paragraph1 /*index.html #ffeccb*/{
-    color: #00cefc;
+    color: #fff;
     position: absolute;
     top: 110px;   
     left: 20px;
@@ -91,7 +85,7 @@ body {
 }
 
 .paragraph2 /*index.html #c3fcf2*/{
-    color: #00cefc;
+    color: #fff;
     position: absolute;
     top: 190px;
     left: 20px;
@@ -100,7 +94,7 @@ body {
 }   
 
 .paragraph3 /*index.html #00cefc*/{
-    color: #00cefc;
+    color: #fff;
     position: absolute;
     top: 325px;   
     left: 20px;
@@ -109,7 +103,7 @@ body {
 }
 
 .paragraph4 /*index.html #ff72c3*/{ 
-    color: #00cefc;
+    color: #fff;
     position: absolute;
     top: 515px;   
     left: 20px;
@@ -349,68 +343,105 @@ body {
     z-index: 1;
 }
 
-/*-------------------------------------------sign up/feedback form*/
-.contact {
+/*-------------------------------------------signup*/
+input, textarea {
     color: #ffbe5b;
-    text-transform: uppercase;
+}
+
+fieldset.contactus {
+    position: absolute;
+    left: 15px;
+    top: 60px;
+    height: 35%;
+    width: 330px;
+    text-align: center;
+    border: 2px dashed #fff;
+}
+
+.contactus {
+    color: #ffbe5b;
+    position: relative;
+    bottom: 770px;
+    left: 50px;
+    font-size: large;
+    text-transform: uppercase;    
+}
+
+#contactus {
+    text-transform: capitalize;
+}
+
+legend.contactus-border {
+    width: auto;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: left;
 }
 
 .username {
     position: absolute;
-    top: 250px;
-    left: 10px;
-    font-size: x-large;
+    left: 110px;
+    font-weight: 600;
+    font-size: large;
 }
 
-#username {
-    border: #ffbe5b 4px solid;
+.usernamebox {
     position: absolute;
-    top: 250px;
-    left: 140px;
+    top: 30px;
+    left: 35px;
+    width: 80%;
+    background-color: #202020;
+    border: 2px solid #ffbe5b;
 }
 
-.email {
+ .email {
     position: absolute;
-    top: 350px;
-    left: 10px;
-    font-size: x-large;
+    top: 75px;
+    left: 100px;
+    font-weight: 600;
+    font-size: large;
 }
 
-#email {
-    border: #ffbe5b 4px solid;
+.emailbox {
     position: absolute;
-    top: 350px;
-    left: 140px;
-}
+    top: 105px;
+    left: 35px;
+    width: 80%;
+    background-color: #202020;
+    border: 2px solid #ffbe5b;
+} 
 
 .password {
     position: absolute;
-    top: 450px;
-    left: 10px;
-    font-size: x-large;
+    top: 160px;
+    left: 110px;
+    font-weight: 600;
+    font-size: large;
 }
 
-#password {
-    border: #ffbe5b 4px solid;
+.passwordbox {
     position: absolute;
-    top: 500px;
-    left: 140px;
+    top: 190px;
+    left: 35px;
+    width: 80%;
+    background-color: #202020;
+    border: 2px solid #ffbe5b;
 }
 
-.submit {
+.signupbutton {
     background-color: #202020;
-    border: #ffbe5b 2px solid;
+    border-color: #ffbe5b;
     color: #ffbe5b;
+
     position: absolute;
     margin-bottom: 20px;
-    height: 40px;  
-    width: 100px; 
-    left: 130px;
-    bottom: 280px;
+    height: 45px;   
+    top: 235px;
+    left: 120px;
+    border-radius: 10%;
     font-size: large;
     text-align: center;
     text-transform: uppercase;
-    border-radius: 10%;
 }
 
 /*-------------------------------------------footer*/
