@@ -82,9 +82,9 @@ write here all other technologies that was used while making the website
     is from assets/css/images/ and finally to the image jpg path that was needed to correct 
     the issue
 
-    * I now have seen that my social links have stopped working when I click on 
-    them which I need to link into still
-
+    I now have noticed that my social links have stopped working when I click on 
+    them but now I have changed the linked and redone the coding for the social media that 
+    is in my footer
 
     * I have a hover affect on a image to make it bigger when you hover over it 
     so the user can see the image bigger but I want to move the position of the 

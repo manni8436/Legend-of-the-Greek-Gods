@@ -59,10 +59,9 @@ body {
 }
 
 .pageheader {
-    /* filter: brightness(150%) saturate(150%); */
-    color: #00cefc;
-    padding-left: 1px;
-    padding-top: 60px;
+    color: #fff;
+    position: absolute;
+    top: 60px;
     font-size: large;
     font-weight: 400;
 }
@@ -183,9 +182,9 @@ body {
 .zeusimage {
     position: absolute;
     bottom: 525px;
-    left: 275px;
+    left: 265px;
     height: 150px;
-    width: 80px;
+    width: 85px;
     border: #ffbe5b 3px solid;
 }
 
@@ -194,16 +193,16 @@ body {
     bottom: 375px;
     left: 15px;
     height: 150px;
-    width: 90px;
+    width: 95px;
     border: #ffbe5b 3px solid;
 }
 
 .hadesimage {
     position: absolute;
     bottom: 163px;
-    left: 275px;
+    left: 265px;
     height: 180px;
-    width: 80px;
+    width: 85px;
     border: #ffbe5b 3px solid;
 }
 
@@ -316,49 +315,23 @@ body {
     right: 6px;
 }
 
-/*--------------------------------------------hover*/
-
-#dropdownMenuButton:hover {
-    background-color: #ffbe5b;
-    color: #202020;
-}
-
-.dropdown-item:hover {
-    background-color: #ffbe5b;
-    color: #202020;
-}
-
-.zeusimage:hover {    
-    transform: scale(3);
-    z-index: 1;
-}
-
-.poseidonimage:hover {
-    transform: scale(3);
-    z-index: 1;
-}
-
-.hadesimage:hover {
-    transform: scale(3);
-    z-index: 1;
-}
-
 /*-------------------------------------------signup*/
 input, textarea {
+    background-color: #202020;
     color: #ffbe5b;
 }
 
-fieldset.contactus {
+fieldset.yourdetails {
     position: absolute;
     left: 15px;
     top: 60px;
-    height: 35%;
+    height: 34%;
     width: 330px;
     text-align: center;
     border: 2px dashed #fff;
 }
 
-.contactus {
+.yourdetails {
     color: #ffbe5b;
     position: relative;
     bottom: 770px;
@@ -367,11 +340,11 @@ fieldset.contactus {
     text-transform: uppercase;    
 }
 
-#contactus {
-    text-transform: capitalize;
+#yourdetailsheader {
+    color: #fff;
 }
 
-legend.contactus-border {
+legend.yourdetails-border {
     width: auto;
     font-size: 1.2em;
     font-weight: bold;
@@ -380,6 +353,7 @@ legend.contactus-border {
 
 .username {
     position: absolute;
+    top: -11px;
     left: 110px;
     font-weight: 600;
     font-size: large;
@@ -387,7 +361,7 @@ legend.contactus-border {
 
 .usernamebox {
     position: absolute;
-    top: 30px;
+    top: 18px;
     left: 35px;
     width: 80%;
     background-color: #202020;
@@ -435,22 +409,125 @@ legend.contactus-border {
 
     position: absolute;
     margin-bottom: 20px;
-    height: 45px;   
+    height: 40px;   
     top: 235px;
-    left: 120px;
+    left: 60px;
     border-radius: 10%;
     font-size: large;
     text-align: center;
     text-transform: uppercase;
 }
 
+.resetbutton {
+    background-color: #202020;
+    border-color: #ffbe5b;
+    color: #ffbe5b;
+
+    position: absolute;
+    margin-bottom: 20px;
+    height: 40px;   
+    top: 235px;
+    left: 200px;
+    border-radius: 10%;
+    font-size: large;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/*-------------------------------------------feedback*/
+
+.feedbackheader {
+    color: #fff;
+    width: auto;
+    text-align: left;
+    font-weight: 600;
+    font-weight: bold;
+    font-size: x-large;
+    text-transform: uppercase;
+}
+
+.feedbackborder {
+    position: absolute;
+    left: 15px;
+    top: 400px;
+    height: 28%;
+    width: 330px;
+    text-align: center;
+    border: 2px dashed #fff;
+}
+
+.textareabox {
+    position: relative;
+    top: -5px;
+    height: 160px;
+    width: 300px;
+    border: 2px solid #ffbe5b;
+}
+
+.sendbutton {
+    background-color: #202020;
+    border-color: #ffbe5b;
+    color: #ffbe5b;
+
+    position: absolute;
+    margin-bottom: 20px;
+    height: 40px;   
+    top: 170px;
+    left: 140px;
+    border-radius: 10%;
+    font-size: large;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/*--------------------------------------------hover*/
+
+#dropdownMenuButton:hover {
+    background-color: #ffbe5b;
+    color: #202020;
+}
+
+.dropdown-item:hover {
+    background-color: #ffbe5b;
+    color: #202020;
+}
+
+.zeusimage:hover {    
+    transform: scale(3);
+    z-index: 1;
+}
+
+.poseidonimage:hover {
+    transform: scale(3);
+    z-index: 1;
+}
+
+.hadesimage:hover {
+    transform: scale(3);
+    z-index: 1;
+}
+
+.signupbutton:hover {
+    background-color: #ffbe5b;
+    color: #202020;
+}
+
+.resetbutton:hover {
+    background-color: #ffbe5b;
+    color: #202020;
+}
+
+.sendbutton:hover {
+    background-color: #ffbe5b;
+    color: #202020;
+} 
 /*-------------------------------------------footer*/
 
 .footer {
     background-color: #202020;
     color: #ffbe5b;
     position: absolute;
-    top: 691px;
+    top: 680px;
     height: 50px;
     width: 100%;
     padding-left: 8px;
@@ -462,6 +539,7 @@ legend.contactus-border {
     border: #ffbe5b 1px solid;
     border-width: 2px;
     box-sizing: border-box;
+    height: 60px;
     width: 360px;
     padding-bottom: 10px;
 } 
@@ -469,52 +547,47 @@ legend.contactus-border {
 #facebook {
     color: #ffbe5b;
     position: relative;
-    bottom: 6px;
-    padding-left: 5px;
-    padding-top: 5px;
-    font-size: xx-large; 
+    top: 5px;
+    left: 15px;
+    bottom: 1px;
+    font-size: xxx-large; 
 }
 
 #instagram {
     color: #ffbe5b;
-    position: relative;
-    bottom: 6px;
-    padding-left: 5px;
-    font-size: xx-large;
+    position: absolute;
+    top: 5px;
+    left: 115px;
+    font-size: xxx-large;
 }
 
 #linkedin {
     color: #ffbe5b;
-    position: relative;
-    bottom: 6px;    
-    padding-left: 5px;
-    font-size: xx-large;
+    position: absolute;
+    top: 5px;
+    left: 200px;
+    font-size: xxx-large;
 }
 
-#copyright {
+#twitter {
     color: #ffbe5b;
-    position: relative;
-    bottom: 6px;
-    padding-left: 5px;
-    padding-top: 15px;
-    text-decoration: none;
-    font-size: xx-large;
+    position: absolute;
+    top: 5px;
+    left: 300px;
+    font-size: xxx-large;
 }
 
-h4 {
+/* #youtube {
     color: #ffbe5b;
-    position: relative;
-    bottom: 50px;
-    padding-left: 170px;
-    font-size: xx-large;
-    text-transform: uppercase;
-}
+    position: absolute;
+    top: 5px;
+    left: 300px;
+    font-size: xxx-large;
+} */
 
 /*--------------------------------------------media queries*/
 
-@media (max-width: 1900px) {
-
-
+@media () {
 
 }
 
