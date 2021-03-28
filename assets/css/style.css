@@ -31,8 +31,12 @@ body {
 }
 
 .dropdown-menu {
-    margin-top: 9px;
+    margin-top: 0;
     padding: 0;
+}
+
+#dropdown-menu{
+    border: #ffbe5b 3px solid;
 }
 
 .dropdown-item {
@@ -433,6 +437,7 @@ legend.yourdetails-border {
     height: 40px;   
     top: 235px;
     left: 200px;
+    width: 75px;
     border-radius: 10%;
     font-size: large;
     text-align: center;
@@ -463,8 +468,8 @@ legend.yourdetails-border {
 
 .textareabox {
     position: relative;
-    top: 18px;
-    height: 160px;
+    top: 1px;
+    height: 180px;
     width: 300px;
     border: 2px solid #ffbe5b;
 }
@@ -498,16 +503,24 @@ legend.yourdetails-border {
 }
 
 .zeusimage:hover {    
+    position: absolute;
+    top: 120px;
+    left: 190px;
     transform: scale(3);
     z-index: 1;
 }
 
 .poseidonimage:hover {
+    position: absolute;
+    left: 110px;
     transform: scale(3);
     z-index: 1;
 }
 
 .hadesimage:hover {
+    position: absolute;
+    top: 290px;
+    left: 190px;
     transform: scale(3);
     z-index: 1;
 }
@@ -553,7 +566,7 @@ legend.yourdetails-border {
     color: #ffbe5b;
     position: relative;
     top: 5px;
-    left: 15px;
+    left: 5px;
     bottom: 1px;
     font-size: xxx-large; 
 }
@@ -562,7 +575,15 @@ legend.yourdetails-border {
     color: #ffbe5b;
     position: absolute;
     top: 5px;
-    left: 115px;
+    left: 85px;
+    font-size: xxx-large;
+}
+
+#youtube {
+    color: #ffbe5b;
+    position: absolute;
+    top: 5px;
+    left: 160px;
     font-size: xxx-large;
 }
 
@@ -570,7 +591,7 @@ legend.yourdetails-border {
     color: #ffbe5b;
     position: absolute;
     top: 5px;
-    left: 200px;
+    left: 235px;
     font-size: xxx-large;
 }
 
@@ -578,17 +599,9 @@ legend.yourdetails-border {
     color: #ffbe5b;
     position: absolute;
     top: 5px;
-    left: 300px;
+    left: 305px;
     font-size: xxx-large;
 }
-
-/* #youtube {
-    color: #ffbe5b;
-    position: absolute;
-    top: 5px;
-    left: 300px;
-    font-size: xxx-large;
-} */
 
 /*--------------------------------------------media queries*/
 
