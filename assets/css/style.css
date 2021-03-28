@@ -512,7 +512,7 @@ legend.yourdetails-border {
 
 .poseidonimage:hover {
     position: absolute;
-    left: 110px;
+    left: 95px;
     transform: scale(3);
     z-index: 1;
 }
