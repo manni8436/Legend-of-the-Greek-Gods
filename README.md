@@ -99,7 +99,11 @@ write here all other technologies that was used while making the website
 
     * I have a issue on my deployed site where the page can be zoomed out which is shoudlnt 
     be doing it so I will try to fix it by deleting the index2.html file and make a new one 
-    to see if this solves the issue
+    to see if this solves the issue and the issue was not resolved so I will need to find 
+    another way to solve it
+
+    * Had a issue with the way my contact us sections looked like on the deployed site and 
+    I have had to adjust everything so rectify the problem
 
 (testing)
 
