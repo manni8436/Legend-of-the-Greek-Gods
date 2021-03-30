@@ -74,7 +74,7 @@ write here all other technologies that was used while making the website
 
     * I noticed that my dropdown menu seems to be abit to far to the right 
       on where it should be and i have tried to fix it before but with no 
-      luck yet but i will fix it at a later date
+      luck yet
 
     I have noticed that for the image wasnt loading on my deployed site with GitHub Pages 
     but I have managed to fix the issue by changing the file path from the one I had there 
@@ -86,11 +86,16 @@ write here all other technologies that was used while making the website
     them but now I have changed the linked and redone the coding for the social media that 
     is in my footer
 
-    * I have a hover affect on a image to make it bigger when you hover over it 
-    so the user can see the image bigger but I want to move the position of the 
-    image abit to the left so I need to find a way to do that as you cant see 
-    them properly on a mobile device
+    I have a hover affect on a image to make it bigger when you hover over it to be seen 
+    bigger when you want but the position is off as you cant see the image properly as it 
+    is to far in one direction but I have resolved it now by using position absolute and 
+    positioned it in a good place so that it can be seen clearly
 
+    I had a issue with enlarging my images on the lesser known gods but I tried to do it 
+    again by only selecting the img top class and it worked
+
+    * I saw on my deployed that the icons are alot smaller when it is viewed on a samsung
+    device which I more then likely have to use media queires to resolve this issue
 
 (testing)
 

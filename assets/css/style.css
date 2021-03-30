@@ -223,7 +223,6 @@ body {
     left: 20px;
 }
 
-
 .atlascard-img-top {
     height: 135px;
     width: 155px;
@@ -523,6 +522,60 @@ legend.yourdetails-border {
     left: 190px;
     transform: scale(3);
     z-index: 1;
+}
+
+.atlascard-img-top:hover {
+    position: absolute;
+    top: 34px;
+    left: 82px;
+    width: 165px;
+    transform: scale(2);
+    z-index: 1;
+}
+
+.herculescard-img-top:hover {
+    position: absolute;
+    top: 34px;
+    right: 216px;
+    width: 165px;
+    transform: scale(2);
+    z-index: 1;
+}
+
+.amphitritecard-img-top:hover {
+    position: absolute;
+    top: 34px;
+    left: 82px;
+    width: 165px;
+    transform: scale(2);
+    z-index: 1;
+}
+
+.asclepiuscard-img-top:hover {
+    position: absolute;
+    top: 34px;
+    right: 216px;
+    width: 165px;
+    transform: scale(2);
+    z-index: 1; 
+}
+
+.pancard-img-top:hover {
+    position: absolute;
+    top: 10px;
+    left: 82px;
+    width: 165px;
+    transform: scale(2);
+    z-index: 1;
+}
+
+.nikecard-img-top:hover {
+    position: absolute;
+    top: 10px;
+    right: 216px;
+    width: 165px;
+    transform: scale(2);
+    z-index: 1; 
 }
 
 .signupbutton:hover {
