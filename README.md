@@ -97,6 +97,10 @@ write here all other technologies that was used while making the website
     * I saw on my deployed that the icons are alot smaller when it is viewed on a samsung
     device which I more then likely have to use media queires to resolve this issue
 
+    * I have a issue on my deployed site where the page can be zoomed out which is shoudlnt 
+    be doing it so I will try to fix it by deleting the index2.html file and make a new one 
+    to see if this solves the issue
+
 (testing)
 
 In this section write about all the tests you have done to make sure 
