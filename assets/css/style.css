@@ -71,6 +71,7 @@ body {
     text-align: center;
     font-size: x-large;
     font-weight: 400;
+    text-transform: uppercase;
 }
 
 .history {
