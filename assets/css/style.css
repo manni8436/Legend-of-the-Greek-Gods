@@ -9,6 +9,7 @@ html, body {
 body {
     background-color: #202020;
 }
+
 /*--------------------------------------------dropdown menu*/
 
 .btn {
@@ -83,7 +84,7 @@ body {
 
 /*--------------------------------------------paragraph*/
 
-.paragraph1 /*index.html #ffeccb*/{
+.paragraph1 /*index.html*/{
     color: #fff;
     position: absolute;
     top: 130px;   
@@ -92,7 +93,7 @@ body {
     text-align: justify;
 }
 
-.paragraph2 /*index.html #c3fcf2*/{
+.paragraph2 /*index.html*/{
     color: #fff;
     position: absolute;
     top: 220px;
@@ -101,7 +102,7 @@ body {
     text-align: justify;
 }   
 
-.paragraph3 /*index.html #00cefc*/{
+.paragraph3 /*index.html*/{
     color: #fff;
     position: absolute;
     top: 370px;   
@@ -110,7 +111,7 @@ body {
     text-align: justify;
 }
 
-.paragraph4 /*index.html #ff72c3*/{ 
+.paragraph4 /*index.html*/{ 
     color: #fff;
     position: absolute;
     top: 570px;   
@@ -333,7 +334,7 @@ fieldset.yourdetails {
     position: absolute;
     left: 15px;
     top: 55px;
-    height: 53%;
+    height: 350px;
     width: 330px;
     text-align: center;
     border: 2px dashed #fff;
@@ -468,8 +469,8 @@ legend.yourdetails-border {
 
 .textareabox {
     position: relative;
-    top: -5px;
-    height: 140px;
+    top: -2px;
+    height: 180px;
     width: 300px;
     border: 2px solid #ffbe5b;
 }
@@ -482,7 +483,7 @@ legend.yourdetails-border {
     position: absolute;
     margin-bottom: 20px;
     height: 40px;   
-    top: 195px;
+    top: 192px;
     left: 140px;
     border-radius: 10%;
     font-size: large;
@@ -527,18 +528,18 @@ legend.yourdetails-border {
 
 .atlascard-img-top:hover {
     position: absolute;
-    top: 34px;
+    top: 50px;
     left: 82px;
-    width: 165px;
-    transform: scale(2);
+    width: 160px;
+    transform: scale(2.2);
     z-index: 1;
 }
 
 .herculescard-img-top:hover {
     position: absolute;
-    top: 34px;
-    right: 216px;
-    width: 165px;
+    top: 40px;
+    right: 214px;
+    width: 172px;
     transform: scale(2);
     z-index: 1;
 }
@@ -546,8 +547,8 @@ legend.yourdetails-border {
 .amphitritecard-img-top:hover {
     position: absolute;
     top: 34px;
-    left: 82px;
-    width: 165px;
+    left: 80px;
+    width: 172px;
     transform: scale(2);
     z-index: 1;
 }
@@ -555,8 +556,8 @@ legend.yourdetails-border {
 .asclepiuscard-img-top:hover {
     position: absolute;
     top: 34px;
-    right: 216px;
-    width: 165px;
+    right: 212px;
+    width: 172px;
     transform: scale(2);
     z-index: 1; 
 }
@@ -564,8 +565,8 @@ legend.yourdetails-border {
 .pancard-img-top:hover {
     position: absolute;
     top: 10px;
-    left: 82px;
-    width: 165px;
+    left: 78px;
+    width: 172px;
     transform: scale(2);
     z-index: 1;
 }
@@ -574,7 +575,7 @@ legend.yourdetails-border {
     position: absolute;
     top: 10px;
     right: 216px;
-    width: 165px;
+    width: 172px;
     transform: scale(2);
     z-index: 1; 
 }
@@ -657,12 +658,176 @@ legend.yourdetails-border {
     font-size: xxx-large;
 }
 
+
 /*--------------------------------------------media queries*/
 
-@media () {
+@media screen and (min-width:414px) {
 
+body {
+    background-color: #202020;
+}
+    
+/*--------------------------------------------background image*/
+.backgroundimage {
+    position: relative;
+    bottom: 30px;
+    height: 790px;
+    width: 415px;
+    opacity: 0.5;
+}
+
+/*--------------------------------------------dropdown menu*/
+.btn {
+    background-color: #202020;
+    border-color: #ffbe5b;
+    color: #ffbe5b;
+    position: relative;
+    margin-bottom: 20px;
+    height: 35px;   
+    left: 330px;
+    bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/*--------------------------------------------headers*/
+
+.header {
+    background-color: #202020;
+    color: #ffbe5b;
+    position: relative;
+    right: 50px;
+    height: 30px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.pageheader {
+    color: #fff;
+    position: absolute;
+    top: 65px;
+    left: 70px;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+/*--------------------------------------------paragraphs*/
+
+.paragraph1 /*index.html*/{
+    color: #fff;
+    position: absolute;
+    top: 155px;   
+    left: 35px;
+    font-size: larger;
+    text-align: justify;
+}
+
+.paragraph2 /*index.html*/{
+    color: #fff;
+    position: absolute;
+    top: 255px;
+    left: 35px;
+    font-size: larger;
+    text-align: justify;
+}   
+
+.paragraph3 /*index.html*/{
+    color: #fff;
+    position: absolute;
+    top: 405px;   
+    left: 35px;
+    font-size: larger;
+    text-align: justify;
+}
+
+.paragraph4 /*index.html*/{ 
+    color: #fff;
+    position: absolute;
+    top: 615px;   
+    left: 35px;
+    font-size: larger;
+    text-align: justify;
 }
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------footer*/
+.footer {
+    background-color: #202020;
+    color: #ffbe5b;
+    position: absolute;
+    top: 786px;
+    height: 50px;
+    width: 100%;
+    padding-left: 8px;
+    font-size: xx-large;
+    text-align: left;
+ }
+
+#footerborder {
+    border: #ffbe5b 1px solid;
+    border-width: 2px;
+    box-sizing: border-box;
+    height: 60px;
+    width: 414px;
+    padding-bottom: 10px;
+} 
+
+#facebook {
+    color: #ffbe5b;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    bottom: 1px;
+    font-size: xxx-large; 
+}
+
+#instagram {
+    color: #ffbe5b;
+    position: absolute;
+    top: 5px;
+    left: 102px;
+    font-size: xxx-large;
+}
+
+#youtube {
+    color: #ffbe5b;
+    position: absolute;
+    top: 5px;
+    left: 192px;
+    font-size: xxx-large;
+}
+
+#linkedin {
+    color: #ffbe5b;
+    position: absolute;
+    top: 5px;
+    left: 282px;
+    font-size: xxx-large;
+}
+
+#twitter {
+    color: #ffbe5b;
+    position: absolute;
+    top: 5px;
+    left: 360px;
+    font-size: xxx-large;
+    }
+}
+/*--------------------------------------------media queries*/

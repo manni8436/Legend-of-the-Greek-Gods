@@ -103,7 +103,10 @@ write here all other technologies that was used while making the website
     another way to solve it
 
     * Had a issue with the way my contact us sections looked like on the deployed site and 
-    I have had to adjust everything so rectify the problem
+    I have had to adjust everything so rectify the problem but still need some minor changes
+    with media queires
+
+    * There is a white border around my menu button that I need to remove
 
 (testing)
 
