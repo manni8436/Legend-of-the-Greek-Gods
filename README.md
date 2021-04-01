@@ -4,15 +4,15 @@
 
 One or two paragraphs providing an overview of your project.
 
-This project is about the Greek Gods
+My first project is about the Greek Gods
 
 explaining the history and what happened over the years from day one to the
 present time
 
-also a brief explaination of each god which will help people understand who they were 
-and how they came to be one of the most favourite mythologies around to 
-even the present time also speaking about the less famoues gods that nobody has heard
-off and also a brief talk about the connection between the Greek and the Roman gods 
+also a brief explanation of each god which will help people understand who they were 
+and how they came to be one of the most favourite mythologies around to even the very 
+present times we are in and I will also speaking about the less famous gods that people may
+have never heard off before and also a brief talk about the connection between the Greek and the Roman gods 
 and how they connected and why the same gods have different names
 
 
@@ -24,9 +24,11 @@ behind the website and what is the idea/purpose behind the website,
 also what age range this website is for and what they will be using it for and 
 what will be the end result for them.
 
-The age range for this webiste is between the ages of 7yrs old school children
-through to secondary school children and to anyone who is in higher education 
-and finally to 70yrs old + that are highly interesting  in Greek Mythology
+
+The age range for my website is between the ages of 7yrs old school children
+through to secondary school children to anyone who is in higher education to 
+anyone working or studying the Greek Mythology and finally to 70yrs old or 
+anyone who are highly interesting in Greek Mythology
 
 
 (User Stories/ use this as part of the UX)
@@ -107,6 +109,12 @@ write here all other technologies that was used while making the website
     with media queires
 
     * There is a white border around my menu button that I need to remove
+
+    * I need to change the size of my page header (GREEK GODS) and it doesnt go well with the 
+    layout when I use it in the media query for min width 320
+
+    * I need to move my dropdown menu list items abit to the left as one of the content cant 
+    be seen properly
 
 (testing)
 

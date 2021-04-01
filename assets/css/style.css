@@ -660,8 +660,168 @@ legend.yourdetails-border {
 }
 
 
-/*--------------------------------------------media queries*/
+/*--------------------------------------------media queries min-width 320px*/
 
+@media screen and (min-width:320px) {
+
+/*--------------------------------------------dropdown menu*/    
+.btn {
+    background-color: #202020;
+    border-color: #ffbe5b;
+    color: #ffbe5b;
+    position: relative;
+    height: 35px;
+    width: 65px;
+    left: 250px;
+    bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.menuword {
+    position: relative;
+    right: 4px;
+}
+
+.dropdown-item {
+    background-color: #202020;
+    color: #ffbe5b;
+    text-transform: uppercase;
+    height: 50px;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+/*--------------------------------------------headings*/
+
+.header /*index.html*/{
+    background-color: #202020;
+    color: #ffbe5b;
+    font-size: x-large;
+    font-weight: 700;
+    height: 30px;
+    padding-left: 15px;
+    padding-bottom: 25px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.pageheader /*index.html*/{
+    color: #fff;
+    position: absolute;
+    top: 70px;
+    left: 45px;
+    text-align: center;
+    font-size: larger;
+    font-weight: 400;
+    text-transform: uppercase;
+}    
+
+
+/*--------------------------------------------paragraphs*/    
+.paragraph1 /*index.html*/{
+    color: #fff;
+    position: absolute;
+    top: 160px;   
+    left: 12px;
+    font-size: 100%;
+    text-align: justify;
+}
+
+.paragraph2 /*index.html*/{
+    color: #fff;
+    position: absolute;
+    top: 265px;
+    left: 10px;
+    font-size: 105%;
+    text-align: justify;
+}   
+
+.paragraph3 /*index.html*/{
+    color: #fff;
+    position: absolute;
+    top: 420px;   
+    left: 10px;
+    font-size: 104%;
+    text-align: justify;
+}
+
+.paragraph4 /*index.html*/{ 
+    color: #fff;
+    position: absolute;
+    top: 620px;   
+    left: 16px;
+    font-size: 110%;
+    text-align: justify;
+}
+
+
+/*-------------------------------------------footer*/
+.footer {
+    background-color: #202020;
+    color: #ffbe5b;
+    position: absolute;
+    top: 787px;
+    height: 50px;
+    width: 100%;
+    padding-left: 8px;
+    font-size: xx-large;
+    text-align: left;
+ }
+
+#footerborder {
+    border: #ffbe5b 1px solid;
+    border-width: 2px;
+    box-sizing: border-box;
+    height: 60px;
+    width: 320px;
+    padding-bottom: 10px;
+} 
+
+#facebook {
+    color: #ffbe5b;
+    position: relative;
+    top: 5px;
+    left: 1px;
+    bottom: 1px;
+    font-size: xxx-large; 
+}
+
+#instagram {
+    color: #ffbe5b;
+    position: absolute;
+    top: 5px;
+    left: 72px;
+    font-size: xxx-large;
+}
+
+#youtube {
+    color: #ffbe5b;
+    position: absolute;
+    top: 5px;
+    left: 140px;
+    font-size: xxx-large;
+}
+
+#linkedin {
+    color: #ffbe5b;
+    position: absolute;
+    top: 5px;
+    left: 205px;
+    font-size: xxx-large;
+}
+
+#twitter {
+    color: #ffbe5b;
+    position: absolute;
+    top: 5px;
+    left: 265px;
+    font-size: xxx-large;
+}
+
+}
+
+/*--------------------------------------------media queries min-width 414px*/
 @media screen and (min-width:414px) {
 
 body {
@@ -673,7 +833,7 @@ body {
     position: relative;
     bottom: 30px;
     height: 790px;
-    width: 415px;
+    width: 414px;
     opacity: 0.5;
 }
 
@@ -755,19 +915,6 @@ body {
     text-align: justify;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*--------------------------------------------footer*/
 .footer {
     background-color: #202020;
@@ -831,4 +978,170 @@ body {
     font-size: xxx-large;
     }
 }
-/*--------------------------------------------media queries*/
+
+/*--------------------------------------------media queries min-width 480px*/
+@media screen and (min-width:480px) {
+
+body {
+    background-color: #202020;
+}
+    
+/*--------------------------------------------background image*/
+.backgroundimage {
+    position: relative;
+    bottom: 30px;
+    height: 790px;
+    width: 480px;
+    opacity: 0.5;
+}
+
+/*--------------------------------------------dropdown menu*/
+.btn {
+    background-color: #202020;
+    border-color: #ffbe5b;
+    color: #ffbe5b;
+    position: relative;
+    margin-bottom: 20px;
+    height: 35px;   
+    left: 400px;
+    bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/*--------------------------------------------headers*/
+
+.header {
+    background-color: #202020;
+    color: #ffbe5b;
+    position: relative;
+    right: 50px;
+    height: 30px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.pageheader {
+    color: #fff;
+    position: absolute;
+    top: 65px;
+    left: 60px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+/*--------------------------------------------paragraphs*/
+
+.paragraph1 /*index.html*/{
+    color: #fff;
+    position: absolute;
+    top: 160px;   
+    left: 50px;
+    font-size: 130%;
+    text-align: justify;
+}
+
+.paragraph2 /*index.html*/{
+    color: #fff;
+    position: absolute;
+    top: 245px;
+    left: 50px;
+    font-size: 130%;
+    text-align: justify;
+}   
+
+.paragraph3 /*index.html*/{
+    color: #fff;
+    position: absolute;
+    top: 395px;   
+    left: 50px;
+    font-size: 130%;
+    text-align: justify;
+}
+
+.paragraph4 /*index.html*/{ 
+    color: #fff;
+    position: absolute;
+    top: 600px;   
+    left: 50px;
+    font-size: 135%;
+    text-align: justify;
+}
+
+/*--------------------------------------------footer*/
+.footer {
+    background-color: #202020;
+    color: #ffbe5b;
+    position: absolute;
+    top: 786px;
+    height: 50px;
+    width: 100%;
+    padding-left: 8px;
+    font-size: xx-large;
+    text-align: left;
+ }
+
+#footerborder {
+    border: #ffbe5b 1px solid;
+    border-width: 2px;
+    box-sizing: border-box;
+    height: 60px;
+    width: 480px;
+    padding-bottom: 10px;
+} 
+
+#facebook {
+    color: #ffbe5b;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    bottom: 1px;
+    font-size: xxx-large; 
+}
+
+#instagram {
+    color: #ffbe5b;
+    position: absolute;
+    top: 5px;
+    left: 92px;
+    font-size: xxx-large;
+}
+
+#youtube {
+    color: #ffbe5b;
+    position: absolute;
+    top: 5px;
+    left: 182px;
+    font-size: xxx-large;
+}
+
+#linkedin {
+    color: #ffbe5b;
+    position: absolute;
+    top: 5px;
+    left: 272px;
+    font-size: xxx-large;
+}
+
+#twitter {
+    color: #ffbe5b;
+    position: absolute;
+    top: 5px;
+    left: 350px;
+    font-size: xxx-large;
+    }
+
+#copyright {
+    color: #ffbe5b;
+    position: absolute;
+    top: 5px;
+    left: 430px;
+    font-size: xxx-large;
+}   
+
+}
