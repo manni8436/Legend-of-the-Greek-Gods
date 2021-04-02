@@ -885,35 +885,35 @@ body {
     color: #fff;
     position: absolute;
     top: 150px;   
-    left: 20px;
-    font-size: 115%;
+    left: 15px;
+    font-size: 119%;
     text-align: center;
 }
 
 .paragraph2 /*index.html*/{
     color: #fff;
     position: absolute;
-    top: 240px;
-    left: 30px;
-    font-size: 115%;
+    top: 250px;
+    left: 20px;
+    font-size: 120%;
     text-align: center;
 }   
 
 .paragraph3 /*index.html*/{
     color: #fff;
     position: absolute;
-    top: 380px;   
-    left: 20px;
-    font-size: 115%;
+    top: 400px;   
+    left: 10px;
+    font-size: 120%;
     text-align: center;
 }
 
 .paragraph4 /*index.html*/{ 
     color: #fff;
     position: absolute;
-    top: 580px;   
-    left: 30px;
-    font-size: 120%;
+    top: 610px;   
+    left: 20px;
+    font-size: 130%;
     text-align: center;
 }
 
@@ -922,9 +922,9 @@ body {
     background-color: #202020;
     color: #ffbe5b;
     position: absolute;
-    top: 741px;
+    top: 785px;
     height: 50px;
-    width: 100%;
+    width: 100%
     padding-left: 8px;
     font-size: xx-large;
     text-align: left;
@@ -1053,36 +1053,36 @@ body {
     color: #fff;
     position: absolute;
     top: 135px;   
-    left: 35px;
-    font-size: larger;
-    text-align: center;
+    left: 20px;
+    font-size: 130%;
+    text-align: justify;
 }
 
 .paragraph2 /*index.html*/{
     color: #fff;
     position: absolute;
     top: 235px;
-    left: 35px;
-    font-size: larger;
-    text-align: center;
+    left: 20px;
+    font-size: 130%;
+    text-align: justify;
 }   
 
 .paragraph3 /*index.html*/{
     color: #fff;
     position: absolute;
     top: 385px;   
-    left: 30px;
-    font-size: larger;
-    text-align: center;
+    left: 20px;
+    font-size: 130%;
+    text-align: justify;
 }
 
 .paragraph4 /*index.html*/{ 
     color: #fff;
     position: absolute;
-    top: 580px;   
-    left: 50px;
-    font-size: larger;
-    text-align: center;
+    top: 610px;   
+    left: 20px;
+    font-size: 130%;
+    text-align: justify;
 }
 
 /*--------------------------------------------footer*/
@@ -1090,7 +1090,7 @@ body {
     background-color: #202020;
     color: #ffbe5b;
     position: absolute;
-    top: 741px;
+    top: 784px;
     height: 50px;
     width: 100%;
     padding-left: 8px;
@@ -1258,7 +1258,7 @@ body {
     background-color: #202020;
     color: #ffbe5b;
     position: absolute;
-    top: 740px;
+    top: 785px;
     height: 50px;
     width: 100%;
     padding-left: 8px;
@@ -1387,18 +1387,18 @@ body {
 .paragraph1 /*index.html*/{
     color: #fff;
     position: absolute;
-    top: 150px;   
+    top: 145px;   
     left: 120px;
-    font-size: 130%;
+    font-size: 140%;
     text-align: justify;
 }
 
 .paragraph2 /*index.html*/{
     color: #fff;
     position: absolute;
-    top: 240px;
+    top: 235px;
     left: 120px;
-    font-size: 120%;
+    font-size: 140%;
     text-align: justify;
 }   
 
@@ -1407,17 +1407,17 @@ body {
     position: absolute;
     top: 380px;   
     left: 120px;
-    font-size: 120%;
+    font-size: 140%;
     text-align: justify;
 }
 
 .paragraph4 /*index.html*/{ 
     color: #fff;
     position: absolute;
-    top: 580px;   
+    top: 600px;   
     left: 120px;
-    font-size: 120%;
-    text-align: center;
+    font-size: 140%;
+    text-align: justify;
 }
 
 /*--------------------------------------------footer*/
@@ -1425,7 +1425,7 @@ body {
     background-color: #202020;
     color: #ffbe5b;
     position: absolute;
-    top: 740px;
+    top: 784px;
     height: 50px;
     width: 100%;
     padding-left: 8px;
