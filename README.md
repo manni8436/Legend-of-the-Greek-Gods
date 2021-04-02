@@ -39,15 +39,25 @@ was used in the design process of the website.
 (wireframes)
 
 After carefully planning and a lot of adding, removing and editing I finally made a
-wireframe that I was happy with and was my final work for the website
-
-
+wireframe that I was happy with and was my final work for the website which I have 
+added to the github repository as a PDF file but from the initial design of my wireframes
+I have had to change the way that my website has looked for the more functionality of the 
+site and to make it look better
 
 
 (Features)
 
 In this section go over different sections of the project and describe the features and what it does
 you may also discuss plans for additional features to be added in the future
+
+I have added several features to my project for example I have dropdown menu which when you hover over 
+it the colours change from the black background with yellow text to the yellow background with black text
+which will make it easier to see where the user is when going through the menu 
+
+I have also done the same hover feature as my dropdown menu to my menu, sign up, reset and send buttons
+
+I have also added a enlargement feature of the images which the user hovers over the image it makes it 
+bigger so that they can view the image properly and see them better and more detailed 
 
 
 
@@ -74,47 +84,50 @@ write here all other technologies that was used while making the website
     shouldnt have been there and I selected the class tag in CSS3 and 
     added padding attribute with the value of 0 which resolved the issue
 
-    * I noticed that my dropdown menu seems to be abit to far to the right 
-      on where it should be and i have tried to fix it before but with no 
-      luck yet
+    * I noticed that my dropdown menu seems to be abit to far to the right on
+      my lesser known gods sections compared to where it should be and I have 
+      tried to fix it before but with no luck as of yet
 
-    I have noticed that for the image wasnt loading on my deployed site with GitHub Pages 
-    but I have managed to fix the issue by changing the file path from the one I had there 
-    orignally that I copied from the image location on image to the correct file path that 
-    is from assets/css/images/ and finally to the image jpg path that was needed to correct 
-    the issue
+    I noticed that for the image wasnt loading on my deployed site with GitHub Pages 
+    but I have managed to fix the issue by changing the file path that was by copying the 
+    image location and then I changed it to the following file path assets/css/images/image.jpg 
+    which corrected the issue I had
 
     I now have noticed that my social links have stopped working when I click on 
-    them but now I have changed the linked and redone the coding for the social media that 
-    is in my footer
+    them but now I have changed the links and redone the coding for the social media that 
+    is in my footer and it has worked every since with no futher issues
 
-    I have a hover affect on a image to make it bigger when you hover over it to be seen 
-    bigger when you want but the position is off as you cant see the image properly as it 
-    is to far in one direction but I have resolved it now by using position absolute and 
-    positioned it in a good place so that it can be seen clearly
+    I have a hover affect on my image for when you hover over it to be seen larger when you want 
+    but the position is off as you cant see the image properly as it is to far in one direction 
+    but I have resolved it now by using position absolute attribute and positioned it in a good 
+    place so that it can be seen clearly without any issues
 
     I had a issue with enlarging my images on the lesser known gods but I tried to do it 
-    again by only selecting the img top class and it worked
+    again by only selecting the img top class and it worked and with slighty positioning adjustment 
+    and I no longer have a problem and all images can be seen clearly
 
     * I saw on my deployed that the icons are alot smaller when it is viewed on a samsung
     device which I more then likely have to use media queires to resolve this issue
 
-    * I have a issue on my deployed site where the page can be zoomed out which is shoudlnt 
-    be doing it so I will try to fix it by deleting the index2.html file and make a new one 
-    to see if this solves the issue and the issue was not resolved so I will need to find 
-    another way to solve it
+    * I have a issue on my deployed site where my lesser known gods section can be zoomed out and this
+    shoudlnt be happening so I tried try to fix it by deleting the index2.html file and make a new one 
+    to see if this can remedy the issue but sadly this did not fix the issue as of yet
 
     * Had a issue with the way my contact us sections looked like on the deployed site and 
     I have had to adjust everything so rectify the problem but still need some minor changes
-    with media queires
+    with media queires which I make adjustments 
 
     * There is a white border around my menu button that I need to remove
+
+    * I dropdown menu needs to be be repositioned slighty in media query 320px, 414px, 480px and 600px
+    due to the right side border of the menu cant be seen and also I will need to lower my dropdown menu
+    slight as it is to close to my menu button
 
     * I need to change the size of my page header (GREEK GODS) and it doesnt go well with the 
     layout when I use it in the media query for min width 320
 
-    * I need to move my dropdown menu list items abit to the left as one of the content cant 
-    be seen properly
+    * I need to move my dropdown menu list items abit to the left as one of the menu items cant 
+    be seen properly when I use the dropdown menu in media query 320px
 
 (testing)
 
