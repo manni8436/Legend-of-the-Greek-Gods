@@ -12,6 +12,12 @@ body {
 
 /*--------------------------------------------dropdown menu*/
 
+.topborder {
+    position: relative;
+    top: 25px;
+    border-bottom: #ffbe5b 2px solid;
+}
+
 .btn {
     background-color: #202020;
     border-color: #ffbe5b;
@@ -334,7 +340,7 @@ fieldset.yourdetails {
     height: 350px;
     width: 330px;
     text-align: center;
-    border: 2px dashed #fff;
+    border: #fff 2px dashed;
 }
 
 .yourdetails {
@@ -389,7 +395,7 @@ legend.yourdetails-border {
     left: 35px;
     width: 80%;
     background-color: #202020;
-    border: 2px solid #ffbe5b;
+    border:#ffbe5b 2px solid;
 } 
 
 .password {
@@ -406,7 +412,7 @@ legend.yourdetails-border {
     left: 35px;
     width: 80%;
     background-color: #202020;
-    border: 2px solid #ffbe5b;
+    border: #ffbe5b 2px solid;
 }
 
 .signupbutton {
@@ -469,7 +475,7 @@ legend.yourdetails-border {
     top: -2px;
     height: 180px;
     width: 300px;
-    border: 2px solid #ffbe5b;
+    border: #ffbe5b 2px solid;
 }
 
 .sendbutton {
@@ -497,7 +503,6 @@ legend.yourdetails-border {
     font-weight: bolder;
 }
 
-}
 .dropdown-item:hover {
     background-color: #ffbe5b;
     color: #202020;
@@ -609,7 +614,7 @@ legend.yourdetails-border {
  }
 
 #footerborder {
-    border: #ffbe5b 1px solid;
+    border: #ffbe5b 2px solid;
     border-width: 2px;
     box-sizing: border-box;
     height: 60px;
@@ -658,11 +663,20 @@ legend.yourdetails-border {
     font-size: xxx-large;
 }
 
-/*--------------------------------------------media queries min-width 320px to max-width 812px*/
+/*-------------------------------------------------------------------------media queries*/
 
-@media screen and (min-width:320px), screen and (max-width:812px) {
+@media (min-width: 320px) {
 
-/*--------------------------------------------dropdown menu*/    
+    /*--------------------------------------------background image on index.html*/
+.backgroundimage {
+    position: relative;
+    bottom: 30px;
+    height: 740px;
+    width: 320px;
+    opacity: 0.5;
+}
+
+    /*--------------------------------------------dropdown menu*/    
 .btn {
     background-color: #202020;
     border-color: #ffbe5b;
@@ -721,7 +735,6 @@ legend.yourdetails-border {
     text-transform: uppercase;
 }    
 
-
 /*--------------------------------------------paragraphs*/    
 .paragraph1 /*index.html*/{
     color: #fff;
@@ -736,7 +749,7 @@ legend.yourdetails-border {
     color: #fff;
     position: absolute;
     top: 235px;
-    left: 10px;
+    left: 8px;
     font-size: 108%;
     text-align: justify;
 }   
@@ -745,7 +758,7 @@ legend.yourdetails-border {
     color: #fff;
     position: absolute;
     top: 390px;   
-    left: 8px;
+    left: 6px;
     font-size: 105%;
     text-align: justify;
 }
@@ -755,7 +768,7 @@ legend.yourdetails-border {
     position: absolute;
     top: 580px;   
     left: 10px;
-    font-size: 118%;
+    font-size: 115%;
     text-align: justify;
 }
 
@@ -765,7 +778,7 @@ legend.yourdetails-border {
     background-color: #202020;
     color: #ffbe5b;
     position: absolute;
-    top: 752px;
+    top: 780px;
     height: 50px;
     width: 100%;
     padding-left: 8px;
@@ -784,455 +797,133 @@ legend.yourdetails-border {
 
 #facebook {
     color: #ffbe5b;
-    position: relative;
-    top: 5px;
-    left: 1px;
-    bottom: 1px;
-    font-size: xxx-large; 
+    position: absolute;
+    top: 9px;
+    left: 6px;
+    font-size: 130%; 
 }
 
 #instagram {
     color: #ffbe5b;
     position: absolute;
-    top: 5px;
-    left: 72px;
-    font-size: xxx-large;
+    top: 8px;
+    left: 60px;
+    font-size: 130%;
 }
 
 #youtube {
     color: #ffbe5b;
     position: absolute;
-    top: 5px;
-    left: 140px;
-    font-size: xxx-large;
+    top: 8px;
+    left: 115px;
+    font-size: 130%;
 }
 
 #linkedin {
     color: #ffbe5b;
     position: absolute;
-    top: 5px;
-    left: 205px;
-    font-size: xxx-large;
+    top: 8px;
+    left: 170px;
+    font-size: 130%;
 }
 
 #twitter {
     color: #ffbe5b;
     position: absolute;
-    top: 5px;
-    left: 265px;
-    font-size: xxx-large;
+    top: 8px;
+    left: 225px;
+    font-size: 130%;
 }
 
 #copyright {
-    display: none;
-    }
+    color: #ffbe5b;
+    position: absolute;
+    top: 8px;
+    left: 275px;
+    font-size: 130%;
 }
 
-/*--------------------------------------------media queries min-width 360px to max-width 640px*/
-
-@media screen and (min-width:360px), screen and (max-width:640px) {
-
-body {
-    background-color: #202020;
 }
-    
-/*--------------------------------------------background image*/
+
+/*-------------------------------------------------media query min-width 360px*/
+@media (min-width: 360px) {
+
+ /*--------------------------------------------background image on index.html*/
 .backgroundimage {
     position: relative;
     bottom: 30px;
-    height: 790px;
+    height: 740px;
     width: 360px;
     opacity: 0.5;
 }
 
-/*--------------------------------------------dropdown menu*/
+    /*--------------------------------------------dropdown menu*/    
 .btn {
     background-color: #202020;
     border-color: #ffbe5b;
     color: #ffbe5b;
     position: relative;
-    margin-bottom: 20px;
-    height: 35px;   
+    height: 35px;
+    width: 65px;
     left: 280px;
     bottom: 20px;
     text-align: center;
     text-transform: uppercase;
 }
 
-/*--------------------------------------------headers*/
+.menuword {
+    position: relative;
+    right: 4px;
+}
 
-.header {
+.dropdown-item {
     background-color: #202020;
     color: #ffbe5b;
-    position: relative;
-    left: 5px;
-    height: 30px;
-    text-align: left;
-    font-size: xx-large;
+    text-transform: uppercase;
+    height: 50px;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+/*--------------------------------------------headings*/
+
+.header /*index.html*/{
+    background-color: #202020;
+    color: #ffbe5b;
+    font-size: x-large;
     font-weight: 700;
+    height: 30px;
+    padding-left: 15px;
+    padding-bottom: 25px;
+    text-align: left;
     text-transform: uppercase;
 }
 
 .h1 {
     position: absolute;
     top: 5px;
-    font-size: 110%;
+    font-size: 145%;
 }
-.pageheader {
+
+.pageheader /*index.html*/{
     color: #fff;
     position: absolute;
     top: 60px;
-    left: 80px;
+    left: 25px;
     text-align: center;
-    font-size: 105%;
+    font-size: 170%;
     font-weight: 400;
     text-transform: uppercase;
-}
+}    
 
-/*--------------------------------------------paragraphs*/
 
+/*--------------------------------------------paragraphs*/    
 .paragraph1 /*index.html*/{
     color: #fff;
     position: absolute;
-    top: 110px;   
-    left: 30px;
-    font-size: 105%;
-    text-align: center;
-}
-
-.paragraph2 /*index.html*/{
-    color: #fff;
-    position: absolute;
-    top: 175px;
-    left: 30px;
-    font-size: 105%;
-    text-align: center;
-}   
-
-.paragraph3 /*index.html*/{
-    color: #fff;
-    position: absolute;
-    top: 290px;   
-    left: 30px;
-    font-size: 105%;
-    text-align: center;
-}
-
-.paragraph4 /*index.html*/{ 
-    color: #fff;
-    position: absolute;
-    top: 450px;   
-    left: 45px;
-    font-size: 105%;
-    text-align: center;
-}
-
-/*--------------------------------------------footer*/
-.footer {
-    background-color: #202020;
-    color: #ffbe5b;
-    position: absolute;
-    top: 581px;
-    height: 50px;
-    width: 100%;
-    padding-left: 8px;
-    font-size: xx-large;
-    text-align: left;
- }
-
-#footerborder {
-    border: #ffbe5b 1px solid;
-    border-width: 3px;
-    box-sizing: border-box;
-    height: 60px;
-    width: 360px;
-    padding-bottom: 10px;
-} 
-
-#facebook {
-    color: #ffbe5b;
-    position: relative;
-    top: 5px;
-    left: 2px;
-    bottom: 1px;
-    font-size: 135%; 
-}
-
-#instagram {
-    color: #ffbe5b;
-    position: absolute;
-    top: 6px;
-    left: 67px;
-    font-size: 135%;
-}
-
-#youtube {
-    color: #ffbe5b;
-    position: absolute;
-    top: 6px;
-    left: 129px;
-    font-size: 135%;
-}
-
-#linkedin {
-    color: #ffbe5b;
-    position: absolute;
-    top: 6px;
-    left: 197px;
-    font-size: 135%;
-}
-
-#twitter {
-    color: #ffbe5b;
-    position: absolute;
-    top: 6px;
-    left: 257px;
-    font-size: 135%;
-    }
-
-#copyright {
-    color: #ffbe5b;
-    position: absolute;
-    top: 6px;
-    left: 312px;
-    font-size: 135%;
-    display: unset;
-}   
-
-}
-
-/*--------------------------------------------media queries min-width 414px*/
-@media screen and (min-width:414px) {
-
-body {
-    background-color: #202020;
-}
-    
-/*--------------------------------------------background image*/
-.backgroundimage {
-    position: relative;
-    bottom: 30px;
-    height: 790px;
-    width: 414px;
-    opacity: 0.5;
-}
-
-/*--------------------------------------------dropdown menu*/
-.btn {
-    background-color: #202020;
-    border-color: #ffbe5b;
-    color: #ffbe5b;
-    position: relative;
-    margin-bottom: 20px;
-    height: 35px;   
-    left: 330px;
-    bottom: 20px;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-/*--------------------------------------------headers*/
-
-.header {
-    background-color: #202020;
-    color: #ffbe5b;
-    position: relative;
-    left: 15px;
-    height: 30px;
-    text-align: left;
-    font-size: xx-large;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-.pageheader {
-    color: #fff;
-    position: absolute;
-    top: 65px;
-    left: 70px;
-    text-align: center;
-    font-size: x-large;
-    font-weight: 400;
-    text-transform: uppercase;
-}
-
-
-/*--------------------------------------------paragraphs*/
-
-.paragraph1 /*index.html*/{
-    color: #fff;
-    position: absolute;
-    top: 135px;   
-    left: 20px;
-    font-size: 130%;
-    text-align: justify;
-}
-
-.paragraph2 /*index.html*/{
-    color: #fff;
-    position: absolute;
-    top: 235px;
-    left: 20px;
-    font-size: 130%;
-    text-align: justify;
-}   
-
-.paragraph3 /*index.html*/{
-    color: #fff;
-    position: absolute;
-    top: 385px;   
-    left: 20px;
-    font-size: 130%;
-    text-align: justify;
-}
-
-.paragraph4 /*index.html*/{ 
-    color: #fff;
-    position: absolute;
-    top: 610px;   
-    left: 20px;
-    font-size: 130%;
-    text-align: justify;
-}
-
-/*--------------------------------------------footer*/
-.footer {
-    background-color: #202020;
-    color: #ffbe5b;
-    position: absolute;
-    top: 785px;
-    height: 50px;
-    width: 100%;
-    padding-left: 8px;
-    font-size: xx-large;
-    text-align: left;
- }
-
-#footerborder {
-    border: #ffbe5b 1px solid;
-    border-width: 2px;
-    box-sizing: border-box;
-    height: 60px;
-    width: 414px;
-    padding-bottom: 10px;
-} 
-
-#facebook {
-    color: #ffbe5b;
-    position: relative;
-    top: 5px;
-    left: 2px;
-    bottom: 1px;
-    font-size: xxx-large; 
-}
-
-#instagram {
-    color: #ffbe5b;
-    position: absolute;
-    top: 5px;
-    left: 80px;
-    font-size: xxx-large;
-}
-
-#youtube {
-    color: #ffbe5b;
-    position: absolute;
-    top: 5px;
-    left: 155px;
-    font-size: xxx-large;
-}
-
-#linkedin {
-    color: #ffbe5b;
-    position: absolute;
-    top: 5px;
-    left: 225px;
-    font-size: xxx-large;
-}
-
-#twitter {
-    color: #ffbe5b;
-    position: absolute;
-    top: 5px;
-    left: 295px;
-    font-size: xxx-large;
-    }
-
-#copyright {
-    color: #ffbe5b;
-    position: absolute;
-    top: 5px;
-    left: 360px;
-    display: unset;
-    font-size: xxx-large;
-}
-
-}
-
-/*--------------------------------------------media queries min-width 480px*/
-@media screen and (min-width:480px) {
-
-body {
-    background-color: #202020;
-}
-    
-/*--------------------------------------------background image*/
-.backgroundimage {
-    position: relative;
-    bottom: 30px;
-    height: 790px;
-    width: 480px;
-    opacity: 0.5;
-}
-
-/*--------------------------------------------dropdown menu*/
-.btn {
-    background-color: #202020;
-    border-color: #ffbe5b;
-    color: #ffbe5b;
-    position: relative;
-    margin-bottom: 20px;
-    height: 35px;   
-    left: 400px;
-    bottom: 20px;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-/*--------------------------------------------headers*/
-
-.header {
-    background-color: #202020;
-    color: #ffbe5b;
-    position: relative;
-    left: 15px;
-    height: 30px;
-    text-align: left;
-    font-size: xx-large;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-.pageheader {
-    color: #fff;
-    position: absolute;
-    top: 65px;
-    left: 60px;
-    text-align: center;
-    font-size: xx-large;
-    font-weight: 400;
-    text-transform: uppercase;
-}
-
-
-/*--------------------------------------------paragraphs*/
-
-.paragraph1 /*index.html*/{
-    color: #fff;
-    position: absolute;
-    top: 160px;   
-    left: 50px;
-    font-size: 130%;
+    top: 145px;   
+    left: 12px;
+    font-size: 115%;
     text-align: justify;
 }
 
@@ -1240,35 +931,36 @@ body {
     color: #fff;
     position: absolute;
     top: 245px;
-    left: 50px;
-    font-size: 130%;
+    left: 10px;
+    font-size: 115%;
     text-align: justify;
 }   
 
 .paragraph3 /*index.html*/{
     color: #fff;
     position: absolute;
-    top: 395px;   
-    left: 50px;
-    font-size: 130%;
+    top: 400px;   
+    left: 8px;
+    font-size: 115%;
     text-align: justify;
 }
 
 .paragraph4 /*index.html*/{ 
     color: #fff;
     position: absolute;
-    top: 600px;   
-    left: 50px;
-    font-size: 135%;
+    top: 620px;   
+    left: 10px;
+    font-size: 120%;
     text-align: justify;
 }
 
-/*--------------------------------------------footer*/
+
+/*-------------------------------------------footer*/
 .footer {
     background-color: #202020;
     color: #ffbe5b;
     position: absolute;
-    top: 785px;
+    top: 790px;
     height: 50px;
     width: 100%;
     padding-left: 8px;
@@ -1277,129 +969,144 @@ body {
  }
 
 #footerborder {
-    border: #ffbe5b 2px solid;
+    border: #ffbe5b 1px solid;
     border-width: 2px;
     box-sizing: border-box;
-    height: 60px;
-    width: 480px;
+    height: 50px;
+    width: 360px;
     padding-bottom: 10px;
 } 
 
 #facebook {
     color: #ffbe5b;
-    position: relative;
-    top: 5px;
-    left: 5px;
-    bottom: 1px;
-    font-size: xxx-large; 
+    position: absolute;
+    top: 2px;
+    left: 6px;
+    font-size: 135%; 
 }
 
 #instagram {
     color: #ffbe5b;
     position: absolute;
-    top: 5px;
-    left: 95px;
-    font-size: xxx-large;
+    top: 2px;
+    left: 70px;
+    font-size: 135%;
 }
 
 #youtube {
     color: #ffbe5b;
     position: absolute;
-    top: 5px;
-    left: 182px;
-    font-size: xxx-large;
+    top: 2px;
+    left: 130px;
+    font-size: 135%;
 }
 
 #linkedin {
     color: #ffbe5b;
     position: absolute;
-    top: 5px;
-    left: 272px;
-    font-size: xxx-large;
+    top: 2px;
+    left: 190px;
+    font-size: 135%;
 }
 
 #twitter {
     color: #ffbe5b;
     position: absolute;
-    top: 5px;
-    left: 350px;
-    font-size: xxx-large;
-    }
+    top: 2px;
+    left: 250px;
+    font-size: 135%;
+}
 
 #copyright {
     color: #ffbe5b;
     position: absolute;
-    top: 5px;
-    left: 430px;
-    font-size: xxx-large;
-}   
+    top: 2px;
+    left: 310px;
+    font-size: 135%;
+}
 
 }
 
-/*--------------------------------------------media queries min-width 600px*/
-@media screen and (min-width:600px) {
-
-body {
-    background-color: #202020;
-}
-    
-/*--------------------------------------------background image*/
+/*-------------------------------------------------media query min-width 414px*/
+@media (min-width: 414px) {
+ 
+    /*--------------------------------------------background image on index.html*/
 .backgroundimage {
     position: relative;
     bottom: 30px;
-    height: 790px;
-    width: 600px;
+    height: 740px;
+    width: 414px;
     opacity: 0.5;
 }
 
-/*--------------------------------------------dropdown menu*/
+    /*--------------------------------------------dropdown menu*/    
 .btn {
     background-color: #202020;
     border-color: #ffbe5b;
     color: #ffbe5b;
     position: relative;
-    margin-bottom: 20px;
-    height: 35px;   
-    left: 520px;
+    height: 35px;
+    width: 65px;
+    left: 330px;
     bottom: 20px;
     text-align: center;
     text-transform: uppercase;
 }
 
-/*--------------------------------------------headers*/
+.menuword {
+    position: relative;
+    right: 4px;
+}
 
-.header {
+.dropdown-item {
     background-color: #202020;
     color: #ffbe5b;
-    position: relative;
-    left: 10px;
-    height: 30px;
-    text-align: left;
-    font-size: xx-large;
+    text-transform: uppercase;
+    height: 50px;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+/*--------------------------------------------headings*/
+
+.header /*index.html*/{
+    background-color: #202020;
+    color: #ffbe5b;
+    font-size: x-large;
     font-weight: 700;
+    height: 30px;
+    padding-left: 15px;
+    padding-bottom: 25px;
+    text-align: left;
     text-transform: uppercase;
 }
 
-.pageheader {
+.h1 {
+    position: absolute;
+    top: 5px;
+    left: 35px;
+    font-size: 145%;
+}
+
+.pageheader /*index.html*/{
     color: #fff;
     position: absolute;
     top: 60px;
-    left: 130px;
+    left: 40px;
     text-align: center;
-    font-size: xx-large;
+    font-size: 170%;
     font-weight: 400;
     text-transform: uppercase;
-}
+}    
 
 
-/*--------------------------------------------paragraphs*/
-
+/*--------------------------------------------paragraphs*/    
 .paragraph1 /*index.html*/{
     color: #fff;
     position: absolute;
-    top: 145px;   
-    left: 120px;
-    font-size: 140%;
+    top: 135px;   
+    left: 30px;
+    font-size: 125%;
     text-align: justify;
 }
 
@@ -1407,97 +1114,296 @@ body {
     color: #fff;
     position: absolute;
     top: 235px;
-    left: 120px;
-    font-size: 140%;
+    left: 30px;
+    font-size: 125%;
     text-align: justify;
 }   
 
 .paragraph3 /*index.html*/{
     color: #fff;
     position: absolute;
-    top: 380px;   
-    left: 120px;
-    font-size: 140%;
+    top: 400px;   
+    left: 30px;
+    font-size: 125%;
     text-align: justify;
 }
 
 .paragraph4 /*index.html*/{ 
     color: #fff;
     position: absolute;
-    top: 600px;   
-    left: 120px;
-    font-size: 140%;
+    top: 610px;   
+    left: 30px;
+    font-size: 135%;
     text-align: justify;
 }
 
-/*--------------------------------------------footer*/
+
+/*-------------------------------------------footer*/
 .footer {
     background-color: #202020;
     color: #ffbe5b;
     position: absolute;
-    top: 785px;
+    top: 790px;
     height: 50px;
     width: 100%;
     padding-left: 8px;
     font-size: xx-large;
+    text-align: left;
  }
 
 #footerborder {
-    border: #ffbe5b 2px solid;
+    border: #ffbe5b 1px solid;
     border-width: 2px;
     box-sizing: border-box;
-    height: 60px;
-    width: 600px;
+    height: 50px;
+    width: 414px;
     padding-bottom: 10px;
 } 
 
 #facebook {
     color: #ffbe5b;
-    position: relative;
-    top: 5px;
-    left: 25px;
-    bottom: 1px;
-    font-size: xxx-large; 
+    position: absolute;
+    top: 2px;
+    left: 11px;
+    font-size: 135%; 
 }
 
 #instagram {
     color: #ffbe5b;
     position: absolute;
-    top: 5px;
-    left: 135px;
-    font-size: xxx-large;
+    top: 2px;
+    left: 80px;
+    font-size: 135%;
 }
 
 #youtube {
     color: #ffbe5b;
     position: absolute;
-    top: 5px;
-    left: 245px;
-    font-size: xxx-large;
+    top: 2px;
+    left: 158px;
+    font-size: 135%;
 }
 
 #linkedin {
     color: #ffbe5b;
     position: absolute;
-    top: 5px;
-    left: 350px;
-    font-size: xxx-large;
+    top: 2px;
+    left: 230px;
+    font-size: 135%;
 }
 
 #twitter {
     color: #ffbe5b;
     position: absolute;
-    top: 5px;
-    left: 450px;
-    font-size: xxx-large;
-    }
+    top: 2px;
+    left: 300px;
+    font-size: 135%;
+}
 
 #copyright {
     color: #ffbe5b;
     position: absolute;
+    top: 2px;
+    left: 365px;
+    font-size: 135%;
+}
+
+}
+
+/*-------------------------------------------------media query min-width 576px*/
+@media (min-width: 576px) {
+    
+/*--------------------------------------------background image on index.html*/
+.backgroundimage {
+    position: relative;
+    bottom: 30px;
+    height: 740px;
+    width: 414px;
+    opacity: 0.5;
+}
+
+    /*--------------------------------------------dropdown menu*/    
+.btn {
+    background-color: #202020;
+    border-color: #ffbe5b;
+    color: #ffbe5b;
+    position: relative;
+    height: 35px;
+    width: 65px;
+    left: 330px;
+    bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.menuword {
+    position: relative;
+    right: 4px;
+}
+
+.dropdown-item {
+    background-color: #202020;
+    color: #ffbe5b;
+    text-transform: uppercase;
+    height: 50px;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+/*--------------------------------------------headings*/
+
+.header /*index.html*/{
+    background-color: #202020;
+    color: #ffbe5b;
+    font-size: x-large;
+    font-weight: 700;
+    height: 30px;
+    padding-left: 15px;
+    padding-bottom: 25px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.h1 {
+    position: absolute;
     top: 5px;
-    left: 540px;
-    font-size: xxx-large;
+    left: 35px;
+    font-size: 145%;
+}
+
+.pageheader /*index.html*/{
+    color: #fff;
+    position: absolute;
+    top: 60px;
+    left: 40px;
+    text-align: center;
+    font-size: 170%;
+    font-weight: 400;
+    text-transform: uppercase;
+}    
+
+
+/*--------------------------------------------paragraphs*/    
+.paragraph1 /*index.html*/{
+    color: #fff;
+    position: absolute;
+    top: 135px;   
+    left: 30px;
+    font-size: 125%;
+    text-align: justify;
+}
+
+.paragraph2 /*index.html*/{
+    color: #fff;
+    position: absolute;
+    top: 235px;
+    left: 30px;
+    font-size: 125%;
+    text-align: justify;
 }   
+
+.paragraph3 /*index.html*/{
+    color: #fff;
+    position: absolute;
+    top: 400px;   
+    left: 30px;
+    font-size: 125%;
+    text-align: justify;
+}
+
+.paragraph4 /*index.html*/{ 
+    color: #fff;
+    position: absolute;
+    top: 610px;   
+    left: 30px;
+    font-size: 135%;
+    text-align: justify;
+}
+
+
+/*-------------------------------------------footer*/
+.footer {
+    background-color: #202020;
+    color: #ffbe5b;
+    position: absolute;
+    top: 790px;
+    height: 50px;
+    width: 100%;
+    padding-left: 8px;
+    font-size: xx-large;
+    text-align: left;
+ }
+
+#footerborder {
+    border: #ffbe5b 1px solid;
+    border-width: 2px;
+    box-sizing: border-box;
+    height: 50px;
+    width: 414px;
+    padding-bottom: 10px;
+} 
+
+#facebook {
+    color: #ffbe5b;
+    position: absolute;
+    top: 2px;
+    left: 11px;
+    font-size: 135%; 
+}
+
+#instagram {
+    color: #ffbe5b;
+    position: absolute;
+    top: 2px;
+    left: 80px;
+    font-size: 135%;
+}
+
+#youtube {
+    color: #ffbe5b;
+    position: absolute;
+    top: 2px;
+    left: 158px;
+    font-size: 135%;
+}
+
+#linkedin {
+    color: #ffbe5b;
+    position: absolute;
+    top: 2px;
+    left: 230px;
+    font-size: 135%;
+}
+
+#twitter {
+    color: #ffbe5b;
+    position: absolute;
+    top: 2px;
+    left: 300px;
+    font-size: 135%;
+}
+
+#copyright {
+    color: #ffbe5b;
+    position: absolute;
+    top: 2px;
+    left: 365px;
+    font-size: 135%;
+}
+
+}
+
+/*-------------------------------------------------media query min-width 768px*/
+@media (min-width: 768px) {
+
+}
+
+/*-------------------------------------------------media query min-width 992px*/
+@media (min-width: 992px) {
+
+}
+
+/*-------------------------------------------------media query min-width 1200px*/
+@media (min-width: 1200px) {
 
 }
