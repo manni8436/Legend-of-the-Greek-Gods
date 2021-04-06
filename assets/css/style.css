@@ -15,6 +15,7 @@ body {
 .topborder {
     position: relative;
     top: 25px;
+    width: 414px;
     border-bottom: #ffbe5b 2px solid;
 }
 
@@ -179,7 +180,7 @@ body {
 .backgroundimage {
     position: relative;
     bottom: 30px;
-    height: 740px;
+    height: 840px;
     width: 360px;
     opacity: 0.5;
 }
@@ -663,6 +664,10 @@ legend.yourdetails-border {
     font-size: xxx-large;
 }
 
+span {
+    display: none;
+}
+
 /*-------------------------------------------------------------------------media queries*/
 
 @media (min-width: 320px) {
@@ -671,7 +676,7 @@ legend.yourdetails-border {
 .backgroundimage {
     position: relative;
     bottom: 30px;
-    height: 740px;
+    height: 840px;
     width: 320px;
     opacity: 0.5;
 }
@@ -705,6 +710,12 @@ legend.yourdetails-border {
 }
 
 /*--------------------------------------------headings*/
+.topborder {
+    position: relative;
+    top: 25px;
+    width: 320px;
+    border-bottom: #ffbe5b 2px solid;
+}
 
 .header /*index.html*/{
     background-color: #202020;
@@ -795,12 +806,20 @@ legend.yourdetails-border {
     padding-bottom: 10px;
 } 
 
+.facebookword {
+    visibility: hidden;
+}
+
 #facebook {
     color: #ffbe5b;
     position: absolute;
     top: 9px;
     left: 6px;
     font-size: 130%; 
+}
+
+.instagramword {
+    visibility: hidden;
 }
 
 #instagram {
@@ -811,12 +830,20 @@ legend.yourdetails-border {
     font-size: 130%;
 }
 
+.youtubeword {
+    visibility: hidden;
+}
+
 #youtube {
     color: #ffbe5b;
     position: absolute;
     top: 8px;
     left: 115px;
     font-size: 130%;
+}
+
+.linkedinword {
+    visibility: hidden;
 }
 
 #linkedin {
@@ -827,12 +854,20 @@ legend.yourdetails-border {
     font-size: 130%;
 }
 
+.twitterword {
+    visibility: hidden;
+}
+
 #twitter {
     color: #ffbe5b;
     position: absolute;
     top: 8px;
     left: 225px;
     font-size: 130%;
+}
+
+.copyrightword {
+    visibility: hidden;
 }
 
 #copyright {
@@ -852,7 +887,7 @@ legend.yourdetails-border {
 .backgroundimage {
     position: relative;
     bottom: 30px;
-    height: 740px;
+    height: 840px;
     width: 360px;
     opacity: 0.5;
 }
@@ -886,6 +921,12 @@ legend.yourdetails-border {
 }
 
 /*--------------------------------------------headings*/
+.topborder {
+    position: relative;
+    top: 25px;
+    width: 360px;
+    border-bottom: #ffbe5b 2px solid;
+}
 
 .header /*index.html*/{
     background-color: #202020;
@@ -977,12 +1018,20 @@ legend.yourdetails-border {
     padding-bottom: 10px;
 } 
 
+.facebookword {
+    visibility: hidden;
+}
+
 #facebook {
     color: #ffbe5b;
     position: absolute;
     top: 2px;
     left: 6px;
     font-size: 135%; 
+}
+
+.instagramword {
+    visibility: hidden;
 }
 
 #instagram {
@@ -993,12 +1042,20 @@ legend.yourdetails-border {
     font-size: 135%;
 }
 
+.youtubeword {
+    visibility: hidden;
+}
+
 #youtube {
     color: #ffbe5b;
     position: absolute;
     top: 2px;
     left: 130px;
     font-size: 135%;
+}
+
+.linkedinword {
+    visibility: hidden;
 }
 
 #linkedin {
@@ -1009,12 +1066,20 @@ legend.yourdetails-border {
     font-size: 135%;
 }
 
+.twitterword {
+    visibility: hidden;
+}
+
 #twitter {
     color: #ffbe5b;
     position: absolute;
     top: 2px;
     left: 250px;
     font-size: 135%;
+}
+
+.copyrightword {
+    visibility: hidden;
 }
 
 #copyright {
@@ -1034,7 +1099,7 @@ legend.yourdetails-border {
 .backgroundimage {
     position: relative;
     bottom: 30px;
-    height: 740px;
+    height: 840px;
     width: 414px;
     opacity: 0.5;
 }
@@ -1068,6 +1133,12 @@ legend.yourdetails-border {
 }
 
 /*--------------------------------------------headings*/
+.topborder {
+    position: relative;
+    top: 25px;
+    width: 414px;
+    border-bottom: #ffbe5b 2px solid;
+}
 
 .header /*index.html*/{
     background-color: #202020;
@@ -1160,12 +1231,20 @@ legend.yourdetails-border {
     padding-bottom: 10px;
 } 
 
+.facebookword {
+    visibility: hidden;
+}
+
 #facebook {
     color: #ffbe5b;
     position: absolute;
     top: 2px;
     left: 11px;
     font-size: 135%; 
+}
+
+.instagramword {
+    visibility: hidden;
 }
 
 #instagram {
@@ -1176,12 +1255,20 @@ legend.yourdetails-border {
     font-size: 135%;
 }
 
+.youtubeword {
+    visibility: hidden;
+}
+
 #youtube {
     color: #ffbe5b;
     position: absolute;
     top: 2px;
     left: 158px;
     font-size: 135%;
+}
+
+.linkedinword {
+    visibility: hidden;
 }
 
 #linkedin {
@@ -1192,12 +1279,20 @@ legend.yourdetails-border {
     font-size: 135%;
 }
 
+.twitterword {
+    visibility: hidden;
+}
+
 #twitter {
     color: #ffbe5b;
     position: absolute;
     top: 2px;
     left: 300px;
     font-size: 135%;
+}
+
+.copyrightword {
+    visibility: hidden;
 }
 
 #copyright {
@@ -1217,8 +1312,8 @@ legend.yourdetails-border {
 .backgroundimage {
     position: relative;
     bottom: 30px;
-    height: 740px;
-    width: 414px;
+    height: 840px;
+    width: 576px;
     opacity: 0.5;
 }
 
@@ -1230,8 +1325,8 @@ legend.yourdetails-border {
     position: relative;
     height: 35px;
     width: 65px;
-    left: 330px;
-    bottom: 20px;
+    left: 490px;
+    bottom: 23px;
     text-align: center;
     text-transform: uppercase;
 }
@@ -1251,6 +1346,12 @@ legend.yourdetails-border {
 }
 
 /*--------------------------------------------headings*/
+.topborder {
+    position: relative;
+    top: 25px;
+    width: 576px;
+    border-bottom: #ffbe5b 2px solid;
+}
 
 .header /*index.html*/{
     background-color: #202020;
@@ -1275,9 +1376,9 @@ legend.yourdetails-border {
     color: #fff;
     position: absolute;
     top: 60px;
-    left: 40px;
+    left: 140px;
     text-align: center;
-    font-size: 170%;
+    font-size: 190%;
     font-weight: 400;
     text-transform: uppercase;
 }    
@@ -1287,37 +1388,37 @@ legend.yourdetails-border {
 .paragraph1 /*index.html*/{
     color: #fff;
     position: absolute;
-    top: 135px;   
-    left: 30px;
-    font-size: 125%;
-    text-align: justify;
+    top: 145px;   
+    left: 80px;
+    font-size: 145%;
+    text-align: center;
 }
 
 .paragraph2 /*index.html*/{
     color: #fff;
     position: absolute;
     top: 235px;
-    left: 30px;
-    font-size: 125%;
-    text-align: justify;
+    left: 80px;
+    font-size: 145%;
+    text-align: center;
 }   
 
 .paragraph3 /*index.html*/{
     color: #fff;
     position: absolute;
-    top: 400px;   
-    left: 30px;
-    font-size: 125%;
-    text-align: justify;
+    top: 390px;   
+    left: 80px;
+    font-size: 145%;
+    text-align: center;
 }
 
 .paragraph4 /*index.html*/{ 
     color: #fff;
     position: absolute;
-    top: 610px;   
-    left: 30px;
-    font-size: 135%;
-    text-align: justify;
+    top: 605px;   
+    left: 80px;
+    font-size: 145%;
+    text-align: center;
 }
 
 
@@ -1339,9 +1440,21 @@ legend.yourdetails-border {
     border-width: 2px;
     box-sizing: border-box;
     height: 50px;
-    width: 414px;
-    padding-bottom: 10px;
+    width: 576px;
 } 
+
+/*-------------------------------------------Social Media*/
+
+/*-------------------------------------------facebook*/
+.facebookword {
+    color: #ffbe5b;
+    position: absolute;
+    top: 8px;
+    left: 5px;
+    font-size: 70%;
+    text-transform: uppercase;
+    visibility: visible;
+}
 
 #facebook {
     color: #ffbe5b;
@@ -1349,6 +1462,21 @@ legend.yourdetails-border {
     top: 2px;
     left: 11px;
     font-size: 135%; 
+}
+
+#facebook {
+    visibility: hidden;
+}
+
+/*-------------------------------------------instagram*/
+.instagramword {
+    color: #ffbe5b;
+    position: absolute;
+    top: 8px;
+    left: 125px;
+    font-size: 70%;
+    text-transform: uppercase;
+    visibility: visible;
 }
 
 #instagram {
@@ -1359,12 +1487,41 @@ legend.yourdetails-border {
     font-size: 135%;
 }
 
+#instagram {
+    visibility: hidden;
+}
+
+/*-------------------------------------------youtube*/
+.youtubeword {
+    color: #ffbe5b;
+    position: absolute;
+    top: 8px;
+    left: 260px;
+    font-size: 70%;
+    text-transform: uppercase;
+    visibility: visible; 
+}
+
 #youtube {
     color: #ffbe5b;
     position: absolute;
     top: 2px;
     left: 158px;
     font-size: 135%;
+}
+
+#youtube {
+    visibility: hidden;
+}
+/*-------------------------------------------linkedin*/
+.linkedinword {
+    color: #ffbe5b;
+    position: absolute;
+    top: 8px;
+    left: 370px;
+    font-size: 70%;
+    text-transform: uppercase;
+    visibility: visible;
 }
 
 #linkedin {
@@ -1375,6 +1532,20 @@ legend.yourdetails-border {
     font-size: 135%;
 }
 
+#linkedin {
+    visibility: hidden;
+}
+/*-------------------------------------------twitter*/
+.twitterword {
+    color: #ffbe5b;
+    position: absolute;
+    top: 8px;
+    left: 478px;
+    font-size: 70%;
+    text-transform: uppercase;
+    visibility: visible;
+}
+
 #twitter {
     color: #ffbe5b;
     position: absolute;
@@ -1383,13 +1554,23 @@ legend.yourdetails-border {
     font-size: 135%;
 }
 
-#copyright {
-    color: #ffbe5b;
-    position: absolute;
-    top: 2px;
-    left: 365px;
-    font-size: 135%;
+#twitter {
+    visibility: hidden;
 }
+
+/*-------------------------------------------copyright*/
+.copyrightword {
+    visibility: hidden;
+}
+
+#copyright {
+    visibility: hidden;
+}
+
+}
+
+/*-------------------------------------------------media query min-width 600px*/
+@media (min-width: 600px) {
 
 }
 

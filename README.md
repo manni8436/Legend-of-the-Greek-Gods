@@ -67,6 +67,7 @@ In this project I have used the following technologies below
 
 HTML5
 CSS3 
+Media Queries
 Bootstrap 
 
 write here all other technologies that was used while making the website
