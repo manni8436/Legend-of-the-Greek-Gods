@@ -10,6 +10,15 @@ body {
     background-color: #202020;
 }
 
+/*--------------------------------------------background images*/
+.backgroundimage {
+    position: relative;
+    bottom: 30px;
+    height: 840px;
+    width: 360px;
+    opacity: 0.5;
+}
+
 /*--------------------------------------------borders*/
 .topborder {
     position: relative;
@@ -173,16 +182,6 @@ body {
     font-size: medium;
     text-align: justify; 
     text-transform: capitalize;
-}
-
-/*--------------------------------------------background images*/
- 
-.backgroundimage {
-    position: relative;
-    bottom: 30px;
-    height: 840px;
-    width: 360px;
-    opacity: 0.5;
 }
 
 /*--------------------------------------------images for big three*/
@@ -672,8 +671,8 @@ legend.yourdetails-border {
 .backgroundimage {
     position: relative;
     bottom: 30px;
-    height: 840px;
-    width: 320px;
+    height: 780px;
+    width: 360px;
     opacity: 0.5;
 }
 
@@ -705,6 +704,12 @@ legend.yourdetails-border {
     font-weight: bold;
 }
 
+/*--------------------------------------------button menu*/ 
+
+.buttonmenu {
+    display: none;
+}
+
 /*--------------------------------------------borders*/
 .topborder {
     position: relative;
@@ -712,24 +717,6 @@ legend.yourdetails-border {
     width: 320px;
     border-bottom: #ffbe5b 2px solid;
 }
-
-
-/*.leftborder {
-    position: absolute;
-    top: 58px;
-    height: 843px;
-    width: 50px;
-    border: #ffbe5b 2px solid;
-}
-
-.rightborder {
-    position: absolute;
-    top: 58px;
-    left: 550px;
-    height: 843px;
-    width: 50px;
-    border: #ffbe5b 2px solid;
-} */
 
 /*--------------------------------------------headings*/
 .header /*index.html*/{
@@ -794,7 +781,7 @@ legend.yourdetails-border {
     position: absolute;
     top: 580px;   
     left: 10px;
-    font-size: 115%;
+    font-size: 110%;
     text-align: justify;
 }
 
@@ -1193,13 +1180,12 @@ legend.yourdetails-border {
     color: #fff;
     position: absolute;
     top: 60px;
-    left: 40px;
+    left: 30px;
     text-align: center;
     font-size: 170%;
     font-weight: 400;
     text-transform: uppercase;
 }    
-
 
 /*--------------------------------------------paragraphs*/    
 .paragraph1 /*index.html*/{
@@ -1612,6 +1598,8 @@ legend.yourdetails-border {
 /*-------------------------------------------------media query min-width 600px*/
 @media (min-width: 600px) {
 
+/* REMOVE BR FROM THIS MEDIA QUERY ALSO (SAME AS THE MEDIA QUERY FOR 768PX) */
+
 /*--------------------------------------------background image on index.html*/
 .backgroundimage {
     position: relative;
@@ -1629,8 +1617,8 @@ legend.yourdetails-border {
     position: relative;
     height: 35px;
     width: 65px;
-    left: 490px;
-    bottom: 23px;
+    left: 520px;
+    bottom: 21px;
     text-align: center;
     text-transform: uppercase;
 }
@@ -1688,6 +1676,9 @@ legend.yourdetails-border {
     text-transform: uppercase;
 }    
 
+/* .pageheader br {
+    display: none;
+} */
 
 /*--------------------------------------------paragraphs*/    
 .paragraph1 /*index.html*/{
@@ -1895,14 +1886,10 @@ legend.yourdetails-border {
     position: relative;
     height: 35px;
     width: 65px;
-    left: 490px;
-    bottom: 23px;
+    left: 690px;
+    bottom: 21px;
     text-align: center;
     text-transform: uppercase;
-}
-
-.btn {
-    visibility: hidden;
 }
 
 .menuword {
@@ -1920,14 +1907,19 @@ legend.yourdetails-border {
 }
 
 /*--------------------------------------------button menu*/
+.buttonmenu {
+    display: none;
+}
+
+/*
 .home {
     background-color: #202020;
     border-color: #ffbe5b;
     color: #ffbe5b;
-    position: relative;
+    position: absolute;
     height: 35px;
     width: 65px;
-    left: 400px;
+    left: 300px;
     bottom: 23px;
     text-align: center;
     text-transform: uppercase;
@@ -1943,10 +1935,9 @@ legend.yourdetails-border {
     background-color: #202020;
     border-color: #ffbe5b;
     color: #ffbe5b;
-    position: relative;
-    height: 35px;
-    width: 65px;
-    left: 490px;
+    position: absolute;
+    top: 10px;
+    left: 380px;
     bottom: 23px;
     text-align: center;
     text-transform: uppercase;
@@ -1954,18 +1945,17 @@ legend.yourdetails-border {
 
 #bigthree {
     border-radius: 5px;
-    position: absolute;
-    top: 10px;
-    height: 50px;
+    height: 35px;
+    width: 95px;
+    white-space: nowrap;
 }
 
 .lesserknown {
     background-color: #202020;
     border-color: #ffbe5b;
     color: #ffbe5b;
-    position: relative;
-    height: 35px;
-    width: 65px;
+    position: absolute;
+    top: 10px;
     left: 490px;
     bottom: 23px;
     text-align: center;
@@ -1974,9 +1964,9 @@ legend.yourdetails-border {
 
 #lesserknown {
     border-radius: 5px;
-    position: absolute;
-    top: 10px;
-    height: 50px;
+    height: 35px;
+    width: 180px;
+    white-space: nowrap;
 }
 
 .history {
@@ -1984,19 +1974,18 @@ legend.yourdetails-border {
     border-color: #ffbe5b;
     color: #ffbe5b;
     position: relative;
-    height: 35px;
-    width: 65px;
-    left: 490px;
-    bottom: 23px;
+    top: 10px;
+    left: 600px;
+    bottom: 20px;
     text-align: center;
     text-transform: uppercase;
 }
 
 #history {
     border-radius: 5px;
-    position: absolute;
-    top: 10px;
-    height: 50px;
+    height: 35px;
+    width: 65px;
+    white-space: nowrap;
 }
 
 .contactus {
@@ -2004,8 +1993,7 @@ legend.yourdetails-border {
     border-color: #ffbe5b;
     color: #ffbe5b;
     position: relative;
-    height: 35px;
-    width: 65px;
+    top: 10px;
     left: 590px;
     bottom: 23px;
     text-align: center;
@@ -2014,12 +2002,11 @@ legend.yourdetails-border {
 
 #contactus {
     border-radius: 5px;
-    position: absolute;
-    top: 10px;
-    height: 50px;
-    width: 100px;
-    font-size: 90%;
-}
+    border-radius: 5px;
+    height: 35px;
+    width: 65px;
+    white-space: nowrap;
+} */
 /*--------------------------------------------borders*/
 .topborder {
     position: relative;
@@ -2044,14 +2031,14 @@ legend.yourdetails-border {
 .h1 {
     position: absolute;
     top: 5px;
-    left: 35px;
+    left: 30px;
     font-size: 145%;
 }
 
 .pageheader /*index.html*/{
     color: #fff;
     position: absolute;
-    top: 57px;
+    top: 70px;
     left: 140px;
     text-align: center;
     font-size: 190%;
@@ -2059,43 +2046,62 @@ legend.yourdetails-border {
     text-transform: uppercase;
 }    
 
+.pageheader br {
+    display: none;
+}
 /*--------------------------------------------paragraphs*/    
+
 .paragraph1 /*index.html*/{
     color: #fff;
     position: absolute;
-    top: 132px;   
-    left: 80px;
-    font-size: 150%;
+    top: 180px;   
+    left: 30px;
+    font-size: 125%;
     text-align: justify;
+}
+
+.paragraph1 br {
+    display: none;
 }
 
 .paragraph2 /*index.html*/{
     color: #fff;
     position: absolute;
-    top: 220px;
-    left: 80px;
-    font-size: 150%;
-    text-align: justify;
-}   
+    top: 300px;
+    left: 1px;
+    font-size: 128%;
+    text-align: center;
+}
+
+.paragraph2 br {
+    display: none;
+}
 
 .paragraph3 /*index.html*/{
     color: #fff;
     position: absolute;
-    top: 375px;   
-    left: 80px;
-    font-size: 150%;
-    text-align: justify;
+    top: 460px;   
+    left: 1px;
+    font-size: 125%;
+    text-align: center;
+}
+
+.paragraph3 br {
+    display: none;
 }
 
 .paragraph4 /*index.html*/{ 
     color: #fff;
     position: absolute;
-    top: 600px;   
-    left: 80px;
-    font-size: 150%;
-    text-align: justify;
+    top: 640px;   
+    left: 1px;
+    font-size: 125%;
+    text-align: center;
 }
 
+.paragraph4 br {
+    display: none;
+}
 /*-------------------------------------------footer and footer border*/
 .footer {
     background-color: #202020;
