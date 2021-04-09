@@ -682,17 +682,18 @@ legend.yourdetails-border {
     border-color: #ffbe5b;
     color: #ffbe5b;
     position: relative;
-    height: 35px;
+    height: 30px;
     width: 65px;
-    left: 240px;
+    left: 245px;
     bottom: 20px;
     text-align: center;
     text-transform: uppercase;
 }
 
 .menuword {
-    position: relative;
-    right: 4px;
+    position: absolute;
+    top: 3px;
+    right: 9px;
 }
 
 .dropdown-item {
@@ -783,6 +784,18 @@ legend.yourdetails-border {
     left: 10px;
     font-size: 110%;
     text-align: justify;
+}
+
+#dropdownMenuButton:hover {
+    border: #ffbe5b 2px solid;
+    background-color: #ffbe5b;
+    color: #202020;
+    font-weight: bolder;
+}
+
+.dropdown-item:hover {
+    background-color: #ffbe5b;
+    color: #202020;
 }
 
 /*-------------------------------------------footer and footer border*/
@@ -907,17 +920,18 @@ legend.yourdetails-border {
     border-color: #ffbe5b;
     color: #ffbe5b;
     position: relative;
-    height: 35px;
+    height: 30px;
     width: 65px;
-    left: 280px;
+    left: 20px;
     bottom: 20px;
     text-align: center;
     text-transform: uppercase;
 }
 
 .menuword {
-    position: relative;
-    right: 4px;
+    position: absolute;
+    top: 3px;
+    right: 9px;
 }
 
 .dropdown-item {
@@ -1127,17 +1141,18 @@ legend.yourdetails-border {
     border-color: #ffbe5b;
     color: #ffbe5b;
     position: relative;
-    height: 35px;
+    height: 30px;
     width: 65px;
-    left: 330px;
+    left: 335px;
     bottom: 20px;
     text-align: center;
     text-transform: uppercase;
 }
 
 .menuword {
-    position: relative;
-    right: 4px;
+    position: absolute;
+    top: 3px;
+    right: 9px;
 }
 
 .dropdown-item {
@@ -1152,7 +1167,7 @@ legend.yourdetails-border {
 /*--------------------------------------------headings*/
 .topborder {
     position: relative;
-    top: 25px;
+    top: 24px;
     width: 414px;
     border-bottom: #ffbe5b 2px solid;
 }
@@ -1172,7 +1187,7 @@ legend.yourdetails-border {
 .h1 {
     position: absolute;
     top: 5px;
-    left: 35px;
+    left: 15px;
     font-size: 145%;
 }
 
@@ -1180,7 +1195,7 @@ legend.yourdetails-border {
     color: #fff;
     position: absolute;
     top: 60px;
-    left: 30px;
+    left: 50px;
     text-align: center;
     font-size: 170%;
     font-weight: 400;
@@ -1347,17 +1362,18 @@ legend.yourdetails-border {
     border-color: #ffbe5b;
     color: #ffbe5b;
     position: relative;
-    height: 35px;
+    height: 30px;
     width: 65px;
-    left: 490px;
-    bottom: 23px;
+    left: 500px;
+    bottom: 20px;
     text-align: center;
     text-transform: uppercase;
 }
 
 .menuword {
-    position: relative;
-    right: 4px;
+    position: absolute;
+    top: 3px;
+    right: 9px;
 }
 
 .dropdown-item {
@@ -1400,19 +1416,22 @@ legend.yourdetails-border {
     color: #fff;
     position: absolute;
     top: 60px;
-    left: 140px;
+    left: 65px;
     text-align: center;
-    font-size: 190%;
+    font-size: 160%;
     font-weight: 400;
     text-transform: uppercase;
 }    
 
+.pageheader br {
+    display: none;
+}
 
 /*--------------------------------------------paragraphs*/    
 .paragraph1 /*index.html*/{
     color: #fff;
     position: absolute;
-    top: 145px;   
+    top: 105px;   
     left: 80px;
     font-size: 145%;
     text-align: center;
@@ -1421,7 +1440,7 @@ legend.yourdetails-border {
 .paragraph2 /*index.html*/{
     color: #fff;
     position: absolute;
-    top: 235px;
+    top: 200px;
     left: 80px;
     font-size: 145%;
     text-align: center;
@@ -1430,7 +1449,7 @@ legend.yourdetails-border {
 .paragraph3 /*index.html*/{
     color: #fff;
     position: absolute;
-    top: 390px;   
+    top: 365px;   
     left: 80px;
     font-size: 145%;
     text-align: center;
@@ -1439,12 +1458,11 @@ legend.yourdetails-border {
 .paragraph4 /*index.html*/{ 
     color: #fff;
     position: absolute;
-    top: 605px;   
+    top: 598px;   
     left: 80px;
     font-size: 145%;
     text-align: center;
 }
-
 
 /*-------------------------------------------footer and footer border*/
 .footer {
@@ -1457,7 +1475,7 @@ legend.yourdetails-border {
     padding-left: 8px;
     font-size: xx-large;
     text-align: left;
- }
+}
 
 #footerborder {
     border: #ffbe5b 1px solid;
@@ -1598,8 +1616,6 @@ legend.yourdetails-border {
 /*-------------------------------------------------media query min-width 600px*/
 @media (min-width: 600px) {
 
-/* REMOVE BR FROM THIS MEDIA QUERY ALSO (SAME AS THE MEDIA QUERY FOR 768PX) */
-
 /*--------------------------------------------background image on index.html*/
 .backgroundimage {
     position: relative;
@@ -1609,23 +1625,24 @@ legend.yourdetails-border {
     opacity: 0.5;
 }
 
-    /*--------------------------------------------dropdown menu*/    
+/*--------------------------------------------dropdown menu*/    
 .btn {
     background-color: #202020;
     border-color: #ffbe5b;
     color: #ffbe5b;
     position: relative;
-    height: 35px;
+    height: 30px;
     width: 65px;
     left: 520px;
-    bottom: 21px;
+    bottom: 20px;
     text-align: center;
     text-transform: uppercase;
 }
 
 .menuword {
-    position: relative;
-    right: 4px;
+    position: absolute;
+    top: 3px;
+    right: 9px;
 }
 
 .dropdown-item {
@@ -1668,43 +1685,43 @@ legend.yourdetails-border {
 .pageheader /*index.html*/{
     color: #fff;
     position: absolute;
-    top: 57px;
-    left: 140px;
+    top: 60px;
+    left: 55px;
     text-align: center;
-    font-size: 190%;
+    font-size: 170%;
     font-weight: 400;
     text-transform: uppercase;
 }    
 
-/* .pageheader br {
+.pageheader br {
     display: none;
-} */
+}
 
 /*--------------------------------------------paragraphs*/    
 .paragraph1 /*index.html*/{
     color: #fff;
     position: absolute;
-    top: 132px;   
+    top: 105px;   
     left: 80px;
-    font-size: 150%;
+    font-size: 140%;
     text-align: justify;
 }
 
 .paragraph2 /*index.html*/{
     color: #fff;
     position: absolute;
-    top: 220px;
+    top: 200px;
     left: 80px;
-    font-size: 150%;
+    font-size: 140%;
     text-align: justify;
 }   
 
 .paragraph3 /*index.html*/{
     color: #fff;
     position: absolute;
-    top: 375px;   
+    top: 365px;   
     left: 80px;
-    font-size: 150%;
+    font-size: 140%;
     text-align: justify;
 }
 
@@ -1713,7 +1730,7 @@ legend.yourdetails-border {
     position: absolute;
     top: 600px;   
     left: 80px;
-    font-size: 150%;
+    font-size: 140%;
     text-align: justify;
 }
 
@@ -1884,17 +1901,18 @@ legend.yourdetails-border {
     border-color: #ffbe5b;
     color: #ffbe5b;
     position: relative;
-    height: 35px;
+    height: 30px;
     width: 65px;
     left: 690px;
-    bottom: 21px;
+    bottom: 20px;
     text-align: center;
     text-transform: uppercase;
 }
 
 .menuword {
-    position: relative;
-    right: 4px;
+    position: absolute;
+    top: 3px;
+    right: 9px;
 }
 
 .dropdown-item {
@@ -1911,102 +1929,6 @@ legend.yourdetails-border {
     display: none;
 }
 
-/*
-.home {
-    background-color: #202020;
-    border-color: #ffbe5b;
-    color: #ffbe5b;
-    position: absolute;
-    height: 35px;
-    width: 65px;
-    left: 300px;
-    bottom: 23px;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-#home {
-    border-radius: 5px;
-    position: absolute;
-    top: 10px;
-}
-
-.bigthree {
-    background-color: #202020;
-    border-color: #ffbe5b;
-    color: #ffbe5b;
-    position: absolute;
-    top: 10px;
-    left: 380px;
-    bottom: 23px;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-#bigthree {
-    border-radius: 5px;
-    height: 35px;
-    width: 95px;
-    white-space: nowrap;
-}
-
-.lesserknown {
-    background-color: #202020;
-    border-color: #ffbe5b;
-    color: #ffbe5b;
-    position: absolute;
-    top: 10px;
-    left: 490px;
-    bottom: 23px;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-#lesserknown {
-    border-radius: 5px;
-    height: 35px;
-    width: 180px;
-    white-space: nowrap;
-}
-
-.history {
-    background-color: #202020;
-    border-color: #ffbe5b;
-    color: #ffbe5b;
-    position: relative;
-    top: 10px;
-    left: 600px;
-    bottom: 20px;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-#history {
-    border-radius: 5px;
-    height: 35px;
-    width: 65px;
-    white-space: nowrap;
-}
-
-.contactus {
-    background-color: #202020;
-    border-color: #ffbe5b;
-    color: #ffbe5b;
-    position: relative;
-    top: 10px;
-    left: 590px;
-    bottom: 23px;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-#contactus {
-    border-radius: 5px;
-    border-radius: 5px;
-    height: 35px;
-    width: 65px;
-    white-space: nowrap;
-} */
 /*--------------------------------------------borders*/
 .topborder {
     position: relative;
@@ -2259,6 +2181,382 @@ legend.yourdetails-border {
 
 /*-------------------------------------------------media query min-width 992px*/
 @media (min-width: 992px) {
+
+/*--------------------------------------------background image on index.html*/
+.backgroundimage {
+    position: relative;
+    bottom: 30px;
+    height: 840px;
+    width: 992px;
+    opacity: 0.5;
+}
+
+    /*--------------------------------------------dropdown menu*/    
+.btn {
+    background-color: #202020;
+    border-color: #ffbe5b;
+    color: #ffbe5b;
+    position: relative;
+    height: 35px;
+    width: 65px;
+    left: 520px;
+    bottom: 21px;   
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.btn {
+    visibility: hidden;
+}
+
+.menuword {
+    position: relative;
+    right: 4px;
+}
+
+.dropdown-item {
+    background-color: #202020;
+    color: #ffbe5b;
+    text-transform: uppercase;
+    height: 50px;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+/*--------------------------------------------button menu*/
+.buttonmenu {
+    display: unset;
+}
+
+.homebutton {
+    background-color: #202020;
+    border-color: #ffbe5b;
+    color: #ffbe5b;
+    position: absolute;
+    height: 35px;
+    width: 65px;
+    left: 350px;
+    bottom: 23px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#homebutton {
+    border-radius: 5px;
+    position: absolute;
+    top: 10px;
+}
+
+.bigthreebutton {
+    background-color: #202020;
+    border-color: #ffbe5b;
+    color: #ffbe5b;
+    position: absolute;
+    top: 10px;
+    left: 425px;
+    bottom: 23px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#bigthreebutton {
+    border-radius: 5px;
+    height: 35px;
+    width: 130px;
+    white-space: nowrap;
+}
+
+.lesserknownbutton {
+    background-color: #202020;
+    border-color: #ffbe5b;
+    color: #ffbe5b;
+    position: absolute;
+    top: 10px;
+    left: 565px;
+    bottom: 23px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#lesserknownbutton {
+    border-radius: 5px;
+    height: 35px;
+    width: 180px;
+    white-space: nowrap;
+}
+
+.historybutton {
+    background-color: #202020;
+    border-color: #ffbe5b;
+    color: #ffbe5b;
+    position: absolute;
+    top: 10px;
+    left: 755px;
+    bottom: 23px;
+    font-size: 130%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#historybutton {
+    border-radius: 5px;
+    height: 35px;
+    width: 100px;
+    white-space: nowrap;
+}
+
+.historyh5 {
+    position: absolute;
+    top: 3px;
+    left: 10px;
+    font-size: 90%;
+}
+
+.contactusbutton {
+    background-color: #202020;
+    border-color: #ffbe5b;
+    color: #ffbe5b;
+    position: absolute;
+    top: 10px;
+    left: 863px;
+    bottom: 23px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#contactusbutton {
+    border-radius: 5px;
+    height: 35px;
+    width: 120px;
+    white-space: nowrap;
+} 
+
+/*--------------------------------------------borders*/
+.topborder {
+    position: relative;
+    top: 28px;
+    width: 992px;
+    border: #ffbe5b 1px solid;
+}
+
+/*--------------------------------------------headings*/
+.header /*index.html*/{
+    background-color: #202020;
+    color: #ffbe5b;
+    font-size: x-large;
+    font-weight: 700;
+    height: 30px;
+    padding-left: 15px;
+    padding-bottom: 25px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.h1 {
+    position: absolute;
+    top: 5px;
+    left: 15px;
+    font-size: 145%;
+}
+
+.pageheader /*index.html*/{
+    color: #fff;
+    position: absolute;
+    top: 60px;
+    left: 200px;
+    font-size: 170%;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}    
+
+.pageheader br {
+    display: none;
+}
+
+/*--------------------------------------------paragraphs*/    
+.paragraph1 /*index.html*/{
+    color: #fff;
+    position: absolute;
+    top: 105px;   
+    left: 80px;
+    font-size: 140%;
+    text-align: justify;
+}
+
+.paragraph2 /*index.html*/{
+    color: #fff;
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    font-size: 140%;
+    text-align: center;
+}   
+
+.paragraph3 /*index.html*/{
+    color: #fff;
+    position: absolute;
+    top: 365px;   
+    left: 50px;
+    font-size: 140%;
+    text-align: center;
+}
+
+.paragraph4 /*index.html*/{ 
+    color: #fff;
+    position: absolute;
+    top: 600px;   
+    left: 50px;
+    font-size: 140%;
+    text-align: center;
+}
+
+/*-------------------------------------------footer and footer border*/
+.footer {
+    background-color: #202020;
+    color: #ffbe5b;
+    position: absolute;
+    top: 790px;
+    height: 50px;
+    width: 100%;
+    padding-left: 8px;
+    font-size: xx-large;
+    text-align: left;
+ }
+
+#footerborder {
+    border: #ffbe5b 1px solid;
+    border-width: 2px;
+    box-sizing: border-box;
+    height: 50px;
+    width: 992px;
+} 
+
+/*-------------------------------------------social media links*/
+
+/*-------------------------------------------facebook*/
+.facebookword {
+    color: #ffbe5b;
+    position: absolute;
+    top: 8px;
+    left: 60px;
+    font-size: 75%;
+    text-transform: uppercase;
+    visibility: visible;
+}
+
+#facebook {
+    color: #ffbe5b;
+    position: absolute;
+    top: 2px;
+    left: 11px;
+    font-size: 135%; 
+}
+
+#facebook {
+    visibility: visible;
+}
+
+/*-------------------------------------------instagram*/
+.instagramword {
+    color: #ffbe5b;
+    position: absolute;
+    top: 8px;
+    left: 270px;
+    font-size: 75%;
+    text-transform: uppercase;
+    visibility: visible;
+}
+
+#instagram {
+    color: #ffbe5b;
+    position: absolute;
+    top: 2px;
+    left: 220px;
+    font-size: 135%;
+}
+
+#instagram {
+    visibility: visible;
+}
+
+/*-------------------------------------------youtube*/
+.youtubeword {
+    color: #ffbe5b;
+    position: absolute;
+    top: 8px;
+    left: 490px;
+    font-size: 75%;
+    text-transform: uppercase;
+    visibility: visible; 
+}
+
+#youtube {
+    color: #ffbe5b;
+    position: absolute;
+    top: 2px;
+    left: 440px;
+    font-size: 135%;
+}
+
+#youtube {
+    visibility: visible;
+}
+
+/*-------------------------------------------linkedin*/
+.linkedinword {
+    color: #ffbe5b;
+    position: absolute;
+    top: 8px;
+    left: 690px;
+    font-size: 75%;
+    text-transform: uppercase;
+    visibility: visible;
+}
+
+#linkedin {
+    color: #ffbe5b;
+    position: absolute;
+    top: 2px;
+    left: 640px;
+    font-size: 135%;
+}
+
+#linkedin {
+    visibility: visible;
+}
+
+/*-------------------------------------------twitter*/
+.twitterword {
+    color: #ffbe5b;
+    position: absolute;
+    top: 8px;
+    left: 880px;
+    font-size: 75%;
+    text-transform: uppercase;
+    visibility: visible;
+}
+
+#twitter {
+    color: #ffbe5b;
+    position: absolute;
+    top: 2px;
+    left: 830px;
+    font-size: 135%;
+}
+
+#twitter {
+    visibility: visible;
+}
+
+/*-------------------------------------------copyright*/
+.copyrightword {
+    visibility: hidden;
+}
+
+#copyright {
+    visibility: hidden;
+}
 
 }
 

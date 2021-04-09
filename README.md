@@ -60,7 +60,6 @@ I have also added a enlargement feature of the images which the user hovers over
 bigger so that they can view the image properly and see them better and more detailed 
 
 
-
 (Technologies Used)
 
 In this project I have used the following technologies below
@@ -94,9 +93,9 @@ write here all other technologies that was used while making the website
     image location and then I changed it to the following file path assets/css/images/image.jpg 
     which corrected the issue I had
 
-    I now have noticed that my social links have stopped working when I click on 
-    them but now I have changed the links and redone the coding for the social media that 
-    is in my footer and it has worked every since with no futher issues
+    I now have noticed that my social links have stopped working when I click on them but to solve
+    this issue I redone the code for the social media that is in my footer and this has resolved the
+    issue and it has worked ever since with no problems
 
     I have a hover affect on my image for when you hover over it to be seen larger when you want 
     but the position is off as you cant see the image properly as it is to far in one direction 
@@ -120,15 +119,18 @@ write here all other technologies that was used while making the website
 
     * There is a white border around my menu button that I need to remove
 
-    * I dropdown menu needs to be be repositioned slighty in media query 320px, 414px, 480px and 600px
-    due to the right side border of the menu cant be seen and also I will need to lower my dropdown menu
-    slight as it is to close to my menu button
+    * I dropdown menu needs to be be repositioned slighty in media query 320px, 414px, 480px and 600px and 
+    in any other media queries that need to be changed because the right side border of the menu cant be seen 
+    and also I will need to lower the dropdown menu as it is to close to the menu button
 
     * I need to change the size of my page header (GREEK GODS) and it doesnt go well with the 
     layout when I use it in the media query for min width 320
 
     * I need to move my dropdown menu list items abit to the left as one of the menu items cant 
     be seen properly when I use the dropdown menu in media query 320px
+
+    * there is a small issue in my new menu that I made for the 992px and above in media queires because the history
+    button seems to be abit bigger then the others 
 
 (testing)
 
