@@ -130,7 +130,7 @@ write here all other technologies that was used while making the website
     be seen properly when I use the dropdown menu in media query 320px
 
     * there is a small issue in my new menu that I made for the 992px and above in media queires because the history
-    button seems to be abit bigger then the others 
+    button seems to be abit bigger than the others 
 
 (testing)
 
