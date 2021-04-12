@@ -651,7 +651,16 @@ legend.yourdetails-border {
     font-size: xxx-large;
 }
 
+#copyright {
+    color: #ffbe5b;
+    position: absolute;
+    top: 5px;
+    left: 305px;
+    font-size: xxx-large;
+}
+
 /*-------------------------------------------------------------------------media queries*/
+
 
 @media (min-width: 320px) {
 
@@ -664,7 +673,14 @@ legend.yourdetails-border {
     opacity: 0.5;
 }
 
-/*----------------dropdown menu*/    
+.topborder {
+    position: relative;
+    top: 25px;
+    width: 320px;
+    border-bottom: #ffbe5b 2px solid;
+}
+
+/*----------------menu*/
 .btn {
     background-color: #202020;
     border-color: #ffbe5b;
@@ -692,18 +708,9 @@ legend.yourdetails-border {
     font-size: 100%;
     font-weight: bold;
 }
-
-/*----------------button menu*/ 
+ 
 .buttonmenu {
     display: none;
-}
-
-/*----------------borders*/
-.topborder {
-    position: relative;
-    top: 25px;
-    width: 320px;
-    border-bottom: #ffbe5b 2px solid;
 }
 
 /*----------------headings*/
@@ -829,7 +836,8 @@ legend.yourdetails-border {
     position: absolute;
     top: 60px;
     left: 10px;
-    font-size: 93%;
+    font-size: 84%;
+    font-weight: bold;
     font-weight: 400;
     text-align: center;
     text-transform: uppercase;
@@ -840,9 +848,9 @@ legend.yourdetails-border {
 .paragraph5 {
     color: #fff;
     position: absolute;
-    top: 170px;
-    left: 5px;
-    font-size: 63%;
+    top: 115px;
+    left: 110px;
+    font-size: 55%;
     text-align: justify;
     font-weight: bold; 
 }
@@ -850,7 +858,7 @@ legend.yourdetails-border {
 .paragraph6 {
     color: #fff;
     position: absolute;
-    top: 390px;
+    top: 345px;
     left: 110px;
     font-size: 63%;
     text-align: justify; 
@@ -861,9 +869,9 @@ legend.yourdetails-border {
 .paragraph7 {
     color: #fff;
     position: absolute;
-    top: 620px;
-    left: 5px;
-    font-size: 63%;
+    top: 590px;
+    left: 110px;
+    font-size: 55%;
     text-align: justify; 
     font-weight: bold;
     white-space: nowrap;
@@ -879,28 +887,28 @@ legend.yourdetails-border {
 
 .zeusimage {
     position: absolute;
-    bottom: 545px;
-    left: 235px;
+    bottom: 570px;
+    left: 0;
     height: 180px;
-    width: 85px;
+    width: 100px;
     border: #ffbe5b 3px solid;
 }
 
 .poseidonimage {
     position: absolute;
-    bottom: 310px;
+    bottom: 335px;
     left: 0;
     height: 200px;
-    width: 95px;
+    width: 100px;
     border: #ffbe5b 3px solid;
 }
 
 .hadesimage {
     position: absolute;
-    bottom: 80px;
-    left: 235px;
+    bottom: 105px;
+    left: 0;
     height: 200px;
-    width: 85px;
+    width: 100px;
     border: #ffbe5b 3px solid;
 }
 
@@ -922,6 +930,7 @@ legend.yourdetails-border {
     position: absolute;
     top: 150px;
     left: 150px;
+    width: 85px;
     transform: scale(3);
     z-index: 1;
 }
@@ -929,19 +938,225 @@ legend.yourdetails-border {
 .poseidonimage:hover {
     position: absolute;
     top: 230px;
-    left: 95px;
+    left: 150px;
+    width: 85px;
     transform: scale(3);
     z-index: 1;
 }
 
 .hadesimage:hover {
     position: absolute;
-    top: 298px;
+    top: 292px;
     left: 150px;
+    width: 85px;
     transform: scale(3);
     z-index: 1;
 }
 /*-----------------------------------------------index1.html*/
+
+
+/*-----------------------------------------------index2.html*/
+.backgroundimage {
+    position: relative;
+    bottom: 30px;
+    height: 780px;
+    width: 320px;
+    opacity: 0.5;
+}
+
+.topborder {
+    position: relative;
+    top: 20px;
+    width: 320px;
+    border-bottom: #ffbe5b 2px solid;
+}
+
+/*----------------menu*/
+.btn {
+    background-color: #202020;
+    border-color: #ffbe5b;
+    color: #ffbe5b;
+    position: relative;
+    height: 30px;
+    width: 65px;
+    left: 245px;
+    bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.menuword {
+    position: absolute;
+    top: 3px;
+    right: 9px;
+}
+
+.dropdown-item {
+    background-color: #202020;
+    color: #ffbe5b;
+    text-transform: uppercase;
+    height: 50px;
+    font-size: 100%;
+    font-weight: bold;
+}
+ 
+.buttonmenu {
+    display: none;
+}
+
+/*--------------------------------------header*/
+.header {
+    background-color: #202020;
+    color: #ffbe5b;
+    font-size: x-large;
+    font-weight: 700;
+    height: 30px;
+    padding-left: 5px;
+    padding-bottom: 25px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.h1 {
+    position: absolute;
+    top: 5px;
+    font-size: 125%;
+}
+
+.pageheader {
+    color: #fff;
+    position: absolute;
+    top: 60px;
+    left: 15px;
+    text-align: center;
+    font-size: 115%;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+/*----------------image cards*/
+.atlascard {
+    position: absolute;
+    top: 85px;
+    left: 20px;
+
+    display: none;
+}
+
+.atlascard-img-top {
+    height: 135px;
+    width: 155px;
+    border: #ffbe5b 3px solid;
+}
+
+.atlascard-text {
+    color: #ffbe5b;
+}
+
+.herculescard {
+    position: absolute;
+    top: 85px;
+    left: 195px;
+
+    display: none;
+}
+
+.herculescard-img-top {
+    height: 135px;
+    width: 155px;
+    border: #ffbe5b 3px solid;
+}
+
+.herculescard-text {
+    color: #ffbe5b;
+    position: relative;
+    right: 6px;
+}
+
+.amphitritecard {
+    position: absolute;
+    top: 302px;
+    left: 20px;
+
+    display: none;
+}
+
+.amphitritecard-img-top {
+    height: 135px;
+    width: 155px;
+    border: #ffbe5b 3px solid;
+}
+
+.amphitritecard-text {
+    color: #ffbe5b;
+    position: relative;
+    right: 6px;
+}
+
+.asclepiuscard {
+    position: absolute;
+    top: 302px;
+    left: 195px;
+
+    display: none;
+}
+
+.asclepiuscard-img-top {
+    height: 135px;
+    width: 155px;
+    border: #ffbe5b 3px solid;
+}
+
+.asclepiuscard-text {
+    color: #ffbe5b;
+    position: relative;
+    right: 6px;
+}
+
+.pancard {
+    position: absolute;
+    top: 520px;
+    left: 20px;
+
+    display: none;
+}
+
+.pancard-img-top {
+    height: 135px;
+    width: 155px;
+    border: #ffbe5b 3px solid;
+}
+
+.pancard-text {
+    color: #ffbe5b;
+    position: relative;
+    right: 6px;
+}
+
+.nikecard {
+    position: absolute;
+    top: 520px;
+    left: 195px;
+
+    display: none;
+}
+
+.nikecard-img-top {
+    height: 135px;
+    width: 155px;
+    border: #ffbe5b 3px solid;
+}
+
+.nikecard-text {
+    color: #ffbe5b;
+    position: relative;
+    right: 6px;
+}
+
+
+
+
+/*-----------------------------------------------index2.html*/
 
 
 /*----------------footer and footer border*/
@@ -949,7 +1164,7 @@ legend.yourdetails-border {
     background-color: #202020;
     color: #ffbe5b;
     position: absolute;
-    top: 780px;
+    top: 772px;
     height: 50px;
     width: 100%;
     padding-left: 8px;
@@ -1035,10 +1250,12 @@ legend.yourdetails-border {
 #copyright {
     color: #ffbe5b;
     position: absolute;
-    top: 8px;
-    left: 275px;
-    font-size: 130%;
+    top: 2px;
+    left: 995px;
+    font-size: 135%;
+    visibility: visible;
 }
+
 }
 /*------------------------------------------------------*/
 
@@ -1053,7 +1270,15 @@ legend.yourdetails-border {
     opacity: 0.5;
 }
 
-/*----------------dropdown menu*/    
+
+.topborder {
+    position: relative;
+    top: 20px;
+    width: 360px;
+    border-bottom: #ffbe5b 2px solid;
+}
+
+/*----------------menu*/    
 .btn {
     background-color: #202020;
     border-color: #ffbe5b;
@@ -1082,14 +1307,6 @@ legend.yourdetails-border {
     font-weight: bold;
 }
 
-/*----------------heading*/
-.topborder {
-    position: relative;
-    top: 20px;
-    width: 360px;
-    border-bottom: #ffbe5b 2px solid;
-}
-
 /*--------------------------------------header*/
 .header {
     background-color: #202020;
@@ -1115,7 +1332,7 @@ legend.yourdetails-border {
     color: #fff;
     position: absolute;
     top: 60px;
-    left: 10px;
+    left: 50px;
     font-size: 105%;
     font-weight: 400;
     text-align: center;
@@ -1216,8 +1433,8 @@ legend.yourdetails-border {
     color: #fff;
     position: absolute;
     top: 60px;
-    left: 15px;
-    font-size: 100%;
+    left: 7px;
+    font-size: 95%;
     font-weight: 400;
     text-align: center;
     text-transform: uppercase;
@@ -1228,9 +1445,9 @@ legend.yourdetails-border {
 .paragraph5 {
     color: #fff;
     position: absolute;
-    top: 170px;
-    left: 10px;
-    font-size: 70%;
+    top: 115px;
+    left: 120px;
+    font-size: 63%;
     text-align: justify;
     font-weight: bold; 
 }
@@ -1238,9 +1455,9 @@ legend.yourdetails-border {
 .paragraph6 {
     color: #fff;
     position: absolute;
-    top: 400px;
+    top: 380px;
     left: 120px;
-    font-size: 70%;
+    font-size: 65%;
     text-align: justify; 
     font-weight: bold;
     white-space: nowrap;
@@ -1249,9 +1466,9 @@ legend.yourdetails-border {
 .paragraph7 {
     color: #fff;
     position: absolute;
-    top: 620px;
-    left: 10px;
-    font-size: 70%;
+    top: 640px;
+    left: 120px;
+    font-size: 63%;
     text-align: justify; 
     font-weight: bold;
     white-space: nowrap;
@@ -1267,28 +1484,28 @@ legend.yourdetails-border {
 
 .zeusimage {
     position: absolute;
-    bottom: 590px;
-    left: 275px;
-    height: 210px;
-    width: 85px;
+    bottom: 605px;
+    left: 0;
+    height: 200px;
+    width: 110px;
     border: #ffbe5b 3px solid;
 }
 
 .poseidonimage {
     position: absolute;
-    bottom: 360px;
+    bottom: 355px;
     left: 0;
-    height: 210px;
-    width: 95px;
+    height: 200px;
+    width: 110px;
     border: #ffbe5b 3px solid;
 }
 
 .hadesimage {
     position: absolute;
-    bottom: 130px;
-    left: 275px;
-    height: 210px;
-    width: 85px;
+    bottom: 105px;
+    left: 0;
+    height: 200px;
+    width: 110px;
     border: #ffbe5b 3px solid;
 }
 
@@ -1308,8 +1525,9 @@ legend.yourdetails-border {
 
 .zeusimage:hover {    
     position: absolute;
-    top: 180px;
+    top: 170px;
     left: 190px;
+    width: 85px;
     transform: scale(3);
     z-index: 1;
 }
@@ -1317,15 +1535,17 @@ legend.yourdetails-border {
 .poseidonimage:hover {
     position: absolute;
     top: 230px;
-    left: 95px;
+    left: 190px;
+    width: 85px;
     transform: scale(3);
     z-index: 1;
 }
 
 .hadesimage:hover {
     position: absolute;
-    top: 290px;
+    top: 360px;
     left: 190px;
+    width: 85px;
     transform: scale(3);
     z-index: 1;
 }
@@ -1337,7 +1557,7 @@ legend.yourdetails-border {
     background-color: #202020;
     color: #ffbe5b;
     position: absolute;
-    top: 790px;
+    top: 842px;
     height: 50px;
     width: 100%;
     padding-left: 8px;
@@ -1599,8 +1819,8 @@ legend.yourdetails-border {
     color: #fff;
     position: absolute;
     top: 60px;
-    left: 30px;
-    font-size: 110%;
+    left: 15px;
+    font-size: 105%;
     font-weight: 400;
     text-align: center;
     text-transform: uppercase;
@@ -1611,9 +1831,9 @@ legend.yourdetails-border {
 .paragraph5 {
     color: #fff;
     position: absolute;
-    top: 160px;
-    left: 20px;
-    font-size: 80%;
+    top: 117px;
+    left: 140px;
+    font-size: 65%;
     text-align: justify;
     font-weight: bold; 
 }
@@ -1621,9 +1841,9 @@ legend.yourdetails-border {
 .paragraph6 {
     color: #fff;
     position: absolute;
-    top: 390px;
-    left: 130px;
-    font-size: 80%;
+    top: 370px;
+    left: 140px;
+    font-size: 70%;
     text-align: justify; 
     font-weight: bold;
     white-space: nowrap;
@@ -1632,9 +1852,9 @@ legend.yourdetails-border {
 .paragraph7 {
     color: #fff;
     position: absolute;
-    top: 600px;
-    left: 20px;
-    font-size: 80%;
+    top: 625px;
+    left: 140px;
+    font-size: 70%;
     text-align: justify; 
     font-weight: bold;
     white-space: nowrap;
@@ -1650,28 +1870,28 @@ legend.yourdetails-border {
 
 .zeusimage {
     position: absolute;
-    bottom: 590px;
-    left: 330px;
+    bottom: 595px;
+    left: 0;
     height: 210px;
-    width: 85px;
+    width: 120px;
     border: #ffbe5b 3px solid;
 }
 
 .poseidonimage {
     position: absolute;
-    bottom: 360px;
+    bottom: 345px;
     left: 0;
-    height: 210px;
-    width: 95px;
+    height: 220px;
+    width: 120px;
     border: #ffbe5b 3px solid;
 }
 
 .hadesimage {
     position: absolute;
-    bottom: 130px;
-    left: 330px;
+    bottom: 105px;
+    left: 0;
     height: 210px;
-    width: 85px;
+    width: 120px;
     border: #ffbe5b 3px solid;
 }
 
@@ -1691,8 +1911,9 @@ legend.yourdetails-border {
 
 .zeusimage:hover {    
     position: absolute;
-    top: 180px;
+    top: 150px;
     left: 250px;
+    width: 85px;
     transform: scale(3);
     z-index: 1;
 }
@@ -1700,15 +1921,17 @@ legend.yourdetails-border {
 .poseidonimage:hover {
     position: absolute;
     top: 230px;
-    left: 95px;
+    left: 250px;
+    width: 85px;
     transform: scale(3);
     z-index: 1;
 }
 
 .hadesimage:hover {
     position: absolute;
-    top: 290px;
+    top: 340px;
     left: 250px;
+    width: 85px;
     transform: scale(3);
     z-index: 1;
 }
@@ -1720,7 +1943,7 @@ legend.yourdetails-border {
     background-color: #202020;
     color: #ffbe5b;
     position: absolute;
-    top: 790px;
+    top: 842px;
     height: 50px;
     width: 100%;
     padding-left: 8px;
@@ -1986,9 +2209,9 @@ legend.yourdetails-border {
 .pageheader1 {
     color: #fff;
     position: absolute;
-    top: 60px;
+    top: 55px;
     left: 85px;
-    font-size: 130%;
+    font-size: 120%;
     font-weight: 400;
     text-align: center;
     text-transform: uppercase;
@@ -1999,9 +2222,9 @@ legend.yourdetails-border {
 .paragraph5 {
     color: #fff;
     position: absolute;
-    top: 160px;
-    left: 40px;
-    font-size: 92%;
+    top: 115px;
+    left: 240px;
+    font-size: 70%;
     text-align: justify;
     font-weight: bold; 
 }
@@ -2009,9 +2232,9 @@ legend.yourdetails-border {
 .paragraph6 {
     color: #fff;
     position: absolute;
-    top: 390px;
-    left: 160px;
-    font-size: 92%;
+    top: 370px;
+    left: 240px;
+    font-size: 78%;
     text-align: justify; 
     font-weight: bold;
     white-space: nowrap;
@@ -2020,9 +2243,9 @@ legend.yourdetails-border {
 .paragraph7 {
     color: #fff;
     position: absolute;
-    top: 590px;
-    left: 50px;
-    font-size: 92%;
+    top: 617px;
+    left: 240px;
+    font-size: 78%;
     text-align: justify; 
     font-weight: bold;
     white-space: nowrap;
@@ -2038,28 +2261,28 @@ legend.yourdetails-border {
 
 .zeusimage {
     position: absolute;
-    bottom: 560px;
-    left: 466px;
-    height: 230px;
-    width: 110px;
+    bottom: 585px;
+    left: 30px;
+    height: 220px;
+    width: 170px;
     border: #ffbe5b 3px solid;
 }
 
 .poseidonimage {
     position: absolute;
-    bottom: 350px;
-    left: 0;
+    bottom: 335px;
+    left: 30px;
     height: 230px;
-    width: 120px;
+    width: 170px;
     border: #ffbe5b 3px solid;
 }
 
 .hadesimage {
     position: absolute;
-    bottom: 130px;
-    left: 466px;
-    height: 230px;
-    width: 110px;
+    bottom: 97px;
+    left: 30px;
+    height: 220px;
+    width: 170px;
     border: #ffbe5b 3px solid;
 }
 
@@ -2079,8 +2302,9 @@ legend.yourdetails-border {
 
 .zeusimage:hover {    
     position: absolute;
-    top: 200px;
-    left: 360px;
+    top: 150px;
+    left: 320px;
+    width: 100px;
     transform: scale(3);
     z-index: 1;
 }
@@ -2088,15 +2312,17 @@ legend.yourdetails-border {
 .poseidonimage:hover {
     position: absolute;
     top: 230px;
-    left: 120px;
+    left: 270px;
+    width: 85px;
     transform: scale(3);
     z-index: 1;
 }
 
 .hadesimage:hover {
     position: absolute;
-    top: 250px;
-    left: 360px;
+    top: 320px;
+    left: 300px;
+    width: 85px;
     transform: scale(3);
     z-index: 1;
 }
@@ -2108,7 +2334,7 @@ legend.yourdetails-border {
     background-color: #202020;
     color: #ffbe5b;
     position: absolute;
-    top: 790px;
+    top: 842px;
     height: 50px;
     width: 100%;
     padding-left: 8px;
@@ -2421,9 +2647,9 @@ legend.yourdetails-border {
 .pageheader1 {
     color: #fff;
     position: absolute;
-    top: 60px;
-    left: 85px;
-    font-size: 130%;
+    top: 55px;
+    left: 95px;
+    font-size: 120%;
     font-weight: 400;
     text-align: center;
     text-transform: uppercase;
@@ -2434,9 +2660,9 @@ legend.yourdetails-border {
 .paragraph5 {
     color: #fff;
     position: absolute;
-    top: 160px;
-    left: 40px;
-    font-size: 92%;
+    top: 115px;
+    left: 270px;
+    font-size: 71%;
     text-align: justify;
     font-weight: bold; 
 }
@@ -2444,9 +2670,9 @@ legend.yourdetails-border {
 .paragraph6 {
     color: #fff;
     position: absolute;
-    top: 390px;
-    left: 160px;
-    font-size: 92%;
+    top: 373px;
+    left: 270px;
+    font-size: 73%;
     text-align: justify; 
     font-weight: bold;
     white-space: nowrap;
@@ -2455,9 +2681,9 @@ legend.yourdetails-border {
 .paragraph7 {
     color: #fff;
     position: absolute;
-    top: 590px;
-    left: 50px;
-    font-size: 92%;
+    top: 625px;
+    left: 270px;
+    font-size: 73%;
     text-align: justify; 
     font-weight: bold;
     white-space: nowrap;
@@ -2473,28 +2699,28 @@ legend.yourdetails-border {
 
 .zeusimage {
     position: absolute;
-    bottom: 560px;
-    left: 470px;
-    height: 230px;
-    width: 130px;
+    bottom: 585px;
+    left: 30px;
+    height: 220px;
+    width: 205px;
     border: #ffbe5b 3px solid;
 }
 
 .poseidonimage {
     position: absolute;
-    bottom: 350px;
-    left: 0;
+    bottom: 335px;
+    left: 30px;
     height: 230px;
-    width: 130px;
+    width: 205px;
     border: #ffbe5b 3px solid;
 }
 
 .hadesimage {
     position: absolute;
-    bottom: 130px;
-    left: 470px;
-    height: 230px;
-    width: 130px;
+    bottom: 97px;
+    left: 30px;
+    height: 220px;
+    width: 205px;
     border: #ffbe5b 3px solid;
 }
 
@@ -2514,8 +2740,9 @@ legend.yourdetails-border {
 
 .zeusimage:hover {    
     position: absolute;
-    top: 200px;
+    top: 190px;
     left: 340px;
+    width: 100px;
     transform: scale(3);
     z-index: 1;
 }
@@ -2523,15 +2750,17 @@ legend.yourdetails-border {
 .poseidonimage:hover {
     position: absolute;
     top: 230px;
-    left: 130px;
+    left: 350px;
+    width: 100px;
     transform: scale(3);
     z-index: 1;
 }
 
 .hadesimage:hover {
     position: absolute;
-    top: 247px;
-    left: 340px;
+    top: 320px;
+    left: 350px;
+    width: 100px;
     transform: scale(3);
     z-index: 1;
 }
@@ -2542,7 +2771,7 @@ legend.yourdetails-border {
     background-color: #202020;
     color: #ffbe5b;
     position: absolute;
-    top: 790px;
+    top: 842px;
     height: 50px;
     width: 100%;
     padding-left: 8px;
@@ -2884,418 +3113,12 @@ legend.yourdetails-border {
     white-space: nowrap;
 }
 
-/*----------------paragraphs*/
-.paragraph5 {
-    color: #fff;
-    position: absolute;
-    top: 160px;
-    left: 80px;
-    font-size: 92%;
-    text-align: justify;
-    letter-spacing: 3px;
-    font-weight: bold; 
-}
-
-.paragraph6 {
-    color: #fff;
-    position: absolute;
-    top: 370px;
-    left: 180px;
-    font-size: 92%;
-    text-align: justify; 
-    font-weight: bold;
-    letter-spacing: 3px;
-    white-space: nowrap;
-}
-
-.paragraph7 {
-    color: #fff;
-    position: absolute;
-    top: 580px;
-    left: 90px;
-    font-size: 95%;
-    text-align: justify; 
-    font-weight: bold;
-    letter-spacing: 3px;
-    white-space: nowrap;
-}
-
-/*----------------images for big three*/
-
-.goddescription {
-    position: relative;
-    top: 0;
-    left: 0;
-}
-
-.zeusimage {
-    position: absolute;
-    bottom: 520px;
-    left: 588px;
-    height: 270px;
-    width: 180px;
-    border: #ffbe5b 3px solid;
-}
-
-.poseidonimage {
-    position: absolute;
-    bottom: 355px;
-    left: 0;
-    height: 250px;
-    width: 150px;
-    border: #ffbe5b 3px solid;
-}
-
-.hadesimage {
-    position: absolute;
-    bottom: 132px;
-    left: 588px;
-    height: 250px;
-    width: 180px;
-    border: #ffbe5b 3px solid;
-}
-
-/*----------------hover*/
-
-#dropdownMenuButton:hover {
-    border: #f9f871 2px solid;   
-    background-color: #ffbe5b;
-    color: #202020;
-    font-weight: bolder;
-}
-
-.dropdown-item:hover {
-    background-color: #ffbe5b;
-    color: #202020;
-}
-
-.zeusimage:hover {    
-    position: absolute;
-    top: 192px;
-    left: 425px;
-    transform: scale(2.8);
-    z-index: 1;
-}
-
-.poseidonimage:hover {
-    position: absolute;
-    top: 215px;
-    left: 136px;
-    transform: scale(2.8);
-    z-index: 1;
-}
-
-.hadesimage:hover {
-    position: absolute;
-    top: 232px;
-    left: 428px;
-    transform: scale(2.8);
-    z-index: 1;
-}
-/*-----------------------------------------------index1.html*/
-
-/*------------footer and footer border*/
-.footer {
-    background-color: #202020;
-    color: #ffbe5b;
-    position: absolute;
-    top: 790px;
-    height: 50px;
-    width: 100%;
-    padding-left: 8px;
-    font-size: xx-large;
-    text-align: left;
- }
-
-#footerborder {
-    border: #ffbe5b 1px solid;
-    border-width: 2px;
-    box-sizing: border-box;
-    height: 50px;
-    width: 768px;
-} 
-
-/*----------------social media*/
-
-.facebookword {
-    color: #ffbe5b;
-    position: absolute;
-    top: 6px;
-    left: 5px;
-    font-size: 78%;
-    text-transform: uppercase;
-    visibility: visible;
-}
-
-#facebook {
-    color: #ffbe5b;
-    position: absolute;
-    top: 2px;
-    left: 11px;
-    font-size: 135%; 
-}
-
-#facebook {
-    visibility: hidden;
-}
-
-.instagramword {
-    color: #ffbe5b;
-    position: absolute;
-    top: 6px;
-    left: 136px;
-    font-size: 78%;
-    text-transform: uppercase;
-    visibility: visible;
-}
-
-#instagram {
-    color: #ffbe5b;
-    position: absolute;
-    top: 2px;
-    left: 80px;
-    font-size: 135%;
-}
-
-#instagram {
-    visibility: hidden;
-}
-
-.youtubeword {
-    color: #ffbe5b;
-    position: absolute;
-    top: 6px;
-    left: 284px;
-    font-size: 78%;
-    text-transform: uppercase;
-    visibility: visible; 
-}
-
-#youtube {
-    color: #ffbe5b;
-    position: absolute;
-    top: 2px;
-    left: 158px;
-    font-size: 135%;
-}
-
-#youtube {
-    visibility: hidden;
-}
-
-.linkedinword {
-    color: #ffbe5b;
-    position: absolute;
-    top: 6px;
-    left: 400px;
-    font-size: 78%;
-    text-transform: uppercase;
-    visibility: visible;
-}
-
-#linkedin {
-    color: #ffbe5b;
-    position: absolute;
-    top: 2px;
-    left: 230px;
-    font-size: 135%;
-}
-
-#linkedin {
-    visibility: hidden;
-}
-
-.twitterword {
-    color: #ffbe5b;
-    position: absolute;
-    top: 6px;
-    left: 517px;
-    font-size: 78%;
-    text-transform: uppercase;
-    visibility: visible;
-}
-
-#twitter {
-    color: #ffbe5b;
-    position: absolute;
-    top: 2px;
-    left: 300px;
-    font-size: 135%;
-}
-
-#twitter {
-    visibility: hidden;
-}
-
-.copyrightword {
-    color: #ffbe5b;
-    position: absolute;
-    top: 6px;
-    left: 625px;
-    font-size: 78%;
-    text-transform: uppercase;
-    visibility: visible;
-}
-
-#copyright {
-    visibility: hidden;
-}
-}
-/*------------------------------------------------------*/
-
-@media (min-width: 992px) {
-
-.backgroundimage {
-    position: absolute;
-    bottom: 30px;
-    height: 840px;
-    width: 992px;
-    opacity: 0.5;
-}
-
-/*----------------menu*/ 
-.buttonmenu {
-    display: none;
-}
-
-/*----------------borders*/
-.topborder {
-    position: relative;
-    top: 28px;
-    width: 992px;
-    border: #ffbe5b 1px solid;
-}
-
-/*--------------------------------------------index.html*/
-
-/*----------------headings*/
-.header {
-    background-color: #202020;
-    color: #ffbe5b;
-    font-size: x-large;
-    font-weight: 700;
-    height: 30px;
-    padding-left: 15px;
-    padding-bottom: 25px;
-    text-align: left;
-    text-transform: uppercase;
-}
-
-.h1 {
-    position: absolute;
-    top: 5px;
-    left: 30px;
-    font-size: 145%;
-}
-
-.pageheader {
-    color: #fff;
-    position: absolute;
-    top: 70px;
-    left: 140px;
-    text-align: center;
-    font-size: 190%;
-    font-weight: 400;
-    text-transform: uppercase;
-}    
-
-.pageheader br {
-    display: none;
-}
-/*----------------paragraphs*/    
-
-.paragraph1 {
-    color: #fff;
-    position: absolute;
-    top: 180px;   
-    left: 30px;
-    font-size: 125%;
-    text-align: justify;
-}
-
-.paragraph1 br {
-    display: none;
-}
-
-.paragraph2 {
-    color: #fff;
-    position: absolute;
-    top: 300px;
-    left: 1px;
-    font-size: 128%;
-    text-align: center;
-}
-
-.paragraph2 br {
-    display: none;
-}
-
-.paragraph3 {
-    color: #fff;
-    position: absolute;
-    top: 460px;   
-    left: 1px;
-    font-size: 125%;
-    text-align: center;
-}
-
-.paragraph3 br {
-    display: none;
-}
-
-.paragraph4 { 
-    color: #fff;
-    position: absolute;
-    top: 640px;   
-    left: 1px;
-    font-size: 125%;
-    text-align: center;
-}
-
-.paragraph4 br {
-    display: none;
-}
-/*-----------------------------------------------index.html*/
-
-
-/*-----------------------------------------------index1.html*/
-
-
-/*----------------borders*/
-.topborder {
-    position: relative;
-    top: 20px;
-    width: 992px;
-    border-bottom: #ffbe5b 2px solid;
-}
-
-/*----------------header*/
-.header {
-    background-color: #202020;
-    color: #ffbe5b;
-    font-size: x-large;
-    font-weight: 700;
-    height: 30px;
-    padding-left: 5px;
-    padding-bottom: 25px;
-    text-align: left;
-    text-transform: uppercase;
-    font-size: 145%;
-}
-
-.h1 {
-    position: absolute;
-    top: 3px;
-    left: 10px;
-    font-size: 145%;
-}
-
 .pageheader1 {
     color: #fff;
     position: absolute;
     top: 60px;
-    left: 145px;
-    font-size: 150%;
+    left: 120px;
+    font-size: 140%;
     font-weight: 400;
     text-align: center;
     text-transform: uppercase;
@@ -3306,23 +3129,21 @@ legend.yourdetails-border {
 .paragraph5 {
     color: #fff;
     position: absolute;
-    top: 160px;
-    left: 80px;
-    font-size: 92%;
+    top: 580px;
+    left: 6px;
+    font-size: 69%;
     text-align: justify;
-    letter-spacing: 3px;
     font-weight: bold; 
 }
 
 .paragraph6 {
     color: #fff;
     position: absolute;
-    top: 370px;
-    left: 180px;
-    font-size: 92%;
+    top: 580px;
+    left: 275px;
+    font-size: 69%;
     text-align: justify; 
     font-weight: bold;
-    letter-spacing: 3px;
     white-space: nowrap;
 }
 
@@ -3330,13 +3151,14 @@ legend.yourdetails-border {
     color: #fff;
     position: absolute;
     top: 580px;
-    left: 90px;
-    font-size: 95%;
+    left: 510px;
+    font-size: 69%;
     text-align: justify; 
     font-weight: bold;
-    letter-spacing: 3px;
     white-space: nowrap;
 }
+/*--------------------------*/
+
 
 /*----------------images for big three*/
 
@@ -3348,76 +3170,98 @@ legend.yourdetails-border {
 
 .zeusimage {
     position: absolute;
-    bottom: 520px;
-    left: 588px;
-    height: 270px;
-    width: 180px;
+    bottom: 410px;
+    left: 12px;
+    height: 380px;
+    width: 240px;
     border: #ffbe5b 3px solid;
 }
 
 .poseidonimage {
     position: absolute;
-    bottom: 355px;
-    left: 0;
-    height: 250px;
-    width: 150px;
+    bottom: 410px;
+    left: 265px;
+    height: 380px;
+    width: 230px;
     border: #ffbe5b 3px solid;
 }
 
 .hadesimage {
     position: absolute;
-    bottom: 132px;
-    left: 588px;
-    height: 250px;
-    width: 180px;
+    bottom: 410px;
+    left: 510px;
+    height: 380px;
+    width: 250px;
     border: #ffbe5b 3px solid;
 }
+/*-----------------------------------------------index1.html*/
 
-/*----------------hover*/
 
-#dropdownMenuButton:hover {
-    border: #f9f871 2px solid;   
+/*---------------------hover*/
+.homebutton:hover {
     background-color: #ffbe5b;
+    border-color: #f9f871;
     color: #202020;
-    font-weight: bolder;
 }
 
-.dropdown-item:hover {
+.bigthreebutton:hover {
     background-color: #ffbe5b;
+    border-color: #f9f871;
+    color: #202020;
+}
+
+.lesserknownbutton:hover {
+    background-color: #ffbe5b;
+    border-color: #f9f871;
+    color: #202020;
+}
+
+.historybutton:hover {
+    background-color: #ffbe5b;
+    border-color: #f9f871;
+    color: #202020;
+}
+
+.contactusbutton:hover {
+    background-color: #ffbe5b;
+    border-color: #f9f871;
     color: #202020;
 }
 
 .zeusimage:hover {    
     position: absolute;
-    top: 192px;
-    left: 425px;
-    transform: scale(2.8);
+    top: 182px;
+    left: 71px;
+    width: 200px;
+    transform: scale(1.7);
     z-index: 1;
 }
 
 .poseidonimage:hover {
     position: absolute;
-    top: 215px;
-    left: 136px;
-    transform: scale(2.8);
+    top: 182px;
+    left: 280px;
+    width: 200px;
+    transform: scale(1.7);
     z-index: 1;
 }
 
 .hadesimage:hover {
     position: absolute;
-    top: 232px;
-    left: 428px;
-    transform: scale(2.8);
+    top: 182px;
+    left: 500px;
+    width: 200px;
+    transform: scale(1.7);
     z-index: 1;
 }
-/*-----------------------------------------------index1.html*/
+/*--------------------------*/
 
 /*------------footer and footer border*/
 .footer {
     background-color: #202020;
     color: #ffbe5b;
     position: absolute;
-    top: 790px;
+    top: 843px;
     height: 50px;
     width: 100%;
     padding-left: 8px;
@@ -3561,7 +3405,6 @@ legend.yourdetails-border {
 }
 /*------------------------------------------------------*/
 
-
 @media (min-width: 992px) {
 
 .backgroundimage {
@@ -3574,12 +3417,12 @@ legend.yourdetails-border {
 
 .topborder {
     position: relative;
-    top: 28px;
+    top: 20px;
     width: 992px;
     border: #ffbe5b 1px solid;
 }
 
-/*----------------menu*/
+/*----------------menu*/    
 .btn {
     visibility: hidden;
 }
@@ -3595,7 +3438,7 @@ legend.yourdetails-border {
     position: absolute;
     height: 35px;
     width: 65px;
-    left: 350px;
+    left: 362px;
     bottom: 23px;
     text-align: center;
     text-transform: uppercase;
@@ -3604,7 +3447,7 @@ legend.yourdetails-border {
 #homebutton {
     border-radius: 5px;
     position: absolute;
-    top: 10px;
+    top: 7px;
 }
 
 .bigthreebutton {
@@ -3612,8 +3455,8 @@ legend.yourdetails-border {
     border-color: #ffbe5b;
     color: #ffbe5b;
     position: absolute;
-    top: 10px;
-    left: 425px;
+    top: 7px;
+    left: 432px;
     bottom: 23px;
     text-align: center;
     text-transform: uppercase;
@@ -3631,8 +3474,8 @@ legend.yourdetails-border {
     border-color: #ffbe5b;
     color: #ffbe5b;
     position: absolute;
-    top: 10px;
-    left: 565px;
+    top: 7px;
+    left: 569px;
     bottom: 23px;
     text-align: center;
     text-transform: uppercase;
@@ -3650,8 +3493,8 @@ legend.yourdetails-border {
     border-color: #ffbe5b;
     color: #ffbe5b;
     position: absolute;
-    top: 10px;
-    left: 755px;
+    top: 7px;
+    left: 757px;
     bottom: 23px;
     font-size: 130%;
     text-align: center;
@@ -3677,8 +3520,8 @@ legend.yourdetails-border {
     border-color: #ffbe5b;
     color: #ffbe5b;
     position: absolute;
-    top: 10px;
-    left: 863px;
+    top: 7px;
+    left: 865px;
     bottom: 23px;
     text-align: center;
     text-transform: uppercase;
@@ -3690,6 +3533,9 @@ legend.yourdetails-border {
     width: 120px;
     white-space: nowrap;
 } 
+/*------------------------*/
+
+/*--------------------------------------------index.html*/
 
 /*----------------headings*/
 .header {
@@ -3715,7 +3561,7 @@ legend.yourdetails-border {
     color: #fff;
     position: absolute;
     top: 60px;
-    left: 200px;
+    left: 250px;
     font-size: 170%;
     font-weight: 400;
     text-align: center;
@@ -3725,6 +3571,7 @@ legend.yourdetails-border {
 .pageheader br {
     display: none;
 }
+/*--------------------------*/
 
 /*----------------paragraphs*/    
 .paragraph1 {
@@ -3762,9 +3609,121 @@ legend.yourdetails-border {
     font-size: 140%;
     text-align: center;
 }
+/*--------------------------------------------index.html*/
 
-/*----------------hover*/
 
+/*--------------------------------------------index1.html*/
+
+/*----------------header*/
+.header {
+    background-color: #202020;
+    color: #ffbe5b;
+    font-size: x-large;
+    font-weight: 700;
+    height: 30px;
+    padding-left: 5px;
+    padding-bottom: 25px;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 145%;
+}
+
+.h1 {
+    position: absolute;
+    top: 3px;
+    left: 10px;
+    font-size: 145%;
+}
+
+.pageheader1 {
+    color: #fff;
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    font-size: 135%;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.pageheader1 br {
+    display: none;
+}
+
+/*----------------paragraphs*/
+.paragraph5 {
+    color: #fff;
+    position: absolute;
+    top: 560px;
+    left: 20px;
+    font-size: 80%;
+    text-align: justify;
+    font-weight: bold; 
+}
+
+.paragraph6 {
+    color: #fff;
+    position: absolute;
+    top: 560px;
+    left: 360px;
+    font-size: 85%;
+    text-align: justify; 
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.paragraph7 {
+    color: #fff;
+    position: absolute;
+    top: 560px;
+    left: 670px;
+    font-size: 85%;
+    text-align: justify; 
+    font-weight: bold;
+    white-space: nowrap;
+}
+/*--------------------------*/
+
+
+/*----------------images for big three*/
+
+.goddescription {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.zeusimage {
+    position: absolute;
+    bottom: 400px;
+    left: 20px;
+    height: 415px;
+    width: 280px;
+    border: #ffbe5b 3px solid;
+}
+
+.poseidonimage {
+    position: absolute;
+    bottom: 400px;
+    left: 355px;
+    height: 415px;
+    width: 280px;
+    border: #ffbe5b 3px solid;
+}
+
+.hadesimage {
+    position: absolute;
+    bottom: 400px;
+    left: 675px;
+    height: 415px;
+    width: 300px;
+    border: #ffbe5b 3px solid;
+}
+/*-----------------------------------------------index1.html*/
+
+
+/*---------------------hover*/
 .homebutton:hover {
     background-color: #ffbe5b;
     border-color: #f9f871;
@@ -3795,185 +3754,41 @@ legend.yourdetails-border {
     color: #202020;
 }
 
-
-
-/*-----------------------------------------------index1.html*/
-.btn {
-    background-color: #202020;
-    border-color: #ffbe5b;
-    color: #ffbe5b;
-    position: relative;
-    height: 30px;
-    width: 65px;
-    left: 678px;
-    bottom: 24px;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.menuword {
-    position: absolute;
-    top: 3px;
-    right: 9px;
-}
-
-/*----------------borders*/
-.topborder {
-    position: relative;
-    top: 20px;
-    width: 768px;
-    border-bottom: #ffbe5b 2px solid;
-}
-
-/*----------------header*/
-.header {
-    background-color: #202020;
-    color: #ffbe5b;
-    font-size: x-large;
-    font-weight: 700;
-    height: 30px;
-    padding-left: 5px;
-    padding-bottom: 25px;
-    text-align: left;
-    text-transform: uppercase;
-    font-size: 145%;
-}
-
-.h1 {
-    position: absolute;
-    top: 3px;
-    left: 10px;
-    font-size: 145%;
-}
-
-.pageheader1 {
-    color: #fff;
-    position: absolute;
-    top: 60px;
-    left: 145px;
-    font-size: 150%;
-    font-weight: 400;
-    text-align: center;
-    text-transform: uppercase;
-    white-space: nowrap;
-}
-
-/*----------------paragraphs*/
-.paragraph5 {
-    color: #fff;
-    position: absolute;
-    top: 160px;
-    left: 80px;
-    font-size: 92%;
-    text-align: justify;
-    letter-spacing: 3px;
-    font-weight: bold; 
-}
-
-.paragraph6 {
-    color: #fff;
-    position: absolute;
-    top: 370px;
-    left: 180px;
-    font-size: 92%;
-    text-align: justify; 
-    font-weight: bold;
-    letter-spacing: 3px;
-    white-space: nowrap;
-}
-
-.paragraph7 {
-    color: #fff;
-    position: absolute;
-    top: 580px;
-    left: 90px;
-    font-size: 95%;
-    text-align: justify; 
-    font-weight: bold;
-    letter-spacing: 3px;
-    white-space: nowrap;
-}
-
-/*----------------images for big three*/
-
-.goddescription {
-    position: relative;
-    top: 0;
-    left: 0;
-}
-
-.zeusimage {
-    position: absolute;
-    bottom: 520px;
-    left: 588px;
-    height: 270px;
-    width: 180px;
-    border: #ffbe5b 3px solid;
-}
-
-.poseidonimage {
-    position: absolute;
-    bottom: 355px;
-    left: 0;
-    height: 250px;
-    width: 150px;
-    border: #ffbe5b 3px solid;
-}
-
-.hadesimage {
-    position: absolute;
-    bottom: 132px;
-    left: 588px;
-    height: 250px;
-    width: 180px;
-    border: #ffbe5b 3px solid;
-}
-
-/*----------------hover*/
-
-#dropdownMenuButton:hover {
-    border: #f9f871 2px solid;   
-    background-color: #ffbe5b;
-    color: #202020;
-    font-weight: bolder;
-}
-
-.dropdown-item:hover {
-    background-color: #ffbe5b;
-    color: #202020;
-}
-
 .zeusimage:hover {    
     position: absolute;
-    top: 192px;
-    left: 425px;
-    transform: scale(2.8);
+    top: 170px;
+    left: 85px;
+    width: 250px;
+    transform: scale(1.7);
     z-index: 1;
 }
 
 .poseidonimage:hover {
     position: absolute;
-    top: 215px;
-    left: 136px;
-    transform: scale(2.8);
+    top: 170px;
+    left: 380px;
+    width: 250px;
+    transform: scale(1.7);
     z-index: 1;
 }
 
 .hadesimage:hover {
     position: absolute;
-    top: 232px;
-    left: 428px;
-    transform: scale(2.8);
+    top: 170px;
+    left: 655px;
+    width: 250px;
+    transform: scale(1.7);
     z-index: 1;
 }
-/*-----------------------------------------------index1.html*/
+/*--------------------------*/
+
 
 /*----------------footer and footer border*/
 .footer {
     background-color: #202020;
     color: #ffbe5b;
     position: absolute;
-    top: 790px;
+    top: 842px;
     height: 50px;
     width: 100%;
     padding-left: 8px;
@@ -3986,17 +3801,17 @@ legend.yourdetails-border {
     border-width: 2px;
     box-sizing: border-box;
     height: 50px;
-    width: 992px;
+    width: 1200px;
 } 
+/*--------------------------*/
 
-/*----------------social media*/
-
+/*--------------------------social media*/
 .facebookword {
     color: #ffbe5b;
     position: absolute;
-    top: 8px;
-    left: 60px;
-    font-size: 75%;
+    top: 5px;
+    left: 55px;
+    font-size: 85%;
     text-transform: uppercase;
     visibility: visible;
 }
@@ -4005,7 +3820,7 @@ legend.yourdetails-border {
     color: #ffbe5b;
     position: absolute;
     top: 2px;
-    left: 11px;
+    left: 10px;
     font-size: 135%; 
 }
 
@@ -4016,9 +3831,9 @@ legend.yourdetails-border {
 .instagramword {
     color: #ffbe5b;
     position: absolute;
-    top: 8px;
-    left: 270px;
-    font-size: 75%;
+    top: 5px;
+    left: 265px;
+    font-size: 85%;
     text-transform: uppercase;
     visibility: visible;
 }
@@ -4038,9 +3853,9 @@ legend.yourdetails-border {
 .youtubeword {
     color: #ffbe5b;
     position: absolute;
-    top: 8px;
+    top: 5px;
     left: 490px;
-    font-size: 75%;
+    font-size: 85%;
     text-transform: uppercase;
     visibility: visible; 
 }
@@ -4060,9 +3875,9 @@ legend.yourdetails-border {
 .linkedinword {
     color: #ffbe5b;
     position: absolute;
-    top: 8px;
-    left: 690px;
-    font-size: 75%;
+    top: 5px;
+    left: 680px;
+    font-size: 85%;
     text-transform: uppercase;
     visibility: visible;
 }
@@ -4071,7 +3886,7 @@ legend.yourdetails-border {
     color: #ffbe5b;
     position: absolute;
     top: 2px;
-    left: 640px;
+    left: 630px;
     font-size: 135%;
 }
 
@@ -4082,9 +3897,9 @@ legend.yourdetails-border {
 .twitterword {
     color: #ffbe5b;
     position: absolute;
-    top: 8px;
-    left: 880px;
-    font-size: 75%;
+    top: 5px;
+    left: 870px;
+    font-size: 85%;
     text-transform: uppercase;
     visibility: visible;
 }
@@ -4093,7 +3908,7 @@ legend.yourdetails-border {
     color: #ffbe5b;
     position: absolute;
     top: 2px;
-    left: 830px;
+    left: 820px;
     font-size: 135%;
 }
 
@@ -4102,12 +3917,30 @@ legend.yourdetails-border {
 }
 
 .copyrightword {
+    color: #ffbe5b;
+    position: absolute;
+    top: 5px;
+    left: 1045px;
+    font-size: 85%;
+    text-transform: uppercase;
+    visibility: visible;
+}
+
+#copyright {
+    color: #ffbe5b;
+    position: absolute;
+    top: 2px;
+    left: 995px;
+    font-size: 135%;
+    visibility: visible;
+}
+}
+.copyrightword {
     visibility: hidden;
 }
 
 #copyright {
     visibility: hidden;
-}
 }
 /*------------------------------------------------------*/
 
@@ -4123,39 +3956,18 @@ legend.yourdetails-border {
     opacity: 0.5;
 }
 
-/*----------------dropdown menu*/    
-.btn {
-    background-color: #202020;
-    border-color: #ffbe5b;
-    color: #ffbe5b;
+.topborder {
     position: relative;
-    height: 35px;
-    width: 65px;
-    left: 520px;
-    bottom: 21px;   
-    text-align: center;
-    text-transform: uppercase;
+    top: 20px;
+    width: 1200px;
+    border: #ffbe5b 1px solid;
 }
 
+/*----------------menu*/    
 .btn {
     visibility: hidden;
 }
 
-.menuword {
-    position: relative;
-    right: 4px;
-}
-
-.dropdown-item {
-    background-color: #202020;
-    color: #ffbe5b;
-    text-transform: uppercase;
-    height: 50px;
-    font-size: 100%;
-    font-weight: bold;
-}
-
-/*----------------button menu*/
 .buttonmenu {
     display: unset;
 }
@@ -4167,7 +3979,7 @@ legend.yourdetails-border {
     position: absolute;
     height: 35px;
     width: 65px;
-    left: 547px;
+    left: 558px;
     bottom: 23px;
     text-align: center;
     text-transform: uppercase;
@@ -4176,7 +3988,7 @@ legend.yourdetails-border {
 #homebutton {
     border-radius: 5px;
     position: absolute;
-    top: 10px;
+    top: 7px;
 }
 
 .bigthreebutton {
@@ -4184,8 +3996,8 @@ legend.yourdetails-border {
     border-color: #ffbe5b;
     color: #ffbe5b;
     position: absolute;
-    top: 10px;
-    left: 622px;
+    top: 7px;
+    left: 635px;
     bottom: 23px;
     text-align: center;
     text-transform: uppercase;
@@ -4203,8 +4015,8 @@ legend.yourdetails-border {
     border-color: #ffbe5b;
     color: #ffbe5b;
     position: absolute;
-    top: 10px;
-    left: 762px;
+    top: 7px;
+    left: 775px;
     bottom: 23px;
     text-align: center;
     text-transform: uppercase;
@@ -4222,26 +4034,26 @@ legend.yourdetails-border {
     border-color: #ffbe5b;
     color: #ffbe5b;
     position: absolute;
-    top: 10px;
-    left: 952px;
+    top: 7px;
+    left: 965px;
     bottom: 23px;
     font-size: 130%;
     text-align: center;
     text-transform: uppercase;
 }
 
-#historybutton {
-    border-radius: 5px;
-    height: 35px;
-    width: 100px;
-    white-space: nowrap;
-}
-
 .historyh5 {
     position: absolute;
     top: 3px;
-    left: 10px;
+    left: 9px;
     font-size: 90%;
+}
+
+#historybutton {
+    border-radius: 5px;
+    height: 35px;
+    width: 95px;
+    white-space: nowrap;
 }
 
 .contactusbutton {
@@ -4249,8 +4061,8 @@ legend.yourdetails-border {
     border-color: #ffbe5b;
     color: #ffbe5b;
     position: absolute;
-    top: 10px;
-    left: 1060px;
+    top: 7px;
+    left: 1070px;
     bottom: 23px;
     text-align: center;
     text-transform: uppercase;
@@ -4263,13 +4075,7 @@ legend.yourdetails-border {
     white-space: nowrap;
 } 
 
-/*----------------borders*/
-.topborder {
-    position: relative;
-    top: 28px;
-    width: 1200px;
-    border: #ffbe5b 1px solid;
-}
+/*--------------------------------------------index.html*/
 
 /*----------------headings*/
 .header {
@@ -4295,8 +4101,8 @@ legend.yourdetails-border {
     color: #fff;
     position: absolute;
     top: 60px;
-    left: 200px;
-    font-size: 170%;
+    left: 350px;
+    font-size: 180%;
     font-weight: 400;
     text-align: center;
     text-transform: uppercase;
@@ -4305,6 +4111,7 @@ legend.yourdetails-border {
 .pageheader br {
     display: none;
 }
+/*--------------------------*/
 
 /*----------------paragraphs*/    
 .paragraph1 {
@@ -4342,8 +4149,118 @@ legend.yourdetails-border {
     font-size: 140%;
     text-align: center;
 }
+/*--------------------------------------------index.html*/
 
-/*----------------hover*/
+
+/*--------------------------------------------index1.html*/
+
+/*----------------header*/
+.header {
+    background-color: #202020;
+    color: #ffbe5b;
+    font-size: x-large;
+    font-weight: 700;
+    height: 30px;
+    padding-left: 5px;
+    padding-bottom: 25px;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 145%;
+}
+
+.h1 {
+    position: absolute;
+    top: 3px;
+    left: 10px;
+    font-size: 145%;
+}
+
+.pageheader1 {
+    color: #fff;
+    position: absolute;
+    top: 70px;
+    left: 90px;
+    font-size: 150%;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+/*--------------------------*/
+
+/*----------------paragraphs*/
+.paragraph5 {
+    color: #fff;
+    position: absolute;
+    top: 560px;
+    left: 37px;
+    font-size: 85%;
+    text-align: justify;
+    font-weight: bold; 
+}
+
+.paragraph6 {
+    color: #fff;
+    position: absolute;
+    top: 560px;
+    left: 480px;
+    font-size: 88%;
+    text-align: justify; 
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.paragraph7 {
+    color: #fff;
+    position: absolute;
+    top: 560px;
+    left: 840px;
+    font-size: 88%;
+    text-align: justify; 
+    font-weight: bold;
+    white-space: nowrap;
+}
+/*--------------------------*/
+
+
+/*----------------images for big three*/
+
+.goddescription {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.zeusimage {
+    position: absolute;
+    bottom: 400px;
+    left: 30px;
+    height: 400px;
+    width: 325px;
+    border: #ffbe5b 3px solid;
+}
+
+.poseidonimage {
+    position: absolute;
+    bottom: 400px;
+    left: 450px;
+    height: 400px;
+    width: 325px;
+    border: #ffbe5b 3px solid;
+}
+
+.hadesimage {
+    position: absolute;
+    bottom: 400px;
+    left: 840px;
+    height: 400px;
+    width: 325px;
+    border: #ffbe5b 3px solid;
+}
+/*-----------------------------------------------index1.html*/
+
+
+/*---------------------hover*/
 .homebutton:hover {
     background-color: #ffbe5b;
     border-color: #f9f871;
@@ -4374,12 +4291,41 @@ legend.yourdetails-border {
     color: #202020;
 }
 
+.zeusimage:hover {    
+    position: absolute;
+    top: 180px;
+    left: 87px;
+    width: 230px;
+    transform: scale(1.7);
+    z-index: 1;
+}
+
+.poseidonimage:hover {
+    position: absolute;
+    top: 180px;
+    left: 480px;
+    width: 230px;
+    transform: scale(1.7);
+    z-index: 1;
+}
+
+.hadesimage:hover {
+    position: absolute;
+    top: 180px;
+    left: 880px;
+    width: 230px;
+    transform: scale(1.7);
+    z-index: 1;
+}
+/*--------------------------*/
+
+
 /*----------------footer and footer border*/
 .footer {
     background-color: #202020;
     color: #ffbe5b;
     position: absolute;
-    top: 790px;
+    top: 845px;
     height: 50px;
     width: 100%;
     padding-left: 8px;

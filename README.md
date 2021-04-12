@@ -132,6 +132,10 @@ write here all other technologies that was used while making the website
     * there is a small issue in my new menu that I made for the 992px and above in media queires because the history
     button seems to be abit bigger than the others 
 
+    * my copyright icon has vanished from a few sections
+
+    * need to fix hover effect on big three image as I cant adjust them because the image doesnt enlarge when I hover over it
+
 (testing)
 
 In this section write about all the tests you have done to make sure 
