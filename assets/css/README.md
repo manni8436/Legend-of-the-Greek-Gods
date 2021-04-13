@@ -1,5 +1,7 @@
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/manni8436/MS1-Project)
 
+<!--this is the link to my deployed site https://manni8436.github.io/MS1-Project/-->
+
 # MS1-Project - Legend Of The Greek Gods
 
 One or two paragraphs providing an overview of your project.
@@ -76,65 +78,10 @@ write here all other technologies that was used while making the website
 
 (Bugs)
 * = needs to be resolved 
+    
+    * my background image isnt loading
 
-    My first bug was during when I was doing the dropdown menu because 
-    was white border around the outside of my menu items and I tried loads 
-    of different ways to resolve it with no luck until I inspected the pages 
-    and found out that there was padding in the dropdown-menu section that 
-    shouldnt have been there and I selected the class tag in CSS3 and 
-    added padding attribute with the value of 0 which resolved the issue
-
-    * I noticed that my dropdown menu seems to be abit to far to the right on
-      my lesser known gods sections compared to where it should be and I have 
-      tried to fix it before but with no luck as of yet
-
-    I noticed that for the image wasnt loading on my deployed site with GitHub Pages 
-    but I have managed to fix the issue by changing the file path that was by copying the 
-    image location and then I changed it to the following file path assets/css/images/image.jpg 
-    which corrected the issue I had
-
-    I now have noticed that my social links have stopped working when I click on them but to solve
-    this issue I redone the code for the social media that is in my footer and this has resolved the
-    issue and it has worked ever since with no problems
-
-    I have a hover affect on my image for when you hover over it to be seen larger when you want 
-    but the position is off as you cant see the image properly as it is to far in one direction 
-    but I have resolved it now by using position absolute attribute and positioned it in a good 
-    place so that it can be seen clearly without any issues
-
-    I had a issue with enlarging my images on the lesser known gods but I tried to do it 
-    again by only selecting the img top class and it worked and with slighty positioning adjustment 
-    and I no longer have a problem and all images can be seen clearly
-
-    * I saw on my deployed that the icons are alot smaller when it is viewed on a samsung
-    device which I more then likely have to use media queires to resolve this issue
-
-    * I have a issue on my deployed site where my lesser known gods section can be zoomed out and this
-    shoudlnt be happening so I tried try to fix it by deleting the index2.html file and make a new one 
-    to see if this can remedy the issue but sadly this did not fix the issue as of yet
-
-    * Had a issue with the way my contact us sections looked like on the deployed site and 
-    I have had to adjust everything so rectify the problem but still need some minor changes
-    with media queires which I make adjustments 
-
-    * There is a white border around my menu button that I need to remove
-
-    * I dropdown menu needs to be be repositioned slighty in media query 320px, 414px, 480px and 600px and 
-    in any other media queries that need to be changed because the right side border of the menu cant be seen 
-    and also I will need to lower the dropdown menu as it is to close to the menu button
-
-    * I need to change the size of my page header (GREEK GODS) and it doesnt go well with the 
-    layout when I use it in the media query for min width 320
-
-    * I need to move my dropdown menu list items abit to the left as one of the menu items cant 
-    be seen properly when I use the dropdown menu in media query 320px
-
-    * there is a small issue in my new menu that I made for the 992px and above in media queires because the history
-    button seems to be abit bigger than the others 
-
-    * my copyright icon has vanished from a few sections
-
-    * need to fix hover effect on big three image as I cant adjust them because the image doesnt enlarge when I hover over it
+    * cant change the colour of my dropdowm menu icon
 
 (testing)
 

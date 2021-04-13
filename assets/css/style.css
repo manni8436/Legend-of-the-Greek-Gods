@@ -5,60 +5,68 @@ html, body {
 }
 
 body {
+    background-image: url("assets/css/images/zeusgold.jpg");
     background-color: #202020;
 }
 
-.backgroundimage {
-    position: relative;
-    bottom: 30px;
-    height: 840px;
-    width: 360px;
-    opacity: 0.5;
+/*-------------------menu*/
+.bg-light {
+    background-color: #202020 !important;
 }
 
-/*----------------borders*/
+.navbar-brand {
+    color: #ffbe5b !important;
+    padding-top: 1px;
+    padding-bottom: 0;
+    font-size: 210%;
+}
+
+.navbar-toggler {
+    color: #ffbe5b;
+}
+
+.navbar-nav {
+    position: absolute;
+    left: 760px;
+    font-size: 120%;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    color: #ffbe5b !important;
+    font-size: 92%;
+}
+
 .topborder {
     position: relative;
-    top: 25px;
-    width: 414px;
+    top: 1px;
     border-bottom: #ffbe5b 2px solid;
 }
 
-/*----------------dropdown menu*/
-.btn {
-    background-color: #202020;
-    border-color: #ffbe5b;
-    color: #ffbe5b;
+
+
+
+
+
+
+
+
+
+
+.bottomborder {
     position: relative;
-    margin-bottom: 20px;
-    height: 35px;   
-    left: 280px;
-    bottom: 20px;
-    text-align: center;
+    top: 530px;
+    border-bottom: #ffbe5b 2px solid;
+}
+
+#socialmedia {
+    position: absolute;
+    bottom: 3px;
+    font-size: 105%;
     text-transform: uppercase;
 }
 
-#dropdownMenuButton {
-    background-color: #202020;
-    color:#ffbe5b;
-    border-color: #ffbe5b;
-}
-
-#dropdown-menu{
-    padding: 0;
-    border: #ffbe5b 3px solid;
-}
-
-.dropdown-item {
-    background-color: #202020;
-    color: #ffbe5b;
-    text-transform: uppercase;
-    height: 50px;
-    font-size: large;
-    font-weight: bold;
-}
-
-/*----------------headings*/
+/*----------------headings
 .header {
     background-color: #202020;
     color: #ffbe5b;
@@ -91,8 +99,8 @@ body {
     font-weight: 400;
 }
 
-/*----------------paragraph*/
-.paragraph1 /*index.html*/{
+/*----------------paragraph
+.paragraph1 /*index.html{
     color: #fff;
     position: absolute;
     top: 130px;   
@@ -101,7 +109,7 @@ body {
     text-align: justify;
 }
 
-.paragraph2 /*index.html*/{
+.paragraph2 /*index.html{
     color: #fff;
     position: absolute;
     top: 220px;
@@ -110,7 +118,7 @@ body {
     text-align: justify;
 }   
 
-.paragraph3 /*index.html*/{
+.paragraph3 /*index.html{
     color: #fff;
     position: absolute;
     top: 370px;   
@@ -119,7 +127,7 @@ body {
     text-align: justify;
 }
 
-.paragraph4 /*index.html*/{ 
+.paragraph4 /*index.html{ 
     color: #fff;
     position: absolute;
     top: 570px;   
@@ -128,7 +136,7 @@ body {
     text-align: justify;
 }
 
-.paragraph5 /*index1.html*/{
+.paragraph5 /*index1.html{
     color: #ffbe5b;
     position: absolute;
     top: 60px;
@@ -139,7 +147,7 @@ body {
         
 }
 
-.paragraph6 /*index1.html*/{
+.paragraph6 /*index1.html{
     color: #ffbe5b;
     position: absolute;
     top: 140px;
@@ -149,7 +157,7 @@ body {
     font-weight: bold; 
 }
 
-.paragraph7 /*index1.html*/{
+.paragraph7 /*index1.html{
     color: #ffbe5b;
     position: absolute;
     top: 330px;
@@ -159,7 +167,7 @@ body {
     font-weight: bold;
 }
 
-.paragraph8 /*index1.html*/{
+.paragraph8 /*index1.html{
     color: #ffbe5b;
     position: absolute;
     top: 520px;
@@ -169,7 +177,7 @@ body {
     font-weight: bold;
 }
 
-.paragraph9 /*index2.html*/{
+.paragraph9 /*index2.html{
     color: #ffbe5b;
     position: absolute;
     top: 52px;
@@ -179,7 +187,7 @@ body {
     text-transform: capitalize;
 }
 
-/*----------------images for big three*/
+/*----------------images for big three
 .goddescription {
     position: relative;
     top: 0;
@@ -213,7 +221,7 @@ body {
     border: #ffbe5b 3px solid;
 }
 
-/*----------------image cards*/
+/*----------------image cards
 .atlascard {
     position: absolute;
     top: 85px;
@@ -320,7 +328,7 @@ body {
     right: 6px;
 }
 
-/*----------------signup*/
+/*----------------signup
 input, textarea {
     background-color: #202020;
     color: #ffbe5b;
@@ -439,7 +447,7 @@ legend.yourdetails-border {
     text-transform: uppercase;
 }
 
-/*----------------feedback*/
+/*----------------feedback
 .feedbackheader {
     color: #fff;
     width: auto;
@@ -483,7 +491,7 @@ legend.yourdetails-border {
     text-transform: uppercase;
 }
 
-/*----------------hover*/
+/*----------------hover
 #dropdownMenuButton:hover {
     border: #f9f871  2px solid;
     background-color: #ffbe5b;
@@ -588,7 +596,7 @@ legend.yourdetails-border {
     color: #202020;
 } 
 
-/*----------------footer*/
+/*----------------footer
 .footer {
     background-color: #202020;
     color: #ffbe5b;
@@ -659,12 +667,12 @@ legend.yourdetails-border {
     font-size: xxx-large;
 }
 
-/*-------------------------------------------------------------------------media queries*/
+/*-------------------------------------------------------------------------media queries
 
 
 @media (min-width: 320px) {
 
-/*---------------------------------------------------index.html*/
+/*---------------------------------------------------index.html
 .backgroundimage {
     position: relative;
     bottom: 30px;
@@ -680,7 +688,7 @@ legend.yourdetails-border {
     border-bottom: #ffbe5b 2px solid;
 }
 
-/*----------------menu*/
+/*----------------menu
 .btn {
     background-color: #202020;
     border-color: #ffbe5b;
@@ -713,7 +721,7 @@ legend.yourdetails-border {
     display: none;
 }
 
-/*----------------headings*/
+/*----------------headings
 .header {
     background-color: #202020;
     color: #ffbe5b;
@@ -743,7 +751,7 @@ legend.yourdetails-border {
     text-transform: uppercase;
 }    
 
-/*----------------paragraphs*/
+/*----------------paragraphs
 .paragraph1 {
     color: #fff;
     position: absolute;
@@ -779,10 +787,10 @@ legend.yourdetails-border {
     font-size: 110%;
     text-align: justify;
 }
-/*-----------------------------------------------index.html*/
+/*-----------------------------------------------index.html
 
 
-/*-----------------------------------------------index1.html*/
+/*-----------------------------------------------index1.html
 .btn {
     background-color: #202020;
     border-color: #ffbe5b;
@@ -802,7 +810,7 @@ legend.yourdetails-border {
     right: 9px;
 }
 
-/*----------------borders*/
+/*----------------borders
 .topborder {
     position: relative;
     top: 20px;
@@ -810,7 +818,7 @@ legend.yourdetails-border {
     border-bottom: #ffbe5b 2px solid;
 }
 
-/*----------------header*/
+/*----------------header
 .header {
     background-color: #202020;
     color: #ffbe5b;
@@ -844,7 +852,7 @@ legend.yourdetails-border {
     white-space: nowrap;
 }
 
-/*----------------paragraphs*/
+/*----------------paragraphs
 .paragraph5 {
     color: #fff;
     position: absolute;
@@ -877,7 +885,7 @@ legend.yourdetails-border {
     white-space: nowrap;
 }
 
-/*----------------images for big three*/
+/*----------------images for big three
 
 .goddescription {
     position: relative;
@@ -912,7 +920,7 @@ legend.yourdetails-border {
     border: #ffbe5b 3px solid;
 }
 
-/*----------------hover*/
+/*----------------hover
 
 #dropdownMenuButton:hover {
     border: #f9f871 2px solid;   
@@ -952,10 +960,10 @@ legend.yourdetails-border {
     transform: scale(3);
     z-index: 1;
 }
-/*-----------------------------------------------index1.html*/
+/*-----------------------------------------------index1.html
 
 
-/*-----------------------------------------------index2.html*/
+/*-----------------------------------------------index2.html
 .backgroundimage {
     position: relative;
     bottom: 30px;
@@ -971,7 +979,7 @@ legend.yourdetails-border {
     border-bottom: #ffbe5b 2px solid;
 }
 
-/*----------------menu*/
+/*----------------menu
 .btn {
     background-color: #202020;
     border-color: #ffbe5b;
@@ -1004,7 +1012,7 @@ legend.yourdetails-border {
     display: none;
 }
 
-/*--------------------------------------header*/
+/*--------------------------------------header
 .header {
     background-color: #202020;
     color: #ffbe5b;
@@ -1034,36 +1042,34 @@ legend.yourdetails-border {
     text-transform: uppercase;
 }
 
-/*----------------image cards*/
+/*----------------image cards
 .atlascard {
     position: absolute;
-    top: 85px;
-    left: 20px;
-
-    display: none;
+    top: 120px;
+    left: 10px;
 }
 
 .atlascard-img-top {
-    height: 135px;
-    width: 155px;
+    height: 110px;
+    width: 130px;
     border: #ffbe5b 3px solid;
 }
 
 .atlascard-text {
     color: #ffbe5b;
-}
-
-.herculescard {
-    position: absolute;
-    top: 85px;
-    left: 195px;
 
     display: none;
 }
 
+.herculescard {
+    position: absolute;
+    top: 120px;
+    left: 175px;
+}
+
 .herculescard-img-top {
-    height: 135px;
-    width: 155px;
+    height: 110px;
+    width: 130px;
     border: #ffbe5b 3px solid;
 }
 
@@ -1071,6 +1077,8 @@ legend.yourdetails-border {
     color: #ffbe5b;
     position: relative;
     right: 6px;
+
+    display: none;
 }
 
 .amphitritecard {
@@ -1156,10 +1164,10 @@ legend.yourdetails-border {
 
 
 
-/*-----------------------------------------------index2.html*/
+/*-----------------------------------------------index2.html
 
 
-/*----------------footer and footer border*/
+/*----------------footer and footer border
 .footer {
     background-color: #202020;
     color: #ffbe5b;
@@ -1181,7 +1189,7 @@ legend.yourdetails-border {
     padding-bottom: 10px;
 } 
 
-/*----------------social media*/
+/*----------------social media
 
 .facebookword {
     visibility: hidden;
@@ -1257,11 +1265,11 @@ legend.yourdetails-border {
 }
 
 }
-/*------------------------------------------------------*/
+/*------------------------------------------------------
 
 
 @media (min-width: 360px) {
-/*--------------------------------------------index.html*/
+/*--------------------------------------------index.html
 .backgroundimage {
     position: relative;
     bottom: 30px;
@@ -1278,7 +1286,7 @@ legend.yourdetails-border {
     border-bottom: #ffbe5b 2px solid;
 }
 
-/*----------------menu*/    
+/*----------------menu
 .btn {
     background-color: #202020;
     border-color: #ffbe5b;
@@ -1307,7 +1315,7 @@ legend.yourdetails-border {
     font-weight: bold;
 }
 
-/*--------------------------------------header*/
+/*--------------------------------------header
 .header {
     background-color: #202020;
     color: #ffbe5b;
@@ -1340,7 +1348,7 @@ legend.yourdetails-border {
     white-space: nowrap;
 }
     
-/*----------------paragraphs*/    
+/*----------------paragraphs
 .paragraph1 {
     color: #fff;
     position: absolute;
@@ -1376,11 +1384,11 @@ legend.yourdetails-border {
     font-size: 120%;
     text-align: justify;
 }
-/*-----------------------------------------------index.html*/
+/*-----------------------------------------------index.html
 
 
 
-/*-----------------------------------------------index1.html*/
+/*-----------------------------------------------index1.html
 .btn {
     background-color: #202020;
     border-color: #ffbe5b;
@@ -1400,7 +1408,7 @@ legend.yourdetails-border {
     right: 9px;
 }
 
-/*----------------borders*/
+/*----------------borders
 .topborder {
     position: relative;
     top: 20px;
@@ -1408,7 +1416,7 @@ legend.yourdetails-border {
     border-bottom: #ffbe5b 2px solid;
 }
 
-/*----------------header*/
+/*----------------header
 .header {
     background-color: #202020;
     color: #ffbe5b;
@@ -1441,7 +1449,7 @@ legend.yourdetails-border {
     white-space: nowrap;
 }
 
-/*----------------paragraphs*/
+/*----------------paragraphs
 .paragraph5 {
     color: #fff;
     position: absolute;
@@ -1474,7 +1482,7 @@ legend.yourdetails-border {
     white-space: nowrap;
 }
 
-/*----------------images for big three*/
+/*----------------images for big three
 
 .goddescription {
     position: relative;
@@ -1509,7 +1517,7 @@ legend.yourdetails-border {
     border: #ffbe5b 3px solid;
 }
 
-/*----------------hover*/
+/*----------------hover
 
 #dropdownMenuButton:hover {
     border: #f9f871 2px solid;   
@@ -1549,10 +1557,10 @@ legend.yourdetails-border {
     transform: scale(3);
     z-index: 1;
 }
-/*-----------------------------------------------index1.html*/
+/*-----------------------------------------------index1.html
 
 
-/*----------------footer and footer border*/
+/*----------------footer and footer border
 .footer {
     background-color: #202020;
     color: #ffbe5b;
@@ -1574,7 +1582,7 @@ legend.yourdetails-border {
     padding-bottom: 10px;
 } 
 
-/*----------------social media*/
+/*----------------social media
 
 .facebookword {
     visibility: hidden;
@@ -1648,10 +1656,10 @@ legend.yourdetails-border {
     font-size: 135%;
 }
 }
-/*------------------------------------------------------*/
+/*------------------------------------------------------
 
 @media (min-width: 414px) {
-/*--------------------------------------------index.html*/
+/*--------------------------------------------index.html
 .backgroundimage {
     position: relative;
     bottom: 30px;
@@ -1660,7 +1668,7 @@ legend.yourdetails-border {
     opacity: 0.5;
 }
 
-/*----------------dropdown menu*/    
+/*----------------dropdown menu
 .btn {
     background-color: #202020;
     border-color: #ffbe5b;
@@ -1689,7 +1697,7 @@ legend.yourdetails-border {
     font-weight: bold;
 }
 
-/*----------------headings*/
+/*----------------headings
 .topborder {
     position: relative;
     top: 20px;
@@ -1727,7 +1735,7 @@ legend.yourdetails-border {
     text-transform: uppercase;
 }    
 
-/*----------------paragraphs*/    
+/*----------------paragraphs
 .paragraph1 {
     color: #fff;
     position: absolute;
@@ -1763,10 +1771,10 @@ legend.yourdetails-border {
     font-size: 135%;
     text-align: justify;
 }
-/*-----------------------------------------------index.html*/
+/*-----------------------------------------------index.html
 
 
-/*-----------------------------------------------index1.html*/
+/*-----------------------------------------------index1.html
 .btn {
     background-color: #202020;
     border-color: #ffbe5b;
@@ -1786,7 +1794,7 @@ legend.yourdetails-border {
     right: 9px;
 }
 
-/*----------------borders*/
+/*----------------borders
 .topborder {
     position: relative;
     top: 20px;
@@ -1794,7 +1802,7 @@ legend.yourdetails-border {
     border-bottom: #ffbe5b 2px solid;
 }
 
-/*----------------header*/
+/*----------------header
 .header {
     background-color: #202020;
     color: #ffbe5b;
@@ -1827,7 +1835,7 @@ legend.yourdetails-border {
     white-space: nowrap;
 }
 
-/*----------------paragraphs*/
+/*----------------paragraphs
 .paragraph5 {
     color: #fff;
     position: absolute;
@@ -1860,7 +1868,7 @@ legend.yourdetails-border {
     white-space: nowrap;
 }
 
-/*----------------images for big three*/
+/*----------------images for big three
 
 .goddescription {
     position: relative;
@@ -1895,7 +1903,7 @@ legend.yourdetails-border {
     border: #ffbe5b 3px solid;
 }
 
-/*----------------hover*/
+/*----------------hover
 
 #dropdownMenuButton:hover {
     border: #f9f871 2px solid;   
@@ -1935,10 +1943,10 @@ legend.yourdetails-border {
     transform: scale(3);
     z-index: 1;
 }
-/*-----------------------------------------------index1.html*/
+/*-----------------------------------------------index1.html
 
 
-/*----------------footer and footer border*/
+/*----------------footer and footer border
 .footer {
     background-color: #202020;
     color: #ffbe5b;
@@ -1960,7 +1968,7 @@ legend.yourdetails-border {
     padding-bottom: 10px;
 } 
 
-/*----------------social media*/
+/*----------------social media
 
 .facebookword {
     visibility: hidden;
@@ -2034,11 +2042,11 @@ legend.yourdetails-border {
     font-size: 135%;
 }
 }
-/*------------------------------------------------------*/
+/*------------------------------------------------------
 
 
 @media (min-width: 576px) {
-/*--------------------------------------------index.html*/
+/*--------------------------------------------index.html
 .backgroundimage {
     position: relative;
     bottom: 30px;
@@ -2047,7 +2055,7 @@ legend.yourdetails-border {
     opacity: 0.5;
 }
 
-/*----------------dropdown menu*/    
+/*----------------dropdown menu
 .btn {
     background-color: #202020;
     border-color: #ffbe5b;
@@ -2076,7 +2084,7 @@ legend.yourdetails-border {
     font-weight: bold;
 }
 
-/*----------------headings*/
+/*----------------headings
 .topborder {
     position: relative;
     top: 25px;
@@ -2118,7 +2126,7 @@ legend.yourdetails-border {
     display: none;
 }
 
-/*----------------paragraphs*/    
+/*----------------paragraphs
 .paragraph1 {
     color: #fff;
     position: absolute;
@@ -2154,10 +2162,10 @@ legend.yourdetails-border {
     font-size: 145%;
     text-align: center;
 }
-/*-----------------------------------------------index.html*/
+/*-----------------------------------------------index.html
 
 
-/*-----------------------------------------------index1.html*/
+/*-----------------------------------------------index1.html
 .btn {
     background-color: #202020;
     border-color: #ffbe5b;
@@ -2177,7 +2185,7 @@ legend.yourdetails-border {
     right: 9px;
 }
 
-/*----------------borders*/
+/*----------------borders
 .topborder {
     position: relative;
     top: 20px;
@@ -2185,7 +2193,7 @@ legend.yourdetails-border {
     border-bottom: #ffbe5b 2px solid;
 }
 
-/*----------------header*/
+/*----------------header
 .header {
     background-color: #202020;
     color: #ffbe5b;
@@ -2218,7 +2226,7 @@ legend.yourdetails-border {
     white-space: nowrap;
 }
 
-/*----------------paragraphs*/
+/*----------------paragraphs
 .paragraph5 {
     color: #fff;
     position: absolute;
@@ -2251,7 +2259,7 @@ legend.yourdetails-border {
     white-space: nowrap;
 }
 
-/*----------------images for big three*/
+/*----------------images for big three
 
 .goddescription {
     position: relative;
@@ -2286,7 +2294,7 @@ legend.yourdetails-border {
     border: #ffbe5b 3px solid;
 }
 
-/*----------------hover*/
+/*----------------hover
 
 #dropdownMenuButton:hover {
     border: #f9f871 2px solid;   
@@ -2326,10 +2334,10 @@ legend.yourdetails-border {
     transform: scale(3);
     z-index: 1;
 }
-/*-----------------------------------------------index1.html*/
+/*-----------------------------------------------index1.html
 
 
-/*----------------footer and footer border*/
+/*----------------footer and footer border
 .footer {
     background-color: #202020;
     color: #ffbe5b;
@@ -2350,7 +2358,7 @@ legend.yourdetails-border {
     width: 576px;
 } 
 
-/*----------------social media*/
+/*----------------social media
 
 .facebookword {
     color: #ffbe5b;
@@ -2470,11 +2478,11 @@ legend.yourdetails-border {
     visibility: hidden;
 }
 }
-/*------------------------------------------------------*/
+/*------------------------------------------------------
 
 
 @media (min-width: 600px) {
-/*--------------------------------------------index.html*/
+/*--------------------------------------------index.html
 
 .backgroundimage {
     position: relative;
@@ -2484,7 +2492,7 @@ legend.yourdetails-border {
     opacity: 0.5;
 }
 
-/*----------------dropdown menu*/    
+/*----------------dropdown menu
 .btn {
     background-color: #202020;
     border-color: #ffbe5b;
@@ -2513,7 +2521,7 @@ legend.yourdetails-border {
     font-weight: bold;
 }
 
-/*----------------borders*/
+/*----------------borders
 .topborder {
     position: relative;
     top: 28px;
@@ -2521,7 +2529,7 @@ legend.yourdetails-border {
     border: #ffbe5b 1px solid;
 }
 
-/*----------------headings*/
+/*----------------headings
 .header {
     background-color: #202020;
     color: #ffbe5b;
@@ -2556,7 +2564,7 @@ legend.yourdetails-border {
     display: none;
 }
 
-/*----------------paragraphs*/    
+/*----------------paragraphs
 .paragraph1 {
     color: #fff;
     position: absolute;
@@ -2592,10 +2600,10 @@ legend.yourdetails-border {
     font-size: 140%;
     text-align: justify;
 }
-/*-----------------------------------------------index.html*/
+/*-----------------------------------------------index.html
 
 
-/*-----------------------------------------------index1.html*/
+/*-----------------------------------------------index1.html
 .btn {
     background-color: #202020;
     border-color: #ffbe5b;
@@ -2615,7 +2623,7 @@ legend.yourdetails-border {
     right: 9px;
 }
 
-/*----------------borders*/
+/*----------------borders
 .topborder {
     position: relative;
     top: 20px;
@@ -2623,7 +2631,7 @@ legend.yourdetails-border {
     border-bottom: #ffbe5b 2px solid;
 }
 
-/*----------------header*/
+/*----------------header
 .header {
     background-color: #202020;
     color: #ffbe5b;
@@ -2656,7 +2664,7 @@ legend.yourdetails-border {
     white-space: nowrap;
 }
 
-/*----------------paragraphs*/
+/*----------------paragraphs
 .paragraph5 {
     color: #fff;
     position: absolute;
@@ -2689,7 +2697,7 @@ legend.yourdetails-border {
     white-space: nowrap;
 }
 
-/*----------------images for big three*/
+/*----------------images for big three
 
 .goddescription {
     position: relative;
@@ -2724,7 +2732,7 @@ legend.yourdetails-border {
     border: #ffbe5b 3px solid;
 }
 
-/*----------------hover*/
+/*----------------hover
 
 #dropdownMenuButton:hover {
     border: #f9f871 2px solid;   
@@ -2764,9 +2772,9 @@ legend.yourdetails-border {
     transform: scale(3);
     z-index: 1;
 }
-/*-----------------------------------------------index1.html*/
+/*-----------------------------------------------index1.html
 
-/*----------------footer and footer border*/
+/*----------------footer and footer border
 .footer {
     background-color: #202020;
     color: #ffbe5b;
@@ -2787,7 +2795,7 @@ legend.yourdetails-border {
     width: 600px;
 } 
 
-/*----------------social media*/
+/*----------------social media
 
 .facebookword {
     color: #ffbe5b;
@@ -2907,7 +2915,7 @@ legend.yourdetails-border {
     visibility: hidden;
 }
 }
-/*------------------------------------------------------*/
+/*------------------------------------------------------
 
 
 @media (min-width: 768px) {
@@ -2920,7 +2928,7 @@ legend.yourdetails-border {
     opacity: 0.5;
 }
 
-/*----------------menu*/    
+/*----------------menu
 .btn {
     background-color: #202020;
     border-color: #ffbe5b;
@@ -2953,7 +2961,7 @@ legend.yourdetails-border {
     display: none;
 }
 
-/*----------------borders*/
+/*----------------borders
 .topborder {
     position: relative;
     top: 28px;
@@ -2961,8 +2969,8 @@ legend.yourdetails-border {
     border: #ffbe5b 1px solid;
 }
 
-/*--------------------------------------------index.html*/
-/*----------------headings*/
+/*--------------------------------------------index.html
+/*----------------headings
 .header {
     background-color: #202020;
     color: #ffbe5b;
@@ -2996,7 +3004,7 @@ legend.yourdetails-border {
 .pageheader br {
     display: none;
 }
-/*----------------paragraphs*/    
+/*----------------paragraphs
 
 .paragraph1 {
     color: #fff;
@@ -3049,10 +3057,10 @@ legend.yourdetails-border {
 .paragraph4 br {
     display: none;
 }
-/*-----------------------------------------------index.html*/
+/*-----------------------------------------------index.html
 
 
-/*-----------------------------------------------index1.html*/
+/*-----------------------------------------------index1.html
 .btn {
     background-color: #202020;
     border-color: #ffbe5b;
@@ -3072,7 +3080,7 @@ legend.yourdetails-border {
     right: 9px;
 }
 
-/*----------------borders*/
+/*----------------borders
 .topborder {
     position: relative;
     top: 20px;
@@ -3080,7 +3088,7 @@ legend.yourdetails-border {
     border-bottom: #ffbe5b 2px solid;
 }
 
-/*----------------header*/
+/*----------------header
 .header {
     background-color: #202020;
     color: #ffbe5b;
@@ -3125,7 +3133,7 @@ legend.yourdetails-border {
     white-space: nowrap;
 }
 
-/*----------------paragraphs*/
+/*----------------paragraphs
 .paragraph5 {
     color: #fff;
     position: absolute;
@@ -3157,10 +3165,10 @@ legend.yourdetails-border {
     font-weight: bold;
     white-space: nowrap;
 }
-/*--------------------------*/
+/*--------------------------
 
 
-/*----------------images for big three*/
+/*----------------images for big three
 
 .goddescription {
     position: relative;
@@ -3194,10 +3202,10 @@ legend.yourdetails-border {
     width: 250px;
     border: #ffbe5b 3px solid;
 }
-/*-----------------------------------------------index1.html*/
+/*-----------------------------------------------index1.html
 
 
-/*---------------------hover*/
+/*---------------------hover
 .homebutton:hover {
     background-color: #ffbe5b;
     border-color: #f9f871;
@@ -3254,9 +3262,9 @@ legend.yourdetails-border {
     transform: scale(1.7);
     z-index: 1;
 }
-/*--------------------------*/
+/*--------------------------
 
-/*------------footer and footer border*/
+/*------------footer and footer border
 .footer {
     background-color: #202020;
     color: #ffbe5b;
@@ -3277,7 +3285,7 @@ legend.yourdetails-border {
     width: 768px;
 } 
 
-/*----------------social media*/
+/*----------------social media
 
 .facebookword {
     color: #ffbe5b;
@@ -3403,7 +3411,7 @@ legend.yourdetails-border {
     visibility: hidden;
 }
 }
-/*------------------------------------------------------*/
+/*------------------------------------------------------
 
 @media (min-width: 992px) {
 
@@ -3422,7 +3430,7 @@ legend.yourdetails-border {
     border: #ffbe5b 1px solid;
 }
 
-/*----------------menu*/    
+/*----------------menu
 .btn {
     visibility: hidden;
 }
@@ -3533,9 +3541,9 @@ legend.yourdetails-border {
     width: 120px;
     white-space: nowrap;
 } 
-/*------------------------*/
+/*------------------------
 
-/*--------------------------------------------index.html*/
+/*--------------------------------------------index.html
 
 /*----------------headings*/
 .header {
@@ -3571,9 +3579,9 @@ legend.yourdetails-border {
 .pageheader br {
     display: none;
 }
-/*--------------------------*/
+/*--------------------------
 
-/*----------------paragraphs*/    
+/*----------------paragraphs    
 .paragraph1 {
     color: #fff;
     position: absolute;
@@ -3609,12 +3617,12 @@ legend.yourdetails-border {
     font-size: 140%;
     text-align: center;
 }
-/*--------------------------------------------index.html*/
+/*--------------------------------------------index.html
 
 
-/*--------------------------------------------index1.html*/
+/*--------------------------------------------index1.html
 
-/*----------------header*/
+/*----------------header
 .header {
     background-color: #202020;
     color: #ffbe5b;
@@ -3651,7 +3659,7 @@ legend.yourdetails-border {
     display: none;
 }
 
-/*----------------paragraphs*/
+/*----------------paragraphs
 .paragraph5 {
     color: #fff;
     position: absolute;
@@ -3683,10 +3691,10 @@ legend.yourdetails-border {
     font-weight: bold;
     white-space: nowrap;
 }
-/*--------------------------*/
+/*--------------------------
 
 
-/*----------------images for big three*/
+/*----------------images for big three
 
 .goddescription {
     position: relative;
@@ -3720,10 +3728,10 @@ legend.yourdetails-border {
     width: 300px;
     border: #ffbe5b 3px solid;
 }
-/*-----------------------------------------------index1.html*/
+/*-----------------------------------------------index1.html
 
 
-/*---------------------hover*/
+/*---------------------hover
 .homebutton:hover {
     background-color: #ffbe5b;
     border-color: #f9f871;
@@ -3780,10 +3788,10 @@ legend.yourdetails-border {
     transform: scale(1.7);
     z-index: 1;
 }
-/*--------------------------*/
+/*--------------------------
 
 
-/*----------------footer and footer border*/
+/*----------------footer and footer border
 .footer {
     background-color: #202020;
     color: #ffbe5b;
@@ -3803,9 +3811,9 @@ legend.yourdetails-border {
     height: 50px;
     width: 1200px;
 } 
-/*--------------------------*/
+/*--------------------------
 
-/*--------------------------social media*/
+/*--------------------------social media
 .facebookword {
     color: #ffbe5b;
     position: absolute;
@@ -3942,11 +3950,11 @@ legend.yourdetails-border {
 #copyright {
     visibility: hidden;
 }
-/*------------------------------------------------------*/
+/*------------------------------------------------------
 
 
 @media (min-width: 1200px) {
-/*--------------------------------------------index.html*/
+/*--------------------------------------------index.html
 
 .backgroundimage {
     position: relative;
@@ -3963,7 +3971,7 @@ legend.yourdetails-border {
     border: #ffbe5b 1px solid;
 }
 
-/*----------------menu*/    
+/*----------------menu
 .btn {
     visibility: hidden;
 }
@@ -4075,9 +4083,9 @@ legend.yourdetails-border {
     white-space: nowrap;
 } 
 
-/*--------------------------------------------index.html*/
+/*--------------------------------------------index.html
 
-/*----------------headings*/
+/*----------------headings
 .header {
     background-color: #202020;
     color: #ffbe5b;
@@ -4111,9 +4119,9 @@ legend.yourdetails-border {
 .pageheader br {
     display: none;
 }
-/*--------------------------*/
+/*--------------------------
 
-/*----------------paragraphs*/    
+/*----------------paragraphs    
 .paragraph1 {
     color: #fff;
     position: absolute;
@@ -4149,12 +4157,12 @@ legend.yourdetails-border {
     font-size: 140%;
     text-align: center;
 }
-/*--------------------------------------------index.html*/
+/*--------------------------------------------index.html
 
 
-/*--------------------------------------------index1.html*/
+/*--------------------------------------------index1.html
 
-/*----------------header*/
+/*----------------header
 .header {
     background-color: #202020;
     color: #ffbe5b;
@@ -4186,9 +4194,9 @@ legend.yourdetails-border {
     text-transform: uppercase;
     white-space: nowrap;
 }
-/*--------------------------*/
+/*--------------------------
 
-/*----------------paragraphs*/
+/*----------------paragraphs
 .paragraph5 {
     color: #fff;
     position: absolute;
@@ -4220,10 +4228,10 @@ legend.yourdetails-border {
     font-weight: bold;
     white-space: nowrap;
 }
-/*--------------------------*/
+/*--------------------------
 
 
-/*----------------images for big three*/
+/*----------------images for big three
 
 .goddescription {
     position: relative;
@@ -4257,10 +4265,10 @@ legend.yourdetails-border {
     width: 325px;
     border: #ffbe5b 3px solid;
 }
-/*-----------------------------------------------index1.html*/
+/*-----------------------------------------------index1.html
 
 
-/*---------------------hover*/
+/*---------------------hover
 .homebutton:hover {
     background-color: #ffbe5b;
     border-color: #f9f871;
@@ -4317,10 +4325,10 @@ legend.yourdetails-border {
     transform: scale(1.7);
     z-index: 1;
 }
-/*--------------------------*/
+/*--------------------------
 
 
-/*----------------footer and footer border*/
+/*----------------footer and footer border
 .footer {
     background-color: #202020;
     color: #ffbe5b;
@@ -4341,7 +4349,7 @@ legend.yourdetails-border {
     width: 1200px;
 } 
 
-/*----------------social media*/
+/*----------------social media
 
 .facebookword {
     color: #ffbe5b;
