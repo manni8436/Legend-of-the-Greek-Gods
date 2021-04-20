@@ -1,6 +1,6 @@
-[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/manni8436/MS1-Project)
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)]
+(https://gitpod.io/#https://github.com/manni8436/MS1-Project)
 
-<!--this is the link to my deployed site https://manni8436.github.io/MS1-Project/-->
 
 # MS1-Project - Legend Of The Greek Gods
 
@@ -40,11 +40,12 @@ was used in the design process of the website.
 
 (wireframes)
 
-After carefully planning and a lot of adding, removing and editing I finally made a
+After careful planning and a lot of adding, removing and editing I finally made a
 wireframe that I was happy with and was my final work for the website which I have 
 added to the github repository as a PDF file but from the initial design of my wireframes
-I have had to change the way that my website has looked for the more functionality of the 
-site and to make it look better
+but I have had to change the way that my website has looked for the more functionality of the 
+site and to make it look better also the responsiveness wasnt working so I also had to redo 
+all the navbar and bottom nav using bootstrap to aid me to do this
 
 
 (Features)
@@ -79,14 +80,29 @@ write here all other technologies that was used while making the website
 (Bugs)
 * = needs to be resolved 
     
-    * my background image isnt loading
+    my background image were not loading but I managed to fix the issue but there is still
+    two of the background images that do not fill the full screen width but I have also fixed this 
+    new issue that happened by giving the big three and contact us sections different background image
+    tags and adjusting the height and width to fix the page correctly
 
-    * cant change the colour of my dropdowm menu icon
+    I couldnt change the colour of my toggler icon in the start but I have managed to find the tag that
+    would allow me to change the colour of my toggler icon
+
+    my dropdown menu isnt working and wont dropdown at the moment but I have managed to fix it and I had
+    change the whole menu coding to fix this issue
+
+    my background image was going over my navbar when scrolled down the page but I have fixed this issue 
+    by using the fixed position in the bg-light
+
+    * after fixing the position of my navbar top the top of my screen there is is a small black line that goes 
+    past my top border line a small amount 
+
+
 
 (testing)
 
 In this section write about all the tests you have done to make sure 
-the webiste works and meets the requirements that is needed from the
+the website works and meets the requirements that is needed from the
 users.
 
 and also you will want to go over all of your user stories 
@@ -125,14 +141,6 @@ I have attached the link below that I used to make the dropdown menu
 
 (https://getbootstrap.com/docs/4.6/components/dropdowns/) 
 
-I used a few icons from the Font Awesome website in this project for the links 
-in my footer nav and I have attached below the links to each icon I used
-
-https://fontawesome.com/icons/facebook-square?style=brands
-https://fontawesome.com/icons/instagram?style=brands
-https://fontawesome.com/icons/linkedin-in?style=brands
-https://fontawesome.com/icons/copyright?style=regular
-
 
 In here you thank all the people that have helped you in the course
 and also all the places that you used icons, links etc.. from.
@@ -170,16 +178,17 @@ https://omniversal-battlefield.fandom.com/wiki/Poseidon_(Greek_Mythology)?file=P
 https://www.artstation.com/artwork/1YzOK (hades image)
 https://www.pinterest.com/pin/178384835225577581/ (athena image)
 https://www.ancient-origins.net/myths-legends-europe/hermes-0011776 (hermes image)
-https://en.wikipedia.org/wiki/Zeus (zeus statue image for index1)
-https://en.wikipedia.org/wiki/Zeus (statue image of zeus for the big three in index1.html)
-https://en.wikipedia.org/wiki/Poseidon (statue image of poseidon for the big three in index1.html)
-https://en.wikipedia.org/wiki/Hades (statue image of hades for the big three in index1.html)
-https://en.wikipedia.org/wiki/Atlas_(mythology) (statue of atlas in index2.html)
-https://en.wikipedia.org/wiki/Heracles (statue of atlas in index2.html)
-https://www.pinterest.com/pin/423831014921428350/ (statue of amphitrite in index2.html)
-https://en.wikipedia.org/wiki/Asclepius (statue of asclepius in index2.html)
-https://www.pinterest.co.uk/pin/410109109794860381/ (statue of pan in index2.html)
-https://www.pinterest.co.uk/pin/111182684540958323/ (statue of nike in index2.html)
+https://en.wikipedia.org/wiki/Zeus (zeus statue image for the big three)
+https://en.wikipedia.org/wiki/Zeus (statue image of zeus for the big three)
+https://en.wikipedia.org/wiki/Poseidon (statue image of poseidon for the big three)
+https://en.wikipedia.org/wiki/Hades (statue image of hades for the big three)
+https://en.wikipedia.org/wiki/Atlas_(mythology) (statue of atlas in lesser known gods)
+https://en.wikipedia.org/wiki/Heracles (statue of atlas in lesser known gods)
+https://www.pinterest.com/pin/423831014921428350/ (statue of amphitrite in lesser known gods)
+https://en.wikipedia.org/wiki/Asclepius (statue of asclepius in lesser known gods)
+https://www.pinterest.co.uk/pin/410109109794860381/ (statue of pan in lesser known gods)
+https://www.pinterest.co.uk/pin/111182684540958323/ (statue of nike in lesser known gods)
+https://www.pinterest.co.uk/pin/255157135120071555/ (background image)
 
 In here you put in all the link from the websites that you have 
 used pictures from and any external things used for the project.
@@ -194,8 +203,8 @@ My inspiration is my passion for Greek Mythology which I have enjoyed
 and loved reading about it for a long time and I even have Greek Mythology
 memobrilia from my trip to Greece and Rome
 
-Most of the designs and layout for my project was created on my own 
-using wireframes but I also used bootstrap to aid me in building my navigation
+Most of the designs and layout for my project was created on my own using 
+wireframes and I also used bootstrap to aid me in building my navigation
 menu and also the image cards
 
 I also want to thank the following websites for helping me with my first project 
