@@ -1,6 +1,4 @@
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)]
-(https://gitpod.io/#https://github.com/manni8436/MS1-Project)
-
 
 # MS1-Project - Legend Of The Greek Gods
 
