@@ -11,6 +11,11 @@ body {
     border-bottom: 1px #ffbe5b solid;
 }
 
+#socialmedia {
+    border-top: 1px #ffbe5b solid;
+    text-transform: uppercase;
+}
+
 .navbar-brand {
     color: #ffbe5b !important;
     font-size: 210%;
