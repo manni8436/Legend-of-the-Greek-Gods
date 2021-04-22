@@ -5,23 +5,10 @@ body {
     padding: 0;
 }
 
-.backgroundimage {
-    position: absolute;
-    width: 1350px;
-    opacity: 0.5;
-}
-
-.topborder {
-    position: fixed;
-    top: 50px;
-    width: 1350px;
-    border-bottom: #ffbe5b 2px solid;
-}
-
 /*--------------------------------------------------menu*/
-.bg-light {
+.bg-dark {
     background-color: #202020 !important;
-    height: 50px;
+    border-bottom: 1px #ffbe5b solid;
 }
 
 .navbar-brand {
@@ -29,38 +16,36 @@ body {
     font-size: 210%;
 }
 
-h1 {
-    position: relative;
-    top: 2px;
-}
-
-.navbar-light .navbar-toggler {
-    border-color: #fff;
-}
-
 .navbar-toggler{
     background-color: #ffbe5b;
 }
 
-.navbar-nav {
-    position: fixed;
-    left: 745px;
-    top: 4px;
-    font-size: 120%;
+
+.nav-item {
     text-transform: uppercase;
 }
 
-.nav-link {
-    color: #ffbe5b !important;
-    font-size: 92%;
+.btn {
+    color: #ffbe5b;
+    border-color: #ffbe5b;
+    text-transform: uppercase;
 }
 
-/*--------------------------------------------------home*/
+.form-control {
+    background-color: #202020;
+    border-color: #ffbe5b;
+}
 
+.form-control::placeholder {
+    color: #ffbe5b;
+}
+/*--------------------------------------------------home*/
+/*
 .homeheader {
     position: absolute;
     top: 55px;
-    left: 300px;
+    left: 240px;
+    width: 737px;
     color: #fff;
     text-transform: uppercase;
 }
@@ -69,50 +54,56 @@ h1 {
     color: #fff;
     position: absolute;
     top: 150px;   
-    left: 150px;
+    left: -250px;
     font-size: 200%;
     text-align: justify;
+    white-space: nowrap;
 }
 
 .paragraph2 {
     color: #fff;
     position: absolute;
     top: 300px;
-    left: 150px;
+    left: -540px;
     font-size: 195%;
     text-align: justify;
+    white-space: nowrap;
 }   
 
 .paragraph3 {
     color: #fff;
     position: absolute;
     top: 460px;
-    left: 150px;
+    left: -830px;
     font-size: 200%;
     text-align: justify;
+    white-space: nowrap;
 }
 
 .paragraph4 { 
     color: #fff;
     position: absolute;
     top: 670px;   
-    left: 150px;
+    left: 25px;
     font-size: 200%;
     text-align: justify;
+    white-space: nowrap;
 }
 
 .paragraph5 {
     color: #fff;
     position: absolute;
     top: 900px;
-    left: 150px;
+    left: -260px;
     font-size: 200%;
-    text-align: justify; 
+    text-align: justify;
+    white-space: nowrap;     
 }
 /*-----------------------------------------------------------*/
 
 
 /*--------------------------------------------------the big three*/
+/*
 .thebigthreeheader {
     color: #fff;
     position: absolute;
@@ -180,6 +171,7 @@ h1 {
 
 
 /*--------------------------------------------------lesser known gods*/
+/*
 .lesserknowngodsheader {
     color: #fff;
     position: absolute;
@@ -310,6 +302,7 @@ h1 {
 
 
 /*--------------------------------------------------contact us*/
+/*
 .contactusheader {
     position: absolute;
     top: 55px;
@@ -390,28 +383,13 @@ h1 {
 /*-----------------------------------------------------------*/
 
 
-/*-------------------------footer*/
-.bottomborder {
-    position: fixed;
-    top: 581px;
-    width: 1380px;
-    border-top: #ffbe5b 1px solid;
-}
+/*-----------------------------------------------------footer*/
 
 
-#socialmedia {
-    position: absolute;
-    bottom: -7px;
-    font-size: 113%;
-    text-transform: uppercase;
-}
 
-#socialmedia1 {
-    position: absolute;
-    bottom: -1px;
-    font-size: 45%;
-    text-transform: uppercase;
-}
+
+
+/*-----------------------------------------------------------*/
 
 /*------------------------------------------------------hover*/
 /*
@@ -507,235 +485,8 @@ h1 {
 
 
 /*----------------------------------------------media queries*/
-@media (min-width: 576px) {
+@media (min-width: 576px) {}
 
-/*    
-.backgroundimage {
-    position: absolute;
-    height: 840px;
-    width: 576px;
-    opacity: 0.5;
-}
-
-.topborder {
-    position: fixed;
-    top: 50px;
-    width: 576px;
-    border-bottom: #ffbe5b 2px solid;
-}
-
-/*--------------------------------------------------menu*/
-/*
-.bg-light {
-    background-color: #202020 !important;
-    height: 50px;
-}
-
-.navbar-brand {
-    color: #ffbe5b !important;
-    font-size: 210%;
-}
-
-h1 {
-    position: absolute;
-    top: 0;
-}
-
-.navbar-light .navbar-toggler {
-    border-color: #fff;
-}
-
-.navbar-toggler{
-    background-color: #ffbe5b;
-    position: absolute;
-    top: 5px;
-    left: 500px;
-}
-
-.navbar-nav {
-    position: fixed;
-    left: 745px;
-    top: 4px;
-    font-size: 120%;
-    text-transform: uppercase;
-}
-
-.nav-link {
-    color: #ffbe5b !important;
-    font-size: 92%;
-}
-
-/*--------------------------------------------------home*/
-/*
-.homeheader {
-    position: absolute;
-    top: 55px;
-    left: 100px;
-    font-size: 150%;
-    color: #fff;
-    text-transform: uppercase;
-}
-
-.paragraph1 {
-    color: #fff;
-    position: absolute;
-    top: 125px;   
-    left: 55px;
-    font-size: 140%;
-    text-align: justify;
-}
-
-.paragraph2 {
-    color: #fff;
-    position: absolute;
-    top: 250px;   
-    left: -230px;
-    font-size: 140%;
-    text-align: justify;
-}   
-
-.paragraph3 {
-    color: #fff;
-    position: absolute;
-    top: 400px;
-    left: 120px;
-    width: 1000px;
-    font-size: 200%;
-    text-align: justify;
-}
-
-.paragraph4 { 
-    color: #fff;
-    position: absolute;
-    top: 700px;   
-    left: 90px;
-    width: 1000px;
-    font-size: 200%;
-    text-align: justify;
-}
-
-.paragraph5 {
-    color: #fff;
-    position: absolute;
-    top: 900px;
-    left: 75px;
-    width: 1000px;
-    font-size: 200%;
-    text-align: justify; 
-}
-/*-----------------------------------------------------------*/
-
-
-/*--------------------------------------------------contact us*/
-.contactus {
-    position: absolute;
-    top: 55px;
-    left: 60px;
-    color: #fff;
-    font-size: 150%;
-    text-transform: uppercase;
-    white-space: nowrap;
-}
-
-#email, #password{
-    background-color: #202020;
-    border-color: #ffbe5b;
-    color: #ffbe5b;
-    width: 350px;
-}
-
-.form-group {
-    color: #fff;
-    position: relative;
-    top: 140px;
-    left: 115px;
-    text-transform: uppercase;
-}
-
-#username {
-    background-color: #202020;
-    border-color: #ffbe5b;
-    width: 350px;
-}
-
-#login {
-    position: relative;
-    top: 150px;
-    left: 190px;
-    background-color: #202020;
-    border-color: #ffbe5b;
-    color: #ffbe5b;
-    text-transform: uppercase;
-}
-
-#reset {
-    position: relative;
-    top: 150px;
-    left: 220px;
-    background-color: #202020;
-    border-color: #ffbe5b;
-    color: #ffbe5b;
-    text-transform: uppercase;
-}
-
-.hermesstaff {
-    position: absolute;
-    top: 530px;
-    left: 150px;
-    height: 40%;
-    opacity: 0.7;
-}
-
-.textareaheader {
-    color: #fff;
-    position: absolute;
-    top: 160px;
-    left: 820px;
-    font-size: 130%;
-    text-transform: capitalize;
-}
-
-.textarea {
-    position: absolute;
-    top: 250px;
-    left: 880px;
-    height: 450px;
-    background-color: #202020;
-    border-color: #ffbe5b;
-    color: #ffbe5b;
-    text-transform: capitalize;
-}
-
-#send {
-    position: relative;
-    top: 450px;
-    left: 1020px;
-    background-color: #202020;
-    border-color: #ffbe5b;
-    color: #ffbe5b;
-    text-transform: uppercase;
-}
-/*-----------------------------------------------------------*/
-
-
-/*-----------------------------------------------------footer*/
-#socialmedia {
-    position: absolute;
-    left: 5px;
-    bottom: 5px;
-    font-size: 51%;
-    text-transform: uppercase;
-}
-
-#socialmedia1 {
-    position: absolute;
-    bottom: -1px;
-    font-size: 45%;
-    text-transform: uppercase;
-}
-
-}
-/*-----------------------------------------------------------*/
 @media (min-width: 576px) {}
 
 @media (min-width: 768px) {}

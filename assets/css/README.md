@@ -78,23 +78,13 @@ write here all other technologies that was used while making the website
 (Bugs)
 * = needs to be resolved 
     
-    my background image were not loading but I managed to fix the issue but there is still
-    two of the background images that do not fill the full screen width but I have also fixed this 
-    new issue that happened by giving the big three and contact us sections different background image
-    tags and adjusting the height and width to fix the page correctly
-
     I couldnt change the colour of my toggler icon in the start but I have managed to find the tag that
     would allow me to change the colour of my toggler icon
 
     my dropdown menu isnt working and wont dropdown at the moment but I have managed to fix it and I had
     change the whole menu coding to fix this issue
 
-    my background image was going over my navbar when scrolled down the page but I have fixed this issue 
-    by using the fixed position in the bg-light
-
-    * after fixing the position of my navbar top the top of my screen there is is a small black line that goes 
-    past my top border line a small amount 
-
+    * I cant change the colour of my nav-items at the moment
 
 
 (testing)
@@ -160,6 +150,8 @@ and also all the places that you used icons, links etc.. from.
     https://en.wikipedia.org/wiki/Poseidon
     https://en.wikipedia.org/wiki/Poseidon 
     https://en.wikipedia.org/wiki/Hades
+
+
     https://en.wikipedia.org/wiki/Atlas_(mythology)
     https://en.wikipedia.org/wiki/Hercules#Mythology
     https://en.wikipedia.org/wiki/Amphitrite#Mythology
