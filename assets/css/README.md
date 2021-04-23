@@ -81,11 +81,22 @@ write here all other technologies that was used while making the website
     I couldnt change the colour of my toggler icon in the start but I have managed to find the tag that
     would allow me to change the colour of my toggler icon
 
-    my dropdown menu isnt working and wont dropdown at the moment but I have managed to fix it and I had
-    change the whole menu coding to fix this issue
+    my dropdown menu isnt working and wont dropdown at the moment but I have managed to fix it by changing
+    the whole menu coding and now it works perfectly and is responsive
 
-    * I cant change the colour of my nav-items at the moment
+    I couldnt change the colour of my navbar due to not being able to isolate the correct class selector 
+    but I have managed to find what class tag and mananged to change the colour to the one I wanted
 
+    * while I was making a box to go over my nav menu the text colour of all the text except home dont change
+    to my colour of choice at the moment
+
+    * I cant change the background colour of my seach input box at the moment
+
+    * my index.html (home page), the big three, lesser known gods, history and contact us pages have the text 
+    and image getting cut off at the bottom and doesnt change even if I change the position
+
+    * the social media bottom bar in the page of the big three are far to big to the screen when I put into the 
+    page content
 
 (testing)
 
