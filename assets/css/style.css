@@ -5,7 +5,6 @@ body {
     padding: 0;
 }
 
-
 /*--------------------------------------------------menu*/
 .bg-dark {
     background-color: #202020 !important;
@@ -47,201 +46,87 @@ body {
 .form-control::placeholder {
     color: #ffbe5b;
 }
-
-
-/*--------------------------------------------------home*/
-.homeheader {
-    position: absolute;
-    top: 75px;
-    left: 240px;
-    width: 737px;
-    color: #fff;
-    text-transform: uppercase;
-}
-
-.paragraph1 {
-    color: #fff;
-    position: absolute;
-    top: 160px;   
-    left: -275px;
-    font-size: 200%;
-    text-align: justify;
-    white-space: nowrap;
-}
-
-.paragraph2 {
-    color: #fff;
-    position: absolute;
-    top: 270px;
-    left: -560px;
-    font-size: 195%;
-    text-align: justify;
-    white-space: nowrap;
-}   
-
-.paragraph3 {
-    color: #fff;
-    position: absolute;
-    top: 430px;
-    left: -850px;
-    font-size: 200%;
-    text-align: justify;
-    white-space: nowrap;
-}
-
-.paragraph4 { 
-    color: #fff;
-    position: absolute;
-    top: 630px;   
-    left: 5px;
-    font-size: 200%;
-    text-align: justify;
-    white-space: nowrap;
-}
-
-.paragraph5 {
-    color: #fff;
-    position: absolute;
-    top: 800px;
-    left: -280px;
-    font-size: 200%;
-    text-align: justify;
-    white-space: nowrap;     
-}
 /*-----------------------------------------------------------*/
 
-
-/*--------------------------------------------------the big three*/
-
-.thebigthreeheader {
+/*-------------------------------------------------------home*/
+.homeheader {
     color: #fff;
-    position: absolute;
-    top: 75px;
-    left: 60px;
-    width: 150%;
-    font-size:180%;
+    padding: 16px;
+    text-align: center;
     text-transform: uppercase;
 }
 
-.zeusimage {
-    position: absolute;
-    top: 60px;
-    left: 0;
-    height: 380px;
-    width: 200px;
-    border: #ffbe5b 2px solid;
-}
-
-.paragraph6 {
-    background-color: #ffbe5b;
-    color: #202020;
-    border:#fff 2px solid;
-    padding: 10px;
-    position: absolute;
-    top: 145px;
-    left: 265px;
-    font-size: 140%;
-    text-align: justify;     
-}
-
-.poseidonimage {
-    position: absolute;
-    top: 470px;
-    left: 0;
-    height: 380px;
-    width: 200px;
-    border: #ffbe5b 2px solid;
-}
-
-.paragraph7 {
-    background-color: #ffbe5b;
-    color: #202020;
-    border:#fff 2px solid;
-    padding: 10px;
-    position: absolute;
-    top: 570px;
-    left: 265px;
-    font-size: 140%;
+.paragraph1,
+.paragraph2,
+.paragraph3,
+.paragraph4,
+.paragraph5 {
+    color: #fff;
+    padding: 16px;
+    font-size: 200%;
     text-align: justify;
 }
+/*---------------------------------------------------------------*/
 
+/*--------------------------------------------------the big three*/
+.thebigthreeheader {
+    color: #fff;
+    padding: 16px;
+    width: 100%;
+    font-size:180%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.zeusimage,
+.poseidonimage,
 .hadesimage {
-    position: absolute;
-    top: 885px;
-    left: -15px;
     height: 380px;
     width: 200px;
     border: #ffbe5b 2px solid;
 }
 
+.paragraph6,
+.paragraph7,
 .paragraph8 {
     background-color: #ffbe5b;
     color: #202020;
     border:#fff 2px solid;
-    padding: 10px;
-    position: absolute;
-    top: 920px;
-    left: 440px;
     font-size: 140%;
-    text-align: justify; 
+    text-align: justify;     
 }
 /*-----------------------------------------------------------*/
 
 
 /*--------------------------------------------------lesser known gods*/
-
 .lesserknowngodsheader {
     color: #fff;
-    position: absolute;
-    top: 75px;
-    left: 280px;
-    width: 110%;
+    padding: 16px;
     font-size: 200%;
+    text-align: center;
     text-transform: uppercase;
 }
 
-.atlascard {
-    position: absolute;
-    top: 60px;
-    left: 2px;
-}
-
 .atlascard-img-top {
-    height: 420px;
-    width: 160%;
+    height: 320px;
+    width: 130%;
     border: #ffbe5b 2px solid;
 }
 
 .atlascard-text {
-    position: absolute;
-    left: 2px;
     color: #ffbe5b;
     font-size: 150%;
-    white-space: nowrap;
-}
-
-.herculescard {
-    position: absolute;
-    top: 60px;
-    left: 130px;
 }
 
 .herculescard-img-top {
     height: 420px;
-    width: 160%;
+    width: 180%;
     border: #ffbe5b 2px solid;
 }
 
 .herculescard-text {
     color: #ffbe5b;
     font-size: 150%;
-    white-space: nowrap;
-}
-
-.amphitritecard {
-    position: absolute;
-    top: 620px;
-    left: 2px;
 }
 
 .amphitritecard-img-top {
@@ -255,13 +140,6 @@ body {
     left: 2px;
     color: #ffbe5b;
     font-size: 150%;
-    white-space: nowrap;
-}
-
-.asclepiuscard {
-    position: absolute;
-    top: 620px;
-    left: 130px;
 }
 
 .asclepiuscard-img-top {
@@ -273,13 +151,6 @@ body {
 .asclepiuscard-text {
     color: #ffbe5b;
     font-size: 150%;
-    white-space: nowrap;
-}
-
-.pancard {
-    position: absolute;
-    top: 1130px;
-    left: 2px;
 }
 
 .pancard-img-top {
@@ -293,13 +164,6 @@ body {
     left: 2px;
     color: #ffbe5b;
     font-size: 150%;
-    white-space: nowrap;
-}
-
-.nikecard {
-    position: absolute;
-    top: 1130px;
-    left: 685px;
 }
 
 .nikecard-img-top {
@@ -311,7 +175,6 @@ body {
 .nikecard-text {
     color: #ffbe5b;
     font-size: 150%;
-    white-space: nowrap;
 }
 /*-------------------------------------------------------------------*/
 
@@ -319,15 +182,10 @@ body {
 /*------------------------------------------------------------history*/
 .history {
     color: #fff;
-    position: absolute;
-    top: 75px;
-    left: 440px;
     font-size: 250%;
+    text-align: center;
     text-transform: uppercase;
 }
-
-
-
 
 /*-----------------------------------------------------------*/
 
@@ -335,10 +193,8 @@ body {
 /*--------------------------------------------------contact us*/
 
 .contactusheader {
-    position: absolute;
-    top: 75px;
-    left: 440px;
     color: #fff;
+    text-align: center;
     text-transform: uppercase;
 }
 
@@ -385,9 +241,6 @@ body {
 
 .textareaheader {
     color: #fff;
-    position: absolute;
-    top: 180px;
-    left: 820px;
     font-size: 130%;
     text-transform: capitalize;
 }
@@ -426,7 +279,8 @@ body {
 
 
 /*-----------------------------------------------------footer*/
-#socialmedia {
+.footer {
+    word-spacing: 76px;
     border-top: 1px #ffbe5b solid;
     text-transform: uppercase;
 }
@@ -453,88 +307,6 @@ body {
 #send:hover {
     background-color: #ffbe5b;
     color: #202022;
-}
-
-
-
-/*
-.zeusimage:hover {    
-    position: absolute;
-    top: 140px;
-    left: 242px;
-    width: 150px;
-    transform: scale(1.5);
-    z-index: 1;
-}
-
-.poseidonimage:hover {
-    position: absolute;
-    left: 95px;
-    transform: scale(3);
-    z-index: 1;
-}
-
-.hadesimage:hover {
-    position: absolute;
-    top: 290px;
-    left: 190px;
-    transform: scale(3);
-    z-index: 1;
-}
-
-
-.atlascard-img-top:hover {
-    position: absolute;
-    top: 50px;
-    left: 82px;
-    width: 160px;
-    transform: scale(2.2);
-    z-index: 1;
-}
-
-.herculescard-img-top:hover {
-    position: absolute;
-    top: 40px;
-    right: 214px;
-    width: 172px;
-    transform: scale(2);
-    z-index: 1;
-}
-
-.amphitritecard-img-top:hover {
-    position: absolute;
-    top: 34px;
-    left: 80px;
-    width: 172px;
-    transform: scale(2);
-    z-index: 1;
-}
-
-.asclepiuscard-img-top:hover {
-    position: absolute;
-    top: 34px;
-    right: 212px;
-    width: 172px;
-    transform: scale(2);
-    z-index: 1; 
-}
-
-.pancard-img-top:hover {
-    position: absolute;
-    top: 10px;
-    left: 78px;
-    width: 172px;
-    transform: scale(2);
-    z-index: 1;
-}
-
-.nikecard-img-top:hover {
-    position: absolute;
-    top: 10px;
-    right: 216px;
-    width: 172px;
-    transform: scale(2);
-    z-index: 1; 
 }
 /*-----------------------------------------------------------*/
 
