@@ -83,6 +83,7 @@ body {
 .hadesimage {
     height: 380px;
     width: 200px;
+    margin: 5px;
     border: #ffbe5b 2px solid;
 }
 
@@ -93,6 +94,7 @@ body {
     color: #202020;
     border:#fff 2px solid;
     font-size: 140%;
+    margin: 5px;
     text-align: justify;     
 }
 /*-----------------------------------------------------------*/
@@ -107,71 +109,23 @@ body {
     text-transform: uppercase;
 }
 
-.atlascard-img-top {
+.atlascard-img-top,
+.herculescard-img-top,
+.amphitritecard-img-top, 
+.asclepiuscard-img-top,
+.pancard-img-top,
+.nikecard-img-top {
     height: 320px;
     width: 130%;
+    margin: 5px;
     border: #ffbe5b 2px solid;
 }
 
-.atlascard-text {
-    color: #ffbe5b;
-    font-size: 150%;
-}
-
-.herculescard-img-top {
-    height: 420px;
-    width: 180%;
-    border: #ffbe5b 2px solid;
-}
-
-.herculescard-text {
-    color: #ffbe5b;
-    font-size: 150%;
-}
-
-.amphitritecard-img-top {
-    height: 420px;
-    width: 160%;
-    border: #ffbe5b 2px solid;
-}
-
-.amphitritecard-text {
-    position: absolute;
-    left: 2px;
-    color: #ffbe5b;
-    font-size: 150%;
-}
-
-.asclepiuscard-img-top {
-    height: 420px;
-    width: 160%;
-    border: #ffbe5b 2px solid;
-}
-
-.asclepiuscard-text {
-    color: #ffbe5b;
-    font-size: 150%;
-}
-
-.pancard-img-top {
-    height: 420px;
-    width: 160%;
-    border: #ffbe5b 2px solid;
-}
-
-.pancard-text {
-    position: absolute;
-    left: 2px;
-    color: #ffbe5b;
-    font-size: 150%;
-}
-
-.nikecard-img-top {
-    height: 420px;
-    width: 160%;
-    border: #ffbe5b 2px solid;
-}
-
+.atlascard-text,
+.herculescard-text, 
+.amphitritecard-text, 
+.asclepiuscard-text,
+.pancard-text, 
 .nikecard-text {
     color: #ffbe5b;
     font-size: 150%;
@@ -191,7 +145,6 @@ body {
 
 
 /*--------------------------------------------------contact us*/
-
 .contactusheader {
     color: #fff;
     text-align: center;
@@ -207,9 +160,6 @@ body {
 
 .form-group {
     color: #fff;
-    position: relative;
-    top: 150px;
-    left: 120px;
     text-transform: uppercase;
 }
 
@@ -219,49 +169,32 @@ body {
     width: 350px;
 }
 
-#login {
-    position: relative;
-    top: 155px;
-    left: 180px;
-    background-color: #202020;
-    border-color: #ffbe5b;
-    color: #ffbe5b;
-    text-transform: uppercase;
-}
-
-#reset {
-    position: relative;
-    top: 155px;
-    left: 260px;
-    background-color: #202020;
-    border-color: #ffbe5b;
-    color: #ffbe5b;
-    text-transform: uppercase;
-}
-
 .textareaheader {
     color: #fff;
     font-size: 130%;
+    margin-top: 30px;
+    text-align: center;
     text-transform: capitalize;
 }
 
 .textarea {
-    background-image: url(/assets/css/images/hermes.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 290px;
-    left: 860px;
     background-color: #202020;
     border-color: #ffbe5b;
     color: #ffbe5b;
+    font-size: 100%;
     text-transform: capitalize;
 }
 
+#login,
+#reset {
+    background-color: #202020;
+    border-color: #ffbe5b;
+    color: #ffbe5b;
+    margin-left: 60px;
+    text-transform: uppercase;
+}
+
 #send {
-    position: relative;
-    top: 560px;
-    left: 100px;
     background-color: #202020;
     border-color: #ffbe5b;
     color: #ffbe5b;
@@ -269,10 +202,9 @@ body {
 }
 
 .hermesstaff {
-    position: absolute;
-    top: 500px;
-    left: 250px;
     height: 350px;
+    margin-top: 40px;
+    margin-left: 50px;
     opacity: 0.50;
 }
 /*-----------------------------------------------------------*/
@@ -280,11 +212,11 @@ body {
 
 /*-----------------------------------------------------footer*/
 .footer {
-    word-spacing: 76px;
     border-top: 1px #ffbe5b solid;
+    word-spacing: 76px;
+    margin-top: 20px;
     text-transform: uppercase;
 }
-
 /*-----------------------------------------------------------*/
 
 
@@ -312,8 +244,6 @@ body {
 
 
 /*----------------------------------------------media queries*/
-@media (min-width: 576px) {}
-
 @media (min-width: 576px) {}
 
 @media (min-width: 768px) {}
