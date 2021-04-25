@@ -145,6 +145,13 @@ body {
 
 
 /*--------------------------------------------------contact us*/
+.hermesstaff {
+    height: 350px;
+    margin-top: 40px;
+    margin-left: 50px;
+    opacity: 0.50;
+}
+
 .contactusheader {
     color: #fff;
     text-align: center;
@@ -169,6 +176,15 @@ body {
     width: 350px;
 }
 
+#login,
+#reset {
+    background-color: #202020;
+    border-color: #ffbe5b;
+    color: #ffbe5b;
+    margin-left: 60px;
+    text-transform: uppercase;
+}
+
 .textareaheader {
     color: #fff;
     font-size: 130%;
@@ -181,17 +197,8 @@ body {
     background-color: #202020;
     border-color: #ffbe5b;
     color: #ffbe5b;
-    font-size: 100%;
+    float: right;
     text-transform: capitalize;
-}
-
-#login,
-#reset {
-    background-color: #202020;
-    border-color: #ffbe5b;
-    color: #ffbe5b;
-    margin-left: 60px;
-    text-transform: uppercase;
 }
 
 #send {
@@ -199,13 +206,6 @@ body {
     border-color: #ffbe5b;
     color: #ffbe5b;
     text-transform: uppercase;
-}
-
-.hermesstaff {
-    height: 350px;
-    margin-top: 40px;
-    margin-left: 50px;
-    opacity: 0.50;
 }
 /*-----------------------------------------------------------*/
 
