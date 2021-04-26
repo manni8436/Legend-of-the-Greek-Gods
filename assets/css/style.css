@@ -85,6 +85,8 @@ body {
 .zeusimage,
 .poseidonimage,
 .hadesimage {
+    height: 380px;
+    width: 200px;
     margin: 5px;
     max-width: 100%;
     height: auto;
@@ -209,7 +211,7 @@ body {
     border-color: #ffbe5b;
     color: #ffbe5b;
     margin-top: 30px;
-    margin-left: 170px;
+    margin-left: 180px;
     text-transform: uppercase;
 }
 /*-----------------------------------------------------------*/
@@ -218,6 +220,7 @@ body {
 /*-----------------------------------------------------footer*/
 .footer {
     border-top: 1px #ffbe5b solid;
+    word-spacing: 76px;
     margin-top: 20px;
     text-transform: uppercase;
 }
@@ -248,67 +251,9 @@ body {
 
 
 /*----------------------------------------------media queries*/
-@media (min-width: 576px) {
+@media (min-width: 576px) {}
 
-/*--------------------------------------------------the big three*/
-.zeusimage,
-.poseidonimage,
-.hadesimage {
-    position: relative;
-    left: 80px;
-    height: 380px;
-    width: 300px;
-    margin: 5px;
-    border: #ffbe5b 2px solid;
-}   
-/*---------------------------------------------------------------*/
-
-
-}
-
-@media (min-width: 768px) {
-
-/*--------------------------------------------------the big three*/
-.zeusimage,
-.poseidonimage,
-.hadesimage {
-    position: relative;
-    left: 0;
-    height: 380px;
-    width: 300px;
-    border: #ffbe5b 2px solid;
-}   
-
-.poseidonimage,
-.hadesimage {
-    margin-top: 20px;
- }
-
-.paragraph6,
-.paragraph7,
-.paragraph8 {
-    background-color: #ffbe5b;
-    color: #202020;
-    border:#fff 2px solid;
-    font-size: 140%;
-    margin: 5px;
-    text-align: center;     
-}
-/*---------------------------------------------------------------*/
-
-
-/*-----------------------------------------------------footer*/
-.footer {
-    border-top: 1px #ffbe5b solid;
-    margin-top: 20px;
-    font-size: 70%;
-    text-align: center;
-    text-transform: uppercase;
-}
-/*-----------------------------------------------------------*/
-
-
-}
+@media (min-width: 768px) {}
 
 @media (min-width: 992px) {}
 
