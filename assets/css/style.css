@@ -49,6 +49,13 @@ body {
 /*-----------------------------------------------------------*/
 
 /*-------------------------------------------------------home*/
+.bodyhome {
+    background-image: url("/assets/css/images/zeusgold.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+}
+
 .homeheader {
     color: #fff;
     padding: 16px;
@@ -72,6 +79,13 @@ body {
 /*---------------------------------------------------------------*/
 
 /*--------------------------------------------------the big three*/
+.bodybigthree {
+    background-image: url("/assets/css/images/poseidon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+}
+
 .thebigthreeheader {
     color: #fff;
     padding: 16px;
@@ -91,27 +105,14 @@ body {
     border: #ffbe5b 2px solid;
 }
 
-.paragraph6 {
-    background-color: #ffbe5b;
-    color: #202020;
-    border:#fff 2px solid;
-    font-size: 140%;
-    text-align: justify;     
-}
-
-.paragraph7 {
-    background-color: #ffbe5b;
-    color: #202020;
-    border:#fff 2px solid;
-    font-size: 140%;
-    text-align: justify;     
-}
-
+.paragraph6,
+.paragraph7,
 .paragraph8 {
     background-color: #ffbe5b;
     color: #202020;
     border:#fff 2px solid;
     font-size: 140%;
+    margin-top: 10px;
     text-align: justify;     
 }
 
@@ -120,6 +121,13 @@ body {
 
 
 /*--------------------------------------------------lesser known gods*/
+.bodylesserknown {
+    background-image: url("/assets/css/images/hades.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+}
+
 .lesserknowngodsheader {
     color: #fff;
     padding: 16px;
@@ -136,8 +144,9 @@ body {
 .pancard-img-top,
 .nikecard-img-top {
     height: 320px;
-    width: 130%;
+    width: 170%;
     margin: 5px;
+    border-radius: 0.25rem;
     border: #ffbe5b 2px solid;
 }
 
@@ -148,12 +157,21 @@ body {
 .pancard-text, 
 .nikecard-text {
     color: #ffbe5b;
+    width: 490px;
     font-size: 150%;
+    text-align: justify;
 }
 /*-------------------------------------------------------------------*/
 
 
 /*------------------------------------------------------------history*/
+.bodyhistory {
+    background-image: url("/assets/css/images/athena.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+}
+
 .history {
     color: #fff;
     font-size: 250%;
@@ -166,11 +184,11 @@ body {
 
 
 /*--------------------------------------------------contact us*/
-.hermesstaff {
-    height: 350px;
-    margin-top: 40px;
-    margin-left: 50px;
-    opacity: 0.50;
+.bodycontactus {
+    background-image: url("/assets/css/images/hermes.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
 }
 
 .contactusheader {
@@ -200,6 +218,7 @@ body {
     border-color: #ffbe5b;
     color: #ffbe5b;
     margin-left: 65px;
+    border-radius: 0.25rem;
     text-transform: uppercase;
 }
 
@@ -217,6 +236,7 @@ body {
     text-align: center;
     margin-top: 10px;
     margin-left: 40px;
+    border-radius: 0.25rem; 
     text-transform: uppercase;
 }
 
@@ -226,6 +246,7 @@ body {
     color: #ffbe5b;
     margin-top: 20px;
     margin-left: 175px;
+    border-radius: 0.25rem;
     text-transform: uppercase;
 }
 /*-----------------------------------------------------------*/
@@ -234,7 +255,8 @@ body {
 /*-----------------------------------------------------footer*/
 .footer {
     border-top: 1px #ffbe5b solid;
-    word-spacing: 76px;
+    padding-left: 50px;
+    word-spacing: 50px;
     margin-top: 20px;
     text-transform: uppercase;
 }
