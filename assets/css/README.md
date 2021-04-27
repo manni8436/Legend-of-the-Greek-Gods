@@ -51,16 +51,6 @@ all the navbar and bottom nav using bootstrap to aid me to do this
 In this section go over different sections of the project and describe the features and what it does
 you may also discuss plans for additional features to be added in the future
 
-I have added several features to my project for example I have dropdown menu which when you hover over 
-it the colours change from the black background with yellow text to the yellow background with black text
-which will make it easier to see where the user is when going through the menu 
-
-I have also done the same hover feature as my dropdown menu to my menu, sign up, reset and send buttons
-
-I have also added a enlargement feature of the images which the user hovers over the image it makes it 
-bigger so that they can view the image properly and see them better and more detailed 
-
-
 (Technologies Used)
 
 In this project I have used the following technologies below
@@ -87,16 +77,17 @@ write here all other technologies that was used while making the website
     I couldnt change the colour of my navbar due to not being able to isolate the correct class selector 
     but I have managed to find what class tag and mananged to change the colour to the one I wanted
 
-    * while I was making a box to go over my nav menu the text colour of all the text except home dont change
-    to my colour of choice at the moment
+    while I was making a box to go over my nav menu the text colour of all the text except home dont change
+    to my colour of choice at the moment but since I removed the search box component from my navbar the 
+    box around the menu works now
 
-    * I cant change the background colour of my seach input box at the moment
+    my index.html (home page), the big three, lesser known gods, history and contact us pages have the text 
+    and image getting cut off at the bottom and doesnt change even if I change the position and this was 
+    because I didnt have a footer tags and once I changed it and then the content was no longer covered
 
-    * my index.html (home page), the big three, lesser known gods, history and contact us pages have the text 
-    and image getting cut off at the bottom and doesnt change even if I change the position
+    * the background image are responsive apart from when you get to the lower breakpoint 576 pixels 
+    because the part of where zeus is in the image gets cut off
 
-    * the social media bottom bar in the page of the big three are far to big to the screen when I put into the 
-    page content
 
 (testing)
 

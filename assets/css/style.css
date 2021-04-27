@@ -8,7 +8,7 @@ body {
 /*--------------------------------------------------menu*/
 .bg-dark {
     background-color: #202020 !important;
-    border-bottom: 1px #ffbe5b solid;
+    border-bottom: 2px #ffbe5b solid;
 }
 
 .navbar-brand {
@@ -57,7 +57,10 @@ body {
 }
 
 .homeheader {
-    color: #fff;
+    background-color: #202020;
+    color: #ffbe5b;
+    border:#ffbe5b 2px solid;
+    margin-top: 10px;
     padding: 16px;
     text-align: center;
     text-transform: uppercase;
@@ -87,7 +90,10 @@ body {
 }
 
 .thebigthreeheader {
-    color: #fff;
+    background-color: #202020;
+    color: #ffbe5b;
+    border:#ffbe5b 2px solid;
+    margin-top: 10px;
     padding: 16px;
     width: 100%;
     font-size:180%;
@@ -102,6 +108,7 @@ body {
     height: 380px;
     width: 200px;
     margin-top: 15px;
+    border-radius: 0.25rem;
     border: #ffbe5b 2px solid;
 }
 
@@ -110,10 +117,10 @@ body {
 .paragraph8 {
     background-color: #ffbe5b;
     color: #202020;
-    border:#fff 2px solid;
+    border: #202020 2px solid;
     font-size: 140%;
     margin-top: 10px;
-    text-align: justify;     
+    text-align: center;     
 }
 
 
@@ -129,7 +136,10 @@ body {
 }
 
 .lesserknowngodsheader {
-    color: #fff;
+    background-color: #202020;
+    color: #ffbe5b;
+    border:#ffbe5b 2px solid;
+    margin-top: 10px;
     padding: 16px;
     font-size: 200%;
     text-align: center;
@@ -173,7 +183,11 @@ body {
 }
 
 .history {
-    color: #fff;
+    background-color: #202020;
+    color: #ffbe5b;
+    border:#ffbe5b 2px solid;
+    margin-top: 10px;
+    padding: 16px;
     font-size: 250%;
     text-align: center;
     text-transform: uppercase;
@@ -192,7 +206,11 @@ body {
 }
 
 .contactusheader {
-    color: #fff;
+    background-color: #202020;
+    color: #ffbe5b;
+    border:#ffbe5b 2px solid;
+    margin-top: 10px;
+    padding: 16px;
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
@@ -254,7 +272,7 @@ body {
 
 /*-----------------------------------------------------footer*/
 .footer {
-    border-top: 1px #ffbe5b solid;
+    border-top: 2px #ffbe5b solid;
     padding-left: 50px;
     word-spacing: 50px;
     margin-top: 20px;
@@ -267,6 +285,17 @@ body {
 .btn:hover {
     background-color: #ffbe5b;
     color: #202022;
+}
+
+.navbar-light .navbar-nav .active .nav-link:hover {
+    border: 2px #ffbe5b solid;
+    color: #ffbe5b;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    border: 2px #ffbe5b solid;
+    margin: 5px;
+    color: #ffbe5b;
 }
 
 #login:hover {
