@@ -87,22 +87,35 @@ body {
 .hadesimage {
     height: 380px;
     width: 200px;
-    margin: 5px;
-    max-width: 100%;
-    height: auto;
+    margin-top: 15px;
     border: #ffbe5b 2px solid;
 }
 
-.paragraph6,
-.paragraph7,
+.paragraph6 {
+    background-color: #ffbe5b;
+    color: #202020;
+    border:#fff 2px solid;
+    font-size: 140%;
+    text-align: justify;     
+}
+
+.paragraph7 {
+    background-color: #ffbe5b;
+    color: #202020;
+    border:#fff 2px solid;
+    font-size: 140%;
+    text-align: justify;     
+}
+
 .paragraph8 {
     background-color: #ffbe5b;
     color: #202020;
     border:#fff 2px solid;
     font-size: 140%;
-    margin: 5px;
     text-align: justify;     
 }
+
+
 /*-----------------------------------------------------------*/
 
 
@@ -186,7 +199,7 @@ body {
     background-color: #202020;
     border-color: #ffbe5b;
     color: #ffbe5b;
-    margin-left: 60px;
+    margin-left: 65px;
     text-transform: uppercase;
 }
 
@@ -194,7 +207,7 @@ body {
     color: #fff;
     font-size: 130%;
     margin-top: 30px;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 .textarea {
@@ -203,6 +216,7 @@ body {
     color: #ffbe5b;
     text-align: center;
     margin-top: 10px;
+    margin-left: 40px;
     text-transform: uppercase;
 }
 
@@ -210,8 +224,8 @@ body {
     background-color: #202020;
     border-color: #ffbe5b;
     color: #ffbe5b;
-    margin-top: 30px;
-    margin-left: 180px;
+    margin-top: 20px;
+    margin-left: 175px;
     text-transform: uppercase;
 }
 /*-----------------------------------------------------------*/
