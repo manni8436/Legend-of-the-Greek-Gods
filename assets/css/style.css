@@ -91,7 +91,7 @@ body {
 
 /*--------------------------------------------------the big three*/
 .backgroundimage-bigthree {
-    background-image: url("images/poseidon.jpg");
+    background-image: url("/assets/css/images/poseidon.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
@@ -196,7 +196,7 @@ body {
 
 /*------------------------------------------------------------history*/
 .backgroundimage-history {
-    background-image: url("/assets/css/images/athena.jpg");
+    background-image: url('/assets/css/images/athena.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
@@ -223,7 +223,7 @@ body {
     border-radius: 0.25rem;
     font-size: 140%;
     margin-top: 10px;
-    padding: 12px;
+    padding: 16px;
     text-align: justify;
     text-transform: uppercase;
 }
