@@ -49,7 +49,7 @@ body {
 /*-----------------------------------------------------------*/
 
 /*-------------------------------------------------------home*/
-.bodyhome {
+.backgroundimage-home {
     background-image: url("/assets/css/images/zeusgold.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -60,7 +60,9 @@ body {
     background-color: #202020;
     color: #ffbe5b;
     border:#ffbe5b 2px solid;
-    margin-top: 10px;
+    width: 800px;
+    margin-top: 20px;
+    margin-left: 170px;
     padding: 16px;
     text-align: center;
     text-transform: uppercase;
@@ -82,7 +84,7 @@ body {
 /*---------------------------------------------------------------*/
 
 /*--------------------------------------------------the big three*/
-.bodybigthree {
+.backgroundimage-bigthree {
     background-image: url("/assets/css/images/poseidon.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -93,9 +95,9 @@ body {
     background-color: #202020;
     color: #ffbe5b;
     border:#ffbe5b 2px solid;
-    margin-top: 10px;
+    max-width: 100%;
+    margin-top: 20px;
     padding: 16px;
-    width: 100%;
     font-size:180%;
     text-align: center;
     text-transform: uppercase;
@@ -106,29 +108,44 @@ body {
 .poseidonimage,
 .hadesimage {
     height: 380px;
-    width: 200px;
+    width: 300px;
     margin-top: 15px;
     border-radius: 0.25rem;
     border: #ffbe5b 2px solid;
 }
 
-.paragraph6,
-.paragraph7,
+.paragraph6 {
+    background-color: #ffbe5b;
+    color: #202020;
+    border: #202020 2px solid;
+    font-size: 140%;
+    margin-top: 100px;
+    text-align: center;     
+}
+
+.paragraph7 {
+    background-color: #ffbe5b;
+    color: #202020;
+    border: #202020 2px solid;
+    font-size: 140%;
+    margin-top: 120px;
+    text-align: center;     
+}
+
 .paragraph8 {
     background-color: #ffbe5b;
     color: #202020;
     border: #202020 2px solid;
     font-size: 140%;
-    margin-top: 10px;
+    margin-top: 65px;
     text-align: center;     
 }
-
 
 /*-----------------------------------------------------------*/
 
 
 /*--------------------------------------------------lesser known gods*/
-.bodylesserknown {
+.backgroundimage-lesserknowngods {
     background-image: url("/assets/css/images/hades.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -139,8 +156,11 @@ body {
     background-color: #202020;
     color: #ffbe5b;
     border:#ffbe5b 2px solid;
-    margin-top: 10px;
+    width: 800px;
+    margin-top: 20px;
+    margin-left: 220px;
     padding: 16px;
+    width: 866px;
     font-size: 200%;
     text-align: center;
     text-transform: uppercase;
@@ -169,13 +189,14 @@ body {
     color: #ffbe5b;
     width: 490px;
     font-size: 150%;
+    text-transform: uppercase;
     text-align: justify;
 }
 /*-------------------------------------------------------------------*/
 
 
 /*------------------------------------------------------------history*/
-.bodyhistory {
+.backgroundimage-history {
     background-image: url("/assets/css/images/athena.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -186,7 +207,9 @@ body {
     background-color: #202020;
     color: #ffbe5b;
     border:#ffbe5b 2px solid;
-    margin-top: 10px;
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 40px;
     padding: 16px;
     font-size: 250%;
     text-align: center;
@@ -194,11 +217,35 @@ body {
     font-weight: bold;
 }
 
+.godhistory {
+    background-color: #202020;
+    color: #ffbe5b;
+    border: #ffbe5b 2px solid;
+    font-size: 140%;
+    margin-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.carousel-inner {
+    position: relative;
+    top: 20px;
+    border: #202020 3px solid;
+}
+
+.mountolympus,
+.templeofzeus,
+.templeofposeidon,
+.parthenon,
+.ancient-olympic-stadium {
+    height: 420px;
+    max-width: 100%;
+}
 /*-----------------------------------------------------------*/
 
 
 /*--------------------------------------------------contact us*/
-.bodycontactus {
+.backgroundimage-contactus {
     background-image: url("/assets/css/images/hermes.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -221,6 +268,10 @@ body {
     color: #fff;
     margin-top: 30px;
     text-transform: uppercase;
+}
+
+.text-muted {
+    color: #fff !important;
 }
 
 #email, #password{

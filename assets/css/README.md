@@ -75,7 +75,7 @@ write here all other technologies that was used while making the website
     the whole menu coding and now it works perfectly and is responsive
 
     I couldnt change the colour of my navbar due to not being able to isolate the correct class selector 
-    but I have managed to find what class tag and mananged to change the colour to the one I wanted
+    but I have managed to find what class tag and changed the colour
 
     while I was making a box to go over my nav menu the text colour of all the text except home dont change
     to my colour of choice at the moment but since I removed the search box component from my navbar the 
@@ -88,6 +88,12 @@ write here all other technologies that was used while making the website
     * the background image are responsive apart from when you get to the lower breakpoint 576 pixels 
     because the part of where zeus is in the image gets cut off
 
+    * my background images do not appear on my deployed site
+
+    * the content on the home page cant be seen properly due to the background image
+
+    * need to change the spacing between the lesser known gods images as they are to close together in the 
+    breakpoint of 992px and 768px
 
 (testing)
 
@@ -127,9 +133,19 @@ I wanted which was used as a mobile first approach
 
 which has now been put in place and works well in each sections of the menu
 
-I have attached the link below that I used to make the dropdown menu 
+I have attached the link below that I used to help me credit sections of my website
 
-(https://getbootstrap.com/docs/4.6/components/dropdowns/) 
+https://getbootstrap.com/docs/4.6/components/navbar/
+https://getbootstrap.com/docs/4.6/layout/grid/
+https://getbootstrap.com/docs/4.6/components/carousel/
+https://fontawesome.com/
+https://fonts.google.com/?standard-styles=
+
+
+
+I would prersonally like to thank my mentor Chris Quinn with all the help and advice 
+he has given me during my first project and all the people that have helped me from
+the slack community
 
 
 In here you thank all the people that have helped you in the course
@@ -152,8 +168,6 @@ and also all the places that you used icons, links etc.. from.
     https://en.wikipedia.org/wiki/Poseidon
     https://en.wikipedia.org/wiki/Poseidon 
     https://en.wikipedia.org/wiki/Hades
-
-
     https://en.wikipedia.org/wiki/Atlas_(mythology)
     https://en.wikipedia.org/wiki/Hercules#Mythology
     https://en.wikipedia.org/wiki/Amphitrite#Mythology
@@ -161,32 +175,30 @@ and also all the places that you used icons, links etc.. from.
     https://www.pinterest.co.uk/pin/410109109794860381/
     https://www.pinterest.co.uk/pin/410109109794860381/
     https://www.cleanpng.com/png-staff-of-hermes-health-care-medicine-vector-graphi-6850716/preview.html
+
 (Media)
 
 I have attacted the links below for all the images that I used on my throughtout my website
 
-https://wallpaperaccess.com/zeus (zeus image)
-https://omniversal-battlefield.fandom.com/wiki/Poseidon_(Greek_Mythology)?file=Poseidon.jpg (poseidon image)
-https://www.artstation.com/artwork/1YzOK (hades image)
-https://www.pinterest.com/pin/178384835225577581/ (athena image)
-https://www.ancient-origins.net/myths-legends-europe/hermes-0011776 (hermes image)
-https://en.wikipedia.org/wiki/Zeus (zeus statue image for the big three)
-https://en.wikipedia.org/wiki/Zeus (statue image of zeus for the big three)
-https://en.wikipedia.org/wiki/Poseidon (statue image of poseidon for the big three)
-https://en.wikipedia.org/wiki/Hades (statue image of hades for the big three)
-https://en.wikipedia.org/wiki/Atlas_(mythology) (statue of atlas in lesser known gods)
-https://en.wikipedia.org/wiki/Heracles (statue of atlas in lesser known gods)
-https://www.pinterest.com/pin/423831014921428350/ (statue of amphitrite in lesser known gods)
-https://en.wikipedia.org/wiki/Asclepius (statue of asclepius in lesser known gods)
-https://www.pinterest.co.uk/pin/410109109794860381/ (statue of pan in lesser known gods)
-https://www.pinterest.co.uk/pin/111182684540958323/ (statue of nike in lesser known gods)
-https://www.pinterest.co.uk/pin/255157135120071555/ (background image)
-
-In here you put in all the link from the websites that you have 
-used pictures from and any external things used for the project.
-
-
-
+https://wallpaperaccess.com/zeus (background image for home page)
+https://omniversal-battlefield.fandom.com/wiki/Poseidon_(Greek_Mythology)?file=Poseidon.jpg (background image for the big three page)
+https://www.artstation.com/artwork/1YzOK (background image for lesser known gods page)
+https://www.pinterest.com/pin/178384835225577581/ (background image for history page)
+https://www.ancient-origins.net/myths-legends-europe/hermes-0011776 (background image for contact us page)
+https://en.wikipedia.org/wiki/Zeus (image for the big three)
+https://en.wikipedia.org/wiki/Poseidon (image for the big three)
+https://en.wikipedia.org/wiki/Hades (image for the big three)
+https://en.wikipedia.org/wiki/Atlas_(mythology) (image for lesser known gods)
+https://en.wikipedia.org/wiki/Heracles (image for lesser known gods)
+https://www.pinterest.com/pin/423831014921428350/ (image for lesser known gods)
+https://en.wikipedia.org/wiki/Asclepius (image for lesser known gods)
+https://www.pinterest.co.uk/pin/410109109794860381/ (image for lesser known gods)
+https://www.pinterest.co.uk/pin/111182684540958323/ (image for lesser known gods)
+https://www.visionpubl.com/en/cities/athens/parthenon-facts-history/ (image for the carousel)
+https://en.wikipedia.org/wiki/Temple_of_Poseidon,_Sounion (image for the carousel)
+https://yallatoursblog.com/2014/01/27/faster-higher-stronger-in-ancient-olympia/ (image for the carousel)
+https://en.wikipedia.org/wiki/Temple_of_Olympian_Zeus,_Athens#History (image for the carousel)
+https://www.skatelescope.org/home/attachment/mount-olympus/ (image for the carousel)
 
 
 (Acknowledgements)
@@ -203,8 +215,3 @@ I also want to thank the following websites for helping me with my first project
 
 thank you hover.css, fontawesome, ColorSpace, Google Fonts as all of them helped me 
 design my website
-
-In this section write about where you got the inspiratioin from 
-to make design your website.
-
-
