@@ -13,7 +13,7 @@ body {
 
 .navbar-brand {
     color: #ffbe5b !important;
-    font-size: 210%;
+    font-size: 2.1rem;
 }
 
 .navbar-toggler{
@@ -50,7 +50,7 @@ body {
 
 /*-------------------------------------------------------home*/
 .backgroundimage-home {
-    background-image: url("/assets/css/images/zeusgold.jpg");
+    background-image: url("../css/images/zeusgold.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
@@ -64,7 +64,7 @@ body {
     margin-top: 20px;
     padding: 16px;
     border-radius: 0.25rem;
-    font-size:180%;
+    font-size: 1.8rem;
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
@@ -80,18 +80,17 @@ body {
     color: #fff;
     margin: 25px;
     padding: 12px;
-    font-size: 200%;
+    font-size: 2rem;
     text-align: justify;
     text-transform: uppercase;
     font-weight: bold;
-    opacity: 0.9;
-    
+    opacity: 0.9;    
 }
 /*---------------------------------------------------------------*/
 
 /*--------------------------------------------------the big three*/
 .backgroundimage-bigthree {
-    background-image: url("/assets/css/images/poseidon.jpg");
+    background-image: url("../css/images/poseidon.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
@@ -105,7 +104,7 @@ body {
     margin-top: 20px;
     padding: 16px;
     border-radius: 0.25rem;
-    font-size:180%;
+    font-size: 1.8rem;
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
@@ -128,20 +127,18 @@ body {
     color: #202020;
     border: #202020 2px solid;
     border-radius: 0.25rem;
-    font-size: 140%;
+    font-size: 1.4rem;
     margin-top: 20px;
     padding: 10px;
     text-align: justify;     
     font-weight: bold;
-    text-transform: uppercase;
-    
+    text-transform: uppercase;    
 }
 /*-----------------------------------------------------------*/
 
-
 /*--------------------------------------------------lesser known gods*/
 .backgroundimage-lesserknowngods {
-    background-image: url("/assets/css/images/hades.jpg");
+    background-image: url("../css/images/hades.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
@@ -155,7 +152,7 @@ body {
     margin-top: 20px;
     padding: 16px;
     border-radius: 0.25rem;
-    font-size:180%;
+    font-size: 1.8rem;
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
@@ -186,7 +183,7 @@ body {
     width: 490px;
     padding: 5px;
     border-radius: 0.25rem;
-    font-size: 150%;
+    font-size: 1.5rem;
     font-weight: bold;
     text-transform: uppercase;
     text-align: justify;
@@ -196,7 +193,7 @@ body {
 
 /*------------------------------------------------------------history*/
 .backgroundimage-history {
-    background-image: url('/assets/css/images/athena.jpg');
+    background-image: url('../css/images/athena.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
@@ -210,7 +207,7 @@ body {
     margin-top: 20px;
     padding: 16px;
     border-radius: 0.25rem;
-    font-size:180%;
+    font-size: 1.8rem;
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
@@ -221,7 +218,7 @@ body {
     color: #ffbe5b;
     border: #ffbe5b 2px solid;
     border-radius: 0.25rem;
-    font-size: 140%;
+    font-size: 1.4rem;
     margin-top: 10px;
     padding: 16px;
     text-align: justify;
@@ -243,12 +240,38 @@ body {
     height: 420px;
     max-width: 100%;
 }
+
+.paragraph9 {
+    background-color: #ffbe5b;
+    color: #202020;
+    border: #202020 2px solid;
+    border-radius: 0.25rem;
+    font-size: 1.4rem;
+    margin-top: 35px;
+    padding: 10px;
+    text-align: justify;     
+    font-weight: bold;
+    word-spacing: -1px;
+}
+
+.paragraph10 {
+    background-color: #ffbe5b;
+    color: #202020;
+    border: #202020 2px solid;
+    border-radius: 0.25rem;
+    font-size: 1.4rem;
+    margin-top: 35px;
+    padding: 10px;
+    text-align: justify;     
+    font-weight: bold;
+    word-spacing: -1px;
+}
 /*-----------------------------------------------------------*/
 
 
 /*--------------------------------------------------contact us*/
 .backgroundimage-contactus {
-    background-image: url("/assets/css/images/hermes.jpg");
+    background-image: url("../css/images/hermes.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
@@ -262,7 +285,7 @@ body {
     margin-top: 20px;
     padding: 16px;
     border-radius: 0.25rem;
-    font-size:180%;
+    font-size: 1.8rem;
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
@@ -299,7 +322,7 @@ body {
 
 .textareaheader {
     color: #fff;
-    font-size: 130%;
+    font-size: 1.3rem;
     margin-top: 30px;
     text-transform: uppercase;
 }
@@ -392,9 +415,6 @@ body {
     margin-left: 15px;
 }
 /*---------------------------------------------------------------*/
-
-
-
 }
 
 @media (min-width: 768px) {}
