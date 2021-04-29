@@ -60,10 +60,11 @@ body {
     background-color: #202020;
     color: #ffbe5b;
     border:#ffbe5b 2px solid;
-    width: 800px;
+    max-width: 100%;
     margin-top: 20px;
-    margin-left: 170px;
     padding: 16px;
+    border-radius: 0.25rem;
+    font-size:180%;
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
@@ -74,18 +75,23 @@ body {
 .paragraph3,
 .paragraph4,
 .paragraph5 {
+    background-color: #202020;
+    border: #ffbe5b 2px solid;
     color: #fff;
-    padding: 16px;
+    margin: 25px;
+    padding: 12px;
     font-size: 200%;
     text-align: justify;
+    text-transform: uppercase;
+    font-weight: bold;
+    opacity: 0.9;
+    
 }
-
-
 /*---------------------------------------------------------------*/
 
 /*--------------------------------------------------the big three*/
 .backgroundimage-bigthree {
-    background-image: url("/assets/css/images/poseidon.jpg");
+    background-image: url(images/poseidon.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
@@ -98,6 +104,7 @@ body {
     max-width: 100%;
     margin-top: 20px;
     padding: 16px;
+    border-radius: 0.25rem;
     font-size:180%;
     text-align: center;
     text-transform: uppercase;
@@ -114,33 +121,21 @@ body {
     border: #ffbe5b 2px solid;
 }
 
-.paragraph6 {
-    background-color: #ffbe5b;
-    color: #202020;
-    border: #202020 2px solid;
-    font-size: 140%;
-    margin-top: 100px;
-    text-align: center;     
-}
-
-.paragraph7 {
-    background-color: #ffbe5b;
-    color: #202020;
-    border: #202020 2px solid;
-    font-size: 140%;
-    margin-top: 120px;
-    text-align: center;     
-}
-
+.paragraph6,
+.paragraph7,
 .paragraph8 {
     background-color: #ffbe5b;
     color: #202020;
     border: #202020 2px solid;
+    border-radius: 0.25rem;
     font-size: 140%;
-    margin-top: 65px;
-    text-align: center;     
+    margin-top: 20px;
+    padding: 10px;
+    text-align: justify;     
+    font-weight: bold;
+    text-transform: uppercase;
+    
 }
-
 /*-----------------------------------------------------------*/
 
 
@@ -156,12 +151,11 @@ body {
     background-color: #202020;
     color: #ffbe5b;
     border:#ffbe5b 2px solid;
-    width: 800px;
+    max-width: 100%;
     margin-top: 20px;
-    margin-left: 220px;
     padding: 16px;
-    width: 866px;
-    font-size: 200%;
+    border-radius: 0.25rem;
+    font-size:180%;
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
@@ -186,9 +180,14 @@ body {
 .asclepiuscard-text,
 .pancard-text, 
 .nikecard-text {
+    background-color: #202020;
+    border: #ffbe5b 2px solid;
     color: #ffbe5b;
     width: 490px;
+    padding: 5px;
+    border-radius: 0.25rem;
     font-size: 150%;
+    font-weight: bold;
     text-transform: uppercase;
     text-align: justify;
 }
@@ -207,11 +206,11 @@ body {
     background-color: #202020;
     color: #ffbe5b;
     border:#ffbe5b 2px solid;
-    width: 500px;
+    max-width: 100%;
     margin-top: 20px;
-    margin-left: 40px;
     padding: 16px;
-    font-size: 250%;
+    border-radius: 0.25rem;
+    font-size:180%;
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
@@ -221,15 +220,18 @@ body {
     background-color: #202020;
     color: #ffbe5b;
     border: #ffbe5b 2px solid;
+    border-radius: 0.25rem;
     font-size: 140%;
     margin-top: 10px;
-    text-align: center;
+    padding: 12px;
+    text-align: justify;
     text-transform: uppercase;
 }
 
 .carousel-inner {
     position: relative;
     top: 20px;
+    border-radius: 0.25rem;
     border: #202020 3px solid;
 }
 
@@ -256,17 +258,20 @@ body {
     background-color: #202020;
     color: #ffbe5b;
     border:#ffbe5b 2px solid;
-    margin-top: 10px;
+    max-width: 100%;
+    margin-top: 20px;
     padding: 16px;
+    border-radius: 0.25rem;
+    font-size:180%;
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
-    padding-top: 16px;
 }
 
 .form-group {
     color: #fff;
     margin-top: 30px;
+    border-radius: 0.25rem;
     text-transform: uppercase;
 }
 
@@ -279,6 +284,7 @@ body {
     border-color: #ffbe5b;
     color: #ffbe5b;
     width: 350px;
+    border-radius: 0.25rem;
 }
 
 #login,
@@ -339,14 +345,11 @@ body {
 }
 
 .navbar-light .navbar-nav .active .nav-link:hover {
-    border: 2px #ffbe5b solid;
-    color: #ffbe5b;
+    color: #c48400;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    border: 2px #ffbe5b solid;
-    margin: 5px;
-    color: #ffbe5b;
+    color: #c48400;
 }
 
 #login:hover {
@@ -367,7 +370,32 @@ body {
 
 
 /*----------------------------------------------media queries*/
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+    
+
+/*-------------------------------------------------------lesser known gods*/
+.atlascard-img-top,
+.herculescard-img-top,
+.amphitritecard-img-top, 
+.asclepiuscard-img-top,
+.pancard-img-top,
+.nikecard-img-top {
+    margin: 15px;
+}
+
+.atlascard-text,
+.herculescard-text, 
+.amphitritecard-text, 
+.asclepiuscard-text,
+.pancard-text, 
+.nikecard-text {
+    margin-left: 15px;
+}
+/*---------------------------------------------------------------*/
+
+
+
+}
 
 @media (min-width: 768px) {}
 
