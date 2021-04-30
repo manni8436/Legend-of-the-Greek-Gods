@@ -50,7 +50,7 @@ body {
 
 /*-------------------------------------------------------home*/
 .backgroundimage-home {
-    background-image: url("../css/images/zeusgold.jpg");
+    background-image: url("../images/zeusgold.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
@@ -90,7 +90,7 @@ body {
 
 /*--------------------------------------------------the big three*/
 .backgroundimage-bigthree {
-    background-image: url("../css/images/poseidon.jpg");
+    background-image: url("../images/poseidon.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
@@ -138,7 +138,7 @@ body {
 
 /*--------------------------------------------------lesser known gods*/
 .backgroundimage-lesserknowngods {
-    background-image: url("../css/images/hades.jpg");
+    background-image: url("../images/hades.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
@@ -164,8 +164,8 @@ body {
 .asclepiuscard-img-top,
 .pancard-img-top,
 .nikecard-img-top {
-    height: 320px;
-    width: 170%;
+    height: 380px;
+    width: 300px;
     margin: 5px;
     border-radius: 0.25rem;
     border: #ffbe5b 2px solid;
@@ -193,7 +193,7 @@ body {
 
 /*------------------------------------------------------------history*/
 .backgroundimage-history {
-    background-image: url('../css/images/athena.jpg');
+    background-image: url('../images/athena.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
@@ -241,6 +241,12 @@ body {
     max-width: 100%;
 }
 
+.templeofzeus, 
+.templeofposeidon,
+.parthenon {
+    width: 685px;
+}
+
 .paragraph9 {
     background-color: #ffbe5b;
     color: #202020;
@@ -255,23 +261,48 @@ body {
 }
 
 .paragraph10 {
+    background-color: #202020;
+    color: #ffbe5b;
+    border: #ffbe5b 2px solid;
+    border-radius: 0.25rem;
+    font-size: 1.4rem;
+    margin-top: 30px;
+    padding: 10px;
+    text-align: justify;
+    text-transform: uppercase;    
+    font-weight: bold;
+}
+
+.paragraph11 {
     background-color: #ffbe5b;
     color: #202020;
     border: #202020 2px solid;
     border-radius: 0.25rem;
     font-size: 1.4rem;
-    margin-top: 35px;
+    margin-top: 10px;
     padding: 10px;
-    text-align: justify;     
+    text-align: justify;
     font-weight: bold;
-    word-spacing: -1px;
+}
+
+.paragraph12 {
+    background-color: #ffbe5b;
+    color: #202020;
+    border: #202020 2px solid;
+    border-radius: 0.25rem;
+    font-size: 1.4rem;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: justify;
+    text-transform: uppercase;    
+    font-weight: bold;
 }
 /*-----------------------------------------------------------*/
 
 
 /*--------------------------------------------------contact us*/
 .backgroundimage-contactus {
-    background-image: url("../css/images/hermes.jpg");
+    background-image: url("../images/hermes.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
@@ -395,7 +426,6 @@ body {
 /*----------------------------------------------media queries*/
 @media (min-width: 576px) {
     
-
 /*-------------------------------------------------------lesser known gods*/
 .atlascard-img-top,
 .herculescard-img-top,
@@ -419,7 +449,21 @@ body {
 
 @media (min-width: 768px) {}
 
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+
+/*------------------------------------------------------------history*/    
+.mountolympus,
+.templeofzeus,
+.templeofposeidon,
+.parthenon,
+.ancient-olympic-stadium {
+    width: 925px;
+}
+/*---------------------------------------------------------------*/
+
+
+
+}
 
 @media (min-width: 1200px) {}
 /*-----------------------------------------------------------*/

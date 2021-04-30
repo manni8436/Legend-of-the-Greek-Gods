@@ -1,5 +1,8 @@
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)]
 
+I have provided the link to my deployed page below
+https://manni8436.github.io/MS1-Project/
+
 # MS1-Project - Legend Of The Greek Gods
 
 One or two paragraphs providing an overview of your project.
@@ -62,9 +65,6 @@ Bootstrap
 
 write here all other technologies that was used while making the website
 
-
-
-
 (Bugs)
 * = needs to be resolved 
     
@@ -88,9 +88,11 @@ write here all other technologies that was used while making the website
     * the background image are responsive apart from when you get to the lower breakpoint 576 pixels 
     because the part of where zeus is in the image gets cut off
 
-    * my background images do not appear on my deployed site
+    my background images were not appearing on my deployed site not I was not using the relative file path at
+    the time and I have now change all the files paths and all background images work and show up on my deployed site
 
-    * the content on the home page cant be seen properly due to the background image
+    the content on the home page cant be seen properly due to the background image but I wrapped the content in a 
+    box border with a black background while using opacity for it not to be blocking the background image as much
 
     * need to change the spacing between the lesser known gods images as they are to close together in the 
     breakpoint of 992px and 768px
@@ -142,7 +144,6 @@ https://fontawesome.com/
 https://fonts.google.com/?standard-styles=
 
 
-
 I would prersonally like to thank my mentor Chris Quinn with all the help and advice 
 he has given me during my first project and all the people that have helped me from
 the slack community
@@ -155,13 +156,16 @@ and also all the places that you used icons, links etc.. from.
 (Content)
 
     I done some research online as what content to use in my project and 
-    I used the link below to include a small section in my project to find 
-    out when Greek Mythology first started
+    I used the link below to include in my project to find content on 
+    certain event and important facts that I could use for my project
 
     https://www.history.com/.amp/topics/ancient-history/greek-mythology
-
+    https://www.visionpubl.com/en/cities/athens/parthenon-facts-history/
+    https://yallatoursblog.com/2014/01/27/faster-higher-stronger-in-ancient-olympia/
+    https://www.history.com/topics/sports/olympic-games
+    https://en.wikipedia.org/wiki/Acropolis_of_Athens#History
    
-    I used wikipedia to get partial information on the Greek Gods for 
+    I also used wikipedia to get partial information on the Greek Gods for 
     my project and I have attached the links below
 
     https://en.wikipedia.org/wiki/Zeus
@@ -174,7 +178,8 @@ and also all the places that you used icons, links etc.. from.
     https://en.wikipedia.org/wiki/Asclepius
     https://www.pinterest.co.uk/pin/410109109794860381/
     https://www.pinterest.co.uk/pin/410109109794860381/
-    https://www.cleanpng.com/png-staff-of-hermes-health-care-medicine-vector-graphi-6850716/preview.html
+    https://en.wikipedia.org/wiki/Temple_of_Hera,_Olympia
+    https://www.greeka.com/peloponnese/olympia/sightseeing/temple-hera/
 
 (Media)
 
