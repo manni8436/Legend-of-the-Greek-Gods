@@ -50,7 +50,7 @@ body {
 
 /*-------------------------------------------------------home*/
 .backgroundimage-home {
-    background-image: url("../images/zeusgold.jpg");
+    background-image: url('../images/zeusgold.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
@@ -90,7 +90,7 @@ body {
 
 /*--------------------------------------------------the big three*/
 .backgroundimage-bigthree {
-    background-image: url("../images/poseidon.jpg");
+    background-image: url('../images/poseidon.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
@@ -138,7 +138,7 @@ body {
 
 /*--------------------------------------------------lesser known gods*/
 .backgroundimage-lesserknowngods {
-    background-image: url("../images/hades.jpg");
+    background-image: url('../images/hades.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
@@ -302,7 +302,7 @@ body {
 
 /*--------------------------------------------------contact us*/
 .backgroundimage-contactus {
-    background-image: url("../images/hermes.jpg");
+    background-image: url('../images/hermes.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
