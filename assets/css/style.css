@@ -72,8 +72,7 @@ body {
 .paragraph1,
 .paragraph2,
 .paragraph3,
-.paragraph4,
-.paragraph5 {
+.paragraph4 {
     background-color: #202020;
     border: #ffbe5b 2px solid;
     color: #fff;
@@ -290,8 +289,49 @@ body {
     margin-top: 10px;
     padding: 10px;
     text-align: justify;
-    text-transform: uppercase;    
     font-weight: bold;
+}
+
+.paragraph13 {
+    background-color: #ffbe5b;
+    color: #202020;
+    border: #202020 2px solid;
+    border-radius: 0.25rem;
+    font-size: 1.4rem;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.historyofthegodsheader {
+    background-color: #202020;
+    color: #ffbe5b;
+    border: #ffbe5b 2px solid;
+    border-radius: 0.25rem;
+    font-size: 1.6rem;
+    margin-top: 10px;
+    margin-left: 375px;
+    width: 310px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.thewarheader {
+    background-color: #202020;
+    color: #ffbe5b;
+    border: #ffbe5b 2px solid;
+    border-radius: 0.25rem;
+    font-size: 1.6rem;
+    margin-top: 10px;
+    margin-left: 475px;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 /*-----------------------------------------------------------*/
 
