@@ -60,7 +60,6 @@ body {
     background-color: #202020;
     color: #ffbe5b;
     border:#ffbe5b 2px solid;
-    max-width: 100%;
     margin-top: 20px;
     padding: 16px;
     border-radius: 0.25rem;
@@ -79,12 +78,11 @@ body {
     border: #ffbe5b 2px solid;
     color: #fff;
     margin: 25px;
-    padding: 12px;
+    padding: 8px 10px;
     font-size: 2rem;
     text-align: justify;
     text-transform: uppercase;
     font-weight: bold;
-    opacity: 0.9;    
 }
 /*---------------------------------------------------------------*/
 
@@ -190,7 +188,6 @@ body {
 }
 /*-------------------------------------------------------------------*/
 
-
 /*------------------------------------------------------------history*/
 .backgroundimage-history {
     background-image: url('../images/athena.jpg');
@@ -257,7 +254,6 @@ body {
     padding: 10px;
     text-align: justify;     
     font-weight: bold;
-    word-spacing: -1px;
 }
 
 .paragraph10 {
@@ -354,7 +350,7 @@ body {
 .textareaheader {
     color: #fff;
     font-size: 1.3rem;
-    margin-top: 30px;
+    margin-top: 20px;
     text-transform: uppercase;
 }
 
@@ -373,24 +369,38 @@ body {
     background-color: #202020;
     border-color: #ffbe5b;
     color: #ffbe5b;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     margin-left: 175px;
     border-radius: 0.25rem;
     text-transform: uppercase;
 }
 /*-----------------------------------------------------------*/
 
-
 /*-----------------------------------------------------footer*/
 .footer {
+    background-color: #202020;
+    margin-top: 2rem;
     border-top: 2px #ffbe5b solid;
-    padding-left: 50px;
-    word-spacing: 50px;
-    margin-top: 20px;
+}
+
+.socialmedia {
+    text-align: center;
+    margin-bottom: 0;    
+    padding: 0;
+}
+
+.socialmedia li {
+    font-size: 2rem;
+    display: inline;
     text-transform: uppercase;
+    word-spacing: 95px;
+}
+
+a {
+  color: #ffbe5b;  
 }
 /*-----------------------------------------------------------*/
-
 
 /*------------------------------------------------------hover*/
 .btn:hover {
@@ -420,50 +430,93 @@ body {
     background-color: #ffbe5b;
     color: #202022;
 }
-/*-----------------------------------------------------------*/
 
+a:hover {
+    color: #c48400;
+}
+/*-----------------------------------------------------------*/
 
 /*----------------------------------------------media queries*/
 @media (min-width: 576px) {
+
+    .homeheader {
+        position: relative;
+        left: 10px;
+        width: 556px;
+    }
+
+    .atlascard-img-top,
+    .herculescard-img-top,
+    .amphitritecard-img-top, 
+    .asclepiuscard-img-top,
+    .pancard-img-top,
+    .nikecard-img-top {
+        margin: 15px;
+    }
+
+    .atlascard-text,
+    .herculescard-text, 
+    .amphitritecard-text, 
+    .asclepiuscard-text,
+    .pancard-text, 
+    .nikecard-text {
+        margin-left: 15px;
+    }
+}
+/*-----------------------------------------------------------*/
+
+@media (min-width: 768px) {
     
-/*-------------------------------------------------------lesser known gods*/
-.atlascard-img-top,
-.herculescard-img-top,
-.amphitritecard-img-top, 
-.asclepiuscard-img-top,
-.pancard-img-top,
-.nikecard-img-top {
-    margin: 15px;
+    .homeheader {
+        position: relative;
+        left: 110px;
+        width: 570px;
+    }
+    
+    .atlascard-text,
+    .herculescard-text, 
+    .amphitritecard-text, 
+    .asclepiuscard-text,
+    .pancard-text, 
+    .nikecard-text {
+        width: 300px;
+    }
 }
-
-.atlascard-text,
-.herculescard-text, 
-.amphitritecard-text, 
-.asclepiuscard-text,
-.pancard-text, 
-.nikecard-text {
-    margin-left: 15px;
-}
-/*---------------------------------------------------------------*/
-}
-
-@media (min-width: 768px) {}
+/*-----------------------------------------------------------*/
 
 @media (min-width: 992px) {
 
-/*------------------------------------------------------------history*/    
-.mountolympus,
-.templeofzeus,
-.templeofposeidon,
-.parthenon,
-.ancient-olympic-stadium {
-    width: 925px;
+    .homeheader {
+        position: relative;
+        left: 250px;
+        width: 570px;
+    }
+
+    .atlascard-text,
+    .herculescard-text, 
+    .amphitritecard-text, 
+    .asclepiuscard-text,
+    .pancard-text, 
+    .nikecard-text {
+        width: 420px;
+    }
 }
-/*---------------------------------------------------------------*/
-
-
-
-}
-
-@media (min-width: 1200px) {}
 /*-----------------------------------------------------------*/
+
+@media (min-width: 1200px) {
+
+    .homeheader {
+        position: relative;
+        left: 300px;
+        width: 570px;
+    }
+
+    .atlascard-text,
+    .herculescard-text, 
+    .amphitritecard-text, 
+    .asclepiuscard-text,
+    .pancard-text, 
+    .nikecard-text {
+        width: 530px;
+    }
+}
