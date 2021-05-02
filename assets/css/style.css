@@ -304,6 +304,18 @@ body {
     font-weight: bold;
 }
 
+.paragraph14 {
+    background-color: #ffbe5b;
+    color: #202020;
+    border: #202020 2px solid;
+    border-radius: 0.25rem;
+    font-size: 1.4rem;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: justify;
+    font-weight: bold;
+}
+
 .historyofthegodsheader {
     background-color: #202020;
     color: #ffbe5b;
@@ -328,6 +340,21 @@ body {
     margin-top: 10px;
     margin-left: 475px;
     width: 150px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.afterthewarheader {
+    background-color: #202020;
+    color: #ffbe5b;
+    border: #ffbe5b 2px solid;
+    border-radius: 0.25rem;
+    font-size: 1.6rem;
+    margin-top: 10px;
+    margin-left: 435px;
+    width: 230px;
     padding: 10px;
     text-align: center;
     font-weight: bold;

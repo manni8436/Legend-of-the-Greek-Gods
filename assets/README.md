@@ -135,14 +135,15 @@ I wanted which was used as a mobile first approach
 
 which has now been put in place and works well in each sections of the menu
 
-I have attached the link below that I used to help me credit sections of my website
+I have attached the link below that I used to help me create sections of my website
 
 https://getbootstrap.com/docs/4.6/components/navbar/
 https://getbootstrap.com/docs/4.6/layout/grid/
 https://getbootstrap.com/docs/4.6/components/carousel/
 https://fontawesome.com/
 https://fonts.google.com/?standard-styles=
-
+https://en.wikipedia.org/wiki/Cronus
+https://en.wikipedia.org/wiki/Titanomachy
 
 I would prersonally like to thank my mentor Chris Quinn with all the help and advice 
 he has given me during my first project and all the people that have helped me from
