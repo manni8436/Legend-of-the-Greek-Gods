@@ -240,7 +240,7 @@ body {
 .templeofzeus, 
 .templeofposeidon,
 .parthenon {
-    width: 685px;
+    width: 900px;
 }
 
 .paragraph9 {
@@ -323,8 +323,6 @@ body {
     border-radius: 0.25rem;
     font-size: 1.6rem;
     margin-top: 10px;
-    margin-left: 375px;
-    width: 310px;
     padding: 10px;
     text-align: center;
     font-weight: bold;
@@ -338,8 +336,6 @@ body {
     border-radius: 0.25rem;
     font-size: 1.6rem;
     margin-top: 10px;
-    margin-left: 475px;
-    width: 150px;
     padding: 10px;
     text-align: center;
     font-weight: bold;
@@ -353,8 +349,6 @@ body {
     border-radius: 0.25rem;
     font-size: 1.6rem;
     margin-top: 10px;
-    margin-left: 435px;
-    width: 230px;
     padding: 10px;
     text-align: center;
     font-weight: bold;
@@ -409,7 +403,6 @@ body {
     color: #fff;
     font-size: 1.3rem;
     margin-top: 20px;
-    margin-left: 40px;
     text-transform: uppercase;
 }
 
@@ -419,7 +412,6 @@ body {
     color: #ffbe5b;
     text-align: center;
     margin-top: 10px;
-    margin-left: 100px;
     border-radius: 0.25rem; 
     text-transform: uppercase;
 }
@@ -429,7 +421,6 @@ body {
     border-color: #ffbe5b;
     color: #ffbe5b;
     margin-top: 40px;
-    margin-left: 220px;
     border-radius: 0.25rem;
     text-transform: uppercase;
 }
@@ -495,63 +486,22 @@ a:hover {
 /*-----------------------------------------------------------*/
 
 /*----------------------------------------------media queries*/
-@media (min-width: 576px) {
+@media (min-width: 576px) {}
 
-    .atlascard-img-top,
-    .herculescard-img-top,
-    .amphitritecard-img-top, 
-    .asclepiuscard-img-top,
-    .pancard-img-top,
-    .nikecard-img-top {
-        margin: 15px;
-    }
-
-    .atlascard-text,
-    .herculescard-text, 
-    .amphitritecard-text, 
-    .asclepiuscard-text,
-    .pancard-text, 
-    .nikecard-text {
-        margin-left: 15px;
-    }
-    
-}
 /*-----------------------------------------------------------*/
 
-@media (min-width: 768px) {
-    
-    .atlascard-text,
-    .herculescard-text, 
-    .amphitritecard-text, 
-    .asclepiuscard-text,
-    .pancard-text, 
-    .nikecard-text {
-        width: 300px;
-    }
-}
+@media (min-width: 768px) {}
 /*-----------------------------------------------------------*/
 
 @media (min-width: 992px) {
-
-    .atlascard-text,
-    .herculescard-text, 
-    .amphitritecard-text, 
-    .asclepiuscard-text,
-    .pancard-text, 
-    .nikecard-text {
-        width: 420px;
+    .mountolympus,
+    .templeofzeus,
+    .templeofposeidon,
+    .parthenon,
+    .ancient-olympic-stadium {
+        width: 925px;
     }
 }
 /*-----------------------------------------------------------*/
 
-@media (min-width: 1200px) {
-
-    .atlascard-text,
-    .herculescard-text, 
-    .amphitritecard-text, 
-    .asclepiuscard-text,
-    .pancard-text, 
-    .nikecard-text {
-        width: 530px;
-    }
-}
+@media (min-width: 1200px) {}
