@@ -51,41 +51,36 @@
 
 <h1 class="contactusheader">Get In Contact With Us</h1>
 
-<div class="container">
+<div class="container">    
+    <div class="row">
+        <div class="col-xl-12 col-md-12 col-sm-12">
+            <form>
+                <div class="form-group">
+                    <label for="user">First Name</label>
+                    <input type="text" class="form-control" class="firstname" required>
+                </div>
+                <div class="form-group">
+                    <label for="user">Last Name</label>
+                    <input type="text" class="form-control" class="firstname" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" class="form-control" class="email" aria-describedby="emailHelp" required>
+                </div>
+            </form>
+        </div>
+    </div>
     <div class="row">
         <div class="col- col-md-6 col-sm-12">
             <h1 class="textareaheader">Leave us a comment or feedback below</h1>            
         </div>    
-    </div>    
-
-    <div class="row">
-        <div class="col-xl-6 col-md-6 col-sm-12">
+        <div class="col-xl-12 col-md-12 col-sm-12">
             <form>
                 <label for="feedback/comments"></label>
-                <textarea class="textarea" name="feedback/comments" rows="15" cols="30"></textarea>
+                <textarea class="textarea" name="feedback/comments" rows="15" cols="30" required></textarea>
                 <button type="submit" class="btn btn-primary" id="send">send</button>    
             </form>    
         </div>   
-        
-        <div class="col-xl-6 col-md-6 col-sm-12">
-            <form>
-                <div class="form-group">
-                    <label for="email">Email address</label>
-                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
-                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                </div>
-                <div class="form-group">
-                    <label for="password">Password</label>
-                    <input type="password" class="form-control" id="password" required>
-                </div>
-                <div class="form-group form-check">
-                    <input type="checkbox" class="form-check-input" id="rememberme">
-                    <label class="form-check-label" for="rememberme">Remember me</label>
-                </div>
-                <button type="submit" class="btn btn-primary" id="login">log in</button>
-                <button type="reset" class="btn btn-primary" id="reset">reset</button>
-            </form>
-        </div>
     </div>
 </div>    
           

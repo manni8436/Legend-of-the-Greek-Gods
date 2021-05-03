@@ -144,6 +144,7 @@ https://fontawesome.com/
 https://fonts.google.com/?standard-styles=
 https://en.wikipedia.org/wiki/Cronus
 https://en.wikipedia.org/wiki/Titanomachy
+https://greekgodsandgoddesses.net/myths/titanomachy/
 
 I would prersonally like to thank my mentor Chris Quinn with all the help and advice 
 he has given me during my first project and all the people that have helped me from

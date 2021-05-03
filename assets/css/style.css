@@ -60,6 +60,7 @@ body {
     background-color: #202020;
     color: #ffbe5b;
     border:#ffbe5b 2px solid;
+    max-width: 100%;
     margin-top: 20px;
     padding: 16px;
     border-radius: 0.25rem;
@@ -75,7 +76,7 @@ body {
 .paragraph4 {
     background-color: #202020;
     border: #ffbe5b 2px solid;
-    color: #fff;
+    color: #ffbe5b;
     margin: 25px;
     padding: 8px 10px;
     font-size: 2rem;
@@ -177,7 +178,6 @@ body {
     background-color: #202020;
     border: #ffbe5b 2px solid;
     color: #ffbe5b;
-    width: 490px;
     padding: 5px;
     border-radius: 0.25rem;
     font-size: 1.5rem;
@@ -396,28 +396,20 @@ body {
     color: #fff !important;
 }
 
-#email, #password{
+.firstname, 
+.lastname,
+.email {
     background-color: #202020;
     border-color: #ffbe5b;
     color: #ffbe5b;
-    width: 350px;
     border-radius: 0.25rem;
-}
-
-#login,
-#reset {
-    background-color: #202020;
-    border-color: #ffbe5b;
-    color: #ffbe5b;
-    margin-left: 65px;
-    border-radius: 0.25rem;
-    text-transform: uppercase;
 }
 
 .textareaheader {
     color: #fff;
     font-size: 1.3rem;
     margin-top: 20px;
+    margin-left: 40px;
     text-transform: uppercase;
 }
 
@@ -427,7 +419,7 @@ body {
     color: #ffbe5b;
     text-align: center;
     margin-top: 10px;
-    margin-left: 40px;
+    margin-left: 100px;
     border-radius: 0.25rem; 
     text-transform: uppercase;
 }
@@ -436,9 +428,8 @@ body {
     background-color: #202020;
     border-color: #ffbe5b;
     color: #ffbe5b;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 175px;
+    margin-top: 40px;
+    margin-left: 220px;
     border-radius: 0.25rem;
     text-transform: uppercase;
 }
@@ -458,7 +449,7 @@ body {
 }
 
 .socialmedia li {
-    font-size: 2rem;
+    font-size: 1em;
     display: inline;
     text-transform: uppercase;
     word-spacing: 95px;
@@ -506,12 +497,6 @@ a:hover {
 /*----------------------------------------------media queries*/
 @media (min-width: 576px) {
 
-    .homeheader {
-        position: relative;
-        left: 10px;
-        width: 556px;
-    }
-
     .atlascard-img-top,
     .herculescard-img-top,
     .amphitritecard-img-top, 
@@ -529,16 +514,11 @@ a:hover {
     .nikecard-text {
         margin-left: 15px;
     }
+    
 }
 /*-----------------------------------------------------------*/
 
 @media (min-width: 768px) {
-    
-    .homeheader {
-        position: relative;
-        left: 110px;
-        width: 570px;
-    }
     
     .atlascard-text,
     .herculescard-text, 
@@ -553,12 +533,6 @@ a:hover {
 
 @media (min-width: 992px) {
 
-    .homeheader {
-        position: relative;
-        left: 250px;
-        width: 570px;
-    }
-
     .atlascard-text,
     .herculescard-text, 
     .amphitritecard-text, 
@@ -571,12 +545,6 @@ a:hover {
 /*-----------------------------------------------------------*/
 
 @media (min-width: 1200px) {
-
-    .homeheader {
-        position: relative;
-        left: 300px;
-        width: 570px;
-    }
 
     .atlascard-text,
     .herculescard-text, 
