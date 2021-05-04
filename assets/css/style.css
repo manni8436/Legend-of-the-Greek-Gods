@@ -400,10 +400,13 @@ body {
 }
 
 .textareaheader {
-    color: #fff;
+    background-color: #202020;
+    color: #ffbe5b;
+    border:#ffbe5b 2px solid;
     font-size: 1.3rem;
     margin-top: 20px;
-    padding-top: 30px;
+    border-radius: 0.25rem;
+    padding: 5px;
     text-transform: uppercase;
 }
 
