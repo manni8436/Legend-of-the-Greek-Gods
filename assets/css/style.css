@@ -54,6 +54,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
+    background-position: center center;
 }
 
 .homeheader {
@@ -92,6 +93,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
+    background-position: center center;
 }
 
 .thebigthreeheader {
@@ -140,6 +142,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
+    background-position: center center;
 }
 
 .lesserknowngodsheader {
@@ -169,6 +172,12 @@ body {
     border: #ffbe5b 2px solid;
 }
 
+.image-width {
+    width: 18rem;
+    margin: 0 auto;
+}
+
+
 .atlascard-text,
 .herculescard-text, 
 .amphitritecard-text, 
@@ -193,6 +202,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
+    background-position: center center;
 }
 
 .history {
@@ -342,6 +352,11 @@ body {
     text-transform: uppercase;
 }
 
+.titansbattle {
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
 .afterthewarheader {
     background-color: #202020;
     color: #ffbe5b;
@@ -363,6 +378,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
+    background-position: center center;
 }
 
 .contactusheader {
@@ -381,13 +397,8 @@ body {
 
 .form-group {
     color: #fff;
-    margin-top: 30px;
     border-radius: 0.25rem;
     text-transform: uppercase;
-}
-
-.text-muted {
-    color: #fff !important;
 }
 
 .firstname, 
@@ -400,13 +411,11 @@ body {
 }
 
 .textareaheader {
-    background-color: #202020;
-    color: #ffbe5b;
-    border:#ffbe5b 2px solid;
+    color: #fff;
     font-size: 1.3rem;
-    margin-top: 20px;
     border-radius: 0.25rem;
     padding: 5px;
+    text-align: center;
     text-transform: uppercase;
 }
 
@@ -414,8 +423,8 @@ body {
     background-color: #202020;
     border-color: #ffbe5b;
     color: #ffbe5b;
+    width: 100%;
     text-align: center;
-    margin-top: 10px;
     border-radius: 0.25rem; 
     text-transform: uppercase;
 }
@@ -424,8 +433,6 @@ body {
     background-color: #202020;
     border-color: #ffbe5b;
     color: #ffbe5b;
-    margin-top: 100px;
-    margin-left: -180px;
     border-radius: 0.25rem;
     text-transform: uppercase;
 }
