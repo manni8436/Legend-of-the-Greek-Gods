@@ -414,8 +414,6 @@ body {
     color: #fff;
     font-size: 1.3rem;
     border-radius: 0.25rem;
-    padding: 5px;
-    text-align: center;
     text-transform: uppercase;
 }
 
@@ -487,40 +485,6 @@ a:hover {
 /*-----------------------------------------------------------*/
 
 /*----------------------------------------------media queries*/
-@media (min-width: 576px) {
-
-    .textareaheader {
-        margin-left: 50px;
-    }
-
-    .textarea {
-        margin-left: 100px;
-    }
-
-    #send {
-        margin-left: -180px;
-    }   
-}
-
-/*-----------------------------------------------------------*/
-
-/*----------------------------------------------media queries*/
-@media (min-width: 768px) {
-
-    .textareaheader {
-        margin-left: 150px;
-    }
-
-    .textarea {
-        margin-left: 200px;
-    }
-
-    #send {
-        margin-left: -180px;
-    }   
-}
-
-/*-----------------------------------------------------------*/
 
 @media (min-width: 992px) {
     .mountolympus,
@@ -529,33 +493,6 @@ a:hover {
     .parthenon,
     .ancient-olympic-stadium {
         width: 925px;
-    }
-
-    .textareaheader {
-        margin-left: 250px;
-    }
-
-    .textarea {
-        margin-left: 300px;
-    }
-
-    #send {
-        margin-left: -180px;
-    }
-}
-/*-----------------------------------------------------------*/
-
-@media (min-width: 1200px) {
-    .textareaheader {
-        margin-left: 350px;
-    }
-
-    .textarea {
-        margin-left: 400px;
-    }
-
-    #send {
-        margin-left: -180px;
     }
 }
 /*-----------------------------------------------------------*/
