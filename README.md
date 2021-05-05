@@ -1,58 +1,70 @@
-[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)]
-
-I have provided the link to my deployed page below
-https://manni8436.github.io/MS1-Project/
+Milestone Project: User-Centric Frontend Development 
 
 # MS1-Project - Legend Of The Greek Gods
 
-One or two paragraphs providing an overview of your project.
+For this Milestone Project we were given a few options to choose from however I decided to create a website 
+about the Greek Gods, which I included pictures, a contacts page and links to different social media platforms.
 
-My first project is about the Greek Gods
+I decided to create a webiste about the Greek Gods was due to my passion for Greek Mythology which I felt that 
+I could make a better website due to my interests and passion for it.
 
-explaining the history and what happened over the years from day one to the
-present time
+User Experience
 
-also a brief explanation of each god which will help people understand who they were 
-and how they came to be one of the most favourite mythologies around to even the very 
-present times we are in and I will also speaking about the less famous gods that people may
-have never heard off before and also a brief talk about the connection between the Greek and the Roman gods 
-and how they connected and why the same gods have different names
+I designed this site to provide information and content that can be helpful to a wide range of age groups.
+
+the structure of the site was designed to be simple and easy to use and have a good content balance as to not
+overload the user and give them enough information as not leave them lost or needing more knowledge.
+
+the website is for the following users types:
+    
+    -- Users has no previous knowledge of the stories, history, characters and see what they used to look like
+
+    -- Users with basic knowledge of the Greek history but were looking for more information and
+    increase their knowledge base
+
+    -- Users who have good knowledge of the Greek history but want to refresh the knowledge or do some research 
+    or even just enjoy reading about the history of all the gods.
+
+Balsamiq wireframes was used to create my website for each page for desktop and mobile devices which has been 
+added into my repository, however while designing my website I have had to make changes of the process to make the 
+site more responsive and user friendly and may not match completely with my wireframes.
+
+Features
+
+The following is the Features that I have used for my project.
+
+- Hover feature which tells the user what location the mouse is in while in the menu.
+    -- simple function so that they user does not lose its place in the means and get confused.
+
+- Contact form validates and requests the user to input information in the input boxes and textarea
+    -- this stops the user from accidently sending blank or incomplete contact details and information needed.    
+
+(testing)
+
+I tested my site to insure all aspects of my site works and be consitent throughtout the website as excepted 
+for both desktop and mobile versions.
+
+This includes:
+    - Making sure all elements are responsive and all contents legible.
+    
+    - Testing that the navbar changes to a dropdown menu as excepted on all pages, collapsing to dropdown menu 
+    at 991px as excepted with media Queries from bootstrap.
+    
+    - The website was check on a few major desktop and mobile platform below :
+        -- Chrome
+        -- Firefox
+        -- Safari
+
+A testing page has been made to make sure all aspects of my website work and also to keep track of what was tested and the results 
+which the test page has been added to the repository.
 
 
-(UX- User Experience)
-
-Use this section to write the idea behind the website and explaining the idea 
-behind the website and what is the idea/purpose behind the website,
-
-also what age range this website is for and what they will be using it for and 
-what will be the end result for them.
 
 
-The age range for my website is between the ages of 7yrs old school children
-through to secondary school children to anyone who is in higher education to 
-anyone working or studying the Greek Mythology and finally to 70yrs old or 
-anyone who are highly interesting in Greek Mythology
 
 
-(User Stories/ use this as part of the UX)
-
-also in this section add any links to wireframes, mockups, diagrams or anything that 
-was used in the design process of the website.
-
-(wireframes)
-
-After careful planning and a lot of adding, removing and editing I finally made a
-wireframe that I was happy with and was my final work for the website which I have 
-added to the github repository as a PDF file but from the initial design of my wireframes
-but I have had to change the way that my website has looked for the more functionality of the 
-site and to make it look better also the responsiveness wasnt working so I also had to redo 
-all the navbar and bottom nav using bootstrap to aid me to do this
 
 
-(Features)
-
-In this section go over different sections of the project and describe the features and what it does
-you may also discuss plans for additional features to be added in the future
 
 (Technologies Used)
 
@@ -97,22 +109,6 @@ write here all other technologies that was used while making the website
     * need to change the spacing between the lesser known gods images as they are to close together in the 
     breakpoint of 992px and 768px
 
-(testing)
-
-In this section write about all the tests you have done to make sure 
-the website works and meets the requirements that is needed from the
-users.
-
-and also you will want to go over all of your user stories 
-from the UX section and ensure that they all work as intended, 
-with the project providing an easy and straightforward way 
-for the users to achieve their goals.
-
-
-in addition talk about how your project look on different browsers 
-and screen sizes and also add in this section if there was any very 
-interesting bugs or problems that was discovered along the way even 
-if you havent addressed them yet.
 
 (Deployment)
 
