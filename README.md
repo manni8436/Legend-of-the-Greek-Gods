@@ -17,12 +17,12 @@ overload the user and give them enough information as not leave them lost or nee
 
 the website is for the following users types:
     
-    -- Users has no previous knowledge of the stories, history, characters and see what they used to look like
+    ** Users has no previous knowledge of the stories, history, characters and see what they used to look like
 
-    -- Users with basic knowledge of the Greek history but were looking for more information and
+    ** Users with basic knowledge of the Greek history but were looking for more information and
     increase their knowledge base
 
-    -- Users who have good knowledge of the Greek history but want to refresh the knowledge or do some research 
+    ** Users who have good knowledge of the Greek history but want to refresh the knowledge or do some research 
     or even just enjoy reading about the history of all the gods.
 
 Balsamiq wireframes was used to create my website for each page for desktop and mobile devices which has been 
@@ -33,11 +33,11 @@ Features
 
 The following is the Features that I have used for my project.
 
-- Hover feature which tells the user what location the mouse is in while in the menu.
-    -- simple function so that they user does not lose its place in the means and get confused.
+* Hover feature which tells the user what location the mouse is in while in the menu.
+    ** simple function so that they user does not lose its place in the means and get confused.
 
-- Contact form validates and requests the user to input information in the input boxes and textarea
-    -- this stops the user from accidently sending blank or incomplete contact details and information needed.    
+* Contact form validates and requests the user to input information in the input boxes and textarea
+    ** this stops the user from accidently sending blank or incomplete contact details and information needed.    
 
 (testing)
 
@@ -45,15 +45,15 @@ I tested my site to insure all aspects of my site works and be consitent through
 for both desktop and mobile versions.
 
 This includes:
-    - Making sure all elements are responsive and all contents legible.
+    * Making sure all elements are responsive and all contents legible.
     
-    - Testing that the navbar changes to a dropdown menu as excepted on all pages, collapsing to dropdown menu 
+    * Testing that the navbar changes to a dropdown menu as excepted on all pages, collapsing to dropdown menu 
     at 991px as excepted with media Queries from bootstrap.
     
-    - The website was check on a few major desktop and mobile platform below :
-        -- Chrome
-        -- Firefox
-        -- Safari
+    * The website was check on a few major desktop and mobile platform below :
+        ** Chrome
+        ** Firefox
+        ** Safari
 
 A testing page has been made to make sure all aspects of my website work and also to keep track of what was tested and the results 
 which the test page has been added to the repository.
