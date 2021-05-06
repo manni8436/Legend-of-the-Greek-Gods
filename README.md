@@ -8,7 +8,7 @@ about the Greek Gods, which I included pictures, a contacts page and links to di
 I decided to create a website about the Greek Gods due to my passion for Greek Mythology and I felt that I would
 produce a better website due to my interest in the subject.
 
-1. User Experience
+User Experience
 
 I designed this site to provide information and content that can be helpful to a wide range of age groups.
 
@@ -30,7 +30,7 @@ Balsamiq wireframes was used to create my website for each page for desktop and 
 added into my repository, however while designing my website I have had to make changes of the process to make the 
 site more responsive and user friendly and may not match completely with my wireframes.
 
-2. Features
+Features
 
 The following is the Features that I have used for my project.
 
@@ -41,7 +41,7 @@ The following is the Features that I have used for my project.
         * this stops the user from accidently sending blank or incomplete contact details and 
           information needed.    
 
-3. Testing
+Testing
 
 I tested my site to insure all aspects of my site works and be consitent throughtout the website as excepted 
 for both desktop and mobile versions.
@@ -63,7 +63,7 @@ This includes:
 A testing page has been made using MS Excel which can be found <a href="Test Page (MS1 Project).xlsx">here.</a> 
 It details all the test taken to ensure the site works consitently across all devices.
 
-4. Technologies Used
+Technologies Used
 
     4.1 HTML5
         * HTML5 was used to contruct all aspects of the site pages.
@@ -80,13 +80,13 @@ It details all the test taken to ensure the site works consitently across all de
     4.5 Google Fonts
         * Google fonts was used for all the content on the site pages.
 
-5. Deployment
+Deployment
 
 The site has been deployed using Github Pages and can be reviewed <a href="https://manni8436.github.io/MS1-Project/">here.</a>
 
 Local Deployment is not needed.
 
-6. Content
+Content
 
     Text content on all Pages was copied and/or ammended from the following sites:
     
@@ -122,7 +122,7 @@ Local Deployment is not needed.
     
     6.16 https://www.greeka.com/peloponnese/olympia/sightseeing/temple-hera/
 
-7. Media
+Media
 
 Images mainly provided by wikipedia and pinterest but a full list have been provided below:
 
@@ -153,7 +153,7 @@ Images mainly provided by wikipedia and pinterest but a full list have been prov
         * https://www.visionpubl.com/en/cities/athens/parthenon-facts-history/ 
         * https://yallatoursblog.com/2014/01/27/faster-higher-stronger-in-ancient-olympia/ 
         
-8. Acknowledgements
+Acknowledgements
 
 I would like to give a big thanks to <a href="https://github.com/10xOXR">Chris Quinn</a> for all his help, effort, guidance
 and patience he has provided during this project.
