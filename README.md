@@ -5,10 +5,10 @@ Milestone Project: User-Centric Frontend Development
 For this Milestone Project we were given a few options to choose from however I decided to create a website 
 about the Greek Gods, which I included pictures, a contacts page and links to different social media platforms.
 
-I decided to create a webiste about the Greek Gods was due to my passion for Greek Mythology which I felt that 
-I could make a better website due to my interests and passion for it.
+I decided to create a website about the Greek Gods due to my passion for Greek Mythology and I felt that I would
+produce a better website due to my interest in the subject.
 
-User Experience
+1. User Experience
 
 I designed this site to provide information and content that can be helpful to a wide range of age groups.
 
@@ -17,204 +17,124 @@ overload the user and give them enough information as not leave them lost or nee
 
 the website is for the following users types:
     
-    ** Users has no previous knowledge of the stories, history, characters and see what they used to look like
+    1.1 Users has no previous knowledge of the stories, history, characters and see what they used to look like.
 
-    ** Users with basic knowledge of the Greek history but were looking for more information and
-    increase their knowledge base
+    1.2 Users with basic knowledge of the Greek history but were looking for more information and
+        increase their knowledge base.
 
-    ** Users who have good knowledge of the Greek history but want to refresh the knowledge or do some research 
-    or even just enjoy reading about the history of all the gods.
+    1.3 Users who have good knowledge of the Greek history but want to refresh the knowledge or do some research 
+        or even just enjoy reading about the history of all the gods.
 
 Balsamiq wireframes was used to create my website for each page for desktop and mobile devices which has been 
 added into my repository, however while designing my website I have had to make changes of the process to make the 
 site more responsive and user friendly and may not match completely with my wireframes.
 
-Features
+2. Features
 
 The following is the Features that I have used for my project.
 
-* Hover feature which tells the user what location the mouse is in while in the menu.
-    ** simple function so that they user does not lose its place in the means and get confused.
+    2.1 Hover feature which tells the user what location the mouse is in while in the menu.
+        * simple function so that they user does not lose its place in the means and get confused.
 
-* Contact form validates and requests the user to input information in the input boxes and textarea
-    ** this stops the user from accidently sending blank or incomplete contact details and information needed.    
+    2.2 Contact form validates and requests the user to input information in the input boxes and textarea
+        * this stops the user from accidently sending blank or incomplete contact details and information needed.    
 
-(testing)
+3. Testing
 
 I tested my site to insure all aspects of my site works and be consitent throughtout the website as excepted 
 for both desktop and mobile versions.
 
 This includes:
-    * Making sure all elements are responsive and all contents legible.
+    3.1 Making sure all pages are responsive and all contents legible.
     
-    * Testing that the navbar changes to a dropdown menu as excepted on all pages, collapsing to dropdown menu 
-    at 991px as excepted with media Queries from bootstrap.
+    3.2 Testing that the navbar changes to a dropdown menu as excepted on all pages, collapsing at 991px as excepted.
     
-    * The website was check on a few major desktop and mobile platform below :
-        ** Chrome
-        ** Firefox
-        ** Safari
+    3.3 all webpages was check on major desktop and mobile platforms listed below:
+        * Chrome
+        * Firefox
+        * Safari
 
-A testing page has been made to make sure all aspects of my website work and also to keep track of what was tested and the results 
-which the test page has been added to the repository.
+    3.4 Noted Issues
+        * Background image on home page (index.html) seems to cut off at the top of the page.
 
+A testing page has been made using MS Excel which can be found <a href="Test Page (MS1 Project).xlsx">here.</a> 
+It details all the test taken to ensure the site works consitently across all devices.
 
+4. Technologies Used
 
+    4.1 HTML5
+        * HTML5 was used to contruct all aspects of the site pages.
+    4.2 CSS3 
+        * CSS3 was for the styling on all the site pages and its content.
 
+    4.3 Bootstrap 
+        * Bootstrap was using for the layout of the site pages on all devices.
 
+    4.4 Font Awesome
+        * Font awesome was using for a few icons used in the footer aspect of the site pages.
 
+    4.5 Google Fonts
+        * Google fonts was used for all the content on the site pages.
 
+5. Deployment
 
+The site has been deployed using Github Pages and can be reviewed <a href="https://manni8436.github.io/MS1-Project/">here.</a>
 
-(Technologies Used)
+Local Deployment is not needed.
 
-In this project I have used the following technologies below
+6. Content
 
-HTML5
-CSS3 
-Media Queries
-Bootstrap 
-
-write here all other technologies that was used while making the website
-
-(Bugs)
-* = needs to be resolved 
+    Text content on all Pages was copied and/or ammended from the following sites:
     
-    I couldnt change the colour of my toggler icon in the start but I have managed to find the tag that
-    would allow me to change the colour of my toggler icon
+    6.1  https://www.history.com/.amp/topics/ancient-history/greek-mythology
+    6.2  https://www.visionpubl.com/en/cities/athens/parthenon-facts-history/
+    6.3  https://yallatoursblog.com/2014/01/27/faster-higher-stronger-in-ancient-olympia/
+    6.4  https://www.history.com/topics/sports/olympic-games
+    6.5  https://en.wikipedia.org/wiki/Acropolis_of_Athens#History
+    6.6  https://en.wikipedia.org/wiki/Zeus
+    6.7  https://en.wikipedia.org/wiki/Poseidon 
+    6.8  https://en.wikipedia.org/wiki/Hades
+    6.9  https://en.wikipedia.org/wiki/Atlas_(mythology)
+    6.10 https://en.wikipedia.org/wiki/Hercules#Mythology
+    6.11 https://en.wikipedia.org/wiki/Amphitrite#Mythology
+    6.12 https://en.wikipedia.org/wiki/Asclepius
+    6.13 https://www.pinterest.co.uk/pin/410109109794860381/
+    6.14 https://www.pinterest.co.uk/pin/410109109794860381/
+    6.15 https://en.wikipedia.org/wiki/Temple_of_Hera,_Olympia
+    6.16 https://www.greeka.com/peloponnese/olympia/sightseeing/temple-hera/
 
-    my dropdown menu isnt working and wont dropdown at the moment but I have managed to fix it by changing
-    the whole menu coding and now it works perfectly and is responsive
+7. Media
 
-    I couldnt change the colour of my navbar due to not being able to isolate the correct class selector 
-    but I have managed to find what class tag and changed the colour
+Images courtesy mainly from wikipedia and pinterest but a full list have been provided below:
 
-    while I was making a box to go over my nav menu the text colour of all the text except home dont change
-    to my colour of choice at the moment but since I removed the search box component from my navbar the 
-    box around the menu works now
+    7.1 Background Images:
+        * https://wallpaperaccess.com/zeus (home page page)
+        * https://omniversal-battlefield.fandom.com/wiki/Poseidon_(Greek_Mythology)?file=Poseidon.jpg (the big three page)
+        * https://www.artstation.com/artwork/1YzOK (lesser known gods page)
+        * https://www.pinterest.com/pin/178384835225577581/ (history page)
+        * https://www.ancient-origins.net/myths-legends-europe/hermes-0011776 (contact us page)
 
-    my index.html (home page), the big three, lesser known gods, history and contact us pages have the text 
-    and image getting cut off at the bottom and doesnt change even if I change the position and this was 
-    because I didnt have a footer tags and once I changed it and then the content was no longer covered
+    7.2 Big three main images:
+        * https://en.wikipedia.org/wiki/Zeus (Zeus image)
+        * https://en.wikipedia.org/wiki/Poseidon (Poseidon image)
+        * https://en.wikipedia.org/wiki/Hades (Hades image)
+    
+    7.3 Lesser known gods main images
+        * https://en.wikipedia.org/wiki/Atlas_(mythology) (Atlas image)
+        * https://en.wikipedia.org/wiki/Heracles (Heracles image)
+        * https://www.pinterest.com/pin/423831014921428350/ (amphitrite image)
+        * https://en.wikipedia.org/wiki/Asclepius (Asclepius image)
+        * https://www.pinterest.co.uk/pin/410109109794860381/ (Pan image)
+        * https://www.pinterest.co.uk/pin/111182684540958323/ (Nike image)
 
-    * the background image are responsive apart from when you get to the lower breakpoint 576 pixels 
-    because the part of where zeus is in the image gets cut off
+    7.4 Carousel images:
+        * https://www.skatelescope.org/home/attachment/mount-olympus/ (Mount olympus image)
+        * https://en.wikipedia.org/wiki/Temple_of_Olympian_Zeus,_Athens#History (Zeus temple image)
+        * https://en.wikipedia.org/wiki/Temple_of_Poseidon,_Sounion (Poseidon temple image)
+        * https://www.visionpubl.com/en/cities/athens/parthenon-facts-history/ (Parthenon image)
+        * https://yallatoursblog.com/2014/01/27/faster-higher-stronger-in-ancient-olympia/ (Olympic track image)
+        
+8. Acknowledgements
 
-    my background images were not appearing on my deployed site not I was not using the relative file path at
-    the time and I have now change all the files paths and all background images work and show up on my deployed site
-
-    the content on the home page cant be seen properly due to the background image but I wrapped the content in a 
-    box border with a black background while using opacity for it not to be blocking the background image as much
-
-    * need to change the spacing between the lesser known gods images as they are to close together in the 
-    breakpoint of 992px and 768px
-
-
-(Deployment)
-
-In this section describe all the steps that was taken to deploy the 
-project to the hosting platform that was used.
-
-In particular you should provide all details on the differences 
-between the development version and the deployed version and include
-any different branches, configurations and environnment variables.
-
-and also, just incase it isnt obvious then describe how to run the
-code locally.
-
-(Credit)
-
-I chose one this layout which best suited the structure of my website and I used
-bootstrap to aid me in making the dropdown menu at the same time I had to change 
-colours and the way it looks so that it would match my website and have it the way 
-I wanted which was used as a mobile first approach 
-
-which has now been put in place and works well in each sections of the menu
-
-I have attached the link below that I used to help me create sections of my website
-
-https://getbootstrap.com/docs/4.6/components/navbar/
-https://getbootstrap.com/docs/4.6/layout/grid/
-https://getbootstrap.com/docs/4.6/components/carousel/
-https://fontawesome.com/
-https://fonts.google.com/?standard-styles=
-https://en.wikipedia.org/wiki/Cronus
-https://en.wikipedia.org/wiki/Titanomachy
-https://greekgodsandgoddesses.net/myths/titanomachy/
-
-I would prersonally like to thank my mentor Chris Quinn with all the help and advice 
-he has given me during my first project and all the people that have helped me from
-the slack community
-
-
-In here you thank all the people that have helped you in the course
-and also all the places that you used icons, links etc.. from.
-
-
-(Content)
-
-    I done some research online as what content to use in my project and 
-    I used the link below to include in my project to find content on 
-    certain event and important facts that I could use for my project
-
-    https://www.history.com/.amp/topics/ancient-history/greek-mythology
-    https://www.visionpubl.com/en/cities/athens/parthenon-facts-history/
-    https://yallatoursblog.com/2014/01/27/faster-higher-stronger-in-ancient-olympia/
-    https://www.history.com/topics/sports/olympic-games
-    https://en.wikipedia.org/wiki/Acropolis_of_Athens#History
-   
-    I also used wikipedia to get partial information on the Greek Gods for 
-    my project and I have attached the links below
-
-    https://en.wikipedia.org/wiki/Zeus
-    https://en.wikipedia.org/wiki/Poseidon
-    https://en.wikipedia.org/wiki/Poseidon 
-    https://en.wikipedia.org/wiki/Hades
-    https://en.wikipedia.org/wiki/Atlas_(mythology)
-    https://en.wikipedia.org/wiki/Hercules#Mythology
-    https://en.wikipedia.org/wiki/Amphitrite#Mythology
-    https://en.wikipedia.org/wiki/Asclepius
-    https://www.pinterest.co.uk/pin/410109109794860381/
-    https://www.pinterest.co.uk/pin/410109109794860381/
-    https://en.wikipedia.org/wiki/Temple_of_Hera,_Olympia
-    https://www.greeka.com/peloponnese/olympia/sightseeing/temple-hera/
-
-(Media)
-
-I have attacted the links below for all the images that I used on my throughtout my website
-
-https://wallpaperaccess.com/zeus (background image for home page)
-https://omniversal-battlefield.fandom.com/wiki/Poseidon_(Greek_Mythology)?file=Poseidon.jpg (background image for the big three page)
-https://www.artstation.com/artwork/1YzOK (background image for lesser known gods page)
-https://www.pinterest.com/pin/178384835225577581/ (background image for history page)
-https://www.ancient-origins.net/myths-legends-europe/hermes-0011776 (background image for contact us page)
-https://en.wikipedia.org/wiki/Zeus (image for the big three)
-https://en.wikipedia.org/wiki/Poseidon (image for the big three)
-https://en.wikipedia.org/wiki/Hades (image for the big three)
-https://en.wikipedia.org/wiki/Atlas_(mythology) (image for lesser known gods)
-https://en.wikipedia.org/wiki/Heracles (image for lesser known gods)
-https://www.pinterest.com/pin/423831014921428350/ (image for lesser known gods)
-https://en.wikipedia.org/wiki/Asclepius (image for lesser known gods)
-https://www.pinterest.co.uk/pin/410109109794860381/ (image for lesser known gods)
-https://www.pinterest.co.uk/pin/111182684540958323/ (image for lesser known gods)
-https://www.visionpubl.com/en/cities/athens/parthenon-facts-history/ (image for the carousel)
-https://en.wikipedia.org/wiki/Temple_of_Poseidon,_Sounion (image for the carousel)
-https://yallatoursblog.com/2014/01/27/faster-higher-stronger-in-ancient-olympia/ (image for the carousel)
-https://en.wikipedia.org/wiki/Temple_of_Olympian_Zeus,_Athens#History (image for the carousel)
-https://www.skatelescope.org/home/attachment/mount-olympus/ (image for the carousel)
-
-
-(Acknowledgements)
-
-My inspiration is my passion for Greek Mythology which I have enjoyed 
-and loved reading about it for a long time and I even have Greek Mythology
-memobrilia from my trip to Greece and Rome
-
-Most of the designs and layout for my project was created on my own using 
-wireframes and I also used bootstrap to aid me in building my navigation
-menu and also the image cards
-
-I also want to thank the following websites for helping me with my first project 
-
-thank you hover.css, fontawesome, ColorSpace, Google Fonts as all of them helped me 
-design my website
+I would like to give a big thanks to <a href="https://github.com/10xOXR">Chris Quinn</a> for all his help, effort, guidance
+and patience he has provided during this project.
