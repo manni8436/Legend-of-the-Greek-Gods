@@ -54,7 +54,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
-    background-position: center center;
+    background-position: top center;
 }
 
 .homeheader {
@@ -93,7 +93,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
-    background-position: center center;
+    background-position: top center;
 }
 
 .thebigthreeheader {
@@ -114,7 +114,6 @@ body {
 .poseidonimage,
 .hadesimage {
     height: 380px;
-    width: 300px;
     margin-top: 15px;
     border-radius: 0.25rem;
     border: #ffbe5b 2px solid;
@@ -142,7 +141,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
-    background-position: center center;
+    background-position: top center;
 }
 
 .lesserknowngodsheader {
@@ -202,7 +201,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
-    background-position: center center;
+    background-position: top center;
 }
 
 .history {
@@ -378,7 +377,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
-    background-position: center center;
+    background-position: top center;
 }
 
 .contactusheader {
