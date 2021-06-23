@@ -17,7 +17,7 @@ overload the user and give them enough information as not leave them lost or nee
 
 the website is for the following users types:
     
-    1.1 Users has no previous knowledge of the stories, history, characters and see what they 
+    1.1 Users that has no previous knowledge of the stories, history, characters and see what they 
         used to look like.
 
     1.2 Users with basic knowledge of the Greek history but were looking for more information and
@@ -29,6 +29,12 @@ the website is for the following users types:
 Balsamiq wireframes was used to create my website for each page for desktop and mobile devices which has been 
 added into my repository, however while designing my website I have had to make changes of the process to make the 
 site more responsive and user friendly and may not match completely with my wireframes.
+
+<h1>Wireframes</h1>
+
+[Here are the wireframes for desktop, mobile and tablet for this project](MSProject.pdf).
+
+which is also available in my repository.
 
 <h1>Features</h1>
 
