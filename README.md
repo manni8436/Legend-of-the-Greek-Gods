@@ -32,7 +32,7 @@ site more responsive and user friendly and may not match completely with my wire
 
 <h1>Wireframes</h1>
 
-[Here are the wireframes for desktop, mobile and tablet for this project](MSProject.pdf).
+[Here are the wireframes for desktop, mobile and tablet for this project](MSProject1Wireframes.pdf).
 
 which is also available in my repository.
 
