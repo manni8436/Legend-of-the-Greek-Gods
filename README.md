@@ -5,7 +5,7 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/manni8436/MS1-Project)
 ![GitHub top language](https://img.shields.io/github/languages/top/manni8436/MS1-Project)
 
-click <a href="https://manni8436.github.io/MS1-Project/">here</a> for the final version of my project
+![Here is a link to the final project](https://manni8436.github.io/MS1-Project/)
 
 For this Milestone Project we were given a few options to choose from however I decided to create a website 
 about the Greek Gods, which I included pictures, a contacts page and links to different social media platforms.
@@ -83,9 +83,9 @@ alt="CSS logo" width="50px" height="50px" /> <img src="https://github.com/devico
 ## PROGRAMS USED:
 
 #### Font Awesome:
-    [Font Awesome](https://fontawesome.com/) was using for a few icons used in the footer aspect of the site pages.
+![Font Awesome](https://fontawesome.com/) was using for a few icons used in the footer aspect of the site pages.
 #### Google Fonts:
-    [Google Fonts](https://fonts.google.com/) was used for all the text content on the site pages.
+![Google Fonts](https://fonts.google.com/) was used for all the text content on the site pages.
     Git
 
 ## DEPLOYMENT:
@@ -162,5 +162,5 @@ alt="CSS logo" width="50px" height="50px" /> <img src="https://github.com/devico
         
 ## ACKNOWLEDGEMENTS:
 
-I would like to give a big thanks to <a href="https://github.com/10xOXR">Chris Quinn</a> for all his help, effort, guidance
+I would like to give a big thanks to ![Chris Quinn](https://github.com/10xOXR) for all his help, effort, guidance
 and patience he has provided during this project.

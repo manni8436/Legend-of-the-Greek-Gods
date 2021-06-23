@@ -401,8 +401,8 @@ body {
     text-transform: uppercase;
 }
 
-.firstname, 
-.lastname,
+#firstname, 
+#lastname,
 #email {
     background-color: #202020;
     border-color: #ffbe5b;
