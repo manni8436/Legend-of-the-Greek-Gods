@@ -17,66 +17,57 @@ produce a better website due to my interest in the subject.
 
 ## CONTENT 
 
-
 ## USER EXPERIENCE (UX)
 
 I designed this site to provide information and content that can be helpful to a wide range of age groups.
 
-the structure of the site was designed to be simple and easy to use and have a good content balance as to not
+The structure of the site was designed to be simple and easy to use and have a good content balance as to not
 overload the user and give them enough information as not leave them lost or needing more knowledge.
 
-### the website is for the following users types:
+1. The website is for the following users types:
     
-    1.1 Users that has no previous knowledge of the stories, history, characters and see what they 
+   * Users that has no previous knowledge of the stories, history, characters and see what they 
         used to look like.
 
-    1.2 Users with basic knowledge of the Greek history but were looking for more information and
+    * Users with basic knowledge of the Greek history but were looking for more information and
         increase their knowledge base.
 
-    1.3 Users who have good knowledge of the Greek history but want to refresh the knowledge or 
+    * Users who have good knowledge of the Greek history but want to refresh the knowledge or 
         do some research or even just enjoy reading about the history of all the gods.
-
-Balsamiq wireframes was used to create my website for each page for desktop and mobile devices which has been 
-added into my repository, however while designing my website I have had to make changes of the process to make the 
-site more responsive and user friendly and may not match completely with my wireframes.
 
 ## WIREFRAMES
 
-in the early stage of the designing process some wireframes were made and have been added to my repository and it can also be viewed by clicking <a href="MSProject1.pdf">here</a>
+In the early stage of the designing process some wireframes were made and have been added to my repository and it can also be viewed by clicking <a href="MSProject1.pdf">here</a>
 
 ## FEATURES
 
-### The following is the Features that I have used for my project.
-
-    2.1 Hover feature which tells the user what location the mouse is in while in the menu.
-        * simple function so that they user does not lose its place in the means and get confused.
-
-    2.2 Contact form validates and requests the user to input information in the input boxes and textarea.
-        * this stops the user from accidently sending blank or incomplete contact details and 
-          information needed.    
+1. The following is the Features that I have used for my project.    
+    * Hover feature which tells the user what location the mouse is in while in the menu.
+    * simple function so that they user does not lose its place in the means and get confused.
+    * Contact form validates and requests the user to input information in the input boxes and textarea.
+    * this stops the user from accidently sending blank or incomplete contact details and information needed.    
 
 ## TESTING
 
 I tested my site to insure all aspects of my site works and be consitent throughtout the website as excepted 
 for both desktop and mobile versions.
 
-### This includes:
-
-        3.1 Making sure all pages are responsive and all contents legible.
-    
-        3.2 Testing that the navbar changes to a dropdown menu as excepted on all pages, collapsing at 
-        991px as excepted.
-    
-        3.3 all webpages was check on major desktop and mobile platforms listed below:
-            * Chrome
-            * Firefox
-            * Safari
-
-        3.4 Noted Issues
-            * Background image on home page (index.html) seems to cut off at the top of the page.
+1. This includes:
+    * Making sure all pages are responsive and all contents legible.
+    * Testing that the navbar changes to a dropdown menu as excepted on all pages, collapsing at 991px as excepted.
+    * all webpages was check on major desktop and mobile platforms listed below:
+        * Chrome
+        * Firefox
+        * Safari
 
 A testing page has been made using MS Excel which can be found <a href="Test Page (MS1 Project).xlsx">here.</a> 
 It details all the test taken to ensure the site works consitently across all devices.
+
+## FUTHER TESTING
+
+
+## SOLVED BUGS
+* All my background images didnt fit on the screen properly as a result I changed the background-position from `background-position: center center;` to `background-position: top center;`
 
 ## TECHNOLOGIES USED
 
@@ -92,76 +83,79 @@ alt="CSS logo" width="50px" height="50px" /> <img src="https://github.com/devico
     Git
 
 ## DEPLOYMENT:
+### INITIAL DEPLOYMENT
+This site was deployed to GitHub Pages by using the following the steps below:
+    1. Login or Sign Up to [GitHub](www.github.com).
+    2. Create a new repository named "MS1-Project".
+    3. Once created, click on "Settings" on the navigation bar under the repository title.
+    4. Scroll down to "GitHub Pages".
+    5. Under "Source", choose which branch you wish to deploy. In most cases it will be "master", but this can also be shown as "main".
+    6. Choose which folder to deploy from, generally from "/root".
+    7. Click "Save", then wait for it to be deployed. It may take some time for the page to be fully deployed.
+    8. The URL will be displayed above the "source".
 
+### HOW TO FORK A REPOSITORY
+If you need to make a copy by using the simple steps below:
+    1. Login or Sign Up to [GitHub](www.github.com).
+    2. On GitHub, go to [manni8436/MS1-Project](manni8436/MS1-Project).
+    3. In the top right corner, click "Fork".
+
+### HOW TO CLONE A REPOSITORY
+IF you need to make a clone by using the steps below:    
+    1. Login in to [GitHub](www.github.com).
+    2.      
 
 
 
 ## Content
 
-### Text content on all Pages was copied and/or ammended from the following sites:
-    
-    6.1  https://www.history.com/.amp/topics/ancient-history/greek-mythology
-    
-    6.2  https://www.visionpubl.com/en/cities/athens/parthenon-facts-history/
-    
-    6.3  https://yallatoursblog.com/2014/01/27/faster-higher-stronger-in-ancient-olympia/
-    
-    6.4  https://www.history.com/topics/sports/olympic-games
-    
-    6.5  https://en.wikipedia.org/wiki/Acropolis_of_Athens#History
-    
-    6.6  https://en.wikipedia.org/wiki/Zeus
-    
-    6.7  https://en.wikipedia.org/wiki/Poseidon 
-    
-    6.8  https://en.wikipedia.org/wiki/Hades
-    
-    6.9  https://en.wikipedia.org/wiki/Atlas_(mythology)
-    
-    6.10 https://en.wikipedia.org/wiki/Hercules#Mythology
-    
-    6.11 https://en.wikipedia.org/wiki/Amphitrite#Mythology
-    
-    6.12 https://en.wikipedia.org/wiki/Asclepius
-    
-    6.13 https://www.pinterest.co.uk/pin/410109109794860381/
-    
-    6.14 https://www.pinterest.co.uk/pin/410109109794860381/
-    
-    6.15 https://en.wikipedia.org/wiki/Temple_of_Hera,_Olympia
-    
-    6.16 https://www.greeka.com/peloponnese/olympia/sightseeing/temple-hera/
+* Text content on all Pages was copied and/or ammended from the following sites:  
+    * https://www.history.com/.amp/topics/ancient-history/greek-mythology
+    * https://www.visionpubl.com/en/cities/athens/parthenon-facts-history/
+    * https://yallatoursblog.com/2014/01/27/faster-higher-stronger-in-ancient-olympia/
+    * https://www.history.com/topics/sports/olympic-games
+    * https://en.wikipedia.org/wiki/Acropolis_of_Athens#History
+    * https://en.wikipedia.org/wiki/Zeus
+    * https://en.wikipedia.org/wiki/Poseidon 
+    * https://en.wikipedia.org/wiki/Hades
+    * https://en.wikipedia.org/wiki/Atlas_(mythology)
+    * https://en.wikipedia.org/wiki/Hercules#Mythology
+    * https://en.wikipedia.org/wiki/Amphitrite#Mythology
+    * https://en.wikipedia.org/wiki/Asclepius
+    * https://www.pinterest.co.uk/pin/410109109794860381/
+    * https://www.pinterest.co.uk/pin/410109109794860381/
+    * https://en.wikipedia.org/wiki/Temple_of_Hera,_Olympia
+    * https://www.greeka.com/peloponnese/olympia/sightseeing/temple-hera/
 
-## MEDIA
+## CONTENT
 
-### Images mainly provided by wikipedia and pinterest but a full list have been provided below:
+* Images mainly provided by wikipedia and pinterest but a full list have been provided below:
+    * Background Images:
+        [Home Page](https://wallpaperaccess.com/zeus)
+        [Big Three](https://omniversal-battlefield.fandom.com/wiki/Poseidon_(Greek_Mythology)?file=Poseidon.jpg)
+        [Lesser Known Gods](https://www.artstation.com/artwork/1YzOK)
+        [History](https://www.artstation.com/artwork/1YzOK)
+        [Contact Us](https://www.ancient-origins.net/myths-legends-europe/hermes-0011776) 
 
-    7.1 Background Images:
-        * https://wallpaperaccess.com/zeus 
-        * https://omniversal-battlefield.fandom.com/wiki/Poseidon_(Greek_Mythology)?file=Poseidon.jpg
-        * https://www.artstation.com/artwork/1YzOK 
-        * https://www.pinterest.com/pin/178384835225577581/ 
-        * https://www.ancient-origins.net/myths-legends-europe/hermes-0011776 
-
-    7.2 Big three main images:
-        * https://en.wikipedia.org/wiki/Zeus 
-        * https://en.wikipedia.org/wiki/Poseidon 
-        * https://en.wikipedia.org/wiki/Hades 
-    
-    7.3 Lesser known gods main images
-        * https://en.wikipedia.org/wiki/Atlas_(mythology) 
-        * https://en.wikipedia.org/wiki/Heracles 
-        * https://www.pinterest.com/pin/423831014921428350/ 
-        * https://en.wikipedia.org/wiki/Asclepius 
-        * https://www.pinterest.co.uk/pin/410109109794860381/ 
-        * https://www.pinterest.co.uk/pin/111182684540958323/ 
-
-    7.4 Carousel images:
-        * https://www.skatelescope.org/home/attachment/mount-olympus/ 
-        * https://en.wikipedia.org/wiki/Temple_of_Olympian_Zeus,_Athens#History 
-        * https://en.wikipedia.org/wiki/Temple_of_Poseidon,_Sounion 
-        * https://www.visionpubl.com/en/cities/athens/parthenon-facts-history/ 
-        * https://yallatoursblog.com/2014/01/27/faster-higher-stronger-in-ancient-olympia/ 
+    * Big Three Main Images:
+        [Zeus](https://en.wikipedia.org/wiki/Zeus)
+        [Poseidon](https://en.wikipedia.org/wiki/Poseidon )
+        [Hades](https://en.wikipedia.org/wiki/Hades)
+     
+    * Lesser Known Gods Main Images
+        [Atlas](https://en.wikipedia.org/wiki/Atlas_(mythology))
+        [Heracles](https://en.wikipedia.org/wiki/Heracles)
+        [Amphitrite](https://www.pinterest.com/pin/423831014921428350/)
+        [Asclepius](https://en.wikipedia.org/wiki/Asclepius)
+        [Pan](https://www.pinterest.co.uk/pin/410109109794860381/)
+        [Nike](https://www.pinterest.co.uk/pin/111182684540958323/)
+ 
+    * Carousel Images:
+        [Mount Olympus](https://www.pinterest.co.uk/pin/111182684540958323/)
+        [Temple of Zeus](https://en.wikipedia.org/wiki/Temple_of_Olympian_Zeus,_Athens#History)
+        [Temple of Poseidon](https://en.wikipedia.org/wiki/Temple_of_Poseidon,_Sounion)
+        [Parthenon](https://www.visionpubl.com/en/cities/athens/parthenon-facts-history/)
+        [Ancient Olympia Stadium](https://yallatoursblog.com/2014/01/27/faster-higher-stronger-in-ancient-olympia/)
         
 ## ACKNOWLEDGEMENTS:
 
