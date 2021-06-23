@@ -8,7 +8,7 @@ about the Greek Gods, which I included pictures, a contacts page and links to di
 I decided to create a website about the Greek Gods due to my passion for Greek Mythology and I felt that I would
 produce a better website due to my interest in the subject.
 
-<h1>UX</h1>
+### UX
 
 I designed this site to provide information and content that can be helpful to a wide range of age groups.
 
@@ -30,7 +30,11 @@ Balsamiq wireframes was used to create my website for each page for desktop and 
 added into my repository, however while designing my website I have had to make changes of the process to make the 
 site more responsive and user friendly and may not match completely with my wireframes.
 
-<h1>Features</h1>
+### Wireframes
+
+Wireframes have been made for this project and have been added to my repository but it can also be viewed by clicking <a href="MSProject1.pdf">here</a>
+
+### Features
 
 The following is the Features that I have used for my project.
 
@@ -41,12 +45,11 @@ The following is the Features that I have used for my project.
         * this stops the user from accidently sending blank or incomplete contact details and 
           information needed.    
 
-<h1>Testing</h1>
-
+### Testing
 I tested my site to insure all aspects of my site works and be consitent throughtout the website as excepted 
 for both desktop and mobile versions.
 
-This includes:
+## This includes:
     3.1 Making sure all pages are responsive and all contents legible.
     
     3.2 Testing that the navbar changes to a dropdown menu as excepted on all pages, collapsing at 
@@ -63,30 +66,25 @@ This includes:
 A testing page has been made using MS Excel which can be found <a href="Test Page (MS1 Project).xlsx">here.</a> 
 It details all the test taken to ensure the site works consitently across all devices.
 
-<h1>Technologies Used</h1>
+### Technologies Used
 
-    4.1 HTML5
-        * HTML5 was used to contruct all aspects of the site pages.
+<img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-plain-wordmark.svg" alt="HTML logo" width="50px" height="50px" />  <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg" 
+alt="CSS logo" width="50px" height="50px" /> <img src="https://github.com/devicons/devicon/blob/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="Bootstrap logo" height="50px" width="50px" />   
     
-    4.2 CSS3 
-        * CSS3 was for the styling on all the site pages and its content.
+### Programs Used
+#### Font Awesome:
+    [Font Awesome](https://fontawesome.com/) was using for a few icons used in the footer aspect of the site pages.
+#### Google Fonts:
+    [Google Fonts](https://fonts.google.com/) was used for all the text content on the site pages.
+    Git
 
-    4.3 Bootstrap 
-        * Bootstrap was using for the layout of the site pages on all devices.
-
-    4.4 Font Awesome
-        * Font awesome was using for a few icons used in the footer aspect of the site pages.
-
-    4.5 Google Fonts
-        * Google fonts was used for all the content on the site pages.
-
-<h1>Deployment</h1>
+### Deployment
 
 The site has been deployed using Github Pages and can be reviewed <a href="https://manni8436.github.io/MS1-Project/">here.</a>
 
 Local Deployment is not needed.
 
-Content
+## Content
 
     Text content on all Pages was copied and/or ammended from the following sites:
     
@@ -122,9 +120,9 @@ Content
     
     6.16 https://www.greeka.com/peloponnese/olympia/sightseeing/temple-hera/
 
-<h1>Media</h1>
+### Media
 
-Images mainly provided by wikipedia and pinterest but a full list have been provided below:
+#### Images mainly provided by wikipedia and pinterest but a full list have been provided below:
 
     7.1 Background Images:
         * https://wallpaperaccess.com/zeus 
@@ -153,7 +151,7 @@ Images mainly provided by wikipedia and pinterest but a full list have been prov
         * https://www.visionpubl.com/en/cities/athens/parthenon-facts-history/ 
         * https://yallatoursblog.com/2014/01/27/faster-higher-stronger-in-ancient-olympia/ 
         
-<h1>Acknowledgements</h1>
+### Acknowledgements
 
 I would like to give a big thanks to <a href="https://github.com/10xOXR">Chris Quinn</a> for all his help, effort, guidance
 and patience he has provided during this project.
