@@ -403,7 +403,7 @@ body {
 
 .firstname, 
 .lastname,
-.email {
+#email {
     background-color: #202020;
     border-color: #ffbe5b;
     color: #ffbe5b;

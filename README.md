@@ -5,7 +5,7 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/manni8436/MS1-Project)
 ![GitHub top language](https://img.shields.io/github/languages/top/manni8436/MS1-Project)
 
-click <a href="https://manni8436.github.io/MS1-Project/">here.</a> for the final version on my project
+click <a href="https://manni8436.github.io/MS1-Project/">here</a> for the final version of my project
 
 For this Milestone Project we were given a few options to choose from however I decided to create a website 
 about the Greek Gods, which I included pictures, a contacts page and links to different social media platforms.
@@ -39,7 +39,7 @@ site more responsive and user friendly and may not match completely with my wire
 
 ## WIREFRAMES
 
-Wireframes have been made for this project and have been added to my repository but it can also be viewed by clicking <a href="MSProject1.pdf">here</a>
+in the early stage of the designing process some wireframes were made and have been added to my repository and it can also be viewed by clicking <a href="MSProject1.pdf">here</a>
 
 ## FEATURES
 
@@ -95,7 +95,7 @@ alt="CSS logo" width="50px" height="50px" /> <img src="https://github.com/devico
 
 ## Content
 
-    Text content on all Pages was copied and/or ammended from the following sites:
+### Text content on all Pages was copied and/or ammended from the following sites:
     
     6.1  https://www.history.com/.amp/topics/ancient-history/greek-mythology
     
