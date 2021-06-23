@@ -1,6 +1,11 @@
-Milestone Project: User-Centric Frontend Development 
-
 # MS1-Project - Legend Of The Greek Gods
+
+![GitHub contributors](https://img.shields.io/github/contributors/manni8436/MS1-Project)
+![GitHub last commit](https://img.shields.io/github/last-commit/manni8436/MS1-Project)
+![GitHub language count](https://img.shields.io/github/languages/count/manni8436/MS1-Project)
+![GitHub top language](https://img.shields.io/github/languages/top/manni8436/MS1-Project)
+
+click <a href="https://manni8436.github.io/MS1-Project/">here.</a> for the final version on my project
 
 For this Milestone Project we were given a few options to choose from however I decided to create a website 
 about the Greek Gods, which I included pictures, a contacts page and links to different social media platforms.
@@ -8,14 +13,16 @@ about the Greek Gods, which I included pictures, a contacts page and links to di
 I decided to create a website about the Greek Gods due to my passion for Greek Mythology and I felt that I would
 produce a better website due to my interest in the subject.
 
-### UX
+![Final project image home page](assets/images/responsiveimages.jpg)
+
+## UX
 
 I designed this site to provide information and content that can be helpful to a wide range of age groups.
 
 the structure of the site was designed to be simple and easy to use and have a good content balance as to not
 overload the user and give them enough information as not leave them lost or needing more knowledge.
 
-the website is for the following users types:
+### the website is for the following users types:
     
     1.1 Users that has no previous knowledge of the stories, history, characters and see what they 
         used to look like.
@@ -30,23 +37,13 @@ Balsamiq wireframes was used to create my website for each page for desktop and 
 added into my repository, however while designing my website I have had to make changes of the process to make the 
 site more responsive and user friendly and may not match completely with my wireframes.
 
-<<<<<<< HEAD
-### Wireframes
+## WIREFRAMES
 
 Wireframes have been made for this project and have been added to my repository but it can also be viewed by clicking <a href="MSProject1.pdf">here</a>
 
-### Features
-=======
-<h1>Wireframes</h1>
+## FEATURES
 
-[Here are the wireframes for desktop, mobile and tablet for this project](assets/wireframes/MSProject1Wireframes.pdf).
-
-which is also available in my repository.
-
-<h1>Features</h1>
->>>>>>> a3b97c62bc0a04a9251f47e467f1a857b6b3bb03
-
-The following is the Features that I have used for my project.
+### The following is the Features that I have used for my project.
 
     2.1 Hover feature which tells the user what location the mouse is in while in the menu.
         * simple function so that they user does not lose its place in the means and get confused.
@@ -55,44 +52,46 @@ The following is the Features that I have used for my project.
         * this stops the user from accidently sending blank or incomplete contact details and 
           information needed.    
 
-### Testing
+## TESTING
+
 I tested my site to insure all aspects of my site works and be consitent throughtout the website as excepted 
 for both desktop and mobile versions.
 
-## This includes:
-    3.1 Making sure all pages are responsive and all contents legible.
+### This includes:
+
+        3.1 Making sure all pages are responsive and all contents legible.
     
-    3.2 Testing that the navbar changes to a dropdown menu as excepted on all pages, collapsing at 
+        3.2 Testing that the navbar changes to a dropdown menu as excepted on all pages, collapsing at 
         991px as excepted.
     
-    3.3 all webpages was check on major desktop and mobile platforms listed below:
-        * Chrome
-        * Firefox
-        * Safari
+        3.3 all webpages was check on major desktop and mobile platforms listed below:
+            * Chrome
+            * Firefox
+            * Safari
 
-    3.4 Noted Issues
-        * Background image on home page (index.html) seems to cut off at the top of the page.
+        3.4 Noted Issues
+            * Background image on home page (index.html) seems to cut off at the top of the page.
 
 A testing page has been made using MS Excel which can be found <a href="Test Page (MS1 Project).xlsx">here.</a> 
 It details all the test taken to ensure the site works consitently across all devices.
 
-### Technologies Used
+## TECHNOLOGIES USED
 
 <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-plain-wordmark.svg" alt="HTML logo" width="50px" height="50px" />  <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg" 
 alt="CSS logo" width="50px" height="50px" /> <img src="https://github.com/devicons/devicon/blob/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="Bootstrap logo" height="50px" width="50px" />   
     
-### Programs Used
+## PROGRAMS USED:
+
 #### Font Awesome:
     [Font Awesome](https://fontawesome.com/) was using for a few icons used in the footer aspect of the site pages.
 #### Google Fonts:
     [Google Fonts](https://fonts.google.com/) was used for all the text content on the site pages.
     Git
 
-### Deployment
+## DEPLOYMENT:
 
-The site has been deployed using Github Pages and can be reviewed <a href="https://manni8436.github.io/MS1-Project/">here.</a>
 
-Local Deployment is not needed.
+
 
 ## Content
 
@@ -130,9 +129,9 @@ Local Deployment is not needed.
     
     6.16 https://www.greeka.com/peloponnese/olympia/sightseeing/temple-hera/
 
-### Media
+## MEDIA
 
-#### Images mainly provided by wikipedia and pinterest but a full list have been provided below:
+### Images mainly provided by wikipedia and pinterest but a full list have been provided below:
 
     7.1 Background Images:
         * https://wallpaperaccess.com/zeus 
@@ -161,7 +160,7 @@ Local Deployment is not needed.
         * https://www.visionpubl.com/en/cities/athens/parthenon-facts-history/ 
         * https://yallatoursblog.com/2014/01/27/faster-higher-stronger-in-ancient-olympia/ 
         
-### Acknowledgements
+## ACKNOWLEDGEMENTS:
 
 I would like to give a big thanks to <a href="https://github.com/10xOXR">Chris Quinn</a> for all his help, effort, guidance
 and patience he has provided during this project.
