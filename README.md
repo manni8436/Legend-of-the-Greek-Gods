@@ -8,7 +8,7 @@
 [Here is a link to the final project](https://manni8436.github.io/MS1-Project/)
 
 ## initial Design
-    My initial idea for this project was to create a website informative website about the Greek Gods that anyone. My target audience is anyone who is interested in Greek Mythology,
+*   My initial idea for this project was to create a website informative website about the Greek Gods that anyone. My target audience is anyone who is interested in Greek Mythology,
     this can cover a huge spectrum on ages, genders and interest levels from children who want to learn about the Greek Gods, use the site for school projects to the educated who just want to read something 
     fun and interesting.
 
