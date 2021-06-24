@@ -141,8 +141,8 @@ The only errors were found was `class="img-fluid"` which was used to make the im
 * Manual Testing Log:
 
         Functionality | Page | Browser | Pass/Fail |                            
-        --------------|------|---------|-----------|
-        
+        --------------|      |         |           |
+
     
 
 ## CONTENT
