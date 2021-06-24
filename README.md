@@ -24,18 +24,16 @@
 
 ## USER STORIES
 
-### CLIENT GOALS
+#### CLIENT GOALS
 
 * The site needs to be easily accessible.
 * The navigation menu to be simple to use from desktop to smaller devices.
 * Manouvering around the site to be simple and straightforward.
 * For the site to be informative, easy to read and see the images clearly.
 
-### FIRST TIME VISITORS
+#### FIRST TIME VISITORS
 * I want it to be easy to understand how to navigate throughout the site.
 * I want the content to be easily read and understandable.
-
-## DESIGN
 
 ## COLOR SCHEME
 
@@ -44,8 +42,6 @@ My overall color scheme used throughout the site.
 ![Gold](assets/images/goldcolor.jpg) ![Black](assets/images/blackcolor.jpg)
 
 with white text writing in the forms section in the Contact Us page.
-
-## CONTENT 
 
 ## USER EXPERIENCE (UX)
 
@@ -104,7 +100,7 @@ Firefox Developer Tools was used for troube shooting and trying new visual chang
 
 ## DEPLOYMENT:
 
-### INITIAL DEPLOYMENT
+#### INITIAL DEPLOYMENT
 
 This site was deployed using GitHub Pages with the following the steps below:
 
@@ -117,7 +113,7 @@ This site was deployed using GitHub Pages with the following the steps below:
 7. Click "Save", then wait for it to be deployed. It may take some time for the page to be fully deployed.
 8. The URL will be displayed above the "source" section in GitHub Pages.
 
-### HOW TO FORK A REPOSITORY
+#### HOW TO FORK A REPOSITORY
 
 If you need to make a copy of a repository:
 
@@ -125,7 +121,7 @@ If you need to make a copy of a repository:
 2. On GitHub, go to [manni8436/MS1-Project](manni8436/MS1-Project).
 3. In the top right corner, click "Fork".
 
-### HOW TO CLONE A REPOSITORY
+#### HOW TO CLONE A REPOSITORY
 
 If you need to make a clone:    
 
@@ -138,7 +134,7 @@ If you need to make a clone:
 7. Type git clone and then paste the URL you copied in step 4.
 8. Press Enter to create your clone.
 
-### HOW TO MAKE A LOCAL CLONE
+#### HOW TO MAKE A LOCAL CLONE
 
 If you need to make a local clone:   
 
@@ -153,7 +149,7 @@ If you need to make a local clone:
 
 ## TESTING
 
-### Code Validators
+#### Code Validators
 
 The W3C Markup Validator and W3C CSS Validator was used to validate my project to make sure there were no errors within the site.
 The only errors were found was `class="img-fluid"` which was used to make the images responsive and `class="d-block w-100"` which was a bootstrap class for the image cards.
@@ -169,8 +165,6 @@ The only errors were found was `class="img-fluid"` which was used to make the im
     * [CSS](http://www.css-validator.org/validator?uri=https%3A%2F%2Fmanni8436.github.io%2FMS1-Project%2Findex.html&profile=css21&usermedium=all&warning=1&lang=en)
 
 * Testing:
-
-    
 
 ## CONTENT
 
