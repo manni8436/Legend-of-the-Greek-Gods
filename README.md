@@ -43,6 +43,8 @@ My overall color scheme uses #ffbe5b for the gold and #202020 for the black thro
 
 ![Gold](assets/images/goldcolor.jpg) ![Black](assets/images/blackcolor.jpg)
 
+with white text writing in the forms section in the Contact Us page.
+
 ## CONTENT 
 
 ## USER EXPERIENCE (UX)
