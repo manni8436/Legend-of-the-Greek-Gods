@@ -87,7 +87,7 @@ GitHub is being used to store all the code for this project after being pushed f
 Balsamiq was used in the initial design process to make wireframes.
 
 #### Firefox Developer Tools:
-Google DevTools was used for troube shooting and trying new visual changes without it affect the current code already created.
+Firefox Developer Tools was used for troube shooting and trying new visual changes without it affect the current code already created.
 
 ## DEPLOYMENT:
 
