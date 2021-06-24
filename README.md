@@ -24,7 +24,7 @@ I designed this site to provide information and content that can be helpful to a
 The structure of the site was designed to be simple and easy to use and have a good content balance as to not
 overload the user and give them enough information as not leave them lost or needing more knowledge.
 
-1. The website is for the following users types:
+* The website is for the following users types:
     
     * Users that has no previous knowledge of the stories, history, characters and see what they used to look like.
     * Users with basic knowledge of the Greek history but were looking for more information and increase their knowledge base.
@@ -60,9 +60,6 @@ for both desktop and mobile versions.
 A testing page has been made using MS Excel which can be found <a href="Test Page (MS1 Project).xlsx">here.</a> 
 It details all the test taken to ensure the site works consitently across all devices.
 
-## FUTHER TESTING
-
-
 ## SOLVED BUGS
 
 * All my background images didnt fit on the screen properly as a result I changed the background-position from `background-position: center center;` to `background-position: top center;`
@@ -79,22 +76,33 @@ alt="CSS logo" width="50px" height="50px" /> <img src="https://github.com/devico
 
 #### Google Fonts:
 [Google Fonts](https://fonts.google.com/) was used for all the text content on the site pages.
-    Git
+
+#### GitPod:
+GitPod was used to write up the code for my project and using the GitPod terminal to commit everything to GitHub.
+    
+#### GitHub:
+GitHub is being used to store all the code for this project after being pushed from GitPod.
+
+#### Balsamiq:
+Balsamiq was using in the in initial design process to make wireframes.
+
+#### Google DevTools:
+Google DevTools was used for troube shooting and trying new visual changes without it affect the current code already created.
 
 ## DEPLOYMENT:
 
 ### INITIAL DEPLOYMENT
 
-This site was deployed to GitHub Pages by using the following the steps below:
+This site was deployed using GitHub Pages with the following the steps below:
 
 1. Login or Sign Up to [GitHub](www.github.com).
 2. Create a new repository named "MS1-Project".
 3. Once created, click on "Settings" on the navigation bar under the repository title.
-4. Scroll down to "GitHub Pages".
-5. Under "Source", choose which branch you wish to deploy. In most cases it will be "master", but this can also be shown as "main".
+4. Click on "Pages", on the left hand side below Secrets.
+5. Under "Source", choose which branch you wish to deploy, In most cases it will be "main".
 6. Choose which folder to deploy from, generally from "/root".
 7. Click "Save", then wait for it to be deployed. It may take some time for the page to be fully deployed.
-8. The URL will be displayed above the "source".
+8. The URL will be displayed above the "source" section in GitHub Pages.
 
 ### HOW TO FORK A REPOSITORY
 
@@ -130,56 +138,52 @@ If you need to make a local clone:
 7. Type git clone and then paste the URL you copied in step 4.
 8. Press Enter, and your local clone will be created.
 
-## Content
-
-* Text content on all Pages was copied and/or ammended from the following sites:  
-    * https://www.history.com/.amp/topics/ancient-history/greek-mythology
-    * https://www.visionpubl.com/en/cities/athens/parthenon-facts-history/
-    * https://yallatoursblog.com/2014/01/27/faster-higher-stronger-in-ancient-olympia/
-    * https://www.history.com/topics/sports/olympic-games
-    * https://en.wikipedia.org/wiki/Acropolis_of_Athens#History
-    * https://en.wikipedia.org/wiki/Zeus
-    * https://en.wikipedia.org/wiki/Poseidon 
-    * https://en.wikipedia.org/wiki/Hades
-    * https://en.wikipedia.org/wiki/Atlas_(mythology)
-    * https://en.wikipedia.org/wiki/Hercules#Mythology
-    * https://en.wikipedia.org/wiki/Amphitrite#Mythology
-    * https://en.wikipedia.org/wiki/Asclepius
-    * https://www.pinterest.co.uk/pin/410109109794860381/
-    * https://www.pinterest.co.uk/pin/410109109794860381/
-    * https://en.wikipedia.org/wiki/Temple_of_Hera,_Olympia
-    * https://www.greeka.com/peloponnese/olympia/sightseeing/temple-hera/
-
 ## CONTENT
 
-* Images mainly provided by wikipedia and pinterest but a full list have been provided below:
+1. Images mainly provided by wikipedia and pinterest but a full list have been provided below:
     * Background Images:
-        [Home Page](https://wallpaperaccess.com/zeus)
-        [Big Three](https://omniversal-battlefield.fandom.com/wiki/Poseidon_(Greek_Mythology)?file=Poseidon.jpg)
-        [Lesser Known Gods](https://www.artstation.com/artwork/1YzOK)
-        [History](https://www.artstation.com/artwork/1YzOK)
-        [Contact Us](https://www.ancient-origins.net/myths-legends-europe/hermes-0011776) 
+        * [Home Page](https://wallpaperaccess.com/zeus)
+        * [Big Three](https://omniversal-battlefield.fandom.com/wiki/Poseidon_(Greek_Mythology)?file=Poseidon.jpg)
+        * [Lesser Known Gods](https://www.artstation.com/artwork/1YzOK)
+        * [History](https://www.artstation.com/artwork/1YzOK)
+        * [Contact Us](https://www.ancient-origins.net/myths-legends-europe/hermes-0011776) 
 
     * Big Three Main Images:
-        [Zeus](https://en.wikipedia.org/wiki/Zeus)
-        [Poseidon](https://en.wikipedia.org/wiki/Poseidon )
-        [Hades](https://en.wikipedia.org/wiki/Hades)
+        * [Zeus](https://en.wikipedia.org/wiki/Zeus)
+        * [Poseidon](https://en.wikipedia.org/wiki/Poseidon )
+        * [Hades](https://en.wikipedia.org/wiki/Hades)
      
     * Lesser Known Gods Main Images
-        [Atlas](https://en.wikipedia.org/wiki/Atlas_(mythology))
-        [Heracles](https://en.wikipedia.org/wiki/Heracles)
-        [Amphitrite](https://www.pinterest.com/pin/423831014921428350/)
-        [Asclepius](https://en.wikipedia.org/wiki/Asclepius)
-        [Pan](https://www.pinterest.co.uk/pin/410109109794860381/)
-        [Nike](https://www.pinterest.co.uk/pin/111182684540958323/)
+        * [Atlas](https://en.wikipedia.org/wiki/Atlas_(mythology))
+        * [Heracles](https://en.wikipedia.org/wiki/Heracles)
+        * [Amphitrite](https://www.pinterest.com/pin/423831014921428350/)
+        * [Asclepius](https://en.wikipedia.org/wiki/Asclepius)
+        * [Pan](https://www.pinterest.co.uk/pin/410109109794860381/)
+        * [Nike](https://www.pinterest.co.uk/pin/111182684540958323/)
  
     * Carousel Images:
-        [Mount Olympus](https://www.pinterest.co.uk/pin/111182684540958323/)
-        [Temple of Zeus](https://en.wikipedia.org/wiki/Temple_of_Olympian_Zeus,_Athens#History)
-        [Temple of Poseidon](https://en.wikipedia.org/wiki/Temple_of_Poseidon,_Sounion)
-        [Parthenon](https://www.visionpubl.com/en/cities/athens/parthenon-facts-history/)
-        [Ancient Olympia Stadium](https://yallatoursblog.com/2014/01/27/faster-higher-stronger-in-ancient-olympia/)
+        * [Mount Olympus](https://www.pinterest.co.uk/pin/111182684540958323/)
+        * [Temple of Zeus](https://en.wikipedia.org/wiki/Temple_of_Olympian_Zeus,_Athens#History)
+        * [Temple of Poseidon](https://en.wikipedia.org/wiki/Temple_of_Poseidon,_Sounion)
+        * [Parthenon](https://www.visionpubl.com/en/cities/athens/parthenon-facts-history/)
+        * [Ancient Olympia Stadium](https://yallatoursblog.com/2014/01/27/faster-higher-stronger-in-ancient-olympia/)
         
+2. Text content on all Pages was copied and/or ammended from the following sites:  
+    * [Parthenon](https://www.visionpubl.com/en/cities/athens/parthenon-facts-history/)
+    * [Ancient Olympia](https://yallatoursblog.com/2014/01/27/faster-higher-stronger-in-ancient-olympia/)
+    * [Acropolis of Athens](https://en.wikipedia.org/wiki/Acropolis_of_Athens#History)
+    * [Temple of Hera, Olympia](https://en.wikipedia.org/wiki/Temple_of_Hera,_Olympia)[Another link for Temple of Hera, Olympia](https://www.greeka.com/peloponnese/olympia/sightseeing/temple-hera/)
+    * [Heracles and The Twelve Labors](https://www.history.com/.amp/topics/ancient-history/greek-mythology)
+    * [Zeus](https://en.wikipedia.org/wiki/Zeus)
+    * [Poseidon](https://en.wikipedia.org/wiki/Poseidon)
+    * [Hades](https://en.wikipedia.org/wiki/Hades)
+    * [Atlas](https://en.wikipedia.org/wiki/Atlas_(mythology))
+    * [Hercules/Heracles](https://en.wikipedia.org/wiki/Hercules#Mythology)
+    * [Amphitrite](https://en.wikipedia.org/wiki/Amphitrite#Mythology)
+    * [Asclepius](https://en.wikipedia.org/wiki/Asclepius)
+    * [Pan](https://www.pinterest.co.uk/pin/410109109794860381/)
+    * [Nike](https://en.wikipedia.org/wiki/Nike_(mythology))
+    
 ## ACKNOWLEDGEMENTS:
 
 I would like to give a big thanks to [Chris Quinn](https://github.com/10xOXR) for all his help, effort, guidance
