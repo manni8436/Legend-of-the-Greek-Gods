@@ -7,8 +7,8 @@
 
 [Here is a link to the final project](https://manni8436.github.io/MS1-Project/)
 
-## initial Design
-*   My initial idea for this project was to create a website informative website about the Greek Gods that anyone. My target audience is anyone who is interested in Greek Mythology,
+## INITIAL DESIGN
+*   My initial idea for this project was to create a informative website about the Greek Gods. My target audience is anyone who is interested in Greek Mythology,
     this can cover a huge spectrum on ages, genders and interest levels from children who want to learn about the Greek Gods, use the site for school projects to the educated who just want to read something 
     fun and interesting.
 
@@ -18,28 +18,28 @@
     * Easy to read information.
     * A black and gold colour scheme that stands out but is not over powering.
 
-## Final Design 
+## FINAL DESIGN
 
 ![Final project image home page](assets/images/responsiveimages.jpg)
 
-## User Stories    
+## USER STORIES
 
-### Client Goals 
+### CLIENT GOALS
 
 * The site needs to be easily accessible.
 * The navigation menu to be simple to use from desktop to smaller devices.
 * Manouvering around the site to be simple and straightforward.
 * For the site to be informative, easy to read and see the images clearly.
 
-### First Time Visitors
+### FIRST TIME VISITORS
 * I want it to be easy to understand how to navigate throughout the site.
 * I want the content to be easily read and understandable.
 
-## Design
+## DESIGN
 
-## Color Scheme
+## COLOR SCHEME
 
-My overall color scheme uses #ffbe5b for the gold and #202020 for the black throughout the site.
+My overall color scheme used throughout the site.
 
 ![Gold](assets/images/goldcolor.jpg) ![Black](assets/images/blackcolor.jpg)
 
