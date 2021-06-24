@@ -92,7 +92,7 @@ This site was deployed using GitHub Pages with the following the steps below:
 If you need to make a copy of a repository:
 
 1. Login or Sign Up to [GitHub](www.github.com).
-2. On GitHub, go to [manni8436/MS1-Project]( https://github.com/manni8436/MS1-Project).
+2. On GitHub, go to [manni8436/MS1-Project](manni8436/MS1-Project).
 3. In the top right corner, click "Fork".
 
 ### HOW TO CLONE A REPOSITORY
@@ -141,7 +141,7 @@ The only errors were found was `class="img-fluid"` which was used to make the im
 
 
 
-
+    
 
 ## CONTENT
 
