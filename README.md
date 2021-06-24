@@ -36,7 +36,7 @@ overload the user and give them enough information as not leave them lost or nee
 
 ## FEATURES
 
-1. The following is the Features that I have used for my project.    
+* The following is the Features that I have used for my project.    
     
     * Hover feature which tells the user what location the mouse is in while in the menu.
     * simple function so that they user does not lose its place in the means and get confused.
@@ -48,7 +48,7 @@ overload the user and give them enough information as not leave them lost or nee
 I tested my site to insure all aspects of my site works and be consitent throughtout the website as excepted 
 for both desktop and mobile versions.
 
-1. This includes:
+* This includes:
 
     * Making sure all pages are responsive and all contents legible.
     * Testing that the navbar changes to a dropdown menu as excepted on all pages, collapsing at 991px as excepted.
@@ -84,9 +84,9 @@ GitPod was used to write up the code for my project and using the GitPod termina
 GitHub is being used to store all the code for this project after being pushed from GitPod.
 
 #### Balsamiq:
-Balsamiq was using in the in initial design process to make wireframes.
+Balsamiq was used in the initial design process to make wireframes.
 
-#### Google DevTools:
+#### Firefox Developer Tools:
 Google DevTools was used for troube shooting and trying new visual changes without it affect the current code already created.
 
 ## DEPLOYMENT:
@@ -117,8 +117,8 @@ If you need to make a copy of a repository:
 If you need to make a clone:    
 
 1. Login in to [GitHub](www.github.com).
-2. Fork the repository manni8436/MS1-Project using the steps above in [How to Fork it](#how-to-fork-it).
-3. Above the file list, click "Code.
+2. Fork the repository manni8436/MS1-Project using the steps above in [HOW TO FORK A REPOSITORY](#HOW-TO-FORK-A-REPOSITORY).
+3. Above the file list, click "Code".
 4. Choose if you want to close using HTTPS, SSH or GitHub CLI, then click the copy button to the right.
 5. Open Git Bash.
 6. Change the directory to where you want your clone to go.
@@ -168,11 +168,12 @@ If you need to make a local clone:
         * [Parthenon](https://www.visionpubl.com/en/cities/athens/parthenon-facts-history/)
         * [Ancient Olympia Stadium](https://yallatoursblog.com/2014/01/27/faster-higher-stronger-in-ancient-olympia/)
         
-2. Text content on all Pages was copied and/or ammended from the following sites:  
+* Text content on all Pages was copied and/or ammended from the following sites:  
     * [Parthenon](https://www.visionpubl.com/en/cities/athens/parthenon-facts-history/)
     * [Ancient Olympia](https://yallatoursblog.com/2014/01/27/faster-higher-stronger-in-ancient-olympia/)
     * [Acropolis of Athens](https://en.wikipedia.org/wiki/Acropolis_of_Athens#History)
-    * [Temple of Hera, Olympia](https://en.wikipedia.org/wiki/Temple_of_Hera,_Olympia)[Another link for Temple of Hera, Olympia](https://www.greeka.com/peloponnese/olympia/sightseeing/temple-hera/)
+    * [Temple of Hera, Olympia](https://en.wikipedia.org/wiki/Temple_of_Hera,_Olympia)
+    * [Second link for Temple of Hera, Olympia](https://www.greeka.com/peloponnese/olympia/sightseeing/temple-hera/)
     * [Heracles and The Twelve Labors](https://www.history.com/.amp/topics/ancient-history/greek-mythology)
     * [Zeus](https://en.wikipedia.org/wiki/Zeus)
     * [Poseidon](https://en.wikipedia.org/wiki/Poseidon)
