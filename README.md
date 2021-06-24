@@ -138,9 +138,11 @@ The only errors were found was `class="img-fluid"` which was used to make the im
 * W3C CSS Validator Results
     * [CSS](http://www.css-validator.org/validator?uri=https%3A%2F%2Fmanni8436.github.io%2FMS1-Project%2Findex.html&profile=css21&usermedium=all&warning=1&lang=en)
 
+* Manual Testing Log:
 
-
-
+        Functionality | Page | Browser | Pass/Fail |                            
+        --------------|------|---------|-----------|
+        
     
 
 ## CONTENT
