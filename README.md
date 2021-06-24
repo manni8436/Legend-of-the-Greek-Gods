@@ -255,4 +255,4 @@ The only errors were found was `class="img-fluid"` which was used to make the im
 I would like to give a big thanks to [Chris Quinn](https://github.com/10xOXR) for all his help, effort, guidance
 and patience he has provided during this project.
 
-I would also like to thank [Abi Harrison](https://github.com/Abibubble) for all her support, advice and explaining things that I did not understand.
+I would also like to thank [Abi Harrison](https://github.com/Abibubble) for all her support, advice and explaining things to me when I did not understand.
