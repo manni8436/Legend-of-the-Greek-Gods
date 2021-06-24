@@ -7,11 +7,39 @@
 
 [Here is a link to the final project](https://manni8436.github.io/MS1-Project/)
 
-For this Milestone Project we were given a few options to choose from however I decided to create a website 
-about the Greek Gods, which I included pictures, a contacts page and links to different social media platforms.
+## initial Design
+    My initial idea for this project was to create a website informative website about the Greek Gods that anyone. My target audience is anyone who is interested in Greek Mythology,
+    this can cover a huge spectrum on ages, genders and interest levels from children who want to learn about the Greek Gods, use the site for school projects to the educated who just want to read something 
+    fun and interesting.
 
-I decided to create a website about the Greek Gods due to my passion for Greek Mythology and I felt that I would
-produce a better website due to my interest in the subject.
+* The main features that I wanted to include are:
+    
+    * Easy to use navigation menu.
+    * Easy to read information.
+    * A black and gold colour scheme that stands out but is not over powering.
+
+## User Stories    
+
+### Client Goals 
+
+* The site needs to be easily accessible.
+* The navigation menu to be simple to use from desktop to smaller devices.
+* Manouvering around the site to be simple and straightforward.
+* For the site to be informative, easy to read and see the images clearly.
+
+### First Time Visitors
+* I want it to be easy to understand how to navigate throughout the site.
+* I want the content to be easily read and understandable.
+
+## Design
+
+## Color Scheme
+
+My overall color scheme uses #ffbe5b for the gold and #202020 for the black throughout the site.
+
+![Gold](assets/images/goldcolor.jpg)![Black](assets/images/blackcolor.jpg)
+
+
 
 ![Final project image home page](assets/images/responsiveimages.jpg)
 
@@ -138,10 +166,7 @@ The only errors were found was `class="img-fluid"` which was used to make the im
 * W3C CSS Validator Results
     * [CSS](http://www.css-validator.org/validator?uri=https%3A%2F%2Fmanni8436.github.io%2FMS1-Project%2Findex.html&profile=css21&usermedium=all&warning=1&lang=en)
 
-* Manual Testing Log:
-
-        | Functionality | Page | Browser | Pass/Fail |                            
-        |--------------------------------------------|
+* Testing:
 
     
 
