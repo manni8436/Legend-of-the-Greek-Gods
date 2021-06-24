@@ -18,6 +18,10 @@
     * Easy to read information.
     * A black and gold colour scheme that stands out but is not over powering.
 
+## Final Design 
+
+![Final project image home page](assets/images/responsiveimages.jpg)
+
 ## User Stories    
 
 ### Client Goals 
@@ -37,11 +41,7 @@
 
 My overall color scheme uses #ffbe5b for the gold and #202020 for the black throughout the site.
 
-![Gold](assets/images/goldcolor.jpg)![Black](assets/images/blackcolor.jpg)
-
-
-
-![Final project image home page](assets/images/responsiveimages.jpg)
+![Gold](assets/images/goldcolor.jpg) ![Black](assets/images/blackcolor.jpg)
 
 ## CONTENT 
 
