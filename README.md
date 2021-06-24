@@ -117,7 +117,7 @@ If you need to make a copy of a repository:
 If you need to make a clone:    
 
 1. Login in to [GitHub](www.github.com).
-2. Fork the repository manni8436/MS1-Project using the steps above in [HOW TO FORK A REPOSITORY](#HOW-TO-FORK-A-REPOSITORY).
+2. Fork the repository manni8436/MS1-Project using the steps above in [How To Fork a Repository](#HOW-TO-FORK-A-REPOSITORY).
 3. Above the file list, click "Code".
 4. Choose if you want to close using HTTPS, SSH or GitHub CLI, then click the copy button to the right.
 5. Open Git Bash.
