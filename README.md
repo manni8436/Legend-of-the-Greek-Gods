@@ -22,26 +22,34 @@
 
 ![Final project image home page](assets/images/responsiveimages.jpg)
 
-## USER STORIES
+## CONTENTS
 
-#### CLIENT GOALS
+* [User Experience](#USER-EXPERIENCE-(UX))  
+    * [User Stories](#USER-STORIES)    
 
-* The site needs to be easily accessible.
-* The navigation menu to be simple to use from desktop to smaller devices.
-* Manouvering around the site to be simple and straightforward.
-* For the site to be informative, easy to read and see the images clearly.
+* [Deisgn](#DESIGN)   
+    * [Color Scheme](#COLOR-SCHEME)
 
-#### FIRST TIME VISITORS
-* I want it to be easy to understand how to navigate throughout the site.
-* I want the content to be easily read and understandable.
+* [Wireframes](#WIREFRAMES) 
 
-## COLOR SCHEME
+* [Technologies Used](#TECHNOLOGIES-USED) 
+    * [Languages Used](#LANGUAGES-USED)
+    * [Programs Used](#PROGRAMS-USED)
 
-My overall color scheme used throughout the site.
+* [Deployment](#DEPLOYMENT)
+    * [Initial Deployment](#INITIAL-DEPLOYMENT)
+    * [How To Fork A Repository](#HOW-TO-FORK-A-REPOSITORY)
+    * [How To Clone A Repository](#HOW-TO-CLONE-A-REPOSITORY)
+    * [How To Make A Local Clone](#HOW-TO-MAKE-A-LOCAL-CLONE)
 
-![Gold](assets/images/goldcolor.jpg) ![Black](assets/images/blackcolor.jpg)
+* [Testing](#TESTING)
+    * [Code Validators](#CODE-VALIDATORS)
 
-with white text writing in the forms section in the Contact Us page.
+* [Content](#CONTENT)
+    * [Images](#IMAGES)
+    * [Text Content](#TEXT-CONTENT)
+
+* [Acknowledgements](#ACKNOWLEDGEMENTS)    
 
 ## USER EXPERIENCE (UX)
 
@@ -55,6 +63,29 @@ overload the user and give them enough information as not leave them lost or nee
     * Users that has no previous knowledge of the stories, history, characters and see what they used to look like.
     * Users with basic knowledge of the Greek history but were looking for more information and increase their knowledge base.
     * Users who have good knowledge of the Greek history but want to refresh the knowledge or do some research or even just enjoy reading about the history of all the gods.
+
+## USER STORIES
+
+#### CLIENT GOALS
+
+* The site needs to be easily accessible.
+* The navigation menu to be simple to use from desktop to smaller devices.
+* Manouvering around the site to be simple and straightforward.
+* For the site to be informative, easy to read and see the images clearly.
+
+#### FIRST TIME VISITORS
+* I want it to be easy to understand how to navigate throughout the site.
+* I want the content to be easily read and understandable.
+
+## DESIGN
+
+### COLOR SCHEME
+
+My overall color scheme used throughout the site.
+
+![Gold](assets/images/goldcolor.jpg) ![Black](assets/images/blackcolor.jpg)
+
+with white text writing in the forms section in the Contact Us page.
 
 ## WIREFRAMES
 
@@ -75,10 +106,12 @@ overload the user and give them enough information as not leave them lost or nee
 
 ## TECHNOLOGIES USED
 
+###  LANGUAGES USED
+
 <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-plain-wordmark.svg" alt="HTML logo" width="50px" height="50px" />  <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg" 
 alt="CSS logo" width="50px" height="50px" /> <img src="https://github.com/devicons/devicon/blob/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="Bootstrap logo" height="50px" width="50px" />   
-    
-## PROGRAMS USED:
+
+### PROGRAMS USED:
 
 #### Font Awesome:
 [Font Awesome](https://fontawesome.com/) was using for a few icons used in the footer aspect of the site pages.
@@ -134,7 +167,7 @@ If you need to make a clone:
 7. Type git clone and then paste the URL you copied in step 4.
 8. Press Enter to create your clone.
 
-#### HOW TO MAKE A LOCAL CLONE
+### HOW TO MAKE A LOCAL CLONE
 
 If you need to make a local clone:   
 
@@ -149,7 +182,7 @@ If you need to make a local clone:
 
 ## TESTING
 
-#### Code Validators
+### CODE VALIDATORS
 
 The W3C Markup Validator and W3C CSS Validator was used to validate my project to make sure there were no errors within the site.
 The only errors were found was `class="img-fluid"` which was used to make the images responsive and `class="d-block w-100"` which was a bootstrap class for the image cards.
@@ -164,11 +197,12 @@ The only errors were found was `class="img-fluid"` which was used to make the im
 * W3C CSS Validator Results
     * [CSS](http://www.css-validator.org/validator?uri=https%3A%2F%2Fmanni8436.github.io%2FMS1-Project%2Findex.html&profile=css21&usermedium=all&warning=1&lang=en)
 
-* Testing:
-
 ## CONTENT
 
-1. Images mainly provided by wikipedia and pinterest but a full list have been provided below:
+### IMAGES
+
+* Images mainly provided by wikipedia and pinterest but a full list have been provided below:
+
     * Background Images:
         * [Home Page](https://wallpaperaccess.com/zeus)
         * [Big Three](https://omniversal-battlefield.fandom.com/wiki/Poseidon_(Greek_Mythology)?file=Poseidon.jpg)
@@ -195,8 +229,11 @@ The only errors were found was `class="img-fluid"` which was used to make the im
         * [Temple of Poseidon](https://en.wikipedia.org/wiki/Temple_of_Poseidon,_Sounion)
         * [Parthenon](https://www.visionpubl.com/en/cities/athens/parthenon-facts-history/)
         * [Ancient Olympia Stadium](https://yallatoursblog.com/2014/01/27/faster-higher-stronger-in-ancient-olympia/)
-        
+
+### TEXT CONTENT
+
 * Text content on all Pages was copied and/or ammended from the following sites:  
+    
     * [Parthenon](https://www.visionpubl.com/en/cities/athens/parthenon-facts-history/)
     * [Ancient Olympia](https://yallatoursblog.com/2014/01/27/faster-higher-stronger-in-ancient-olympia/)
     * [Acropolis of Athens](https://en.wikipedia.org/wiki/Acropolis_of_Athens#History)
@@ -217,3 +254,5 @@ The only errors were found was `class="img-fluid"` which was used to make the im
 
 I would like to give a big thanks to [Chris Quinn](https://github.com/10xOXR) for all his help, effort, guidance
 and patience he has provided during this project.
+
+I would also like to thank [Abi Harrison](https://github.com/Abibubble) for all her support, advice and explaining things that I did not understand.
