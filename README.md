@@ -43,23 +43,6 @@ overload the user and give them enough information as not leave them lost or nee
     * Contact form validates and requests the user to input information in the input boxes and textarea.
     * this stops the user from accidently sending blank or incomplete contact details and information needed.    
 
-## TESTING
-
-I tested my site to insure all aspects of my site works and be consitent throughtout the website as excepted 
-for both desktop and mobile versions.
-
-* This includes:
-
-    * Making sure all pages are responsive and all contents legible.
-    * Testing that the navbar changes to a dropdown menu as excepted on all pages, collapsing at 991px as excepted.
-    * all webpages was check on major desktop and mobile platforms listed below:
-        * Chrome
-        * Firefox
-        * Safari
-
-A testing page has been made using MS Excel which can be found <a href="Test Page (MS1 Project).xlsx">here.</a> 
-It details all the test taken to ensure the site works consitently across all devices.
-
 ## SOLVED BUGS
 
 * All my background images didnt fit on the screen properly as a result I changed the background-position from `background-position: center center;` to `background-position: top center;`
@@ -137,6 +120,12 @@ If you need to make a local clone:
 6. Change the current working directory to the new locaiton, where you want the cloned directory to be.
 7. Type git clone and then paste the URL you copied in step 4.
 8. Press Enter, and your local clone will be created.
+
+## TESTING
+### Code Validators
+
+The W3C Markup Validator and W3C CSS Validator was used to validate my project to make sure there were no errors within the site.
+The only errors were found was 
 
 ## CONTENT
 
