@@ -27,7 +27,7 @@
 * [User Experience](#USER-EXPERIENCE-(UX))  
     * [User Stories](#USER-STORIES)    
 
-* [Deisgn](#DESIGN)   
+* [Design](#DESIGN)   
     * [Color Scheme](#COLOR-SCHEME)
 
 * [Wireframes](#WIREFRAMES) 
