@@ -102,7 +102,8 @@ with white text writing in the forms section in the [Contact Us](https://manni84
 
 ## SOLVED BUGS
 
-* All my background images didnt fit on the screen properly as a result I changed the background-position from `background-position: center center;` to `background-position: top center;`
+* All my background images didnt fit on the screen properly, especially the home page as the top of the image was getting cut off and as a result I changed 
+the background-position from `background-position: center center;` to `background-position: top center;`
 
 ## TECHNOLOGIES USED
 
