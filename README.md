@@ -204,45 +204,45 @@ The only errors were found was `class="img-fluid"` which was used to make the im
 ### Desktop
 * Home Page
 
-![Home Page](assets/images/Lighthouse(homepage).png)
+![Home Page](assets/images/lighthouse(homepage).png)
 
 * The Big Three
 
-![Big Three](assets/images/Lighthouse(bigthree).png)
+![Big Three](assets/images/lighthouse(bigthree).png)
 
 * Lesser Known Gods
 
-![Lesser Known Gods](assets/images/Lighthouse(lesserknowngods).png)
+![Lesser Known Gods](assets/images/lighthouse(lesserknowngods).png)
 
 * History
 
-![History](assets/images/Lighthouse(history).png)
+![History](assets/images/lighthouse(history).png)
 
 * Contact Us
 
-![Contact Us](assets/images/Lighthouse(contactus).png)
+![Contact Us](assets/images/lighthouse(contactus).png)
 
 
 ### Mobile
 * Home Page
 
-
+![Home Page](assets/images/lighthouse(mobilehomepage).png)
 
 * The Big Three
 
-
+![Big Three](assets/images/lighthouse(mobilebigthree).png)
 
 * Lesser Known Gods
 
-
+![Lesser Known Gods](assets/images/lighthouse(mobilelesserknowngods).png)
 
 * History
 
-
+![History](assets/images/lighthouse(mobilehistory).png)
 
 * Contact Us
 
-
+![Contact Us](assets/images/lighthouse(mobilecontactus).png)
 
 
 
