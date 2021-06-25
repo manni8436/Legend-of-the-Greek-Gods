@@ -201,7 +201,7 @@ The only errors were found was `class="img-fluid"` which was used to make the im
 
 * I tested my website using Firefox Developer Tools Lighthouse feature, and received the results below:
 
-### Desktop
+### DESKTOP
 * Home Page
 
 ![Home Page](assets/images/lighthouse(homepage).png)
@@ -222,8 +222,7 @@ The only errors were found was `class="img-fluid"` which was used to make the im
 
 ![Contact Us](assets/images/lighthouse(contactus).png)
 
-
-### Mobile
+### MOBILE
 * Home Page
 
 ![Home Page](assets/images/lighthouse(mobilehomepage).png)
@@ -243,23 +242,6 @@ The only errors were found was `class="img-fluid"` which was used to make the im
 * Contact Us
 
 ![Contact Us](assets/images/lighthouse(mobilecontactus).png)
-
-
-
-
-* Performance:
-
-
-
-* Accessibility:
-
-
-
-* Best Practise:
-
-
-
-* SEO:
 
 ## CONTENT
 
