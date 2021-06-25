@@ -96,14 +96,18 @@ with white text writing in the forms section in the [Contact Us](https://manni84
 * The following is the Features that I have used for my project.    
     
     * Hover feature which tells the user what location the mouse is in while in the menu.
-    * simple function so that they user does not lose its place in the means and get confused.
+        * simple function so that they user does not lose its place in the means and get confused.
+        
     * Contact form validates and requests the user to input information in the input boxes and textarea.
-    * this stops the user from accidently sending blank or incomplete contact details and information needed.    
+        * this stops the user from accidently sending blank or incomplete contact details and information needed.    
 
 ## SOLVED BUGS
 
 * All my background images didnt fit on the screen properly, especially the home page as the top of the image was getting cut off and as a result I changed 
 the background-position from `background-position: center center;` to `background-position: top center;`
+
+* Based on information given by W3C Validator and after closer inspection of this issue, I was able to find a solution, as a result I added `img-fluid` and `d-block w-100` all into one `class=" "` also
+checked all pages once again through the W3C Code Validator and there were no further errors.
 
 ## TECHNOLOGIES USED
 
@@ -187,8 +191,6 @@ If you need to make a local clone:
 
 The W3C Markup Validator and W3C CSS Validator was used to validate my project to make sure there were no errors within the site.
 The only errors were found was `class="img-fluid"` which was used to make the images responsive and `class="d-block w-100"` which was a bootstrap class for the image cards.
-
-However after a closer inspection of this issue, I have been able to find a solution to this code validator issue and I have updated the links below to reflect this.
 
 * W3C HTML Validator Results
     * [Home Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmanni8436.github.io%2FMS1-Project%2Findex.html)
