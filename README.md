@@ -208,19 +208,19 @@ The only errors were found was `class="img-fluid"` which was used to make the im
 
 * The Big Three
 
-
+![Big Three](assets/images/Lighthouse(bigthree).png)
 
 * Lesser Known Gods
 
-
+![Lesser Known Gods](assets/images/Lighthouse(lesserknowngods).png)
 
 * History
 
-
+![History](assets/images/Lighthouse(history).png)
 
 * Contact Us
 
-
+![Contact Us](assets/images/Lighthouse(contactus).png)
 
 
 ### Mobile
