@@ -202,6 +202,8 @@ The only errors were found was `class="img-fluid"` which was used to make the im
 * I tested my website using Firefox Developer Tools Lighthouse feature, and received the results below:
 
 ### Desktop
+* Home Page
+
 ![Home Page](assets/images/Lighthouse(homepage).png)
 
 * The Big Three
