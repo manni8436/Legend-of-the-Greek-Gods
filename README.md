@@ -9,14 +9,14 @@
 
 ## INITIAL DESIGN
 *   My initial idea for this project was to create a informative website about the Greek Gods. My target audience is anyone who is interested in Greek Mythology,
-    this can cover a huge spectrum on ages, genders and interest levels from children who want to learn about the Greek Gods, use the site for school projects to the educated who just want to read something 
-    fun and interesting.
+    this can cover a huge spectrum of ages, genders and interest levels from children who want to learn about the Greek Gods, anyone who wants to use the site for projects,
+     to the educated who just want to read something fun and interesting.
 
 * The main features that I wanted to include are:
     
     * Easy to use navigation menu.
     * Easy to read information.
-    * A black and gold colour scheme that stands out but is not over powering.
+    * A black and gold colour scheme that stands out but is not over overwhelming.
 
 ## FINAL DESIGN
 
@@ -129,11 +129,11 @@ GitHub is being used to store all the code for this project after being pushed f
 Balsamiq was used in the initial design process to make wireframes.
 
 #### Firefox Developer Tools:
-Firefox Developer Tools was used for troube shooting and trying new visual changes without it affect the current code already created.
+Firefox Developer Tools was used for trouble shooting and trying new visual changes without it affect the current code already created.
 
 ## DEPLOYMENT:
 
-#### INITIAL DEPLOYMENT
+### INITIAL DEPLOYMENT
 
 This site was deployed using GitHub Pages with the following the steps below:
 
@@ -146,7 +146,7 @@ This site was deployed using GitHub Pages with the following the steps below:
 7. Click "Save", then wait for it to be deployed. It may take some time for the page to be fully deployed.
 8. The URL will be displayed above the "source" section in GitHub Pages.
 
-#### HOW TO FORK A REPOSITORY
+### HOW TO FORK A REPOSITORY
 
 If you need to make a copy of a repository:
 
@@ -154,7 +154,7 @@ If you need to make a copy of a repository:
 2. On GitHub, go to [manni8436/MS1-Project](manni8436/MS1-Project).
 3. In the top right corner, click "Fork".
 
-#### HOW TO CLONE A REPOSITORY
+### HOW TO CLONE A REPOSITORY
 
 If you need to make a clone:    
 
@@ -278,7 +278,7 @@ The only errors were found was `class="img-fluid"` which was used to make the im
 
 ### TEXT CONTENT
 
-* Text content on all Pages was copied and/or ammended from the following sites:  
+* Text content on all Pages was copied and/or amended from the following sites:  
     
     * [Parthenon](https://www.visionpubl.com/en/cities/athens/parthenon-facts-history/)
     * [Ancient Olympia](https://yallatoursblog.com/2014/01/27/faster-higher-stronger-in-ancient-olympia/)
