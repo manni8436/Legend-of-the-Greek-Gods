@@ -4,6 +4,8 @@
 * [Navigation Bar](#NAVIGATION-BAR)  
 * [Styling and Layout](#STLYING-AND-LAYOUT) 
 * [Pages](#PAGES)
+* [Responsiveness](#RESPONSIVENESS)
+
 
 
 On every device and browser in the README.md file, I tested the following:
@@ -60,3 +62,16 @@ On every device and browser in the README.md file, I tested the following:
 * Ensure all Footer links are working in the Lesser Known Gods page.
 * Ensure all Footer links are working in the History.
 * Ensure all Footer links are working in the Contact Us page.
+
+### RESPONSIVENESS
+    
+* Ensure all Images and Content are responsive in the Home page.
+* Ensure all Images and Content are responsive in the Big Three page.
+* Ensure all Images and Content are responsive in the Lesser Known Gods page.
+* Ensure all Images and Content are responsive in the History page.
+* Ensure all Images and Content are responsive in the Contact Us page.
+* Ensure all Text Content is readable in the Home page.
+* Ensure all Text Content is readable in the Big Three page.
+* Ensure all Text Content is readable in the Lesser Known Gods page.
+* Ensure all Text Content is readable in the History page.
+* Ensure all Text Content is readable in the Contact Us page.
