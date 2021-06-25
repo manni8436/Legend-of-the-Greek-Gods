@@ -199,7 +199,11 @@ However after a closer inspection of this issue, I have been able to find a solu
 * W3C CSS Validator Results
     * [CSS](http://www.css-validator.org/validator?uri=https%3A%2F%2Fmanni8436.github.io%2FMS1-Project%2Findex.html&profile=css21&usermedium=all&warning=1&lang=en)
 
-## LIGHTHOUSE
+### FULL TESTING
+
+[Click Here](testing.md) to view the full testing steps that were completed on every device and browser.
+
+### LIGHTHOUSE
 
 * I tested my website using Firefox Developer Tools Lighthouse feature, and received the results below:
 
