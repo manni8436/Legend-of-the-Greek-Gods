@@ -53,8 +53,6 @@
 
 ## USER EXPERIENCE (UX)
 
-I designed this site to provide information and content that can be helpful to a wide range of age groups.
-
 The structure of the site was designed to be simple and easy to use and have a good content balance as to not
 overload the user and give them enough information as not leave them lost or needing more knowledge.
 
