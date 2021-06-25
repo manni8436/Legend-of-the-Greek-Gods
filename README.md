@@ -104,7 +104,7 @@ with white text writing in the forms section in the [Contact Us](https://manni84
 ## SOLVED BUGS
 
 * All my background images didnt fit on the screen properly, especially the home page as the top of the image was getting cut off and as a result I changed 
-the background-position from `background-position: center center;` to `background-position: top center;`
+the `background-position` from `background-position: center center;` to `background-position: top center;`
 
 * I ran my code through W3C validators, and I was given an error of `duplicate attribute class` and after closer inspection of this issue, I was able to find a solution, 
 as a result I added `img-fluid` and `d-block w-100` all into one `class=" "` also rechecked all pages once again through the W3C Code Validator and there were no further errors.
