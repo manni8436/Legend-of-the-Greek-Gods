@@ -85,11 +85,11 @@ My overall color scheme used throughout the site.
 
 ![Gold](assets/images/goldcolor.jpg) ![Black](assets/images/blackcolor.jpg)
 
-with white text writing in the forms section in the Contact Us page.
+with white text writing in the forms section in the [Contact Us](https://manni8436.github.io/MS1-Project/contactus.html) page.
 
 ## WIREFRAMES
 
-[Here are the wireframes for desktop, mobile and tablet for this project](assets/wireframes/MSProject1Wireframes.pdf)
+[Here are my wireframes for desktop, mobile and tablet for this project](assets/wireframes/MSProject1Wireframes.pdf)
 
 ## FEATURES
 
