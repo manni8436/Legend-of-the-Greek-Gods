@@ -117,7 +117,7 @@ alt="CSS logo" width="50px" height="50px" /> <img src="https://github.com/devico
 ### PROGRAMS USED:
 
 #### Font Awesome:
-[Font Awesome](https://fontawesome.com/) was using for a few icons used in the footer aspect of the site pages.
+[Font Awesome](https://fontawesome.com/) was used for a few icons used in the footer aspect of the site pages.
 
 #### Google Fonts:
 [Google Fonts](https://fonts.google.com/) was used for all the text content on the site pages.
@@ -132,7 +132,7 @@ GitHub is being used to store all the code for this project after being pushed f
 Balsamiq was used in the initial design process to make wireframes.
 
 #### Firefox Developer Tools:
-Firefox Developer Tools was used for trouble shooting and trying new visual changes without it affect the current code already created.
+Firefox Developer Tools was used for trouble shooting and trying new visual changes without it affecting the current code already created.
 
 ## DEPLOYMENT:
 
