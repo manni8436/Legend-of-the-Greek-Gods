@@ -94,7 +94,7 @@ with white text writing in the forms section in the [Contact Us](https://manni84
 * The following is the Features that I have used for my project.    
     
     * Hover feature which tells the user what location the mouse is in while in the menu.
-        * simple function so that they user does not lose its place in the means and get confused.
+        * simple function so that the user does not lose its place in the menu and get confused.
         
     * Contact form validates and requests the user to input information in the input boxes and textarea.
         * this stops the user from accidently sending blank or incomplete contact details and information needed.    
