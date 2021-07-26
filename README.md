@@ -67,13 +67,18 @@ overload the user and give them enough information as not leave them lost or nee
 #### CLIENT GOALS
 
 * The site needs to be easily accessible.
-* The navigation menu to be simple to use from desktop to smaller devices.
-* Manouvering around the site to be simple and straightforward.
-* For the site to be informative, easy to read and see the images clearly.
+* The navigation menu needs to be simple to use on a range of devices, including desktop, tablet and mobiles.
+* Manoeuvring around the site should be simple and straightforward.
+* The site should be informative and all the text should be easy to read.
+* The images should be clear and not stretched or squashed.
 
 #### FIRST TIME VISITORS
 * I want it to be easy to understand how to navigate throughout the site.
 * I want the content to be easily read and understandable.
+
+#### RETURNING USER
+
+<!--add information-->
 
 ## DESIGN
 
