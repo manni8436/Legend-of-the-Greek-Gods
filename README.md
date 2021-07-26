@@ -84,11 +84,14 @@ overload the user and give them enough information as not leave them lost or nee
 
 ### COLOR SCHEME
 
-My overall color scheme used throughout the site.
+My overall color scheme used throughout the site was gold and a slightly off-black.
 
 ![Gold](assets/images/goldcolor.jpg) ![Black](assets/images/blackcolor.jpg)
 
-with white text writing in the forms section in the [Contact Us](https://manni8436.github.io/MS1-Project/contactus.html) page.
+ I also used white text in the forms section on the [Contact Us](https://manni8436.github.io/MS1-Project/contactus.html) page.
+
+I chose these color for my theme to represent the high status of the gods, which they have been known to use gold in clothes, building, money and plently of other items,
+I chose the off-black color to make the gold color stand out on the site.
 
 ## WIREFRAMES
 
