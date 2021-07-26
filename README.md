@@ -99,13 +99,15 @@ I chose the off-black color to make the gold color stand out on the site.
 
 ## FEATURES
 
-* The following is the Features that I have used for my project.    
-    
-    * Hover feature which tells the user what location the mouse is in while in the menu.
-        * simple function so that the user does not lose its place in the menu and get confused.
-        
-    * Contact form validates and requests the user to input information in the input boxes and textarea.
-        * this stops the user from accidently sending blank or incomplete contact details and information needed.    
+I have used the following features in this project    
+
+* Hover
+    * Tells the user the location of the mouse whilst navigating the menu.
+    * Helps the user not lose their place.
+
+* Contact Form    
+    * Form validation requests the user to input the correct information in the input fields.
+    * Avoids the user accidentally sending blank or incomplete forms.
 
 ## SOLVED BUGS
 
