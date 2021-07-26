@@ -8,15 +8,15 @@
 [Here is a link to the final project](https://manni8436.github.io/MS1-Project/)
 
 ## INITIAL DESIGN
-*   My initial idea for this project was to create a informative website about the Greek Gods. My target audience is anyone who is interested in Greek Mythology,
-    this can cover a huge spectrum of ages, genders and interest levels from children who want to learn about the Greek Gods, anyone who wants to use the site for projects,
-     to the educated who just want to read something fun and interesting.
+*   My initial idea for this project was to create an informative website about the Greek Gods. My target audience is anyone who is interested in Greek Mythology,
+    this can cover a huge spectrum of ages, genders and interest levels. This ranges from children who want to learn about the Greek Gods, to anyone who wants to 
+    use the site for projects, to those who just want to read something fun and interesting.
 
 * The main features that I wanted to include are:
     
     * Easy to use navigation menu.
     * Easy to read information.
-    * A black and gold colour scheme that stands out but is not over overwhelming.
+    * A black and gold colour scheme that stands out, but is not overwhelming.
 
 ## FINAL DESIGN
 
@@ -24,7 +24,7 @@
 
 ## CONTENTS
 
-* [User Experience](#USER-EXPERIENCE-(UX))  
+* [User Experience](#USER-EXPERIENCE)  
     * [User Stories](#USER-STORIES)    
 
 * [Design](#DESIGN)   
@@ -51,7 +51,7 @@
 
 * [Acknowledgements](#ACKNOWLEDGEMENTS)    
 
-## USER EXPERIENCE (UX)
+## USER EXPERIENCE
 
 The structure of the site was designed to be simple and easy to use and have a good content balance as to not
 overload the user and give them enough information as not leave them lost or needing more knowledge.
