@@ -203,7 +203,6 @@ If you need to make a local clone:
 ### CODE VALIDATORS
 
 The W3C Markup Validator and W3C CSS Validator was used to validate my project to make sure there were no errors within the site.
-The only errors were found was `class="img-fluid"` which was used to make the images responsive and `class="d-block w-100"` which was a bootstrap class for the image cards.
 
 * W3C HTML Validator Results
     * [Home Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmanni8436.github.io%2FMS1-Project%2Findex.html)
