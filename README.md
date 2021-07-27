@@ -268,7 +268,7 @@ The W3C Markup Validator and W3C CSS Validator was used to validate my project t
 
 ### IMAGES
 
-* Images mainly provided by wikipedia and pinterest but a full list have been provided below:
+* Images mainly provided by Wikipedia and Pinterest, but a full list have been provided below:
 
     * Background Images:
         * [Home Page](https://wallpaperaccess.com/zeus)
