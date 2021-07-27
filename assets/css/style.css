@@ -71,10 +71,7 @@ body {
     font-weight: bold;
 }
 
-.paragraph1,
-.paragraph2,
-.paragraph3,
-.paragraph4 {
+.index-p {
     background-color: #202020;
     border: #ffbe5b 2px solid;
     color: #ffbe5b;
