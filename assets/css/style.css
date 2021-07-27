@@ -20,10 +20,6 @@ body {
     background-color: #ffbe5b;
 }
 
-.navbar-light .navbar-nav .active .nav-link {
-    color: #ffbe5b;
-}
-
 .navbar-light .navbar-nav .nav-link {
     color: #ffbe5b;
 }
@@ -46,18 +42,38 @@ body {
 .form-control::placeholder {
     color: #ffbe5b;
 }
-/*-----------------------------------------------------------*/
 
-/*-------------------------------------------------------home*/
-.backgroundimage-home {
-    background-image: url('../images/zeusgold.jpg');
+/*-----------------------------------------background images*/
+.backgroundimage {
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
     background-position: top center;
 }
 
-.homeheader {
+.home {
+    background-image: url('../images/zeusgold.jpg');
+}
+
+.bigthree {
+    background-image: url('../images/poseidon.jpg');
+}
+
+.lesserknowngods {
+    background-image: url('../images/hades.jpg');
+}
+
+.history {
+    background-image: url('../images/athena.jpg');
+}
+
+.contactus {
+    background-image: url('../images/hermes.jpg');
+}
+
+/*----------------------------------------------------headers*/
+
+.page-header {
     background-color: #202020;
     color: #ffbe5b;
     border:#ffbe5b 2px solid;
@@ -71,6 +87,8 @@ body {
     font-weight: bold;
 }
 
+
+/*------------------------------------------------paragraphs*/
 .index-p {
     background-color: #202020;
     border: #ffbe5b 2px solid;
@@ -82,43 +100,8 @@ body {
     text-transform: uppercase;
     font-weight: bold;
 }
-/*---------------------------------------------------------------*/
 
-/*--------------------------------------------------the big three*/
-.backgroundimage-bigthree {
-    background-image: url('../images/poseidon.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 100%;
-    background-position: top center;
-}
-
-.thebigthreeheader {
-    background-color: #202020;
-    color: #ffbe5b;
-    border:#ffbe5b 2px solid;
-    max-width: 100%;
-    margin-top: 20px;
-    padding: 16px;
-    border-radius: 0.25rem;
-    font-size: 1.8rem;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-.zeusimage,
-.poseidonimage,
-.hadesimage {
-    height: 380px;
-    margin-top: 15px;
-    border-radius: 0.25rem;
-    border: #ffbe5b 2px solid;
-}
-
-.paragraph6,
-.paragraph7,
-.paragraph8 {
+.bigthree-p {
     background-color: #ffbe5b;
     color: #202020;
     border: #202020 2px solid;
@@ -128,33 +111,28 @@ body {
     padding: 10px;
     text-align: justify;     
     font-weight: bold;
-    text-transform: uppercase;    
+    text-transform: uppercase;     
+}
+/*---------------------------------------------------------------*/
+
+
+
+
+
+
+/*--------------------------------------------------the big three*/
+
+.zeusimage,
+.poseidonimage,
+.hadesimage {
+    height: 380px;
+    margin-top: 15px;
+    border-radius: 0.25rem;
+    border: #ffbe5b 2px solid;
 }
 /*-----------------------------------------------------------*/
 
 /*--------------------------------------------------lesser known gods*/
-.backgroundimage-lesserknowngods {
-    background-image: url('../images/hades.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 100%;
-    background-position: top center;
-}
-
-.lesserknowngodsheader {
-    background-color: #202020;
-    color: #ffbe5b;
-    border:#ffbe5b 2px solid;
-    max-width: 100%;
-    margin-top: 20px;
-    padding: 16px;
-    border-radius: 0.25rem;
-    font-size: 1.8rem;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
 .atlascard-img-top,
 .herculescard-img-top,
 .amphitritecard-img-top, 
@@ -193,28 +171,6 @@ body {
 /*-------------------------------------------------------------------*/
 
 /*------------------------------------------------------------history*/
-.backgroundimage-history {
-    background-image: url('../images/athena.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 100%;
-    background-position: top center;
-}
-
-.history {
-    background-color: #202020;
-    color: #ffbe5b;
-    border:#ffbe5b 2px solid;
-    max-width: 100%;
-    margin-top: 20px;
-    padding: 16px;
-    border-radius: 0.25rem;
-    font-size: 1.8rem;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
 .godhistory {
     background-color: #202020;
     color: #ffbe5b;
@@ -369,27 +325,6 @@ body {
 
 
 /*--------------------------------------------------contact us*/
-.backgroundimage-contactus {
-    background-image: url('../images/hermes.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 100%;
-    background-position: top center;
-}
-
-.contactusheader {
-    background-color: #202020;
-    color: #ffbe5b;
-    border:#ffbe5b 2px solid;
-    max-width: 100%;
-    margin-top: 20px;
-    padding: 16px;
-    border-radius: 0.25rem;
-    font-size: 1.8rem;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-}
 
 .form-group {
     color: #fff;
