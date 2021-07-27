@@ -126,22 +126,28 @@ alt="CSS logo" width="50px" height="50px" /> <img src="https://github.com/devico
 ### PROGRAMS USED:
 
 #### Font Awesome:
-[Font Awesome](https://fontawesome.com/) was used for a few icons used in the footer aspect of the site pages.
+[Font Awesome](https://fontawesome.com/) was used for a few icons in the footer on all of this site's pages.
 
 #### Google Fonts:
 [Google Fonts](https://fonts.google.com/) was used for all the text content on the site pages.
 
+#### Git:
+<!--fill this in-->
+
 #### GitPod:
-GitPod was used to write up the code for my project and using the GitPod terminal to commit everything to GitHub.
+GitPod was used as an IDE whilst coding this site.
     
 #### GitHub:
 GitHub is being used to store all the code for this project after being pushed from GitPod.
+
+#### Am i Responsive:
+[Am i Responsive]() <!--add link in later-->
 
 #### Balsamiq:
 Balsamiq was used in the initial design process to make wireframes.
 
 #### Firefox Developer Tools:
-Firefox Developer Tools was used for trouble shooting and trying new visual changes without it affecting the current code already created.
+Firefox Developer Tools was used for trouble shooting and trying new visual changes without it affecting the current code.
 
 ## DEPLOYMENT:
 
