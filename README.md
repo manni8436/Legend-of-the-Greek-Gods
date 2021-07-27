@@ -141,7 +141,7 @@ GitPod was used as an IDE whilst coding this site.
 GitHub is being used to store all the code for this project after being pushed from GitPod.
 
 #### Am i Responsive:
-[Am i Responsive]() <!--add link in later-->
+[Am i Responsive](http://ami.responsivedesign.is/) was used to create the image in my [Final Design](#FINAL-DESIGN) section.
 
 #### Balsamiq:
 Balsamiq was used in the initial design process to make wireframes.
