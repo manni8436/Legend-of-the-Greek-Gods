@@ -87,6 +87,25 @@ body {
     font-weight: bold;
 }
 
+.historyofthegodsheader,
+.afterthewarheader,
+.thewarheader {
+    background-color: #202020;
+    color: #ffbe5b;
+    border: #ffbe5b 2px solid;
+    border-radius: 0.25rem;
+    font-size: 1.6rem;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.titansbattle {
+    text-transform: uppercase;
+    font-weight: bolder;
+}
 
 /*------------------------------------------------paragraphs*/
 .index-p {
@@ -112,6 +131,18 @@ body {
     text-align: justify;     
     font-weight: bold;
     text-transform: uppercase;     
+}
+
+.godhistory-p {
+    background-color: #202020;
+    color: #ffbe5b;
+    border: #ffbe5b 2px solid;
+    border-radius: 0.25rem;
+    font-size: 1.4rem;
+    margin-top: 10px;
+    padding: 16px;
+    text-align: justify;
+    text-transform: uppercase;
 }
 
 .history-1p {
@@ -152,16 +183,9 @@ body {
     font-weight: bold;
 }
 
-/*---------------------------------------------------------------*/
+/*---------------------------------------------------------images*/
 
-
-
-
-
-
-
-
-/*--------------------------------------------------the big three*/
+/*--------the big three*/
 
 .zeusimage,
 .poseidonimage,
@@ -171,9 +195,9 @@ body {
     border-radius: 0.25rem;
     border: #ffbe5b 2px solid;
 }
-/*-----------------------------------------------------------*/
 
-/*--------------------------------------------------lesser known gods*/
+/*----lesser known gods*/
+
 .atlascard-img-top,
 .herculescard-img-top,
 .amphitritecard-img-top, 
@@ -192,7 +216,6 @@ body {
     margin: 0 auto;
 }
 
-
 .atlascard-text,
 .herculescard-text, 
 .amphitritecard-text, 
@@ -209,20 +232,8 @@ body {
     text-transform: uppercase;
     text-align: justify;
 }
-/*-------------------------------------------------------------------*/
 
-/*------------------------------------------------------------history*/
-.godhistory {
-    background-color: #202020;
-    color: #ffbe5b;
-    border: #ffbe5b 2px solid;
-    border-radius: 0.25rem;
-    font-size: 1.4rem;
-    margin-top: 10px;
-    padding: 16px;
-    text-align: justify;
-    text-transform: uppercase;
-}
+/*----------------------------------------------------carousel*/
 
 .carousel-inner {
     position: relative;
@@ -245,57 +256,6 @@ body {
 .parthenon {
     width: 900px;
 }
-
-
-
-
-
-.historyofthegodsheader {
-    background-color: #202020;
-    color: #ffbe5b;
-    border: #ffbe5b 2px solid;
-    border-radius: 0.25rem;
-    font-size: 1.6rem;
-    margin-top: 10px;
-    padding: 10px;
-    text-align: center;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-.thewarheader {
-    background-color: #202020;
-    color: #ffbe5b;
-    border: #ffbe5b 2px solid;
-    border-radius: 0.25rem;
-    font-size: 1.6rem;
-    margin-top: 10px;
-    padding: 10px;
-    text-align: center;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-.titansbattle {
-    text-transform: uppercase;
-    font-weight: bolder;
-}
-
-.afterthewarheader {
-    background-color: #202020;
-    color: #ffbe5b;
-    border: #ffbe5b 2px solid;
-    border-radius: 0.25rem;
-    font-size: 1.6rem;
-    margin-top: 10px;
-    padding: 10px;
-    text-align: center;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-/*-----------------------------------------------------------*/
-
-
 /*--------------------------------------------------contact us*/
 
 .form-group {
