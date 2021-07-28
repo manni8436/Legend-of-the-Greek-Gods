@@ -198,12 +198,7 @@ body {
 
 /*----lesser known gods*/
 
-.atlascard-img-top,
-.herculescard-img-top,
-.amphitritecard-img-top, 
-.asclepiuscard-img-top,
-.pancard-img-top,
-.nikecard-img-top {
+.gods-img-top {
     height: 380px;
     width: 300px;
     margin: 5px;
@@ -216,12 +211,8 @@ body {
     margin: 0 auto;
 }
 
-.atlascard-text,
-.herculescard-text, 
-.amphitritecard-text, 
-.asclepiuscard-text,
-.pancard-text, 
-.nikecard-text {
+
+.gods-img-text {
     background-color: #202020;
     border: #ffbe5b 2px solid;
     color: #ffbe5b;
@@ -324,23 +315,17 @@ a {
 /*-----------------------------------------------------------*/
 
 /*------------------------------------------------------hover*/
-.btn:hover {
+.btn:hover,
+#send:hover  {
     background-color: #ffbe5b;
     color: #202022;
 }
 
-.navbar-light .navbar-nav .active .nav-link:hover {
+.navbar-light .navbar-nav .nav-link:hover,
+a:hover  {
     color: #c48400;
 }
 
-#send:hover {
-    background-color: #ffbe5b;
-    color: #202022;
-}
-
-a:hover {
-    color: #c48400;
-}
 /*-----------------------------------------------------------*/
 
 /*----------------------------------------------media queries*/
