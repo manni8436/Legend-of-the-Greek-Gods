@@ -77,7 +77,6 @@ body {
 }
 
 /*----------------------------------------------------headers*/
-
 .page-header {
     background-color: #202020;
     color: #ffbe5b;
@@ -174,7 +173,6 @@ body {
     font-weight: bold;
 }
 
-
 .history-p-black {
     background-color: #202020;
     color: #ffbe5b;
@@ -191,7 +189,6 @@ body {
 /*---------------------------------------------------------images*/
 
 /*--------the big three*/
-
 .zeusimage,
 .poseidonimage,
 .hadesimage {
@@ -202,7 +199,6 @@ body {
 }
 
 /*----lesser known gods*/
-
 .gods-img-top {
     height: 380px;
     margin: 5px;
@@ -214,7 +210,6 @@ body {
     width: 18rem;
     margin: 0 auto;
 }
-
 
 .gods-img-text {
     background-color: #202020;
@@ -229,7 +224,6 @@ body {
 }
 
 /*----------------------------------------------------carousel*/
-
 .carousel-inner {
     position: relative;
     top: 20px;
@@ -251,8 +245,8 @@ body {
 .parthenon {
     width: 900px;
 }
-/*--------------------------------------------------contact us*/
 
+/*--------------------------------------------------contact us*/
 .form-group {
     color: #fff;
     border-radius: 0.25rem;
@@ -292,7 +286,6 @@ body {
     border-radius: 0.25rem;
     text-transform: uppercase;
 }
-/*-----------------------------------------------------------*/
 
 /*-----------------------------------------------------footer*/
 .footer {
@@ -316,7 +309,6 @@ body {
 a {
   color: #ffbe5b;  
 }
-/*-----------------------------------------------------------*/
 
 /*------------------------------------------------------hover*/
 .btn:hover,
@@ -330,10 +322,7 @@ a:hover  {
     color: #c48400;
 }
 
-/*-----------------------------------------------------------*/
-
 /*----------------------------------------------media queries*/
-
 @media (min-width: 992px) {
     .mountolympus,
     .templeofzeus,
@@ -343,4 +332,3 @@ a:hover  {
         width: 925px;
     }
 }
-/*-----------------------------------------------------------*/
