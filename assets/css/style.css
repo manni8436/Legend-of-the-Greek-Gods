@@ -149,19 +149,7 @@ body {
     text-transform: uppercase;
 }
 
-.history-1p {
-    background-color: #ffbe5b;
-    color: #202020;
-    border: #202020 2px solid;
-    border-radius: 0.25rem;
-    font-size: 1.4rem;
-    margin-top: 35px;
-    padding: 10px;
-    text-align: justify;     
-    font-weight: bold;
-}
-
-.history-p {
+.all-history-p {
     background-color: #ffbe5b;
     color: #202020;
     border: #202020 2px solid;
@@ -173,17 +161,16 @@ body {
     font-weight: bold;
 }
 
+.history-1p {
+    margin-top: 35px;
+}
+
 .history-p-black {
     background-color: #202020;
     color: #ffbe5b;
     border: #ffbe5b 2px solid;
-    border-radius: 0.25rem;
-    font-size: 1.4rem;
     margin-top: 30px;
-    padding: 10px;
-    text-align: justify;
     text-transform: uppercase;    
-    font-weight: bold;
 }
 
 /*---------------------------------------------------------images*/
