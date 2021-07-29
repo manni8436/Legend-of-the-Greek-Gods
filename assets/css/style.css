@@ -28,6 +28,11 @@ body {
     text-transform: uppercase;
 }
 
+.active {
+    background-color: #ffbe5b;
+    color: #202020;
+}
+
 .btn {
     color: #ffbe5b;
     border-color: #ffbe5b;
