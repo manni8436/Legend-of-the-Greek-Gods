@@ -231,20 +231,17 @@ body {
     border: #202020 3px solid;
 }
 
-.mount-olympus,
-.temple-of-zeus,
-.temple-of-poseidon,
-.parthenon,
-.ancient-olympic-stadium {
+.carousel-image {
     height: 420px;
     max-width: 100%;
 }
 
+/*
 .temple-of-zeus, 
-.temple-of-zeus,
+.temple-of-poseidon,
 .parthenon {
     width: 900px;
-}
+} */
 
 /*--------------------------------------------------contact us*/
 .form-group {
