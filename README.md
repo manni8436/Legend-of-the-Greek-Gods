@@ -73,12 +73,15 @@ overload the user and give them enough information as not leave them lost or nee
 * The images should be clear and not stretched or squashed.
 
 #### FIRST TIME VISITORS
+
 * I want it to be easy to understand how to navigate throughout the site.
 * I want the content to be easily read and understandable.
 
 #### RETURNING USER
 
-<!--add information-->
+* To gather information for projects.
+* To recommend the site to friends and family.
+* To get in contact with us
 
 ## DESIGN
 
