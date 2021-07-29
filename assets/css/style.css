@@ -62,22 +62,18 @@ body {
 
 .big-three {
     background-image: url('../images/poseidon.jpg');
-    background-position: center center;
 }
 
 .lesser-known-gods {
     background-image: url('../images/hades.jpg');
-    background-position: center center;
 }
 
 .history {
     background-image: url('../images/athena.jpg');
-    background-position: center center;
 }
 
 .contact-us {
     background-image: url('../images/hermes.jpg');
-    background-position: center center;
 }
 
 /*----------------------------------------------------headers*/
