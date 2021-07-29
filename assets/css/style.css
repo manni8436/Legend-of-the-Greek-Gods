@@ -60,11 +60,11 @@ body {
     background-image: url('../images/zeusgold.jpg');
 }
 
-.bigthree {
+.big-three {
     background-image: url('../images/poseidon.jpg');
 }
 
-.lesserknowngods {
+.lesser-known-gods {
     background-image: url('../images/hades.jpg');
 }
 
@@ -72,7 +72,7 @@ body {
     background-image: url('../images/athena.jpg');
 }
 
-.contactus {
+.contact-us {
     background-image: url('../images/hermes.jpg');
 }
 
@@ -91,9 +91,9 @@ body {
     font-weight: bold;
 }
 
-.historyofthegodsheader,
-.afterthewarheader,
-.thewarheader {
+.history-of-the-gods-header,
+.after-the-war-header,
+.the-war-header {
     background-color: #202020;
     color: #ffbe5b;
     border: #ffbe5b 2px solid;
@@ -106,7 +106,7 @@ body {
     text-transform: uppercase;
 }
 
-.titansbattle {
+.titans-battle {
     text-transform: uppercase;
     font-weight: bolder;
 }
@@ -124,7 +124,7 @@ body {
     font-weight: bold;
 }
 
-.bigthree-p {
+.big-three-p {
     background-color: #ffbe5b;
     color: #202020;
     border: #202020 2px solid;
@@ -137,7 +137,7 @@ body {
     text-transform: uppercase;     
 }
 
-.godhistory-p {
+.god-history-p {
     background-color: #202020;
     color: #ffbe5b;
     border: #ffbe5b 2px solid;
@@ -189,9 +189,9 @@ body {
 /*---------------------------------------------------------images*/
 
 /*--------the big three*/
-.zeusimage,
-.poseidonimage,
-.hadesimage {
+.zeus-image,
+.poseidon-image,
+.hades-image {
     height: 380px;
     margin-top: 15px;
     border-radius: 0.25rem;
@@ -231,17 +231,17 @@ body {
     border: #202020 3px solid;
 }
 
-.mountolympus,
-.templeofzeus,
-.templeofposeidon,
+.mount-olympus,
+.temple-of-zeus,
+.temple-of-zeus,
 .parthenon,
 .ancient-olympic-stadium {
     height: 420px;
     max-width: 100%;
 }
 
-.templeofzeus, 
-.templeofposeidon,
+.temple-of-zeus, 
+.temple-of-zeus,
 .parthenon {
     width: 900px;
 }
@@ -262,7 +262,7 @@ body {
     border-radius: 0.25rem;
 }
 
-.textareaheader {
+.textarea-header {
     color: #fff;
     font-size: 1.2rem;
     border-radius: 0.25rem;
@@ -294,13 +294,13 @@ body {
     border-top: 2px #ffbe5b solid;
 }
 
-.socialmedia {
+.social-media {
     text-align: center;
     margin-bottom: 0;    
     padding: 0;
 }
 
-.socialmedia li {
+.social-media li {
     font-size: 1em;
     display: inline;
     text-transform: uppercase;
@@ -324,9 +324,9 @@ a:hover  {
 
 /*----------------------------------------------media queries*/
 @media (min-width: 992px) {
-    .mountolympus,
-    .templeofzeus,
-    .templeofposeidon,
+    .mount-olympus,
+    .temple-of-zeus,
+    .temple-of-poseidon,
     .parthenon,
     .ancient-olympic-stadium {
         width: 925px;
