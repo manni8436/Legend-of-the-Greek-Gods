@@ -46,7 +46,7 @@ On every device and browser in the README.md file, I tested the following:
 #### The site needs to be easily accessible.
 
 * Alt description has been given to each image.
-* A `sr-only` has been used on active navigation items to indicate users on the menu location.
+* A sr-only class has been used on active navigation items to indicate users on the menu location.
 * Constracting colours have been used so that content can be read clearly.
 
 #### The navigation menu needs to be simple to use on a range of devices, including desktop, tablet and mobile.
