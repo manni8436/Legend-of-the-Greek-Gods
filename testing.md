@@ -15,7 +15,7 @@ On every device and browser in the README.md file, I tested the following:
 
 * Alt description has been given to each image.
 * A sr-only class has been used on active navigation items to indicate users on the menu location.
-* Constracting colours have been used so that content can be read clearly.
+* Contrasting colours have been used so that content can be read clearly.
 
 #### The navigation menu needs to be simple to use on a range of devices, including desktop, tablet and mobile.
 
@@ -30,7 +30,7 @@ On every device and browser in the README.md file, I tested the following:
 #### The site should be informative and all the text should be easy to read.
 
 * All content on each page is clear and easily understandable. 
-* I ensured that all text contracts against the background in accordance with WCAG AA requirements.
+* I ensured that all text contrasts against the background in accordance with WCAG AA requirements.
 
 #### The images should be clear and not stretched or squashed.
 
@@ -53,10 +53,6 @@ On every device and browser in the README.md file, I tested the following:
 
 * Navigation bar is visible at the top of each page.
 * Site layout allows familar users of the site to find the contact us page. 
-
-
-
-
 
 ### NAVIGATION BAR
 
