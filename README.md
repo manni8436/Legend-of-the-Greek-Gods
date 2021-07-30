@@ -102,7 +102,7 @@ I chose the off-black color to make the gold color stand out on the site.
 
 ## FEATURES
 
-I have used the following features in this project    
+I have used the following features in this project:    
 
 * Hover
     * Tells the user the location of the mouse whilst navigating the menu.
