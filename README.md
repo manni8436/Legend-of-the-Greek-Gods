@@ -228,44 +228,44 @@ The W3C Markup Validator and W3C CSS Validator was used to validate my project t
 ### DESKTOP
 * Home Page
 
-![Home Page](assets/images/lighthouse(homepage).png)
+![Home Page](assets/docs/desktop-homepage-lighthouse.png)
 
 * The Big Three
 
-![Big Three](assets/images/lighthouse(bigthree).png)
+![Big Three](assets/docs/desktop-bigthree-lighthouse.png)
 
 * Lesser Known Gods
 
-![Lesser Known Gods](assets/images/lighthouse(lesserknowngods).png)
+![Lesser Known Gods](assets/docs/desktop-lesserknown-lighthouse.png)
 
 * History
 
-![History](assets/images/lighthouse(history).png)
+![History](assets/docs/desktop-history-lighthouse.png)
 
 * Contact Us
 
-![Contact Us](assets/images/lighthouse(contactus).png)
+![Contact Us](assets/docs/desktop-contactus-lighthouse.png)
 
 ### MOBILE
 * Home Page
 
-![Home Page](assets/images/lighthouse(mobilehomepage).png)
+![Home Page](assets/docs/mobile-homepage-lighthouse.png)
 
 * The Big Three
 
-![Big Three](assets/images/lighthouse(mobilebigthree).png)
+![Big Three](assets/docs/mobile-bigthree-lighthouse.png)
 
 * Lesser Known Gods
 
-![Lesser Known Gods](assets/images/lighthouse(mobilelesserknowngods).png)
+![Lesser Known Gods](assets/docs/mobile-lesserknown-lighthouse.png)
 
 * History
 
-![History](assets/images/lighthouse(mobilehistory).png)
+![History](assets/docs/mobile-history-lighthouse.png)
 
 * Contact Us
 
-![Contact Us](assets/images/lighthouse(mobilecontactus).png)
+![Contact Us](assets/docs/mobile-contactus-lighthouse.png)
 
 ## CONTENT
 
