@@ -135,7 +135,7 @@ alt="CSS logo" width="50px" height="50px" /> <img src="https://github.com/devico
 [Google Fonts](https://fonts.google.com/) was used for all the text content on the site pages.
 
 #### Git:
-<!--fill this in-->
+Git was used for version control by using the Gitpod terminal to add and commit to GIt and push to Github.
 
 #### GitPod:
 GitPod was used as an IDE whilst coding this site.
