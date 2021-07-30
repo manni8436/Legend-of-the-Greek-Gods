@@ -2,6 +2,7 @@
 
 ## CONTENTS
 * [Navigation Bar](#NAVIGATION-BAR)  
+* [User Stories Testing](#USER-STORIES-TESTING)
 * [Styling and Layout](#STLYING-AND-LAYOUT) 
 * [Pages](#PAGES)
 * [Responsiveness](#RESPONSIVENESS)
