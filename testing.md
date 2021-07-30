@@ -38,10 +38,20 @@ On every device and browser in the README.md file, I tested the following:
 * Only height has been set on images as to maintain the correct aspect ratio.
 
 ### RETURNING USER
- 
+
+#### To gather information for projects.
+
+* The site has detailed information.
+* All information is clear and easy to read.
+
+#### To recommend the site to friends and family.
+
+* To show interesting content and fun facts.
+* To show images of the different gods.
 
 #### To get in contact with us
 
+* Navigation bar is visible at the top of each page.
 * Site layout allows familar users of the site to find the contact us page. 
 
 
