@@ -117,7 +117,7 @@ I have used the following features in this project:
 * None of the background images were fitting on the screen properly, especially on the home page (the top of the image was getting cut off). As a result I changed 
 the `background-position` from `background-position: center center;` to `background-position: top center;`
 
-* I ran my code through W3C validators, and I was given an error of `duplicate attribute class`. After closer inspection of this issue, I added `img-fluid` and `d-block w-100` all into one `class=" "`, rather than splitting it between multiple `class=" "`. I then rechecked all pagesthrough the W3C Code Validator and there were no futher errors.
+* I ran my code through W3C validators, and I was given an error of `duplicate attribute class`. After closer inspection of this issue, I added `img-fluid` and `d-block w-100` all into one `class=" "`, rather than splitting it between multiple `class=" "`. I then rechecked all pages through the W3C Code Validator and there were no futher errors.
 
 ## TECHNOLOGIES USED
 
