@@ -267,6 +267,28 @@ The W3C Markup Validator and W3C CSS Validator was used to validate my project t
 
 ![Contact Us](assets/docs/mobile-contactus-lighthouse.png)
 
+#### Performance:
+
+* I was very happy with my initial lighthouse scores.
+* The issues reducing my performance scores are that I have a quite a few images, including background images on all pages and 
+also a huge amount of content on four pages.
+* My mobile scores are lower due to scaling down of images and text for use on mobile.
+
+#### Accessibility:
+
+* While writing my code, I was careful to ensure that it was fully accessible.
+* Every image has the relevant alt text applied to it.
+* All text has good visibility on the background I chose.
+
+#### Best Practices:
+
+* All images are shown in the correct aspect ratio, as not to look stretched or pixalated.
+
+#### SEO:
+
+* I ensured the site had all the relevant meta tags needed.
+* All font sizes are legible on all screen sizes.
+
 ## CONTENT
 
 ### IMAGES
