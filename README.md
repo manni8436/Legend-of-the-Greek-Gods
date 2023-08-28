@@ -78,11 +78,11 @@ The structure of the site was designed to be simple and easy to use and have a g
 
 My overall color scheme used throughout the site was gold and slightly off-black.
 
-![Gold](assets/images/goldcolor.jpg) ![Black](assets/images/blackcolor.jpg)
-
- I also used white text in the forms section on the [Contact Us](https://manni8436.github.io/MS1-Project/contactus.html) page.
+![Site Colour Theme](/assets/docs/colourtheme.png)
 
 I chose these colours for my theme to represent the high status of the gods, which have been known to use gold in clothes, buildings, money and plenty of other items, I chose the off-black color to make the gold color stand out on the site.
+
+ I also used white text in the forms section on the [Contact Us](https://manni8436.github.io/Legend-of-the-Greek-Gods/contactus.html) page.
 
 ## WIREFRAMES
 
