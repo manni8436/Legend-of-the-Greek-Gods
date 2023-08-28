@@ -192,17 +192,19 @@ If you need to make a local clone:
 
 ### CODE VALIDATORS
 
-The W3C Markup Validator and W3C CSS Validator were used to validate my project to make sure there were no errors within the site.
+The W3C Markup and CSS Validators were used to validate my project to make sure there were no errors within the site.
 
-* W3C HTML Validator Results
-* [Home Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmanni8436.github.io%2FMS1-Project%2Findex.html)
-* [Big Three](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmanni8436.github.io%2FMS1-Project%2Fthebigthree.html)
-* [Lesser Known Gods](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmanni8436.github.io%2FMS1-Project%2Flesserknowngods.html)
-* [History](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmanni8436.github.io%2FMS1-Project%2Fhistory.html)
-* [Contact Us](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmanni8436.github.io%2FMS1-Project%2Fcontactus.html)
+|  Code validated         | Website Page          | Validator Results |
+| :---------------------: | :-------------------: | :---------------: |
+| ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)|![Home Page Image](/assets/docs/homepage.png)|![HTML Validator Image](/assets/docs/homepagevalidator.png) |
+| ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)|![Big Three Image](/assets/docs/bigthree.png)|![HTML Validator Image](/assets/docs/bigthreevalidator.png) |
+| ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)|![Lesser known Image](/assets/docs/lesserknown.png)|![HTML Validator Image](/assets/docs/lesserknowngodsvalidator.png) |
+| ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)|![History Image](/assets/docs/history.png)|![HTML Validator Image](/assets/docs/historyvalidator.png) |
+| ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)|![Contact Us Image](/assets/docs/contactus.png)|![HTML Validator Image](/assets/docs/contactusvalidator.png) |
 
-* W3C CSS Validator Results
-* [CSS](http://www.css-validator.org/validator?uri=https%3A%2F%2Fmanni8436.github.io%2FMS1-Project%2Findex.html&profile=css21&usermedium=all&warning=1&lang=en)
+|  Code validated         | Validator Results |
+| :---------------------: |:---------------: |
+| ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)|![CCS Validator Image](/assets/docs/cssvalidator.png) |
 
 ### FULL TESTING
 
