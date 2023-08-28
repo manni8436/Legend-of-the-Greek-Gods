@@ -1,15 +1,17 @@
-# MS1 Project - Legend Of The Greek Gods
+# Legend Of The Greek Gods
 
-![GitHub contributors](https://img.shields.io/github/contributors/manni8436/MS1-Project)
-![GitHub last commit](https://img.shields.io/github/last-commit/manni8436/MS1-Project)
-![GitHub language count](https://img.shields.io/github/languages/count/manni8436/MS1-Project)
-![GitHub top language](https://img.shields.io/github/languages/top/manni8436/MS1-Project)
+![Final project image home page](assets/images/responsiveimages.jpg)
 
-[Here is a link to the final project](https://manni8436.github.io/MS1-Project/)
+![GitHub last commit](https://img.shields.io/github/last-commit/manni8436/Legend-of-the-Greek-Gods?color=green&style=for-the-badge)
+![GitHub contributors](https://img.shields.io/github/contributors/manni8436/Legend-of-the-Greek-Gods?color=red&style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/manni8436/Legend-of-the-Greek-Gods?color=blue&style=for-the-badge)
+![GitHub top language](https://img.shields.io/github/languages/top/manni8436/Legend-of-the-Greek-Gods?color=yellow&style=for-the-badge)
+
+Visit the deployed site: [Legend of the Greek Gods](https://manni8436.github.io/Legend-of-the-Greek-Gods/)
 
 ## INITIAL DESIGN
 
-  My initial idea for this project was to create an informative website about the Greek Gods. My target audience is anyone interested in Greek Mythology, this can cover a huge spectrum of ages, genders and interest levels. This ranges from children who want to learn about the Greek Gods, to anyone who wants to use the site for projects, to those who just want to read something fun and interesting.
+My initial idea for this project was to create an informative website about the Greek Gods. My target audience is anyone interested in Greek Mythology, this can cover a huge spectrum of ages, genders and interest levels. This ranges from children who want to learn about the Greek Gods, to anyone who wants to use the site for projects, to those who just want to read something fun and interesting.
 
 * The main features that I wanted to include are:
 
@@ -17,38 +19,27 @@
 * Easy to read information.
 * A black and gold colour scheme that stands out, but is not overwhelming.
 
-## FINAL DESIGN
-
-![Final project image home page](assets/images/responsiveimages.jpg)
-
 ## CONTENTS
 
 * [User Experience](#user-experience)
   * [User Stories](#user-stories)
-
 * [Design](#design)
   * [Color Scheme](#color-scheme)
-
 * [Wireframes](#wireframes)
-
 * [Technologies Used](#technologies-used)
   * [Languages Used](#languages-used)
   * [Programs Used](#programs-used)
-
 * [Deployment](#deployment)
   * [Initial Deployment](#initial-deployment)
   * [How To Fork A Repository](#how-to-fork-a-repository)
   * [How To Clone A Repository](#how-to-clone-a-repository)
   * [How To Make A Local Clone](#how-to-make-a-local-clone)
-
 * [Testing](#testing)
   * [Code Validators](#code-validators)
-
 * [Content](#content)
   * [Images](#images)
   * [Text Content](#text-content)
-
-* [acknowledgement](#acknowledgement)
+* [Acknowledgement](#acknowledgement)
 
 ## USER EXPERIENCE
 
