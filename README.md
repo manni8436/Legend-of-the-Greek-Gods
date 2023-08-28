@@ -74,7 +74,7 @@ The structure of the site was designed to be simple and easy to use and have a g
 
 ## DESIGN
 
-### COLOR SCHEME
+### COLOUR SCHEME
 
 My overall color scheme used throughout the site was gold and slightly off-black.
 
@@ -102,9 +102,10 @@ I have used the following features in this project:
 
 ## SOLVED BUGS
 
-* None of the background images fit on the screen properly, especially on the home page (the top of the image was getting cut off). As a result, I changed the `background-position` from `background-position: center center;` to `background-position: top center;`
-
-* I ran my code through W3C validators, and I was given an error of `duplicate attribute class`. After closer inspection of this issue, I added `img-fluid` and `d-block w-100` all into one `class=" "`, rather than splitting it between multiple `class=" "`. I then rechecked all pages through the W3C Code Validator and there were no further errors.
+|  Bug Encountered         | Bug Solution |
+| :----------------------: | :-------------: |
+| None of the background images would fit on the screen properly, especially on the home page as the top of the image was getting cut off. | To fix this issue, I changed the `background-position` from `background-position: center center;` to `background-position: top center;`|
+| While running my code through W3C validators, I was given an error of `duplicate attribute class`.| After closer inspection. I added `img-fluid` and `d-block w-100` into one `class=" "` rather than splitting it between multiple `class=" "`, After checked all pages through the W3C validator, there were not further errors shown. |
 
 ## TECHNOLOGIES USED
 
