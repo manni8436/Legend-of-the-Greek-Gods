@@ -24,7 +24,7 @@ My initial idea for this project was to create an informative website about the 
 * [User Experience](#user-experience)
   * [User Stories](#user-stories)
 * [Design](#design)
-  * [Color Scheme](#color-scheme)
+  * [Colour Scheme](#colour-scheme)
 * [Wireframes](#wireframes)
 * [Technologies Used](#technologies-used)
   * [Languages Used](#languages-used)
@@ -39,7 +39,7 @@ My initial idea for this project was to create an informative website about the 
 * [Content](#content)
   * [Images](#images)
   * [Text Content](#text-content)
-* [Acknowledgement](#acknowledgement)
+* [Acknowledgments](#acknowledgments)
 
 ## USER EXPERIENCE
 
@@ -111,42 +111,37 @@ I have used the following features in this project:
 
 ### LANGUAGES USED
 
-<img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-plain-wordmark.svg" alt="HTML logo" width="50px" height="50px" /><img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"
-alt="CSS logo" width="50px" height="50px" /> <img src="https://github.com/devicons/devicon/blob/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="Bootstrap logo" height="50px" width="50px" />
+### LANGUAGES
+
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
 ### PROGRAMS USED
 
-#### Font Awesome
+### VERSION CONTROL
 
-[Font Awesome](https://fontawesome.com/) was used for a few icons in the footer on all of this site's pages.
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![Gitpod](https://img.shields.io/badge/gitpod-f06611.svg?style=for-the-badge&logo=gitpod&logoColor=white)
 
-#### Google Fonts
+### FRAMESWORKS & LIBRARIES
 
-[Google Fonts](https://fonts.google.com/) was used for all the text content on the site pages.
+![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-#### Git
+### BROWSERS
 
-Git was used for version control by using the Gitpod terminal to add and commit to GIt and push to Github.
+![Firefox](https://img.shields.io/badge/Firefox-FF7139?style=for-the-badge&logo=Firefox-Browser&logoColor=white)
+![Google Chrome](https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white)
+![Edge](https://img.shields.io/badge/Edge-0078D7?style=for-the-badge&logo=Microsoft-edge&logoColor=white)
+![Safari](https://img.shields.io/badge/Safari-000000?style=for-the-badge&logo=Safari&logoColor=white)
 
-#### GitPod
+### WIREFRAMING
 
-GitPod was used as an IDE whilst coding this site.
+![Balsamiq](https://img.shields.io/badge/Balsamiq%20-%23A60000.svg?&style=for-the-badge&logo=Balsamiq&logoColor=FFFFFF)
 
-#### GitHub
+### SITE DEPLOYMENT
 
-GitHub is being used to store all the code for this project after being pushed from GitPod.
-
-#### Am I Responsive
-
-[Am I Responsive](http://ami.responsivedesign.is/) was used to create the image in my [Final Design](#final-design) section.
-
-#### Balsamiq
-
-Balsamiq was used in the initial design process to make wireframes.
-
-#### Firefox Developer Tools
-
-Firefox Developer Tools was used for troubleshooting and trying new visual changes without affecting the current code.
+![GitHub Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)
 
 ## DEPLOYMENT
 
@@ -155,7 +150,7 @@ Firefox Developer Tools was used for troubleshooting and trying new visual chang
 This site was deployed using GitHub Pages with the following steps below:
 
 1. Login or Sign Up to [GitHub](www.github.com).
-2. Create a new repository named "MS1-Project".
+2. Create a new repository named "Legend-of-the-Greek-Gods".
 3. Once created, click on "Settings" on the navigation bar under the repository title.
 4. Click on "Pages", on the left-hand side below Secrets.
 5. Under "Source", choose which branch you wish to deploy, In most cases, it will be "main".
@@ -168,7 +163,7 @@ This site was deployed using GitHub Pages with the following steps below:
 If you need to make a copy of a repository:
 
 1. Login or Sign Up to [GitHub](www.github.com).
-2. On GitHub, go to [manni8436/MS1-Project](manni8436/MS1-Project).
+2. On GitHub, go to [manni8436/Legend-of-the-Greek-Gods](manni8436/Legend-of-the-Greek-Gods).
 3. In the top right corner, click "Fork".
 
 ### HOW TO CLONE A REPOSITORY
@@ -176,7 +171,7 @@ If you need to make a copy of a repository:
 If you need to make a clone:
 
 1. Login to [GitHub](www.github.com).
-2. Fork the repository manni8436/MS1-Project using the steps above in [How To Fork a Repository](#how-to-fork-a-repository).
+2. Fork the repository manni8436/Legend-of-the-Greek-Gods using the steps above in [How To Fork a Repository](#how-to-fork-a-repository).
 3. Above the file list, click "Code".
 4. Choose if you want to close using HTTPS, SSH or GitHub CLI, then click the copy button to the right.
 5. Open Git Bash.
@@ -339,7 +334,7 @@ The W3C Markup Validator and W3C CSS Validator were used to validate my project 
   * [Pan](https://www.pinterest.co.uk/pin/410109109794860381/)
   * [Nike](https://en.wikipedia.org/wiki/Nike_(mythology))
 
-## ACKNOWLEDGEMENT
+## ACKNOWLEDGMENTS
 
 I would like to give a big thanks to [Chris Quinn](https://github.com/10xOXR) for all his help, effort, guidance
 and patience he has provided during this project.
