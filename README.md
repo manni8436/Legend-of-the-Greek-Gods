@@ -259,13 +259,13 @@ I have tested my website on both desktop and mobile, Overall I am pleased with t
 
 ### IMAGES
 
-Images for this project have been provided mainly by Wikipedia and Pinterest, A full list has been provided below.
-
-The three images below was to depiction of the three main Gods in Greek Mythology.
+The three images were a depiction of the three main Gods in Greek Mythology.
 
 |  Zeus    | Poseidon | Hades |
 | :------: | :------: | :----:|
 | [![Zeus](/assets/images/zeusstatue.jpg)](https://en.wikipedia.org/wiki/Zeus) |  [![Poseidon](/assets/images/poseidonstatue.jpg)](https://en.wikipedia.org/wiki/Poseidon) | [![Hades](/assets/images/hadesstatue.jpg)](https://en.wikipedia.org/wiki/Hades) |
+
+Images for this project have been provided mainly by Wikipedia and Pinterest, A full list has been provided below.
 
 |  Background Images    | Lesser Known Gods Images and Carousel Images |
 | :-------------------: | :------------------------------------------: |
