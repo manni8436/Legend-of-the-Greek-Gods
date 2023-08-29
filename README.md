@@ -212,51 +212,27 @@ The W3C Markup and CSS Validators were used to validate my project to make sure 
 
 ### LIGHTHOUSE
 
-* I tested my website using the Firefox Developer Tools Lighthouse feature, and received the results below:
+I have tested my website on both desktop and mobile, Overall I am pleased with the results however there is still room for improvement, by reviewing and possibly removing any unused code, eliminating render-blocking resources and using next-gen image formats like `WebP` and `AVIF`. With this feedback, I will look into improving my lighthouse scores, in particular on mobile.
 
 ### DESKTOP
 
-* Home Page
-
-![Home Page](assets/docs/desktop-homepage-lighthouse.png)
-
-* The Big Three
-
-![Big Three](assets/docs/desktop-bigthree-lighthouse.png)
-
-* Lesser Known Gods
-
-![Lesser Known Gods](assets/docs/desktop-lesserknown-lighthouse.png)
-
-* History
-
-![History](assets/docs/desktop-history-lighthouse.png)
-
-* Contact Us
-
-![Contact Us](assets/docs/desktop-contactus-lighthouse.png)
+| Lighthouse Results |
+| :----------------: |
+|![Home Page Lighthouse](/assets/docs/desktophomepagelighthouse.png)|
+|![Big Three Page Lighthouse](/assets/docs/desktopbigthreelighthouse.png) |
+|![Lesser Known Page Lighthouse](/assets/docs/desktoplesserknownlighthouse.png) |
+|![History Page Lighthouse](/assets/docs/desktophistorylighthouse.png) |
+|![Contact Us Page Lighthouse](/assets/docs/desktopcontactuslighthouse.png) |
 
 ### MOBILE
 
-* Home Page
-
-![Home Page](assets/docs/mobile-homepage-lighthouse.png)
-
-* The Big Three
-
-![Big Three](assets/docs/mobile-bigthree-lighthouse.png)
-
-* Lesser Known Gods
-
-![Lesser Known Gods](assets/docs/mobile-lesserknown-lighthouse.png)
-
-* History
-
-![History](assets/docs/mobile-history-lighthouse.png)
-
-* Contact Us
-
-![Contact Us](assets/docs/mobile-contactus-lighthouse.png)
+| Lighthouse Results |
+| :----------------: |
+|![Home Page Lighthouse](/assets/docs/mobilehomepagelighthouse.png)|
+|![Big Three Page Lighthouse](/assets/docs/mobilebigthreelighthouse.png) |
+|![Lesser Known Page Lighthouse](/assets/docs/mobilelesserknownlighthouse.png) |
+|![History Page Lighthouse](/assets/docs/mobilehistorylighthouse.png) |
+|![Contact Us Page Lighthouse](/assets/docs/mobilecontactuslighthouse.png) |
 
 #### Performance
 
