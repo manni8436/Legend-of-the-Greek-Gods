@@ -259,14 +259,15 @@ I have tested my website on both desktop and mobile, Overall I am pleased with t
 
 ### IMAGES
 
-* Images are mainly provided by Wikipedia and Pinterest, but a full list has been provided below:
+Images for this project have been provided mainly by Wikipedia and Pinterest, A full clickable image list has been provided below.
 
-* Background Images:
-  * [Home Page](https://wallpaperaccess.com/zeus)
-  * [Big Three](https://omniversal-battlefield.fandom.com/wiki/Poseidon_(Greek_Mythology)?file=Poseidon.jpg)
-  * [Lesser Known Gods](https://www.artstation.com/artwork/1YzOK)
-  * [History](https://www.artstation.com/artwork/1YzOK)
-  * [Contact Us](https://www.ancient-origins.net/myths-legends-europe/hermes-0011776)
+| Background Images |
+| :----------------: |
+|[![Home Page](/assets/images/zeusgold.jpg)](https://wallpaperaccess.com/zeus)|
+|[![Big Three](/assets/images/poseidon.jpg)](https://omniversal-battlefield.fandom.com/wiki/Poseidon_(Greek_Mythology)?file=Poseidon.jpg)|
+|[![Lesser Known Gods](/assets/images/hades.jpg)](https://www.artstation.com/artwork/1YzOK)|
+|[![History](/assets/images/athena.jpg)](https://www.pinterest.co.uk/pin/434245589082196360)|
+|[![Contact Us](/assets/images/hermes.jpg)](https://www.ancient-origins.net/myths-legends-europe/hermes-0011776)|
 
 * Big Three Main Images:
   * [Zeus](https://en.wikipedia.org/wiki/Zeus)
