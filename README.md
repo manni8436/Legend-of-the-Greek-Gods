@@ -261,24 +261,9 @@ I have tested my website on both desktop and mobile, Overall I am pleased with t
 
 Images for this project have been provided mainly by Wikipedia and Pinterest, A full list has been provided below.
 
-|  Background Images    |  Big Three Main Images  ||
-|----------|:-------------:|------:|
-| <table><tr><th>Home Page</th><th>[Zeus](https://wallpaperaccess.com/zeus)</th></tr><tr><th>Big Three Page</th><th>[Poseidon](https://omniversal-battlefield.fandom.com/wiki/Poseidon_(Greek_Mythology)?file=Poseidon.jpg)</th></tr><tr><th>Lesser Known Gods Page</th><th>[Hades](https://www.artstation.com/artwork/1YzOK)</th></tr><tr><th>History Page</th><th>[Athena](https://www.pinterest.co.uk/pin/434245589082196360/)</th></tr><tr><th>Contact Us Page</th><th>[Hermes](https://www.ancient-origins.net/myths-legends-europe/hermes-0011776)</th></tr></table> | <table><tr><th>Zeus </th><th>[Zeus](https://en.wikipedia.org/wiki/Zeus)</th></tr><tr><th>Poseidon</th><th>[Poseidon](https://en.wikipedia.org/wiki/Poseidon)</th></tr><tr><th>Hades</th><th>[Hades](https://en.wikipedia.org/wiki/Hades)</th></tr></table> |
-
-* Lesser Known Gods Main Images
-  * [Atlas](https://en.wikipedia.org/wiki/Atlas_(mythology))
-  * [Heracles](https://en.wikipedia.org/wiki/Heracles)
-  * [Amphitrite](https://www.pinterest.com/pin/423831014921428350/)
-  * [Asclepius](https://en.wikipedia.org/wiki/Asclepius)
-  * [Pan](https://www.pinterest.co.uk/pin/410109109794860381/)
-  * [Nike](https://www.pinterest.co.uk/pin/111182684540958323/)
-
-* Carousel Images:
-  * [Mount Olympus](https://www.pinterest.co.uk/pin/111182684540958323/)
-  * [Temple of Zeus](https://en.wikipedia.org/wiki/Temple_of_Olympian_Zeus,_Athens#History)
-  * [Temple of Poseidon](https://en.wikipedia.org/wiki/Temple_of_Poseidon,_Sounion)
-  * [Parthenon](https://www.visionpubl.com/en/cities/athens/parthenon-facts-history/)
-  * [Ancient Olympia Stadium](https://yallatoursblog.com/2014/01/27/faster-higher-stronger-in-ancient-olympia/)
+|  Background Images    |  Big Three  Images  | Lesser Known Gods Images | Carousel Images |
+| :-------------------: | :-----------------: | :---------------------: | :---------------:|
+| <table><tr><th>Home Page</th><th>[Zeus](https://wallpaperaccess.com/zeus)</th></tr><tr><th>Big Three Page</th><th>[Poseidon](https://omniversal-battlefield.fandom.com/wiki/Poseidon_(Greek_Mythology)?file=Poseidon.jpg)</th></tr><tr><th>Lesser Known Gods Page</th><th>[Hades](https://www.artstation.com/artwork/1YzOK)</th></tr><tr><th>History Page</th><th>[Athena](https://www.pinterest.co.uk/pin/434245589082196360/)</th></tr><tr><th>Contact Us Page</th><th>[Hermes](https://www.ancient-origins.net/myths-legends-europe/hermes-0011776)</th></tr></table> | <table><tr><th>Zeus </th><th>[Zeus](https://en.wikipedia.org/wiki/Zeus)</th></tr><tr><th>Poseidon</th><th>[Poseidon](https://en.wikipedia.org/wiki/Poseidon)</th></tr><tr><th>Hades</th><th>[Hades](https://en.wikipedia.org/wiki/Hades)</th></tr></table> | <table><tr><th>Atlas</th><th>[Atlas](https://en.wikipedia.org/wiki/Atlas_(mythology))</th></tr><tr><th>Heracles</th><th>[Heracles](https://en.wikipedia.org/wiki/Heracles)</th></tr><tr><th>Amphitrite</th><th>[Amphitrite](https://www.pinterest.com/pin/423831014921428350/)</th></tr><tr><th>Asclepius</th><th>[Asclepius](https://en.wikipedia.org/wiki/Asclepius)</th></tr><tr><th>Pan</th><th>[Pan](https://www.pinterest.co.uk/pin/410109109794860381/)</th></tr><tr><th>Nike</th><th>[Nike](https://www.pinterest.co.uk/pin/111182684540958323/)</th></tr></table> | <table><tr><th>Mount Olympus</th><th>[Mount Olympus](https://www.pinterest.co.uk/pin/111182684540958323/)</th></tr><tr><th>Temple of Zeus</th><th>[Temple of Zeus](https://en.wikipedia.org/wiki/Temple_of_Olympian_Zeus,_Athens#History)</th></tr><tr><th>Temple of Poseidon</th><th>[Temple of Poseidon](https://en.wikipedia.org/wiki/Temple_of_Poseidon,_Sounion)</th></tr><tr><th>Parthenon</th><th>[Parthenon](https://www.visionpubl.com/en/cities/athens/parthenon-facts-history/)</th></tr><tr><th>Ancient Olympia Stadium</th><th>[Ancient Olympia Stadium](https://yallatoursblog.com/2014/01/27/faster-higher-stronger-in-ancient-olympia/)</th></tr></table> |
 
 ### TEXT CONTENT
 
