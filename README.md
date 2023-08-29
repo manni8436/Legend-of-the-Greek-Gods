@@ -214,6 +214,9 @@ The W3C Markup and CSS Validators were used to validate my project to make sure 
 
 I have tested my website on both desktop and mobile, Overall I am pleased with the results however there is still room for improvement, by reviewing and possibly removing any unused code, eliminating render-blocking resources and using next-gen image formats like `WebP` and `AVIF`. With this feedback, I will look into improving my lighthouse scores, in particular on mobile.
 
+<details>
+<summary>Click here to view all lighthouse results</summary>
+
 ### DESKTOP
 
 | Lighthouse Results |
@@ -255,11 +258,13 @@ I have tested my website on both desktop and mobile, Overall I am pleased with t
 * I ensured the site had all the relevant meta tags needed.
 * All font sizes are legible on all screen sizes.
 
+</details>
+
 ## CONTENT
 
 ### IMAGES
 
-The three images were a depiction of the three main Gods in Greek Mythology.
+The images were for depicting the three main Gods in Greek Mythology.
 
 |  Zeus    | Poseidon | Hades |
 | :------: | :------: | :----:|
