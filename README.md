@@ -261,18 +261,9 @@ I have tested my website on both desktop and mobile, Overall I am pleased with t
 
 Images for this project have been provided mainly by Wikipedia and Pinterest, A full list has been provided below.
 
-|  Background Images    |  Image Link  |
+|  Background Images    |  Big Three Main Images  |
 | :-------------------: | :----------: |
-| Home Page | [Zeus](https://wallpaperaccess.com/zeus) |
-| Big Three Page | [Poseidon](https://omniversal-battlefield.fandom.com/wiki/Poseidon_(Greek_Mythology)?file=Poseidon.jpg) |
-| Lesser Known Gods Page | [Hades](https://www.artstation.com/artwork/1YzOK) |
-| History Page | [Athena](https://www.pinterest.co.uk/pin/434245589082196360/) |
-| Contact Us Page | [Hermes](https://www.ancient-origins.net/myths-legends-europe/hermes-0011776) |
-
-* Big Three Main Images:
-  * [Zeus](https://en.wikipedia.org/wiki/Zeus)
-  * [Poseidon](https://en.wikipedia.org/wiki/Poseidon)
-  * [Hades](https://en.wikipedia.org/wiki/Hades)
+| <table><tr><th>Home Page</th><th>[Zeus](https://wallpaperaccess.com/zeus)</th></tr><tr><th>Big Three Page</th><th>[Poseidon](https://omniversal-battlefield.fandom.com/wiki/Poseidon_(Greek_Mythology)?file=Poseidon.jpg)</th></tr><tr><th>Lesser Known Gods Page</th><th>[Hades](https://www.artstation.com/artwork/1YzOK)</th></tr><tr><th>History Page</th><th>[Athena](https://www.pinterest.co.uk/pin/434245589082196360/)</th></tr><tr><th>Contact Us Page</th><th>[Hermes](https://www.ancient-origins.net/myths-legends-europe/hermes-0011776)</th></tr></table> | <table><tr><th>Zeus </th><th>[Zeus](https://en.wikipedia.org/wiki/Zeus)</th></tr><tr><th>Poseidon</th><th>[Poseidon](https://en.wikipedia.org/wiki/Poseidon)</th></tr><tr><th>Hades</th><th>[Hades](https://en.wikipedia.org/wiki/Hades)</th></tr></table> |
 
 * Lesser Known Gods Main Images
   * [Atlas](https://en.wikipedia.org/wiki/Atlas_(mythology))
