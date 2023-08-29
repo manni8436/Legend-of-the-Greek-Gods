@@ -214,9 +214,6 @@ The W3C Markup and CSS Validators were used to validate my project to make sure 
 
 I have tested my website on both desktop and mobile, Overall I am pleased with the results however there is still room for improvement, by reviewing and possibly removing any unused code, eliminating render-blocking resources and using next-gen image formats like `WebP` and `AVIF`. With this feedback, I will look into improving my lighthouse scores, in particular on mobile.
 
-<details>
-<summary>Click here to view all lighthouse results</summary>
-
 ### DESKTOP
 
 | Lighthouse Results |
@@ -258,27 +255,24 @@ I have tested my website on both desktop and mobile, Overall I am pleased with t
 * I ensured the site had all the relevant meta tags needed.
 * All font sizes are legible on all screen sizes.
 
-</details>
-
 ## CONTENT
 
 ### IMAGES
 
-Images for this project have been provided mainly by Wikipedia and Pinterest, A full clickable image list has been provided below.
+Images for this project have been provided mainly by Wikipedia and Pinterest, A full list has been provided below.
 
-| Image Link        | Background Images   |
-| :---------------: | :----------------: |
-| [Home Page](https://wallpaperaccess.com/zeus) | ![Zeus](/assets/images/zeusgold.jpg) |
-| [Big Three Page](https://wallpaperaccess.com/zeus) | ![Poseidon](/assets/images/poseidon.jpg) |
-| [Lesser Known Gods Page](https://wallpaperaccess.com/zeus) | ![Hades](/assets/images/hades.jpg) |
-| [History Page](https://wallpaperaccess.com/zeus) | ![Athena](/assets/images/athena.jpg) |
-| [Contact Us Page](https://wallpaperaccess.com/zeus) | ![Hermes](/assets/images/hermes.jpg) |
+|  Background Images    |  Image Link  |
+| :-------------------: | :----------: |
+| Home Page | [Zeus](https://wallpaperaccess.com/zeus) |
+| Big Three Page | [Poseidon](https://omniversal-battlefield.fandom.com/wiki/Poseidon_(Greek_Mythology)?file=Poseidon.jpg) |
+| Lesser Known Gods Page | [Hades](https://www.artstation.com/artwork/1YzOK) |
+| History Page | [Athena](https://www.pinterest.co.uk/pin/434245589082196360/) |
+| Contact Us Page | [Hermes](https://www.ancient-origins.net/myths-legends-europe/hermes-0011776) |
 
-| Image Link        | Big Three          |
-| :---------------: | :----------------: |
-| [Zeus](https://en.wikipedia.org/wiki/Zeus) |![Zeus](/assets/images/zeusstatue.jpg) |
-| [Poseidon](https://en.wikipedia.org/wiki/Poseidon) |![Poseidon](/assets/images/poseidonstatue.jpg) |
-| [Hades](https://en.wikipedia.org/wiki/Hades) |![Hades](/assets/images/hadesstatue.jpg) |
+* Big Three Main Images:
+  * [Zeus](https://en.wikipedia.org/wiki/Zeus)
+  * [Poseidon](https://en.wikipedia.org/wiki/Poseidon)
+  * [Hades](https://en.wikipedia.org/wiki/Hades)
 
 * Lesser Known Gods Main Images
   * [Atlas](https://en.wikipedia.org/wiki/Atlas_(mythology))
