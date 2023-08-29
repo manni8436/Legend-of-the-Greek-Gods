@@ -274,22 +274,10 @@ The three images below was to depiction of the three main Gods in Greek Mytholog
 ### TEXT CONTENT
 
 * Text content on all Pages was copied and/or amended from the following sites:  
-
-  * [Parthenon](https://www.visionpubl.com/en/cities/athens/parthenon-facts-history/)
-  * [Ancient Olympia](https://yallatoursblog.com/2014/01/27/faster-higher-stronger-in-ancient-olympia/)
-  * [Acropolis of Athens](https://en.wikipedia.org/wiki/Acropolis_of_Athens#History)
-  * [Temple of Hera, Olympia](https://en.wikipedia.org/wiki/Temple_of_Hera,_Olympia)
-  * [The second link for the Temple of Hera, Olympia](https://www.greeka.com/peloponnese/olympia/sightseeing/temple-hera/)
-  * [Heracles and The Twelve Labors](https://www.history.com/.amp/topics/ancient-history/greek-mythology)
-  * [Zeus](https://en.wikipedia.org/wiki/Zeus)
-  * [Poseidon](https://en.wikipedia.org/wiki/Poseidon)
-  * [Hades](https://en.wikipedia.org/wiki/Hades)
-  * [Atlas](https://en.wikipedia.org/wiki/Atlas_(mythology))
-  * [Hercules/Heracles](https://en.wikipedia.org/wiki/Hercules#Mythology)
-  * [Amphitrite](https://en.wikipedia.org/wiki/Amphitrite#Mythology)
-  * [Asclepius](https://en.wikipedia.org/wiki/Asclepius)
-  * [Pan](https://www.pinterest.co.uk/pin/410109109794860381/)
-  * [Nike](https://en.wikipedia.org/wiki/Nike_(mythology))
+  
+|  Text Used               | on Website               |
+| :----------------------: | :----------------------: |
+| <table><tr><th>[Parthenon](https://www.visionpubl.com/en/cities/athens/parthenon-facts-history/)</th><th>[Ancient Olympia](https://yallatoursblog.com/2014/01/27/faster-higher-stronger-in-ancient-olympia/)</th></tr><tr><th>[Acropolis of Athens](https://en.wikipedia.org/wiki/Acropolis_of_Athens#History)</th><th>[Temple of Hera, Olympia](https://en.wikipedia.org/wiki/Temple_of_Hera,_Olympia)</th></tr><tr><th>[The second link for the Temple of Hera, Olympia](https://www.greeka.com/peloponnese/olympia/sightseeing/temple-hera/)</th><th>[Heracles and The Twelve Labors](https://www.history.com/.amp/topics/ancient-history/greek-mythology)</th></tr><tr><th>[Zeus](https://en.wikipedia.org/wiki/Zeus)</th><th>[Poseidon](https://en.wikipedia.org/wiki/Poseidon)</th></tr></table> | <table><tr><th>[Hades](https://en.wikipedia.org/wiki/Hades)</th><th>[Atlas](https://en.wikipedia.org/wiki/Atlas_(mythology))</th></tr><tr><th>[Atlas](https://en.wikipedia.org/wiki/Atlas_(mythology))</th><th>[Hercules/Heracles](https://en.wikipedia.org/wiki/Hercules#Mythology)</th></tr><tr><th>[Amphitrite](https://en.wikipedia.org/wiki/Amphitrite#Mythology)</th><th>[Pan](https://www.pinterest.co.uk/pin/410109109794860381/)</th></tr><tr><th>[Nike](https://en.wikipedia.org/wiki/Nike_(mythology))</th></table>|
 
 ## ACKNOWLEDGMENTS
 
