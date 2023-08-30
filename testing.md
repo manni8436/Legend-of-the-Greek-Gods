@@ -17,11 +17,15 @@ Every aspect of the project was tested on the browsers below.
 
 ### USER STORIES TESTING
 
+<div align="center">
+
 | The site needs to be easily accessible        |
 | :-------------------------------------------: |
 | Alt description has been given to each image. |
 | A sr-only class has been used on active navigation items to indicate users on the menu location. |
 | Contrasting colours have been used so that content can be read clearly. |
+
+</div>
 
 #### The navigation menu needs to be simple to use on a range of devices, including desktop, tablet and mobile
 
