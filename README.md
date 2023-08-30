@@ -272,13 +272,14 @@ These images were used to depict the three main Gods in Greek Mythology.
 
 Images for this project have been provided mainly by Wikipedia and Pinterest, A full list has been provided below.
 
-<div style="margin-left: auto; margin-right: auto; width: 50%">
+<div align="center">
 
 |  Background Images    | Lesser Known Gods Images and Carousel Images |
 | :-------------------: | :------------------------------------------: |
 | <table><tr><th>Home Page</th><th>[Zeus](https://wallpaperaccess.com/zeus)</th></tr><tr><th>Big Three Page</th><th>[Poseidon](https://omniversal-battlefield.fandom.com/wiki/Poseidon_(Greek_Mythology)?file=Poseidon.jpg)</th></tr><tr><th>Lesser Known Gods Page</th><th>[Hades](https://www.artstation.com/artwork/1YzOK)</th></tr><tr><th>History Page</th><th>[Athena](https://www.pinterest.co.uk/pin/434245589082196360/)</th></tr><tr><th>Contact Us Page</th><th>[Hermes](https://www.ancient-origins.net/myths-legends-europe/hermes-0011776)</th></tr></table> | <table><tr><th>[Atlas](https://en.wikipedia.org/wiki/Atlas_(mythology))</th><th>[Mount Olympus](https://www.pinterest.co.uk/pin/111182684540958323/)</th></tr><tr><th>[Heracles](https://en.wikipedia.org/wiki/Heracles)</th><th>[Temple of Zeus](https://en.wikipedia.org/wiki/Temple_of_Olympian_Zeus,_Athens#History)</th></tr><tr><th>[Amphitrite](https://www.pinterest.com/pin/423831014921428350/)</th><th>[Temple of Poseidon](https://en.wikipedia.org/wiki/Temple_of_Poseidon,_Sounion)</th></tr><tr><th>[Asclepius](https://en.wikipedia.org/wiki/Asclepius)</th><th>[Parthenon](https://www.visionpubl.com/en/cities/athens/parthenon-facts-history/)</th></tr><tr><th>[Pan](https://www.pinterest.co.uk/pin/410109109794860381/)</th><th>[Ancient Olympia Stadium](https://yallatoursblog.com/2014/01/27/faster-higher-stronger-in-ancient-olympia/)</th></tr><tr><th>[Nike](https://www.pinterest.co.uk/pin/111182684540958323/)</th></tr></table>|
 
 </div>
+
 ### TEXT CONTENT
 
 | Text content on all Pages was copied and/or amended from the following sites |
