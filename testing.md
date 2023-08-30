@@ -2,11 +2,12 @@
 
 ## CONTENTS
 
-* [**User Stories Testing**](#user-stories-testing)
-* [**Navigation Bar**](#navigation-bar)
-* [**Styling and Layout**](#styling-and-layout)
-* [**Pages**](#pages)
-* [**Responsiveness**](#responsiveness)
+* [User Stories Testing](#user-stories-testing)
+* [Returning User](#returning-user)
+* [Testing](#testing)
+* [Styling and Layout](#styling-and-layout)
+* [Pages](#pages)
+* [Responsiveness](#responsiveness)
 
 Every aspect of the project was tested on the browsers below.
 
@@ -38,69 +39,112 @@ Every aspect of the project was tested on the browsers below.
 
 </div>
 
-## NAVIGATION BAR
+## TESTING
 
-* Click on Greek Gods main page header to take us to the Home page from the Home page, PASS.
-* Click on Greek Gods main page header to take us to the Home page from The Big Three page, PASS.
-* Click on Greek Gods main page header to take us to the Home page from the Lesser Known Gods page, PASS.
-* Click on Greek Gods main page header to take us to the Home page from the History page, PASS.
-* Click on Greek Gods main page header to take us to the Home page from the Contact Us page, PASS.
-* Click on Home button to take us to the Home page from the Home page, PASS.
-* Click on Home button to take us to the Home page from the The Big Three page, PASS.
-* Click on Home button to take us to the Home page from the Lesser Known Gods page, PASS.
-* Click on Home button to take us to the Home page from the History page, PASS.
-* Click on Home button to take us to the Home page from the Contact Us page, PASS.
-* Click on The Big Three button to take us to The Big Three page from the Home page, PASS.
-* Click on The Big Three button to take us to The Big Three page from the The Big Three page, PASS.
-* Click on The Big Three button to take us to The Big Three page from the Lesser Known Gods page, PASS.
-* Click on The Big Three button to take us to The Big Three page from the History page, PASS.
-* Click on The Big Three button to take us to The Big Three page from the Contact Us page, PASS.
-* Click on The Lesser Known Gods button to take us to the Lesser Known Gods page from the Home page, PASS.
-* Click on The Lesser Known Gods button to take us to the Lesser Known Gods page from the The Big Three page, PASS.
-* Click on The Lesser Known Gods button to take us to the Lesser Known Gods page from the Lesser Known Gods page, PASS.
-* Click on The Lesser Known Gods button to take us to the Lesser Known Gods page from the History page, PASS.
-* Click on The Lesser Known Gods button to take us to the Lesser Known Gods page from the Contact Us page, PASS.
-* Click on the History button to take us to the History page from the Home page, PASS.
-* Click on the History button to take us to the History page from the The Big Three page, PASS.
-* Click on the History button to take us to the History page from the Lesser Known Gods page, PASS.
-* Click on the History button to take us to the History page from the History page, PASS.
-* Click on the History button to take us to the History page from the Contact Us page, PASS.
-* Click on the Contact Us button to take us to the Contact Us page from the Home page, PASS.
-* Click on the Contact Us button to take us to the Contact Us page from the The Big Three page, PASS.
-* Click on the Contact Us button to take us to the Contact Us page from the Lesser Known Gods page, PASS.
-* Click on the Contact Us button to take us to the Contact Us page from the History page, PASS.
-* Click on the Contact Us button to take us to the Contact Us page from the Contact Us page, PASS.
+### **Navigation**
+
+<details>
+<summary>Click here to see full navigation testing</summary>
+
+#### **Greek Gods Main Header**
+
+| Page    | Expected    | Result |
+| :---------: | :---------: | :----: |
+| ![Home Page Image](/assets/docs/homepage.png) | To redirect to home page| Pass |
+| ![Big Three Page Image](/assets/docs/bigthree.png) | To redirect to home page| Pass |
+| ![Lesser Known Gods Page Image](/assets/docs/lesserknown.png) | To redirect to home page| Pass |
+| ![history Page Image](/assets/docs/history.png) | To redirect to home page| Pass |
+| ![Contact Us Page Image](/assets/docs/contactus.png) | To redirect to home page| Pass |
+
+## **Home Button**
+
+| Page    | Expected    | Result |
+| :---------: | :---------: | :----: |
+| ![Home Page Image](/assets/docs/homepage.png) | redirect to home page| Pass |
+| ![Big Three Page Image](/assets/docs/bigthree.png) | redirect to home page| Pass |
+| ![Lesser Known Gods Page Image](/assets/docs/lesserknown.png) | redirect to home page| Pass |
+| ![history Page Image](/assets/docs/history.png) | redirect to home page| Pass |
+| ![Contact Us Page Image](/assets/docs/contactus.png) | redirect to home page| Pass |
+
+## **The Big Three Button**
+
+| Page    | Expected    | Result |
+| :---------: | :---------: | :----: |
+| ![Home Page Image](/assets/docs/homepage.png) | redirect to The Big Three page| Pass |
+| ![Big Three Page Image](/assets/docs/bigthree.png) | redirect to The Big Three page| Pass |
+| ![Lesser Known Gods Page Image](/assets/docs/lesserknown.png) | redirect to The Big Three page| Pass |
+| ![history Page Image](/assets/docs/history.png) | redirect to The Big Three page| Pass |
+| ![Contact Us Page Image](/assets/docs/contactus.png) | redirect to The Big Three page| Pass |
+
+## **The Lesser Known Gods Button**
+
+| Page    | Expected    | Result |
+| :---------: | :---------: | :----: |
+| ![Home Page Image](/assets/docs/homepage.png) | redirect to The Lesser Known Gods page| Pass |
+| ![Big Three Page Image](/assets/docs/bigthree.png) | redirect to The Lesser Known Gods page| Pass |
+| ![Lesser Known Gods Page Image](/assets/docs/lesserknown.png) | redirect to The Lesser Known Gods page| Pass |
+| ![history Page Image](/assets/docs/history.png) | redirect to The Lesser Known Gods page| Pass |
+| ![Contact Us Page Image](/assets/docs/contactus.png) | redirect to The Lesser Known Gods page| Pass |
+
+## **History Button**
+
+| Page    | Expected    | Result |
+| :---------: | :---------: | :----: |
+| ![Home Page Image](/assets/docs/homepage.png) | redirect to The History page| Pass |
+| ![Big Three Page Image](/assets/docs/bigthree.png) | redirect to The History page| Pass |
+| ![Lesser Known Gods Page Image](/assets/docs/lesserknown.png) | redirect to The History page| Pass |
+| ![history Page Image](/assets/docs/history.png) | redirect to The History page| Pass |
+| ![Contact Us Page Image](/assets/docs/contactus.png) | redirect to The History page| Pass |
+
+## **Contact Us Button**
+
+| Page    | Expected    | Result |
+| :---------: | :---------: | :----: |
+| ![Home Page Image](/assets/docs/homepage.png) | redirect to The Contact Us page| Pass |
+| ![Big Three Page Image](/assets/docs/bigthree.png) | redirect to The Contact Us page| Pass |
+| ![Lesser Known Gods Page Image](/assets/docs/lesserknown.png) | redirect to The Contact Us page| Pass |
+| ![history Page Image](/assets/docs/history.png) | redirect to The Contact Us page| Pass |
+| ![Contact Us Page Image](/assets/docs/contactus.png) | redirect to The Contact Us page| Pass |
+
+</details>
 
 ## STYLING AND LAYOUT
 
-* Ensure carousel images loads correctly and functioning as expected, PASS.
-* Ensure all images loads correctly, PASS.
-* Ensure all backgrounds images load correctly, PASS.
-* Ensure main page header loads correctly, PASS.
+<div align="center">
+
+| Expected    | Result |
+| :---------: | :----: |
+| Ensure carousel images loads correctly and functioning as expected | Pass |
+| Ensure all images loads correctly | Pass |
+| Ensure all backgrounds images load correctly | Pass |
+| Ensure main page header loads correctly | Pass |
+
+</div>
 
 ## PAGES
 
-* Ensure all Navigation links are working in the Home page, PASS.
-* Ensure all Navigation links are working in the Big Three page, PASS.
-* Ensure all Navigation links are working in the Lesser Known Gods page, PASS.
-* Ensure all Navigation links are working in the History, PASS.
-* Ensure all Navigation links are working in the Contact Us page, PASS.
-* Ensure all Footer links are working in the Home page, PASS.
-* Ensure all Footer links are working in the Big Three page, PASS.
-* Ensure all Footer links are working in the Lesser Known Gods page, PASS.
-* Ensure all Footer links are working in the History, PASS.
-* Ensure all Footer links are working in the Contact Us page, PASS.
-* Ensure all Footer links open a new page, PASS.
+<div align="center">
+
+| Page  | Navigation Links Working | Footer Links Working    |
+| :---: | :----------------------: | :---------------------: |
+| ![Home Page Image](/assets/docs/homepage.png) | Pass | Pass |
+| ![Big Three Page Image](/assets/docs/bigthree.png) | Pass | Pass |
+| ![Lesser Known Gods Page Image](/assets/docs/lesserknown.png) | Pass | Pass |
+| ![history Page Image](/assets/docs/history.png) | Pass | Pass |
+| ![Contact Us Page Image](/assets/docs/contactus.png) | Pass | Pass |
+
+</div>
 
 ## RESPONSIVENESS
 
-* Ensure all Images and Content are responsive in the Home page, PASS.
-* Ensure all Images and Content are responsive in the Big Three page, PASS.
-* Ensure all Images and Content are responsive in the Lesser Known Gods page, PASS.
-* Ensure all Images and Content are responsive in the History page, PASS.
-* Ensure all Images and Content are responsive in the Contact Us page, PASS.
-* Ensure all Text Content is readable in the Home page, PASS.
-* Ensure all Text Content is readable in the Big Three page, PASS.
-* Ensure all Text Content is readable in the Lesser Known Gods page, PASS.
-* Ensure all Text Content is readable in the History page, PASS.
-* Ensure all Text Content is readable in the Contact Us page, PASS.
+<div align="center">
+
+| Page | Images and Content Responsive | Text Content Readable    |
+| :--: |:----------------------------: | :----------------------: |
+| Home Page | Pass | Pass |
+| Big Three Page | Pass | Pass |
+| Lesser Known Gods Page | Pass | Pass |
+| history Page | Pass | Pass |
+| Contact Us Page | Pass | Pass |
+
+</div>
