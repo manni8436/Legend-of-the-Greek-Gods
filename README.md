@@ -290,10 +290,8 @@ Images for this project have been provided mainly by Wikipedia and Pinterest, A 
 
 </div>
 
-
 ## ACKNOWLEDGMENTS
 
-I would like to give a big thanks to [Chris Quinn](https://github.com/10xOXR) for all his help, effort, guidance
-and patience he has provided during this project.
+I would like to give a big thanks to [Chris Quinn](https://github.com/10xOXR) for all his help, effort, guidance and patience he has provided during this project.
 
 I would also like to thank [Abi Harrison](https://github.com/Abibubble) for all her support, and advice and for explaining things to me when I did not understand.
