@@ -19,7 +19,7 @@ Every aspect of the project was tested on the browsers below.
 
 <div align="center">
 
-| <h2>**The site needs to be easily accessible**</h2> | <h2>**The navigation menu needs to be simple to use on a range of devices, including desktop, tablet and mobile**</h2> | <h2>**Maneuvering around the site should be simple and straightforward**</h2> |
+| <h3>**The site needs to be easily accessible**</h3> | <h3>**The navigation menu needs to be simple to use on a range of devices, including desktop, tablet and mobile**</h3> | <h3>**Maneuvering around the site should be simple and straightforward**</h3> |
 | :------------------------: | :-----------------------------: | ---------------: |
 | Alt description has been given to each image. | The navigation bar is visible on all pages with an indicator to show which page the user is on. | Everything is laid out in a clear manner that is simple to use. |
 | A sr-only class has been used on active navigation items to indicate users on the menu location. | The navigation bar is easy to read and easy to understand what each button does. | The navigation bar is clear and visible at the top of each page. |
