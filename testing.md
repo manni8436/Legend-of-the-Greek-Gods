@@ -29,20 +29,14 @@ Every aspect of the project was tested on the browsers below.
 
 ## RETURNING USER
 
-### To gather information for projects
+<div align="center">
 
-* The site has detailed information.
-* All information is clear and easy to read.
+| <h3>**To gather information for projects**</h3> | <h3>**To recommend the site to friends and family**</h3> | <h3>**To get in contact with us**</h3> |
+| :------------------------: | :-----------------------------: | :-----------------------------: |
+| The site has detailed information. | To show interesting content and fun facts. | Navigation bar is visible at the top of each page. |
+| All information is clear and easy to read. | To show images of the different gods. | Site layout allows familiar users of the site to find the contact us page. |
 
-#### To recommend the site to friends and family
-
-* To show interesting content and fun facts.
-* To show images of the different gods.
-
-#### To get in contact with us
-
-* Navigation bar is visible at the top of each page.
-* Site layout allows familiar users of the site to find the contact us page.
+</div>
 
 ## NAVIGATION BAR
 
