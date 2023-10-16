@@ -296,7 +296,7 @@ body {
 }
 
 a {
-  color: #ffbe5b;  
+    color: #ffbe5b;  
 }
 
 /*------------------------------------------------------hover*/
@@ -304,11 +304,6 @@ a {
 #send:hover  {
     background-color: #ffbe5b;
     color: #202022;
-}
-
-.navbar-light .navbar-nav .nav-link:hover,
-a:hover  {
-    color: #c48400;
 }
 
 /*----------------------------------------------media queries*/
@@ -320,4 +315,30 @@ a:hover  {
     .ancient-olympic-stadium {
         width: 925px;
     }
+}
+
+/* animation */
+
+.nav-item a {
+    position: relative;
+    color: #FFBE5B;
+    text-decoration: none;
+}
+.nav-item a:hover {
+    color: #FFBE5B;
+}
+.nav-item a::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #FFBE5B;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+.nav-item a:hover::before {
+    transform: scaleX(1);
 }
