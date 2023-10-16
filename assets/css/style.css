@@ -80,15 +80,16 @@ body {
 .page-header {
     background-color: #202020;
     color: #ffbe5b;
-    border:#ffbe5b 2px solid;
-    max-width: 100%;
-    margin-top: 20px;
-    padding: 16px;
-    border-radius: 0.25rem;
-    font-size: 1.8rem;
+    border-bottom:#ffbe5b 2px solid;
+    padding: 10px;
+    font-size: 1.2rem;
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
+}
+
+.index-p p {
+    margin-top: 10px;
 }
 
 .history-of-the-gods-header,
@@ -114,14 +115,15 @@ body {
 /*------------------------------------------------paragraphs*/
 .index-p {
     background-color: #202020;
-    border: #ffbe5b 2px solid;
-    color: #ffbe5b;
+    border: #FFBE5B 2px solid;
+    color: #FFBE5B;
     margin: 25px;
-    padding: 8px 10px;
-    font-size: 2rem;
-    text-align: justify;
-    text-transform: uppercase;
-    font-weight: bold;
+    padding: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.index-p p {
+    margin-top: 10px;
 }
 
 .big-three-p {
