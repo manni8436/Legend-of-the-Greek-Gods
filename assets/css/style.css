@@ -1,5 +1,8 @@
 /*------font-family: 'Akaya Telivigala', cursive; font-family: 'Roboto', sans-serif, 'Balsamiq Sans', cursive;---*/
 body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     background-color: #202020;
     margin: 0;
     padding: 0;
@@ -272,8 +275,8 @@ body {
 /*-----------------------------------------------------footer*/
 .footer {
     background-color: #202020;
-    margin-top: 2rem;
-    border-top: 2px #ffbe5b solid;
+    margin-top: auto;
+    border-top: 2px #FFBE5B solid;
 }
 
 .social-media {
