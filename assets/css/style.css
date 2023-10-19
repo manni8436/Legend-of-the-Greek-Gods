@@ -24,7 +24,7 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #ffbe5b;
+    color: #ffbe5b !important;
 }
 
 .nav-item {
@@ -279,6 +279,12 @@ body {
     border-top: 2px #FFBE5B solid;
 }
 
+.copyright {
+    margin: 10px;
+    color: #FFBE5B;
+    text-transform: uppercase;
+}
+
 .social-media {
     text-align: center;
     margin-bottom: 0;    
@@ -286,7 +292,7 @@ body {
 }
 
 .social-media li {
-    font-size: 1em;
+    font-size: 30px;
     display: inline;
     text-transform: uppercase;
 }
@@ -303,6 +309,7 @@ a {
 }
 
 /*----------------------------------------------media queries*/
+
 @media (min-width: 992px) {
     .mount-olympus,
     .temple-of-zeus,
